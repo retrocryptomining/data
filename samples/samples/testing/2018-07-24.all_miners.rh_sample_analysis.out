@@ -1,0 +1,781 @@
+Starting processes
+/home/perino/tmp_rh_validation/1520427600_webxmr.js.har
+[DEBUG] Matched MD5 signature: webxmr/plaintext/1524060000_webxmr.js
+[DEBUG] Matched FUZZY signature: webxmr/plaintext/1524060000_webxmr.js
+[DEBUG] Matched artifacts: [Webxmr, GeneralMiner]
+[DEBUG] Matched WSS
+regular DEOB
+[DEBUG] Nothing left to deobfuscate - exiting deobfuscate() after 2 cycles
+[DEBUG] Matched MD5 signature: webxmr/plaintext/1524060000_webxmr.js
+[DEBUG] Matched FUZZY signature: webxmr/plaintext/1524060000_webxmr.js
+[DEBUG] Matched artifacts: [Webxmr, GeneralMiner]
+[DEBUG] Matched WSS
+/home/perino/tmp_rh_validation/1516333897_coinhive.min.js.har
+[DEBUG] Matched MD5 signature: coinhive/plaintext/1524060000_coinhive.min_2018-01-19.js
+[DEBUG] Matched FUZZY signature: cryptonight/plaintext/1524060000_vidm.min.js
+[DEBUG] Matched artifacts: [GeneralMiner, CryptolootDeob]
+[DEBUG] Matched WSS
+regular DEOB
+[DEBUG] Nothing left to deobfuscate - exiting deobfuscate() after 2 cycles
+[DEBUG] Matched MD5 signature: coinhive/plaintext/1524060000_coinhive.min_2018-01-19.js
+[DEBUG] Matched FUZZY signature: cryptonight/plaintext/1524060000_vidm.min.js
+[DEBUG] Matched artifacts: [GeneralMiner, CryptolootDeob]
+[DEBUG] Matched WSS
+/home/perino/tmp_rh_validation/1527170400_minui.js.har
+[DEBUG] Matched MD5 signature: cryptoloot/plaintext/1527429600_minui.js
+[DEBUG] Matched FUZZY signature: cryptoloot/plaintext/1527429600_minui.js
+[DEBUG] Matched artifacts: [CryptoLoot, GeneralMiner]
+regular DEOB
+[DEBUG] Nothing left to deobfuscate - exiting deobfuscate() after 2 cycles
+[DEBUG] Matched artifacts: [CryptoLoot, GeneralMiner]
+/home/perino/tmp_rh_validation/1532161391_crypta.js.har
+[DEBUG] Matched MD5 signature: cryptoloot/obfuscated/1532161391_crypta.js
+[DEBUG] Matched FUZZY signature: cryptoloot/obfuscated/1532161391_crypta.js
+[DEBUG] Matched artifacts: [GeneralMiner]
+regular DEOB
+[DEBUG] Nothing left to deobfuscate - exiting deobfuscate() after 2 cycles
+[DEBUG] Matched MD5 signature: cryptoloot/obfuscated/1532161391_crypta.js
+[DEBUG] Matched FUZZY signature: cryptoloot/obfuscated/1532161391_crypta.js
+[DEBUG] Matched artifacts: [GeneralMiner]
+/home/perino/tmp_rh_validation/1524060000_webminepool.js.har
+[DEBUG] Matched MD5 signature: webminepool/plaintext/1524060000_webminepool.js
+[DEBUG] Matched FUZZY signature: coinrail/plaintext/1531468349_coinrail.min.js
+[DEBUG] Matched artifacts: [Webminepool, GeneralMiner, CryptolootDeob]
+[DEBUG] Matched WSS
+regular DEOB
+[DEBUG] Nothing left to deobfuscate - exiting deobfuscate() after 2 cycles
+[DEBUG] Matched MD5 signature: webminepool/plaintext/1524060000_webminepool.js
+[DEBUG] Matched FUZZY signature: coinrail/plaintext/1531468349_coinrail.min.js
+[DEBUG] Matched artifacts: [Webminepool, GeneralMiner, CryptolootDeob]
+[DEBUG] Matched WSS
+/home/perino/tmp_rh_validation/TcZxbRLiOsk.min.js.har
+[DEBUG] Matched MD5 signature: coinnebula/obfuscated/TcZxbRLiOsk.min.js
+[DEBUG] Matched FUZZY signature: coinnebula/deobfuscated/TcZxbRLiOsk.min.js.deob
+[DEBUG] Matched artifacts: [CoinnebulaDeob]
+AUTH DEOB
+regular DEOB
+[DEBUG] Nothing left to deobfuscate - exiting deobfuscate() after 2 cycles
+[DEBUG] Matched FUZZY signature: coinnebula/deobfuscated/TcZxbRLiOsk.min.js.deob
+[DEBUG] Matched artifacts: [CoinnebulaDeob]
+/home/perino/tmp_rh_validation/1532152458_coinpot.win_inline.js.har
+[DEBUG] Matched MD5 signature: coinpot/plaintext/1532152458_coinpot.win_inline.js
+[DEBUG] Matched FUZZY signature: coinpot/plaintext/1532152458_coinpot.win_inline.js
+[DEBUG] Matched artifacts: [CoinHive, CryptoLoot, GeneralMiner]
+regular DEOB
+[DEBUG] Nothing left to deobfuscate - exiting deobfuscate() after 2 cycles
+[DEBUG] Matched artifacts: [CoinHive, CryptoLoot, GeneralMiner]
+/home/perino/tmp_rh_validation/1524060000_authedmine.js.har
+[DEBUG] Matched MD5 signature: authedmine.com/obfuscated/1524060000_authedmine.js
+[DEBUG] Matched FUZZY signature: authedmine.com/obfuscated/1516333897_authedmine-1.js
+AUTH DEOB
+[DEBUG] Matched FUZZY signature: authedmine.com/deobfuscated/1516333897_authedmine-1.js.deob
+[DEBUG] Matched artifacts: [GeneralMiner, AuthedmineDeob, CryptolootDeob]
+[DEBUG] Matched WSS
+regular DEOB
+[DEBUG] Nothing left to deobfuscate - exiting deobfuscate() after 2 cycles
+[DEBUG] Matched FUZZY signature: authedmine.com/obfuscated/1516333897_authedmine-1.js
+/home/perino/tmp_rh_validation/1513429200_miner-ui.js.har
+[DEBUG] Matched MD5 signature: cryptoloot/plaintext/1522936800_miner-ui.js
+[DEBUG] Matched FUZZY signature: cryptoloot/plaintext/1522936800_miner-ui.js
+[DEBUG] Matched artifacts: [CryptoLoot, GeneralMiner]
+regular DEOB
+[DEBUG] Nothing left to deobfuscate - exiting deobfuscate() after 2 cycles
+[DEBUG] Matched artifacts: [CryptoLoot, GeneralMiner]
+/home/perino/tmp_rh_validation/1530777498_coinrail.min.js.har
+[DEBUG] Matched MD5 signature: coinrail/plaintext/1531468349_coinrail.min.js
+[DEBUG] Matched FUZZY signature: coinrail/plaintext/1531468349_coinrail.min.js
+[DEBUG] Matched artifacts: [CoinRail, CryptoLoot, GeneralMiner, CryptolootDeob]
+regular DEOB
+[DEBUG] Nothing left to deobfuscate - exiting deobfuscate() after 2 cycles
+[DEBUG] Matched artifacts: [CoinRail, CryptoLoot, GeneralMiner, CryptolootDeob]
+[DEBUG] Matched WSS
+/home/perino/tmp_rh_validation/1516333897_authedmine-0.js.har
+[DEBUG] Matched MD5 signature: authedmine.com/obfuscated/1516333897_authedmine-0.js
+[DEBUG] Matched FUZZY signature: authedmine.com/obfuscated/1516333897_authedmine-1.js
+AUTH DEOB
+[DEBUG] Matched FUZZY signature: authedmine.com/deobfuscated/1516333897_authedmine-1.js.deob
+[DEBUG] Matched artifacts: [GeneralMiner, AuthedmineDeob, CryptolootDeob]
+[DEBUG] Matched WSS
+regular DEOB
+[DEBUG] Nothing left to deobfuscate - exiting deobfuscate() after 2 cycles
+[DEBUG] Matched FUZZY signature: authedmine.com/obfuscated/1516333897_authedmine-1.js
+/home/perino/tmp_rh_validation/1509022800_cryptonight-asmjs.min.js.har
+[DEBUG] Matched MD5 signature: cryptoloot/plaintext/1509022800_cryptonight-asmjs.min.js
+[DEBUG] Matched FUZZY signature: cryptoloot/plaintext/1509022800_cryptonight-asmjs.min.js
+[DEBUG] Matched artifacts: [GeneralMiner, CryptolootDeob]
+[DEBUG] Matched WSS
+regular DEOB
+[DEBUG] Timeout exception - Command '['/usr/bin/node', '/home/perino/illicit-mining/src/har-parsers/JStillery-master/jstillery_cli.js']' timed out after 6 seconds
+[DEBUG] Timeout exception - Command '['/usr/bin/node', '/home/perino/illicit-mining/src/har-parsers/JStillery-master/jstillery_cli.js']' timed out after 6 seconds
+[DEBUG] Nothing left to deobfuscate - exiting deobfuscate() after 2 cycles
+[DEBUG] Matched MD5 signature: cryptoloot/plaintext/1509022800_cryptonight-asmjs.min.js
+[DEBUG] Matched FUZZY signature: cryptoloot/plaintext/1509022800_cryptonight-asmjs.min.js
+[DEBUG] Matched artifacts: [GeneralMiner, CryptolootDeob]
+[DEBUG] Matched WSS
+/home/perino/tmp_rh_validation/1532151531_jsecoin_pumpernickle.org.js.har
+[DEBUG] Matched MD5 signature: jsecoin/obfuscated/1532151531_jsecoin_pumpernickle.org.js
+[DEBUG] Matched FUZZY signature: jsecoin/obfuscated/1532151531_jsecoin_pumpernickle.org.js
+[DEBUG] Matched artifacts: [JSECoinObfu]
+regular DEOB
+[DEBUG] Timeout exception - Command '['/usr/bin/node', '/home/perino/illicit-mining/src/har-parsers/JStillery-master/jstillery_cli.js']' timed out after 6 seconds
+[DEBUG] Timeout exception - Command '['/usr/bin/node', '/home/perino/illicit-mining/src/har-parsers/JStillery-master/jstillery_cli.js']' timed out after 6 seconds
+[DEBUG] Nothing left to deobfuscate - exiting deobfuscate() after 2 cycles
+[DEBUG] Matched MD5 signature: jsecoin/obfuscated/1532151531_jsecoin_pumpernickle.org.js
+[DEBUG] Matched FUZZY signature: jsecoin/obfuscated/1532151531_jsecoin_pumpernickle.org.js
+[DEBUG] Matched artifacts: [JSECoinObfu]
+/home/perino/tmp_rh_validation/1531455243_processor.js.har
+[DEBUG] Matched MD5 signature: cryptonoter/plaintext/1531455243_processor.js
+[DEBUG] Matched FUZZY signature: cryptonoter/plaintext/1531455243_processor.js
+[DEBUG] Matched artifacts: [CryptoLoot, GeneralMiner]
+regular DEOB
+[DEBUG] Nothing left to deobfuscate - exiting deobfuscate() after 2 cycles
+[DEBUG] Matched MD5 signature: cryptonoter/plaintext/1531455243_processor.js
+[DEBUG] Matched FUZZY signature: cryptonoter/plaintext/1531455243_processor.js
+[DEBUG] Matched artifacts: [CryptoLoot, GeneralMiner]
+/home/perino/tmp_rh_validation/1524060000_cloudcoins.min.js.har
+[DEBUG] Matched MD5 signature: cloudcoins/obfuscated/1524060000_cloudcoins.min.js
+[DEBUG] Matched FUZZY signature: cloudcoins/deobfuscated/1524060000_cloudcoins.min.js.deob
+[DEBUG] Matched artifacts: [CryptoLoot, GeneralMiner, CloudcoinsDeob]
+AUTH DEOB
+[DEBUG] Matched artifacts: [GeneralMiner, CryptolootDeob]
+regular DEOB
+[DEBUG] Nothing left to deobfuscate - exiting deobfuscate() after 2 cycles
+[DEBUG] Matched MD5 signature: cloudcoins/obfuscated/1524060000_cloudcoins.min.js
+[DEBUG] Matched FUZZY signature: cloudcoins/deobfuscated/1524060000_cloudcoins.min.js.deob
+[DEBUG] Matched artifacts: [CryptoLoot, GeneralMiner, CloudcoinsDeob]
+/home/perino/tmp_rh_validation/1513342800_crlt.js.har
+[DEBUG] Matched MD5 signature: cryptoloot/obfuscated/1513429200_crlt.js
+[DEBUG] Matched FUZZY signature: cryptoloot/obfuscated/1513429200_crlt.js
+AUTH DEOB
+regular DEOB
+[DEBUG] Nothing left to deobfuscate - exiting deobfuscate() after 2 cycles
+[DEBUG] Matched FUZZY signature: cryptoloot/deobfuscated/1513429200_crlt.js.deob
+[DEBUG] Matched artifacts: [GeneralMiner, CryptolootDeob]
+[DEBUG] Matched WSS
+/home/perino/tmp_rh_validation/1531455243_cn.js.har
+[DEBUG] Matched MD5 signature: webminepool/obfuscated/1531455243_cn.js
+[DEBUG] Matched FUZZY signature: webminepool/deobfuscated/1531455243_webmr.js.jstillery.deob
+regular DEOB
+[DEBUG] Nothing left to deobfuscate - exiting deobfuscate() after 2 cycles
+[DEBUG] Matched FUZZY signature: webminepool/deobfuscated/1531455243_webmr.js.jstillery.deob
+/home/perino/tmp_rh_validation/1532182930_jsecoin_pumpernickle.org.js.har
+[DEBUG] Matched MD5 signature: jsecoin/obfuscated/1532182930_jsecoin_pumpernickle.org.js
+[DEBUG] Matched FUZZY signature: jsecoin/obfuscated/1532151531_jsecoin_pumpernickle.org.js
+[DEBUG] Matched artifacts: [JSECoinObfu]
+regular DEOB
+[DEBUG] Timeout exception - Command '['/usr/bin/node', '/home/perino/illicit-mining/src/har-parsers/JStillery-master/jstillery_cli.js']' timed out after 6 seconds
+[DEBUG] Timeout exception - Command '['/usr/bin/node', '/home/perino/illicit-mining/src/har-parsers/JStillery-master/jstillery_cli.js']' timed out after 6 seconds
+[DEBUG] Nothing left to deobfuscate - exiting deobfuscate() after 2 cycles
+[DEBUG] Matched MD5 signature: jsecoin/obfuscated/1532182930_jsecoin_pumpernickle.org.js
+[DEBUG] Matched FUZZY signature: jsecoin/obfuscated/1532151531_jsecoin_pumpernickle.org.js
+[DEBUG] Matched artifacts: [JSECoinObfu]
+/home/perino/tmp_rh_validation/1513429200_crlt.js.har
+[DEBUG] Matched MD5 signature: cryptoloot/obfuscated/1513429200_crlt.js
+[DEBUG] Matched FUZZY signature: cryptoloot/obfuscated/1513429200_crlt.js
+AUTH DEOB
+regular DEOB
+[DEBUG] Nothing left to deobfuscate - exiting deobfuscate() after 2 cycles
+[DEBUG] Matched FUZZY signature: cryptoloot/deobfuscated/1513429200_crlt.js.deob
+[DEBUG] Matched artifacts: [GeneralMiner, CryptolootDeob]
+[DEBUG] Matched WSS
+/home/perino/tmp_rh_validation/1509022800_miner-ui.min.js.har
+[DEBUG] Matched MD5 signature: cryptoloot/obfuscated/1509022800_miner-ui.min.js
+[DEBUG] Matched FUZZY signature: cryptoloot/obfuscated/1509022800_miner-ui.min.js
+regular DEOB
+[DEBUG] Nothing left to deobfuscate - exiting deobfuscate() after 3 cycles
+[DEBUG] Reached maximum number of attempts for deobfuscate() (3 cycles)
+[DEBUG] Matched FUZZY signature: cryptoloot/deobfuscated/1509022800_miner-ui.min.js.deob
+[DEBUG] Matched artifacts: [CryptoLoot, GeneralMiner]
+/home/perino/tmp_rh_validation/8xGR.js.har
+[DEBUG] Matched MD5 signature: coinimp/obfuscated/8xGR.js
+[DEBUG] Matched FUZZY signature: coinimp/obfuscated/8xGR.js
+regular DEOB
+[DEBUG] Nothing left to deobfuscate - exiting deobfuscate() after 2 cycles
+[DEBUG] Matched MD5 signature: coinimp/obfuscated/8xGR.js
+[DEBUG] Matched FUZZY signature: coinimp/obfuscated/8xGR.js
+/home/perino/tmp_rh_validation/1532161391_minui.js.har
+[DEBUG] Matched MD5 signature: cryptoloot/plaintext/1532161391_minui.js
+[DEBUG] Matched FUZZY signature: cryptoloot/plaintext/1532161391_minui.js
+[DEBUG] Matched artifacts: [CryptoLoot, GeneralMiner]
+regular DEOB
+[DEBUG] Nothing left to deobfuscate - exiting deobfuscate() after 2 cycles
+[DEBUG] Matched MD5 signature: cryptoloot/plaintext/1532161391_minui.js
+[DEBUG] Matched FUZZY signature: cryptoloot/plaintext/1532161391_minui.js
+[DEBUG] Matched artifacts: [CryptoLoot, GeneralMiner]
+/home/perino/tmp_rh_validation/1522936800_mixfork.min.js.har
+[DEBUG] Matched MD5 signature: cryptoloot/obfuscated/1522936800_mixfork.min.js
+[DEBUG] Matched FUZZY signature: cryptoloot/obfuscated/1522936800_mixfork.min.js
+[DEBUG] Matched artifacts: [GeneralMiner]
+regular DEOB
+[DEBUG] Timeout exception - Command '['/usr/bin/node', '/home/perino/illicit-mining/src/har-parsers/JStillery-master/jstillery_cli.js']' timed out after 6 seconds
+[DEBUG] Timeout exception - Command '['/usr/bin/node', '/home/perino/illicit-mining/src/har-parsers/JStillery-master/jstillery_cli.js']' timed out after 6 seconds
+[DEBUG] Nothing left to deobfuscate - exiting deobfuscate() after 2 cycles
+[DEBUG] Matched MD5 signature: cryptoloot/obfuscated/1522936800_mixfork.min.js
+[DEBUG] Matched FUZZY signature: cryptoloot/obfuscated/1522936800_mixfork.min.js
+[DEBUG] Matched artifacts: [GeneralMiner]
+/home/perino/tmp_rh_validation/1524060000_smmch-mine.js.har
+[DEBUG] Matched MD5 signature: coinhive/plaintext/1524060000_smmch-mine.js
+[DEBUG] Matched FUZZY signature: coinhive/plaintext/1524060000_smmch-mine.js
+[DEBUG] Matched artifacts: [CoinHive, GeneralMiner]
+regular DEOB
+[DEBUG] Nothing left to deobfuscate - exiting deobfuscate() after 3 cycles
+[DEBUG] Reached maximum number of attempts for deobfuscate() (3 cycles)
+[DEBUG] Matched artifacts: [CoinHive, GeneralMiner]
+/home/perino/tmp_rh_validation/1509022800_miner.min.js.har
+[DEBUG] Matched MD5 signature: cryptoloot/plaintext/1509022800_miner.min.js
+[DEBUG] Matched FUZZY signature: coinrail/plaintext/1531468349_coinrail.min.js
+[DEBUG] Matched artifacts: [CryptoLoot, GeneralMiner, CryptolootDeob]
+[DEBUG] Matched WSS
+regular DEOB
+[DEBUG] Nothing left to deobfuscate - exiting deobfuscate() after 2 cycles
+[DEBUG] Matched artifacts: [CryptoLoot, GeneralMiner, CryptolootDeob]
+[DEBUG] Matched WSS
+/home/perino/tmp_rh_validation/1520427600_deepminer.js.har
+[DEBUG] Matched MD5 signature: deepminer/obfuscated/1520427600_deepminer.js
+[DEBUG] Matched FUZZY signature: deepminer/obfuscated/1520427600_deepminer.js
+[DEBUG] Matched FUZZY signature: deepminer/deobfuscated/1524060000_deepMiner.js.aes.deob
+[DEBUG] Matched artifacts: [GeneralMiner, deepMinerDeob]
+[DEBUG] Matched WSS
+regular DEOB
+[DEBUG] Nothing left to deobfuscate - exiting deobfuscate() after 2 cycles
+[DEBUG] Matched MD5 signature: deepminer/obfuscated/1520427600_deepminer.js
+[DEBUG] Matched FUZZY signature: deepminer/obfuscated/1520427600_deepminer.js
+/home/perino/tmp_rh_validation/SVRi.js.har
+[DEBUG] Matched MD5 signature: coinimp/obfuscated/SVRi.js
+[DEBUG] Matched FUZZY signature: coinimp/obfuscated/SVRi.js
+regular DEOB
+[DEBUG] Nothing left to deobfuscate - exiting deobfuscate() after 2 cycles
+[DEBUG] Matched MD5 signature: coinimp/obfuscated/SVRi.js
+[DEBUG] Matched FUZZY signature: coinimp/obfuscated/SVRi.js
+/home/perino/tmp_rh_validation/1532095200_0561207505b46f73.3.n.2.1.l60.js.har
+[DEBUG] Matched MD5 signature: gridcash/obfuscated/1532095200_0561207505b46f73.3.n.2.1.l60.js
+[DEBUG] Matched FUZZY signature: gridcash/obfuscated/1532095200_0561207505b46f73.3.n.2.1.l60.js
+[DEBUG] Matched artifacts: [GridcashDeob]
+AUTH DEOB
+regular DEOB
+[DEBUG] Timeout exception - Command '['/usr/bin/node', '/home/perino/illicit-mining/src/har-parsers/JStillery-master/jstillery_cli.js']' timed out after 6 seconds
+[DEBUG] Timeout exception - Command '['/usr/bin/node', '/home/perino/illicit-mining/src/har-parsers/JStillery-master/jstillery_cli.js']' timed out after 6 seconds
+[DEBUG] Nothing left to deobfuscate - exiting deobfuscate() after 2 cycles
+[DEBUG] Matched MD5 signature: gridcash/obfuscated/1532095200_0561207505b46f73.3.n.2.1.l60.js
+[DEBUG] Matched FUZZY signature: gridcash/obfuscated/1532095200_0561207505b46f73.3.n.2.1.l60.js
+[DEBUG] Matched artifacts: [GridcashDeob]
+/home/perino/tmp_rh_validation/1527170400_crypta.js.har
+[DEBUG] Matched MD5 signature: cryptoloot/obfuscated/1532161391_crypta.js
+[DEBUG] Matched FUZZY signature: cryptoloot/obfuscated/1532161391_crypta.js
+[DEBUG] Matched artifacts: [GeneralMiner]
+regular DEOB
+[DEBUG] Nothing left to deobfuscate - exiting deobfuscate() after 2 cycles
+[DEBUG] Matched MD5 signature: cryptoloot/obfuscated/1532161391_crypta.js
+[DEBUG] Matched FUZZY signature: cryptoloot/obfuscated/1532161391_crypta.js
+[DEBUG] Matched artifacts: [GeneralMiner]
+/home/perino/tmp_rh_validation/1524060000_vidm.min.js.har
+[DEBUG] Matched MD5 signature: cryptonight/plaintext/1524060000_vidm.min.js
+[DEBUG] Matched FUZZY signature: cryptonight/plaintext/1524060000_vidm.min.js
+[DEBUG] Matched artifacts: [CoinHive, CryptoLoot, GeneralMiner, CryptolootDeob]
+[DEBUG] Matched WSS
+regular DEOB
+[DEBUG] Nothing left to deobfuscate - exiting deobfuscate() after 2 cycles
+[DEBUG] Matched MD5 signature: cryptonight/plaintext/1524060000_vidm.min.js
+[DEBUG] Matched FUZZY signature: cryptonight/plaintext/1524060000_vidm.min.js
+[DEBUG] Matched artifacts: [CoinHive, CryptoLoot, GeneralMiner, CryptolootDeob]
+[DEBUG] Matched WSS
+/home/perino/tmp_rh_validation/1532184247_inline.js.har
+[DEBUG] Matched MD5 signature: monerominer.rocks/plaintext/1532184247_inline.js
+[DEBUG] Matched FUZZY signature: monerominer.rocks/plaintext/1532184247_inline.js
+[DEBUG] Matched artifacts: [Monerminerrocks, GeneralMiner]
+regular DEOB
+[DEBUG] Nothing left to deobfuscate - exiting deobfuscate() after 3 cycles
+[DEBUG] Reached maximum number of attempts for deobfuscate() (3 cycles)
+[DEBUG] Matched artifacts: [Monerminerrocks, GeneralMiner]
+/home/perino/tmp_rh_validation/1513342800_miner-ui.js.har
+[DEBUG] Matched MD5 signature: cryptoloot/plaintext/1522936800_miner-ui.js
+[DEBUG] Matched FUZZY signature: cryptoloot/plaintext/1522936800_miner-ui.js
+[DEBUG] Matched artifacts: [CryptoLoot, GeneralMiner]
+regular DEOB
+[DEBUG] Nothing left to deobfuscate - exiting deobfuscate() after 2 cycles
+[DEBUG] Matched artifacts: [CryptoLoot, GeneralMiner]
+/home/perino/tmp_rh_validation/1524060000_webxmr.js.har
+[DEBUG] Matched MD5 signature: webxmr/plaintext/1524060000_webxmr.js
+[DEBUG] Matched FUZZY signature: webxmr/plaintext/1524060000_webxmr.js
+[DEBUG] Matched artifacts: [Webxmr, GeneralMiner]
+[DEBUG] Matched WSS
+regular DEOB
+[DEBUG] Nothing left to deobfuscate - exiting deobfuscate() after 2 cycles
+[DEBUG] Matched MD5 signature: webxmr/plaintext/1524060000_webxmr.js
+[DEBUG] Matched FUZZY signature: webxmr/plaintext/1524060000_webxmr.js
+[DEBUG] Matched artifacts: [Webxmr, GeneralMiner]
+[DEBUG] Matched WSS
+/home/perino/tmp_rh_validation/1524060000_simple-ui.min.js.har
+[DEBUG] Matched MD5 signature: coinhive/plaintext/1524060000_simple-ui.min.js
+[DEBUG] Matched FUZZY signature: coinhive/plaintext/1531373606_simple-ui.min.js
+[DEBUG] Matched artifacts: [GeneralMiner]
+[DEBUG] Matched WSS
+regular DEOB
+[DEBUG] Nothing left to deobfuscate - exiting deobfuscate() after 2 cycles
+[DEBUG] Matched MD5 signature: coinhive/plaintext/1524060000_simple-ui.min.js
+[DEBUG] Matched FUZZY signature: coinhive/plaintext/1531373606_simple-ui.min.js
+[DEBUG] Matched artifacts: [GeneralMiner]
+[DEBUG] Matched WSS
+/home/perino/tmp_rh_validation/1513429200_crltasm.min.js.har
+[DEBUG] Matched MD5 signature: cryptoloot/obfuscated/1513429200_crltasm.min.js
+[DEBUG] Matched FUZZY signature: cryptoloot/obfuscated/1513429200_crltasm.min.js
+[DEBUG] Matched artifacts: [CryptolootDeob]
+AUTH DEOB
+regular DEOB
+[DEBUG] Timeout exception - Command '['/usr/bin/node', '/home/perino/illicit-mining/src/har-parsers/JStillery-master/jstillery_cli.js']' timed out after 6 seconds
+[DEBUG] Timeout exception - Command '['/usr/bin/node', '/home/perino/illicit-mining/src/har-parsers/JStillery-master/jstillery_cli.js']' timed out after 6 seconds
+[DEBUG] Nothing left to deobfuscate - exiting deobfuscate() after 2 cycles
+[DEBUG] Matched MD5 signature: cryptoloot/obfuscated/1513429200_crltasm.min.js
+[DEBUG] Matched FUZZY signature: cryptoloot/obfuscated/1513429200_crltasm.min.js
+[DEBUG] Matched artifacts: [CryptolootDeob]
+/home/perino/tmp_rh_validation/1531468349_miner.min.js.har
+[DEBUG] Matched MD5 signature: minero/plaintext/1531468349_miner.min.js
+[DEBUG] Matched FUZZY signature: minero/plaintext/1531468349_miner.min.js
+[DEBUG] Matched artifacts: [Minero, GeneralMiner, CryptolootDeob]
+[DEBUG] Matched WSS
+AUTH DEOB
+regular DEOB
+[DEBUG] Nothing left to deobfuscate - exiting deobfuscate() after 2 cycles
+[DEBUG] Matched MD5 signature: minero/plaintext/1531468349_miner.min.js
+[DEBUG] Matched FUZZY signature: minero/plaintext/1531468349_miner.min.js
+[DEBUG] Matched artifacts: [Minero, GeneralMiner, CryptolootDeob]
+[DEBUG] Matched WSS
+/home/perino/tmp_rh_validation/1531373606_authedmine.min.js.har
+[DEBUG] Matched MD5 signature: authedmine.com/obfuscated/1531373606_authedmine.min.js
+[DEBUG] Matched FUZZY signature: authedmine.com/obfuscated/1531373606_authedmine.min.js
+AUTH DEOB
+[DEBUG] Matched FUZZY signature: deepminer/plaintext/1531373606_deepMiner.min.js
+[DEBUG] Matched artifacts: [GeneralMiner, AuthedmineDeob, CryptolootDeob]
+[DEBUG] Matched WSS
+regular DEOB
+[DEBUG] Timeout exception - Command '['/usr/bin/node', '/home/perino/illicit-mining/src/har-parsers/JStillery-master/jstillery_cli.js']' timed out after 6 seconds
+[DEBUG] Timeout exception - Command '['/usr/bin/node', '/home/perino/illicit-mining/src/har-parsers/JStillery-master/jstillery_cli.js']' timed out after 6 seconds
+[DEBUG] Nothing left to deobfuscate - exiting deobfuscate() after 2 cycles
+[DEBUG] Matched MD5 signature: authedmine.com/obfuscated/1531373606_authedmine.min.js
+[DEBUG] Matched FUZZY signature: authedmine.com/obfuscated/1531373606_authedmine.min.js
+/home/perino/tmp_rh_validation/1531455243_miner.js.har
+[DEBUG] Matched artifacts: [GeneralMiner]
+regular DEOB
+[DEBUG] Nothing left to deobfuscate - exiting deobfuscate() after 2 cycles
+[DEBUG] Matched artifacts: [GeneralMiner]
+/home/perino/tmp_rh_validation/1520601822_cryptonight-asmjs.min.js.har
+[DEBUG] Matched MD5 signature: deepminer/plaintext/1520601822_cryptonight-asmjs.min.js
+[DEBUG] Matched FUZZY signature: deepminer/plaintext/1520601822_cryptonight-asmjs.min.js
+[DEBUG] Matched artifacts: [deepMiner, GeneralMiner, CryptolootDeob]
+[DEBUG] Matched WSS
+regular DEOB
+[DEBUG] Timeout exception - Command '['/usr/bin/node', '/home/perino/illicit-mining/src/har-parsers/JStillery-master/jstillery_cli.js']' timed out after 6 seconds
+[DEBUG] Timeout exception - Command '['/usr/bin/node', '/home/perino/illicit-mining/src/har-parsers/JStillery-master/jstillery_cli.js']' timed out after 6 seconds
+[DEBUG] Nothing left to deobfuscate - exiting deobfuscate() after 2 cycles
+[DEBUG] Matched MD5 signature: deepminer/plaintext/1520601822_cryptonight-asmjs.min.js
+[DEBUG] Matched FUZZY signature: deepminer/plaintext/1520601822_cryptonight-asmjs.min.js
+[DEBUG] Matched artifacts: [deepMiner, GeneralMiner, CryptolootDeob]
+[DEBUG] Matched WSS
+/home/perino/tmp_rh_validation/1531410420_miner.js.har
+[DEBUG] Matched MD5 signature: coin-hive/plaintext/1531410420_miner.js
+[DEBUG] Matched FUZZY signature: coin-hive/plaintext/1531410420_miner.js
+[DEBUG] Matched artifacts: [coindashhive, CryptoLoot, GeneralMiner]
+AUTH DEOB
+regular DEOB
+[DEBUG] Nothing left to deobfuscate - exiting deobfuscate() after 2 cycles
+[DEBUG] Matched artifacts: [coindashhive, CryptoLoot, GeneralMiner]
+/home/perino/tmp_rh_validation/1508158800_coinblind_beta.js.har
+[DEBUG] Matched MD5 signature: coinblind/plaintext/1508158800_coinblind_beta.js
+[DEBUG] Matched FUZZY signature: coinrail/plaintext/1531468349_coinrail.min.js
+[DEBUG] Matched artifacts: [coinblind, CryptoLoot, GeneralMiner, CryptolootDeob]
+[DEBUG] Matched WSS
+regular DEOB
+[DEBUG] Nothing left to deobfuscate - exiting deobfuscate() after 2 cycles
+[DEBUG] Matched artifacts: [coinblind, CryptoLoot, GeneralMiner, CryptolootDeob]
+[DEBUG] Matched WSS
+/home/perino/tmp_rh_validation/1531373606_coinhive.min.js.har
+[DEBUG] Matched MD5 signature: coinhive/plaintext/1531373606_coinhive.min.js
+[DEBUG] Matched FUZZY signature: deepminer/plaintext/1531373606_deepMiner.min.js
+[DEBUG] Matched artifacts: [GeneralMiner, CryptolootDeob]
+[DEBUG] Matched WSS
+regular DEOB
+[DEBUG] Nothing left to deobfuscate - exiting deobfuscate() after 2 cycles
+[DEBUG] Matched MD5 signature: coinhive/plaintext/1531373606_coinhive.min.js
+[DEBUG] Matched FUZZY signature: deepminer/plaintext/1531373606_deepMiner.min.js
+[DEBUG] Matched artifacts: [GeneralMiner, CryptolootDeob]
+[DEBUG] Matched WSS
+/home/perino/tmp_rh_validation/1524060000_m.js.har
+[DEBUG] Matched MD5 signature: authedmine.com/obfuscated/1524060000_m.js
+[DEBUG] Matched FUZZY signature: authedmine.com/obfuscated/1524060000_m.js
+AUTH DEOB
+[DEBUG] Matched MD5 signature: cryptonight/plaintext/1521739020_cryptonight.js
+[DEBUG] Matched FUZZY signature: cryptonight/plaintext/1521739020_cryptonight.js
+[DEBUG] Matched artifacts: [GeneralMiner, CryptolootDeob]
+regular DEOB
+[DEBUG] Timeout exception - Command '['/usr/bin/node', '/home/perino/illicit-mining/src/har-parsers/JStillery-master/jstillery_cli.js']' timed out after 6 seconds
+[DEBUG] Timeout exception - Command '['/usr/bin/node', '/home/perino/illicit-mining/src/har-parsers/JStillery-master/jstillery_cli.js']' timed out after 6 seconds
+[DEBUG] Nothing left to deobfuscate - exiting deobfuscate() after 2 cycles
+[DEBUG] Matched MD5 signature: authedmine.com/obfuscated/1524060000_m.js
+[DEBUG] Matched FUZZY signature: authedmine.com/obfuscated/1524060000_m.js
+/home/perino/tmp_rh_validation/1527429600_minui.js.har
+[DEBUG] Matched MD5 signature: cryptoloot/plaintext/1527429600_minui.js
+[DEBUG] Matched FUZZY signature: cryptoloot/plaintext/1527429600_minui.js
+[DEBUG] Matched artifacts: [CryptoLoot, GeneralMiner]
+regular DEOB
+[DEBUG] Nothing left to deobfuscate - exiting deobfuscate() after 2 cycles
+[DEBUG] Matched artifacts: [CryptoLoot, GeneralMiner]
+/home/perino/tmp_rh_validation/1524060000_authedmine.min.js.har
+[DEBUG] Matched MD5 signature: authedmine.com/obfuscated/1524060000_authedmine.min.js
+[DEBUG] Matched FUZZY signature: authedmine.com/obfuscated/1524060000_authedmine.min.js
+AUTH DEOB
+[DEBUG] Matched FUZZY signature: cryptonight/plaintext/1521739020_cryptonight.js
+[DEBUG] Matched artifacts: [GeneralMiner, AuthedmineDeob, CryptolootDeob]
+[DEBUG] Matched WSS
+regular DEOB
+[DEBUG] Nothing left to deobfuscate - exiting deobfuscate() after 2 cycles
+[DEBUG] Matched FUZZY signature: authedmine.com/obfuscated/1524060000_authedmine.min.js
+/home/perino/tmp_rh_validation/1513342800_crltasm.min.js.har
+[DEBUG] Matched MD5 signature: cryptoloot/obfuscated/1513429200_crltasm.min.js
+[DEBUG] Matched FUZZY signature: cryptoloot/obfuscated/1513429200_crltasm.min.js
+[DEBUG] Matched artifacts: [CryptolootDeob]
+AUTH DEOB
+regular DEOB
+[DEBUG] Timeout exception - Command '['/usr/bin/node', '/home/perino/illicit-mining/src/har-parsers/JStillery-master/jstillery_cli.js']' timed out after 6 seconds
+[DEBUG] Timeout exception - Command '['/usr/bin/node', '/home/perino/illicit-mining/src/har-parsers/JStillery-master/jstillery_cli.js']' timed out after 6 seconds
+[DEBUG] Nothing left to deobfuscate - exiting deobfuscate() after 2 cycles
+[DEBUG] Matched MD5 signature: cryptoloot/obfuscated/1513429200_crltasm.min.js
+[DEBUG] Matched FUZZY signature: cryptoloot/obfuscated/1513429200_crltasm.min.js
+[DEBUG] Matched artifacts: [CryptolootDeob]
+/home/perino/tmp_rh_validation/1524060000_crlt.js.har
+[DEBUG] Matched MD5 signature: cryptoloot/obfuscated/1524060000_crlt.js
+[DEBUG] Matched FUZZY signature: cryptoloot/obfuscated/1524060000_crlt.js
+[DEBUG] Matched artifacts: [GeneralMiner]
+regular DEOB
+[DEBUG] Nothing left to deobfuscate - exiting deobfuscate() after 2 cycles
+[DEBUG] Matched FUZZY signature: cryptoloot/deobfuscated/1524060000_crlt.js.deob
+[DEBUG] Matched artifacts: [GeneralMiner, CryptolootDeob]
+[DEBUG] Matched WSS
+/home/perino/tmp_rh_validation/1531455243_worker.js.har
+regular DEOB
+[DEBUG] Nothing left to deobfuscate - exiting deobfuscate() after 2 cycles
+/home/perino/tmp_rh_validation/1532182233_4692107595b53310.3.n.2.1.l60.js.har
+[DEBUG] Matched MD5 signature: gridcash/obfuscated/1532182233_4692107595b53310.3.n.2.1.l60.js
+[DEBUG] Matched FUZZY signature: gridcash/obfuscated/1532182233_4692107595b53310.3.n.2.1.l60.js
+[DEBUG] Matched artifacts: [GridcashDeob]
+AUTH DEOB
+regular DEOB
+[DEBUG] Timeout exception - Command '['/usr/bin/node', '/home/perino/illicit-mining/src/har-parsers/JStillery-master/jstillery_cli.js']' timed out after 6 seconds
+[DEBUG] Timeout exception - Command '['/usr/bin/node', '/home/perino/illicit-mining/src/har-parsers/JStillery-master/jstillery_cli.js']' timed out after 6 seconds
+[DEBUG] Nothing left to deobfuscate - exiting deobfuscate() after 2 cycles
+[DEBUG] Matched MD5 signature: gridcash/obfuscated/1532182233_4692107595b53310.3.n.2.1.l60.js
+[DEBUG] Matched FUZZY signature: gridcash/obfuscated/1532182233_4692107595b53310.3.n.2.1.l60.js
+[DEBUG] Matched artifacts: [GridcashDeob]
+/home/perino/tmp_rh_validation/1524060000_coinhive.min.js.har
+[DEBUG] Matched MD5 signature: coinhive/plaintext/1524060000_coinhive.min.js
+[DEBUG] Matched FUZZY signature: cryptonight/plaintext/1524060000_vidm.min.js
+[DEBUG] Matched artifacts: [GeneralMiner, CryptolootDeob]
+[DEBUG] Matched WSS
+regular DEOB
+[DEBUG] Nothing left to deobfuscate - exiting deobfuscate() after 2 cycles
+[DEBUG] Matched MD5 signature: coinhive/plaintext/1524060000_coinhive.min.js
+[DEBUG] Matched FUZZY signature: cryptonight/plaintext/1524060000_vidm.min.js
+[DEBUG] Matched artifacts: [GeneralMiner, CryptolootDeob]
+[DEBUG] Matched WSS
+/home/perino/tmp_rh_validation/1531373606_helper.js.har
+[DEBUG] Matched MD5 signature: webminepool/plaintext/1531373606_helper.js
+[DEBUG] Matched FUZZY signature: deepminer/plaintext/1520601822_cryptonight-asmjs.min.js
+[DEBUG] Matched artifacts: [Webminepool, GeneralMiner, CryptolootDeob]
+[DEBUG] Matched WSS
+regular DEOB
+[DEBUG] Timeout exception - Command '['/usr/bin/node', '/home/perino/illicit-mining/src/har-parsers/JStillery-master/jstillery_cli.js']' timed out after 6 seconds
+[DEBUG] Timeout exception - Command '['/usr/bin/node', '/home/perino/illicit-mining/src/har-parsers/JStillery-master/jstillery_cli.js']' timed out after 6 seconds
+[DEBUG] Nothing left to deobfuscate - exiting deobfuscate() after 2 cycles
+[DEBUG] Matched MD5 signature: webminepool/plaintext/1531373606_helper.js
+[DEBUG] Matched FUZZY signature: deepminer/plaintext/1520601822_cryptonight-asmjs.min.js
+[DEBUG] Matched artifacts: [Webminepool, GeneralMiner, CryptolootDeob]
+[DEBUG] Matched WSS
+/home/perino/tmp_rh_validation/1516333897_authedmine-1.js.har
+[DEBUG] Matched MD5 signature: authedmine.com/obfuscated/1516333897_authedmine-1.js
+[DEBUG] Matched FUZZY signature: authedmine.com/obfuscated/1516333897_authedmine-1.js
+AUTH DEOB
+[DEBUG] Matched FUZZY signature: authedmine.com/deobfuscated/1516333897_authedmine-1.js.deob
+[DEBUG] Matched artifacts: [GeneralMiner, AuthedmineDeob, CryptolootDeob]
+[DEBUG] Matched WSS
+regular DEOB
+[DEBUG] Nothing left to deobfuscate - exiting deobfuscate() after 2 cycles
+[DEBUG] Matched FUZZY signature: authedmine.com/obfuscated/1516333897_authedmine-1.js
+/home/perino/tmp_rh_validation/1524060000_processor.js.har
+[DEBUG] Matched MD5 signature: mutuza.win/plaintext/1524060000_processor.js
+[DEBUG] Matched FUZZY signature: cryptonoter/plaintext/1531455243_processor.js
+[DEBUG] Matched artifacts: [MutuzaCryptonight, GeneralMiner]
+[DEBUG] Matched WSS
+regular DEOB
+[DEBUG] Nothing left to deobfuscate - exiting deobfuscate() after 2 cycles
+[DEBUG] Matched MD5 signature: mutuza.win/plaintext/1524060000_processor.js
+[DEBUG] Matched FUZZY signature: cryptonoter/plaintext/1531455243_processor.js
+[DEBUG] Matched artifacts: [MutuzaCryptonight, GeneralMiner]
+[DEBUG] Matched WSS
+/home/perino/tmp_rh_validation/1524060000_browsermine.js.har
+[DEBUG] Matched MD5 signature: browsermine/plaintext/1524060000_browsermine.js
+[DEBUG] Matched FUZZY signature: browsermine/plaintext/1524060000_browsermine.js
+[DEBUG] Matched artifacts: [browsermine]
+AUTH DEOB
+regular DEOB
+[DEBUG] Nothing left to deobfuscate - exiting deobfuscate() after 2 cycles
+/home/perino/tmp_rh_validation/1524060000_coinhive.min_2018-01-19.js.har
+[DEBUG] Matched MD5 signature: coinhive/plaintext/1524060000_coinhive.min_2018-01-19.js
+[DEBUG] Matched FUZZY signature: cryptonight/plaintext/1524060000_vidm.min.js
+[DEBUG] Matched artifacts: [GeneralMiner, CryptolootDeob]
+[DEBUG] Matched WSS
+regular DEOB
+[DEBUG] Nothing left to deobfuscate - exiting deobfuscate() after 2 cycles
+[DEBUG] Matched MD5 signature: coinhive/plaintext/1524060000_coinhive.min_2018-01-19.js
+[DEBUG] Matched FUZZY signature: cryptonight/plaintext/1524060000_vidm.min.js
+[DEBUG] Matched artifacts: [GeneralMiner, CryptolootDeob]
+[DEBUG] Matched WSS
+/home/perino/tmp_rh_validation/1531373606_browsermine.js.har
+[DEBUG] Matched MD5 signature: browsermine/plaintext/1531373606_browsermine.js
+[DEBUG] Matched FUZZY signature: browsermine/plaintext/1531373606_browsermine.js
+[DEBUG] Matched artifacts: [browsermine]
+AUTH DEOB
+regular DEOB
+[DEBUG] Nothing left to deobfuscate - exiting deobfuscate() after 2 cycles
+/home/perino/tmp_rh_validation/1522936800_miner-ui.js.har
+[DEBUG] Matched MD5 signature: cryptoloot/plaintext/1522936800_miner-ui.js
+[DEBUG] Matched FUZZY signature: cryptoloot/plaintext/1522936800_miner-ui.js
+[DEBUG] Matched artifacts: [CryptoLoot, GeneralMiner]
+regular DEOB
+[DEBUG] Nothing left to deobfuscate - exiting deobfuscate() after 2 cycles
+[DEBUG] Matched artifacts: [CryptoLoot, GeneralMiner]
+/home/perino/tmp_rh_validation/1520427600_browsermine.js.har
+[DEBUG] Matched MD5 signature: browsermine/plaintext/1524060000_browsermine.js
+[DEBUG] Matched FUZZY signature: browsermine/plaintext/1524060000_browsermine.js
+[DEBUG] Matched artifacts: [browsermine]
+AUTH DEOB
+regular DEOB
+[DEBUG] Nothing left to deobfuscate - exiting deobfuscate() after 2 cycles
+/home/perino/tmp_rh_validation/1524060000_adless.js.har
+[DEBUG] Matched MD5 signature: adless.io/plaintext/1524060000_adless.js
+[DEBUG] Matched FUZZY signature: adless.io/plaintext/1524060000_adless.js
+[DEBUG] Matched artifacts: [Adless, CryptoLoot, GeneralMiner]
+[DEBUG] Matched WSS
+regular DEOB
+[DEBUG] Nothing left to deobfuscate - exiting deobfuscate() after 2 cycles
+[DEBUG] Matched MD5 signature: adless.io/plaintext/1524060000_adless.js
+[DEBUG] Matched FUZZY signature: adless.io/plaintext/1524060000_adless.js
+[DEBUG] Matched artifacts: [Adless, CryptoLoot, GeneralMiner]
+[DEBUG] Matched WSS
+/home/perino/tmp_rh_validation/1524060000_worker.js.har
+[DEBUG] Matched MD5 signature: mutuza.win/plaintext/1524060000_worker.js
+[DEBUG] Matched FUZZY signature: mutuza.win/plaintext/1524060000_worker.js
+[DEBUG] Matched artifacts: [MutuzaCryptonight, GeneralMiner, CryptolootDeob]
+[DEBUG] Matched WSS
+regular DEOB
+[DEBUG] Timeout exception - Command '['/usr/bin/node', '/home/perino/illicit-mining/src/har-parsers/JStillery-master/jstillery_cli.js']' timed out after 6 seconds
+[DEBUG] Timeout exception - Command '['/usr/bin/node', '/home/perino/illicit-mining/src/har-parsers/JStillery-master/jstillery_cli.js']' timed out after 6 seconds
+[DEBUG] Nothing left to deobfuscate - exiting deobfuscate() after 2 cycles
+[DEBUG] Matched MD5 signature: mutuza.win/plaintext/1524060000_worker.js
+[DEBUG] Matched FUZZY signature: mutuza.win/plaintext/1524060000_worker.js
+[DEBUG] Matched artifacts: [MutuzaCryptonight, GeneralMiner, CryptolootDeob]
+[DEBUG] Matched WSS
+/home/perino/tmp_rh_validation/1522936800_crlt.js.har
+[DEBUG] Matched MD5 signature: cryptoloot/obfuscated/1522936800_crlt.js
+[DEBUG] Matched FUZZY signature: cryptoloot/obfuscated/1522936800_crlt.js
+[DEBUG] Matched artifacts: [GeneralMiner]
+regular DEOB
+[DEBUG] Nothing left to deobfuscate - exiting deobfuscate() after 2 cycles
+[DEBUG] Matched MD5 signature: cryptoloot/obfuscated/1522936800_crlt.js
+[DEBUG] Matched FUZZY signature: cryptoloot/obfuscated/1522936800_crlt.js
+[DEBUG] Matched artifacts: [GeneralMiner]
+/home/perino/tmp_rh_validation/1532178454_lib-asmjs.min.js.har
+[DEBUG] Matched MD5 signature: adless.io/plaintext/1532178454_lib-asmjs.min.js
+[DEBUG] Matched FUZZY signature: adless.io/plaintext/1532178454_lib-asmjs.min.js
+[DEBUG] Matched artifacts: [GeneralMiner, CryptolootDeob]
+[DEBUG] Matched WSS
+regular DEOB
+[DEBUG] Timeout exception - Command '['/usr/bin/node', '/home/perino/illicit-mining/src/har-parsers/JStillery-master/jstillery_cli.js']' timed out after 6 seconds
+[DEBUG] Timeout exception - Command '['/usr/bin/node', '/home/perino/illicit-mining/src/har-parsers/JStillery-master/jstillery_cli.js']' timed out after 6 seconds
+[DEBUG] Nothing left to deobfuscate - exiting deobfuscate() after 2 cycles
+[DEBUG] Matched MD5 signature: adless.io/plaintext/1532178454_lib-asmjs.min.js
+[DEBUG] Matched FUZZY signature: adless.io/plaintext/1532178454_lib-asmjs.min.js
+[DEBUG] Matched artifacts: [GeneralMiner, CryptolootDeob]
+[DEBUG] Matched WSS
+/home/perino/tmp_rh_validation/1524060000_miner.min.js.har
+[DEBUG] Matched MD5 signature: minero/plaintext/1531468349_miner.min.js
+[DEBUG] Matched FUZZY signature: minero/plaintext/1531468349_miner.min.js
+[DEBUG] Matched artifacts: [Minero, GeneralMiner, CryptolootDeob]
+[DEBUG] Matched WSS
+AUTH DEOB
+regular DEOB
+[DEBUG] Nothing left to deobfuscate - exiting deobfuscate() after 2 cycles
+[DEBUG] Matched MD5 signature: minero/plaintext/1531468349_miner.min.js
+[DEBUG] Matched FUZZY signature: minero/plaintext/1531468349_miner.min.js
+[DEBUG] Matched artifacts: [Minero, GeneralMiner, CryptolootDeob]
+[DEBUG] Matched WSS
+/home/perino/tmp_rh_validation/1516333897_authedmined.js.har
+[DEBUG] Matched MD5 signature: authedmine.com/obfuscated/1524060000_authedmine.js
+[DEBUG] Matched FUZZY signature: authedmine.com/obfuscated/1516333897_authedmine-1.js
+AUTH DEOB
+[DEBUG] Matched FUZZY signature: authedmine.com/deobfuscated/1516333897_authedmine-1.js.deob
+[DEBUG] Matched artifacts: [GeneralMiner, AuthedmineDeob, CryptolootDeob]
+[DEBUG] Matched WSS
+regular DEOB
+[DEBUG] Nothing left to deobfuscate - exiting deobfuscate() after 2 cycles
+[DEBUG] Matched FUZZY signature: authedmine.com/obfuscated/1516333897_authedmine-1.js
+/home/perino/tmp_rh_validation/1520427600_coinhive.min.js.har
+[DEBUG] Matched MD5 signature: coinhive/obfuscated/1524060000_coinhive.min.js
+[DEBUG] Matched FUZZY signature: coinhive/obfuscated/1524060000_coinhive.min.js
+regular DEOB
+[DEBUG] Nothing left to deobfuscate - exiting deobfuscate() after 2 cycles
+[DEBUG] Matched FUZZY signature: coinhive/obfuscated/1524060000_coinhive.min.js
+/home/perino/tmp_rh_validation/1532184247_cryptonight7.js.har
+[DEBUG] Matched MD5 signature: monerominer.rocks/obfuscated/1532184247_cryptonight7.js
+[DEBUG] Matched FUZZY signature: monerominer.rocks/obfuscated/1532184247_cryptonight7.js
+[DEBUG] Matched artifacts: [GeneralMiner, MonerominerrocksObfu, MonerominerrocksDeob]
+[DEBUG] Matched WSS
+regular DEOB
+[DEBUG] Nothing left to deobfuscate - exiting deobfuscate() after 2 cycles
+[DEBUG] Matched MD5 signature: monerominer.rocks/obfuscated/1532184247_cryptonight7.js
+[DEBUG] Matched FUZZY signature: monerominer.rocks/obfuscated/1532184247_cryptonight7.js
+[DEBUG] Matched artifacts: [GeneralMiner, MonerominerrocksObfu, MonerominerrocksDeob]
+[DEBUG] Matched WSS
+/home/perino/tmp_rh_validation/1531455243_cryptonight-asmjs.min.js.har
+[DEBUG] Matched MD5 signature: cryptonoter/plaintext/1531455243_cryptonight-asmjs.min.js
+[DEBUG] Matched FUZZY signature: deepminer/plaintext/1520601822_cryptonight-asmjs.min.js
+[DEBUG] Matched artifacts: [GeneralMiner, CryptolootDeob]
+regular DEOB
+[DEBUG] Timeout exception - Command '['/usr/bin/node', '/home/perino/illicit-mining/src/har-parsers/JStillery-master/jstillery_cli.js']' timed out after 6 seconds
+[DEBUG] Timeout exception - Command '['/usr/bin/node', '/home/perino/illicit-mining/src/har-parsers/JStillery-master/jstillery_cli.js']' timed out after 6 seconds
+[DEBUG] Nothing left to deobfuscate - exiting deobfuscate() after 2 cycles
+[DEBUG] Matched MD5 signature: cryptonoter/plaintext/1531455243_cryptonight-asmjs.min.js
+[DEBUG] Matched FUZZY signature: deepminer/plaintext/1520601822_cryptonight-asmjs.min.js
+[DEBUG] Matched artifacts: [GeneralMiner, CryptolootDeob]
+/home/perino/tmp_rh_validation/1518050340_base.js.har
+[DEBUG] Matched MD5 signature: webminepool/plaintext/1524060000_webminepool.js
+[DEBUG] Matched FUZZY signature: coinrail/plaintext/1531468349_coinrail.min.js
+[DEBUG] Matched artifacts: [Webminepool, GeneralMiner, CryptolootDeob]
+[DEBUG] Matched WSS
+regular DEOB
+[DEBUG] Nothing left to deobfuscate - exiting deobfuscate() after 2 cycles
+[DEBUG] Matched MD5 signature: webminepool/plaintext/1524060000_webminepool.js
+[DEBUG] Matched FUZZY signature: coinrail/plaintext/1531468349_coinrail.min.js
+[DEBUG] Matched artifacts: [Webminepool, GeneralMiner, CryptolootDeob]
+[DEBUG] Matched WSS
+/home/perino/tmp_rh_validation/1531373606_base.js.har
+[DEBUG] Matched MD5 signature: webminepool/obfuscated/1531373606_base.js
+[DEBUG] Matched FUZZY signature: monerominer.rocks/obfuscated/1532184247_cryptonight7.js
+[DEBUG] Matched artifacts: [GeneralMiner, WebminepoolObfu]
+[DEBUG] Matched WSS
+regular DEOB
+[DEBUG] Nothing left to deobfuscate - exiting deobfuscate() after 2 cycles
+[DEBUG] Matched MD5 signature: webminepool/obfuscated/1531373606_base.js
+[DEBUG] Matched FUZZY signature: monerominer.rocks/obfuscated/1532184247_cryptonight7.js
+[DEBUG] Matched artifacts: [GeneralMiner, WebminepoolObfu]
+[DEBUG] Matched WSS
+/home/perino/tmp_rh_validation/1531373606_simple-ui.min.js.har
+[DEBUG] Matched MD5 signature: coinhive/plaintext/1531373606_simple-ui.min.js
+[DEBUG] Matched FUZZY signature: coinhive/plaintext/1531373606_simple-ui.min.js
+[DEBUG] Matched artifacts: [GeneralMiner]
+[DEBUG] Matched WSS
+regular DEOB
+[DEBUG] Nothing left to deobfuscate - exiting deobfuscate() after 2 cycles
+[DEBUG] Matched MD5 signature: coinhive/plaintext/1531373606_simple-ui.min.js
+[DEBUG] Matched FUZZY signature: coinhive/plaintext/1531373606_simple-ui.min.js
+[DEBUG] Matched artifacts: [GeneralMiner]
+[DEBUG] Matched WSS
+/home/perino/tmp_rh_validation/1521739020_cryptonight.js.har
+[DEBUG] Matched MD5 signature: cryptonight/plaintext/1521739020_cryptonight.js
+[DEBUG] Matched FUZZY signature: cryptonight/plaintext/1521739020_cryptonight.js
+[DEBUG] Matched artifacts: [GeneralMiner, CryptolootDeob]
+regular DEOB
+[DEBUG] Timeout exception - Command '['/usr/bin/node', '/home/perino/illicit-mining/src/har-parsers/JStillery-master/jstillery_cli.js']' timed out after 6 seconds
+[DEBUG] Timeout exception - Command '['/usr/bin/node', '/home/perino/illicit-mining/src/har-parsers/JStillery-master/jstillery_cli.js']' timed out after 6 seconds
+[DEBUG] Nothing left to deobfuscate - exiting deobfuscate() after 2 cycles
+[DEBUG] Matched MD5 signature: cryptonight/plaintext/1521739020_cryptonight.js
+[DEBUG] Matched FUZZY signature: cryptonight/plaintext/1521739020_cryptonight.js
+[DEBUG] Matched artifacts: [GeneralMiner, CryptolootDeob]
+/home/perino/tmp_rh_validation/1527429600_crypta.js.har
+[DEBUG] Matched MD5 signature: cryptoloot/obfuscated/1532161391_crypta.js
+[DEBUG] Matched FUZZY signature: cryptoloot/obfuscated/1532161391_crypta.js
+[DEBUG] Matched artifacts: [GeneralMiner]
+regular DEOB
+[DEBUG] Nothing left to deobfuscate - exiting deobfuscate() after 2 cycles
+[DEBUG] Matched MD5 signature: cryptoloot/obfuscated/1532161391_crypta.js
+[DEBUG] Matched FUZZY signature: cryptoloot/obfuscated/1532161391_crypta.js
+[DEBUG] Matched artifacts: [GeneralMiner]
+/home/perino/tmp_rh_validation/1531411920_n9Lq.js.har
+[DEBUG] Matched MD5 signature: coinhave/obfuscated/1531411920_n9Lq.js
+[DEBUG] Matched FUZZY signature: coinhave/obfuscated/1531411920_n9Lq.js
+[DEBUG] Matched artifacts: [GeneralMiner]
+[DEBUG] Matched WSS
+AUTH DEOB
+regular DEOB
+[DEBUG] Nothing left to deobfuscate - exiting deobfuscate() after 2 cycles
+[DEBUG] Matched MD5 signature: coinhave/obfuscated/1531411920_n9Lq.js
+[DEBUG] Matched FUZZY signature: coinhave/obfuscated/1531411920_n9Lq.js
+[DEBUG] Matched artifacts: [GeneralMiner]
+[DEBUG] Matched WSS
+/home/perino/tmp_rh_validation/1531373606_deepMiner.min.js.har
+[DEBUG] Matched MD5 signature: deepminer/plaintext/1531373606_deepMiner.min.js
+[DEBUG] Matched FUZZY signature: deepminer/plaintext/1531373606_deepMiner.min.js
+[DEBUG] Matched artifacts: [deepMiner, GeneralMiner, CryptolootDeob, deepMinerDeob]
+regular DEOB
+[DEBUG] Nothing left to deobfuscate - exiting deobfuscate() after 2 cycles
+[DEBUG] Matched MD5 signature: deepminer/plaintext/1531373606_deepMiner.min.js
+[DEBUG] Matched FUZZY signature: deepminer/plaintext/1531373606_deepMiner.min.js
+[DEBUG] Matched artifacts: [deepMiner, GeneralMiner, CryptolootDeob, deepMinerDeob]
+/home/perino/tmp_rh_validation/1531455243_webmr.js.har
+[DEBUG] Matched MD5 signature: webminepool/obfuscated/1531455243_webmr.js
+[DEBUG] Matched FUZZY signature: webminepool/deobfuscated/1531455243_webmr.js.jstillery.deob
+[DEBUG] Matched artifacts: [GeneralMiner]
+regular DEOB
+[DEBUG] Nothing left to deobfuscate - exiting deobfuscate() after 2 cycles
+[DEBUG] Matched MD5 signature: webminepool/obfuscated/1531455243_webmr.js
+[DEBUG] Matched FUZZY signature: webminepool/deobfuscated/1531455243_webmr.js.jstillery.deob
+[DEBUG] Matched artifacts: [GeneralMiner]
+/home/perino/tmp_rh_validation/1524060000_cryptonight-asmjs.min.js.har
+[DEBUG] Matched MD5 signature: deepminer/plaintext/1520601822_cryptonight-asmjs.min.js
+[DEBUG] Matched FUZZY signature: deepminer/plaintext/1520601822_cryptonight-asmjs.min.js
+[DEBUG] Matched artifacts: [deepMiner, GeneralMiner, CryptolootDeob]
+[DEBUG] Matched WSS
+regular DEOB
+[DEBUG] Timeout exception - Command '['/usr/bin/node', '/home/perino/illicit-mining/src/har-parsers/JStillery-master/jstillery_cli.js']' timed out after 6 seconds
+[DEBUG] Timeout exception - Command '['/usr/bin/node', '/home/perino/illicit-mining/src/har-parsers/JStillery-master/jstillery_cli.js']' timed out after 6 seconds
+[DEBUG] Nothing left to deobfuscate - exiting deobfuscate() after 2 cycles
+[DEBUG] Matched MD5 signature: deepminer/plaintext/1520601822_cryptonight-asmjs.min.js
+[DEBUG] Matched FUZZY signature: deepminer/plaintext/1520601822_cryptonight-asmjs.min.js
+[DEBUG] Matched artifacts: [deepMiner, GeneralMiner, CryptolootDeob]
+[DEBUG] Matched WSS
+/home/perino/tmp_rh_validation/1532245812_miner.asm.js.har
+[DEBUG] Matched MD5 signature: minero/plaintext/1532245812_miner.asm.js
+[DEBUG] Matched FUZZY signature: minero/plaintext/1532245812_miner.asm.js
+[DEBUG] Matched artifacts: [GeneralMiner, CryptolootDeob]
+regular DEOB
+[DEBUG] Timeout exception - Command '['/usr/bin/node', '/home/perino/illicit-mining/src/har-parsers/JStillery-master/jstillery_cli.js']' timed out after 6 seconds
+[DEBUG] Timeout exception - Command '['/usr/bin/node', '/home/perino/illicit-mining/src/har-parsers/JStillery-master/jstillery_cli.js']' timed out after 6 seconds
+[DEBUG] Nothing left to deobfuscate - exiting deobfuscate() after 2 cycles
+[DEBUG] Matched MD5 signature: minero/plaintext/1532245812_miner.asm.js
+[DEBUG] Matched FUZZY signature: minero/plaintext/1532245812_miner.asm.js
+[DEBUG] Matched artifacts: [GeneralMiner, CryptolootDeob]
+/home/perino/tmp_rh_validation/1524060000_deepMiner.js.har
+[DEBUG] Matched MD5 signature: deepminer/obfuscated/1524060000_deepMiner.js
+[DEBUG] Matched FUZZY signature: deepminer/obfuscated/1520427600_deepminer.js
+[DEBUG] Matched FUZZY signature: deepminer/deobfuscated/1524060000_deepMiner.js.aes.deob
+[DEBUG] Matched artifacts: [GeneralMiner, deepMinerDeob]
+[DEBUG] Matched WSS
+regular DEOB
+[DEBUG] Nothing left to deobfuscate - exiting deobfuscate() after 2 cycles
+[DEBUG] Matched MD5 signature: deepminer/obfuscated/1524060000_deepMiner.js
+[DEBUG] Matched FUZZY signature: deepminer/obfuscated/1520427600_deepminer.js
+/home/perino/tmp_rh_validation/1524060000_c-hive.js.har
+[DEBUG] Matched MD5 signature: coinhive/plaintext/1524060000_c-hive.js
+[DEBUG] Matched FUZZY signature: coinrail/plaintext/1531468349_coinrail.min.js
+[DEBUG] Matched artifacts: [CoinHive, CryptoLoot, GeneralMiner, CryptolootDeob]
+[DEBUG] Matched WSS
+regular DEOB
+[DEBUG] Nothing left to deobfuscate - exiting deobfuscate() after 2 cycles
+[DEBUG] Matched artifacts: [CoinHive, CryptoLoot, GeneralMiner, CryptolootDeob]
+[DEBUG] Matched WSS
+/home/perino/tmp_rh_validation/1531468349_coinrail.min.js.har
+[DEBUG] Matched MD5 signature: coinrail/plaintext/1531468349_coinrail.min.js
+[DEBUG] Matched FUZZY signature: coinrail/plaintext/1531468349_coinrail.min.js
+[DEBUG] Matched artifacts: [CoinRail, CryptoLoot, GeneralMiner, CryptolootDeob]
+regular DEOB
+[DEBUG] Nothing left to deobfuscate - exiting deobfuscate() after 2 cycles
+[DEBUG] Matched artifacts: [CoinRail, CryptoLoot, GeneralMiner, CryptolootDeob]
+[DEBUG] Matched WSS
