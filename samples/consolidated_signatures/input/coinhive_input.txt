@@ -1,0 +1,3 @@
+/home/ralph/repos/bitbucket.org/ralphholz_usyd/illicit-mining/common/samples/coinhive/plaintext/1524060000_simple-ui.min.js
+/home/ralph/repos/bitbucket.org/ralphholz_usyd/illicit-mining/common/samples/coinhive/plaintext/1524060000_smmch-mine.js
+/home/ralph/repos/bitbucket.org/ralphholz_usyd/illicit-mining/common/samples/coinhive/plaintext/1531373606_simple-ui.min.js

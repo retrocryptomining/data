@@ -1,0 +1,3 @@
+/home/ralph/repos/bitbucket.org/ralphholz_usyd/illicit-mining/common/samples/browsermine/plaintext/1520427600_browsermine.js
+/home/ralph/repos/bitbucket.org/ralphholz_usyd/illicit-mining/common/samples/browsermine/plaintext/1524060000_browsermine.js
+/home/ralph/repos/bitbucket.org/ralphholz_usyd/illicit-mining/common/samples/browsermine/plaintext/1531373606_browsermine.js
