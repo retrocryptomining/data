@@ -1,0 +1,5 @@
+https://raw.githubusercontent.com/xd4rker/MinerBlock/master/assets/filters.txt
+https://raw.githubusercontent.com/Marfjeh/coinhive-block/master/domains
+https://raw.githubusercontent.com/lesander/crypto-miner-blocker/master/src/js/blocker.js
+https://raw.githubusercontent.com/keraf/NoCoin/master/src/blacklist.txt
+https://raw.githubusercontent.com/andreas0607/CoinHive-blocker/master/blacklist.json
