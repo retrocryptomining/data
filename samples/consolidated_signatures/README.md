@@ -1,6 +1,6 @@
 # Content
 
-These are the signatures we used in the active scans and with the commercial ISP:
+This is the full set of signatures we used in the active scans. Those used for the ISP, Chrome extension, etc. are subsets corresponding to the time of deployment.
 
 - mining-js-filenames.txt
 - mining-js-keywords.txt
