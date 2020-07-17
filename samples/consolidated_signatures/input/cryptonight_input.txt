@@ -1,3 +1,0 @@
-/home/ralph/repos/bitbucket.org/ralphholz_usyd/illicit-mining/common/samples/cryptonight/plaintext/1521739020_cryptonight.js
-/home/ralph/repos/bitbucket.org/ralphholz_usyd/illicit-mining/common/samples/cryptonight/plaintext/1524060000_cryptonight-asmjs.min.js
-/home/ralph/repos/bitbucket.org/ralphholz_usyd/illicit-mining/common/samples/cryptonight/plaintext/1524060000_vidm.min.js

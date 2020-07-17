@@ -1,6 +1,0 @@
-/home/illicit/repos/bitbucket.org/ralphholz_usyd/illicit-mining/common/samples/cryptoloot/binary/1509022800_cryptonight.wasm
-/home/illicit/repos/bitbucket.org/ralphholz_usyd/illicit-mining/common/samples/cryptoloot/binary/1513342800_worker.wasm
-/home/illicit/repos/bitbucket.org/ralphholz_usyd/illicit-mining/common/samples/cryptoloot/binary/1513429200_worker.wasm
-/home/illicit/repos/bitbucket.org/ralphholz_usyd/illicit-mining/common/samples/cryptonoter/binary/1531455243_cryptonight.wasm
-/home/illicit/repos/bitbucket.org/ralphholz_usyd/illicit-mining/common/samples/cryptoloot/binary/1509022800_cryptonight-asmjs.min.js.mem
-/home/illicit/repos/bitbucket.org/ralphholz_usyd/illicit-mining/common/samples/cryptonoter/binary/1531455243_cryptonight-asmjs.min.js.mem
