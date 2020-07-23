@@ -1,6 +1,6 @@
 # Content
 
-This is the full set of signatures we used in the active scans. Those used for the ISP, Chrome extension, etc. are subsets corresponding to the time of deployment.
+This is the full set of signatures we used in the active scans and in analysis of data from open proxies. Those used for the ISP, Chrome extension, etc. are subsets corresponding to the time of deployment.
 
 - mining-js-filenames.txt
 - mining-js-keywords.txt
