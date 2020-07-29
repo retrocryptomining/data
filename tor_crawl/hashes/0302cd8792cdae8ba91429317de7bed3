@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="gbk">
+    <meta name="Description" content="">
+    <meta name="keywords" content="">
+    <title>服务器发生错误-律师365</title>
+    <link href="//image.64365.com/css/error/base.css" rel="stylesheet" type="text/css">
+    <link href="//image.64365.com/css/error/index.css" rel="stylesheet" type="text/css">
+    <!--[if IE 6]>
+    <script type="text/javascript" src="js/DD_belatedPNG.js"></script>
+    <script type="text/javascript">
+        DD_belatedPNG.fix(' .ico-top, .s-home, .s-login, .logo, .ico-zixun, .fanhui');
+    </script>
+<![endif]-->
+</head>
+    <body>
+        <div class="shortcut">
+            <ul class="s-fl">
+                <li><a href="http://www.64365.com/" class="s-home">律师365首页</a></li>
+                <li><a href="http://www.64365.com/ask/">法律咨询</a></li>
+                <li><a href="http://www.64365.com/zs/">法律知识</a></li>
+                <li><a href="http://www.64365.com/findlawyer/">找律师</a></li>
+                <li><a href="http://www.64365.com/contract/">合同范本</a></li>
+            </ul>
+            <div class="s-fr">
+                <a href="http://login.64365.com/" class="s-login">登录</a></div>
+        </div>
+        <!--content-->
+        <div class="bg-e0e">
+            <div class="w990 clearfix">
+                <div class="cw500">
+                    <div class="cw5-bg">
+                        <p>
+                            非常抱歉</p>
+                        <p>
+                            服务器发生错误了！</p>
+                    </div>
+                    <p>
+                        律师365网暂时无法处理您的访问请求，我们会尽快修复此问题！</p>
+                    <a href="javascript:void(0)" class="fanhui">返回上一个页面</a>
+                </div>
+            </div>
+        </div>
+      <div class="bg-c30">
+          <div class="banquan w990 clearfix">
+              <span class="fl"><a href="http://www.64365.com/about/">关于我们</a><i>|</i><a href="http://www.64365.com/about/market.aspx">业务合作</a><i>|</i><a
+                                                                                                                  href="http://www.64365.com/about/map.aspx">网站地图</a><i>|</i><a href="http://www.64365.com/help/">帮助中心</a><i>|</i><a href="/about/contact.aspx">联系我们</a><i>|</i><a
+                                                                                                                                                                                                                                            href="/help/feedback.aspx">意见反馈</a></span> <span class="fr">Copyright&copy;2004-2016
+                                                                                                                                                                                                                                                                                           64365.com 版权所有&nbsp;&nbsp;&nbsp;&nbsp;蜀ICP备15018055号</span>
+          </div>
+      </div>
+    </body>
+    <script type="text/javascript" src="//image.64365.com/script/jquery.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            $('.fanhui').click(function() {
+                history.go(-1);
+            });
+        });
+    </script>
+	<div style="display:none;">
+	<script type="text/javascript">
+	var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+	document.write(unescape("%3Cspan id='cnzz_stat_icon_1260984998'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s95.cnzz.com/z_stat.php%3Fid%3D1260984998' type='text/javascript'%3E%3C/script%3E"));
+	</script>
+	</div>
+</html>

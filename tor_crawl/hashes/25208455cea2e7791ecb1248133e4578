@@ -1,0 +1,2382 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<title>SMTP.HU levélküldő szolgáltatás 【ᵀᴵᴾᴾ】</title>
+<meta name="description" content="Internet szolgáltatótól független e-mail küldés a világon bárhol mobiltelefon, laptop, vagy tablet segítségével. Legyen saját SMTP kiszolgáló szervere." />
+<meta name="keywords" content="smtp, levél küldés, e-mail küldés, dedikált smtp szerver, smtp kiszolgáló, smtp server, kimenő levelek kiszolgálója" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta property="og:title" content="SMTP.hu" />
+<meta property="og:type" content="product" />
+<meta property="og:url" content="http://www.smtp.hu" />
+<meta property="og:image" content="http://smtp.hu/imgs/fejlec.gif" />
+<meta property="og:site_name" content="SMTP.hu | Biztons&#xe1;gos E-mail k&#xfc;ld&#xe9;s B&#xe1;rhonnan B&#xe1;rmikor" />
+<meta property="fb:admins" content="1303202940" />
+<link href="style/style.css" rel="stylesheet" type="text/css" />
+<link href="style/sunny/jquery-ui-1.10.3.custom.min.css" rel="stylesheet" type="text/css" />
+<link rel="SHORTCUT ICON" href="http://www.grafinet.hu/projects/smtp.hu/smtp.ico" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery-ui-1.10.3.custom.min.js"></script>
+<script type="text/javascript" src="js/tiny_mce/jquery.tinymce.js"></script>
+<script type="text/javascript" src="js/rendeles.js"></script>
+<script type="text/javascript" src="js/maildropmenu.js"></script>
+<!-- <script type="text/javascript" src="js/prototype.js"></script> -->
+<!-- <script type="text/javascript" src="js/mk_multifx.js"></script> -->
+<!-- <script type="text/javascript" src="js/mk_pulldown_proto.js"></script> -->
+<!-- <script type="text/javascript" src="js/mk_pulldownex.js"></script> -->
+<!-- <script type="text/javascript" src="js/functions.js"></script> -->
+<script type="text/javascript" src="js/tooltip.js"></script>
+<script type="text/javascript" src="js/tabber.js"></script>
+<!-- <script type="text/javascript" src="js/util.js"></script> -->
+<script type="text/javascript" src="js/ajax.js"></script>
+</head>
+<body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/hu_HU/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-11073968-3']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/hu_HU/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<script type="text/javascript">
+function ClearField(fieldname)
+{
+  document.getElementById(fieldname).value='';
+}
+</script>
+<table class="maintable">
+  <tr>
+    <td class="maintable_top">
+      <table>
+        <tr>
+          <td class="maintable_head">
+            <div class="maintable_head_inside">
+              <div class="head_logo_holder">
+                <a href="http://www.smtp.hu"><img src="images/logo_smtp.png" alt="SMTP" title="SMTP" /></a>
+              </div>
+              <div class="head_label_holder">
+                <a href="#"><img src="images/label_safeemail.png" alt="biztonságos e-mail küldés bárhonnan bármikor" title="biztonságos e-mail küldés bárhonnan bármikor" /></a>
+              </div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <table>
+              <tr>
+                <td class="head_sep_pad"></td>
+                <td>
+                  <img src="images/stripe.png" alt="" title="" />
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr><td class="head2topcontent_sep"></td></tr>
+                <tr>
+          <td>
+            <table>
+              <tr>
+                <td class="top_info_pad"></td>
+                <td class="top_info_left">
+                  <table>
+                    <tr>
+                      <td class="top_info_arrow_field">
+                        <img src="images/gray_arrow.png" alt="" title="" />
+                      </td>
+                      <td class="top_info_desc_field">
+                        <a href="" class="top_info_link" >Szünetmenetes tápellátás</a><span class="top_info_text">- ne érje be kevesebbel</span>
+                      </td>
+                    </tr>
+                    <tr><td class="top_info_sep"></td><td></td></tr>
+                    <tr>
+                      <td class="top_info_arrow_field">
+                        <img src="images/gray_arrow.png" alt="" title="" />
+                      </td>
+                      <td class="top_info_desc_field">
+                        <a href="" class="top_info_link" title="<b style='color: #000;'>Garantált minőség</b><br />Szolgáltatásinkra kiemelkedő minőségi jellemzőket: 99.9%-os rendelkezésre állást biztosítunk!">Garantált minőség</a><span class="top_info_text">- 99.9%-os rendelkezésreállás</span>
+                      </td>
+                    </tr>
+                    <tr><td class="top_info_sep"></td><td></td></tr>
+                    <tr>
+                      <td class="top_info_arrow_field">
+                        <img src="images/gray_arrow.png" alt="" title="" />
+                      </td>
+                      <td class="top_info_desc_field">
+                        <a href="" class="top_info_link" title="<b style='color: #000;'>Egyszerű kezelhetőség</b><br />Beállítása nem igényel szaktudást, e-mail <br> kliensében - szemben eddigi tapasztalatával - csupán egyszer rögzíti a tőlünk kapott adatokat,melyekhez többet nem kell nyúlnia... <p>Ha bárhol elakadna szakértő munkatársunk azonnal segít Önnek telefonon, e-mailen, vagy irodánkban személyesen.">	Egyszerű kezelhetőség</a><span class="top_info_text">- bárki könnyedén beállíthatja</span>
+                      </td>
+                    </tr>
+                    <tr><td class="top_info_sep"></td><td></td></tr>
+                    <tr>
+                      <td class="top_info_arrow_field">
+                        <img src="images/gray_arrow.png" alt="" title="" />
+                      </td>
+                      <td class="top_info_desc_field">
+                        <a href="" class="top_info_link" title="<b style='color: #000;'>100%-os mobilitás</b><br />Dedikált SMTP szolgáltatásunkat korlátozás nélkül akár a szomszédjából, vagy a világ minden országából igénybe veheti.<p> Mindeközben a beállításokat nem kell megváltoztatnia, ahogy megérkezik úticéljához<br> rögtön használhatja postafiókját!">100%-os mobilitás</a><span class="top_info_text">- a világon bárhonnan elérhető</span>
+                      </td>
+                    </tr>
+                    <tr><td class="top_info_sep"></td><td></td></tr>
+                    <tr>
+                      <td class="top_info_arrow_field">
+                        <img src="images/gray_arrow.png" alt="" title="" />
+                      </td>
+                      <td class="top_info_desc_field">
+                        <a href="" class="top_info_link" title="<b style='color: #000;'>Átlátható,- egyszerű árképzés</b><br />Rejtett költségektől mentes megoldás! Előre tervezhető,- egy összegű éves díjával reméljük<br> SMTP szolgáltatásunk elnyeri bizalmát!">	Átlátható,- egyszerű árképzés</a><span class="top_info_text">- tervezhető költség, korlátlan adatforgalom</span>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+                <td class="top_info_right">
+                  <table>
+                    <tr>
+                      <td class="download_bg">
+                        <div class="download_inside">
+                          <div class="download_word_holder">
+                            <a href="http://smtp.hu/megrendelolap.doc"><img src="images/download_word.png" alt="Szerkeszthető változat" title="Szerkeszthető változat" /></a>
+                          </div>
+                          <div class="download_pdf_holder">
+                            <a href="http://smtp.hu/megrendelolap.pdf"><img src="images/download_pdf.png" alt="Nyomtatható változat" title="Nyomtatható változat" /></a>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr><td class="top_info2kb_sep"></td></tr>
+        <tr>
+          <td>
+            <table>
+              <tr>
+                <td class="bluebox_wide_pad"></td>
+                <td>
+                  <!-- Tudásbázis doboz      -->
+                  <table>
+                    <tr><td class="bluebox_wide_top"></td></tr>
+                    <tr>
+                      <td class="bluebox_wide_bg">
+                        <table>
+                          <tr>
+                            <td class="kb_pad"></td>
+                            <td class="kb_left">
+                              <table>
+                                <tr>
+                                  <td class="kb_label">SMTP tudásbázis</td>
+                                </tr>
+                                <tr><td class="kb_label2links_sep"></td></tr>
+                                <tr>
+                                  <td>
+                                                                        <table>
+                                                                            <tr>
+                                        <td class="kb_arrow_field">
+                                          <img src="images/kb_arrow.png" title="" alt="" />
+                                        </td>
+                                        <td class="kb_link_field">
+                                          <a href="/miert_fontos_a_sajat_smtp_kiszolgalo_a_biztonsagom_ erdekeben" class="kb_link">Miért fontos a saját smtp kiszolgáló a biztonságom érdekében?</a>
+                                        </td>
+                                      </tr>
+                                                                            <tr>
+                                        <td class="kb_arrow_field">
+                                          <img src="images/kb_arrow.png" title="" alt="" />
+                                        </td>
+                                        <td class="kb_link_field">
+                                          <a href="/Hogyan_szerkesszunk_sikeres_e-mail_kampanyt" class="kb_link">Hogyan szerkesszünk sikeres e-mail kampányt?</a>
+                                        </td>
+                                      </tr>
+                                                                            <tr>
+                                        <td class="kb_arrow_field">
+                                          <img src="images/kb_arrow.png" title="" alt="" />
+                                        </td>
+                                        <td class="kb_link_field">
+                                          <a href="/?f=3&amp;p=470" class="kb_link">Működik-e a SPAM elvű marketing napjainkban?</a>
+                                        </td>
+                                      </tr>
+                                                                            <tr>
+                                        <td class="kb_arrow_field">
+                                          <img src="images/kb_arrow.png" title="" alt="" />
+                                        </td>
+                                        <td class="kb_link_field">
+                                          <a href="/?f=3&amp;p=471" class="kb_link">Az olvasók miért nyitnak ki egy levelet?</a>
+                                        </td>
+                                      </tr>
+                                                                            <tr>
+                                        <td class="kb_arrow_field">
+                                          <img src="images/kb_arrow.png" title="" alt="" />
+                                        </td>
+                                        <td class="kb_link_field">
+                                          <a href="/?f=3&amp;p=472" class="kb_link">Mik az email kommunikáció legfőbb típusai?</a>
+                                        </td>
+                                      </tr>
+                                                                            <tr>
+                                        <td class="kb_arrow_field">
+                                          <img src="images/kb_arrow.png" title="" alt="" />
+                                        </td>
+                                        <td class="kb_link_field">
+                                          <a href="/?f=3&amp;p=473" class="kb_link">Miért hasznos a perszonalizálás?</a>
+                                        </td>
+                                      </tr>
+                                                                            <tr>
+                                        <td class="kb_arrow_field">
+                                          <img src="images/kb_arrow.png" title="" alt="" />
+                                        </td>
+                                        <td class="kb_link_field">
+                                          <a href="/?f=3&amp;p=474" class="kb_link">	Milyen problémák lehetnek az email címekkel?</a>
+                                        </td>
+                                      </tr>
+                                                                          </table>
+                                                                      </td>
+                                </tr>
+                              </table>
+                           </td>
+                            <td>
+                              <table>
+                                <tr>
+                                  <td class="kb_portraitfield">
+                                    <img src="images/balazs.png" alt="" title="" />
+                                  </td>
+                                  <td>
+                                    <table>
+                                      <tr>
+                                        <td class="kb_label">
+                                          Szakértőnk:
+                                        </td>
+                                      </tr>
+                                      <tr><td class="kb_portrait_label_sep"></td></tr>
+                                      <tr>
+                                        <td class="kb_sublabel">
+                                          <span class="kb_name">dr. Nagy Balázs</span> - IT auditor, jogász
+                                        </td>
+                                      </tr>
+                                      <tr><td class="kb_portrait_sublabel_sep"></td></tr>
+                                      <tr>
+                                        <td class="kb_portrait_desc_field">
+                                          12 éve foglalkozom üzleti informatikai<br/>
+                                          rendszerek tervezésével, meglévő<br/>
+                                          vállalti környezetbe való novum<br/>
+                                          integrációval, állami intézmények,<br/>
+                                          nagyvállalatok informatikai auditálásával.<br/>
+                                        </td>
+                                      </tr>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </table>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                    <tr><td class="bluebox_wide_bottom"></td></tr>
+                  </table>
+                  <!-- Tudásbázis doboz vége -->
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+                                <tr><td class="kb2tabs_sep"></td></tr>
+        <tr>
+          <td>
+                        <script>
+function number_format (number, decimals, dec_point, thousands_sep) {
+  number = (number + '').replace(/[^0-9+\-Ee.]/g, '');
+  var n = !isFinite(+number) ? 0 : +number,
+    prec = !isFinite(+decimals) ? 0 : Math.abs(decimals),
+    sep = (typeof thousands_sep === 'undefined') ? ',' : thousands_sep,
+    dec = (typeof dec_point === 'undefined') ? '.' : dec_point,
+    s = '',
+    toFixedFix = function (n, prec) {
+      var k = Math.pow(10, prec);
+      return '' + Math.round(n * k) / k;
+    };
+  // Fix for IE parseFloat(0.55).toFixed(0) = 0;
+  s = (prec ? toFixedFix(n, prec) : '' + Math.round(n)).split('.');
+  if (s[0].length > 3) {
+    s[0] = s[0].replace(/\B(?=(?:\d{3})+(?!\d))/g, sep);
+  }
+  if ((s[1] || '').length < prec) {
+    s[1] = s[1] || '';
+    s[1] += new Array(prec - s[1].length + 1).join('0');
+  }
+  return s.join(dec);
+}
+var Slider_Values = $.parseJSON('{"1":{"count":20,"price":125,"interval":"Y"},"2":{"count":50,"price":100,"interval":"Y"},"3":{"count":100,"price":90,"interval":"Y"},"4":{"count":150,"price":80,"interval":"Y"},"5":{"count":200,"price":75,"interval":"Y"},"6":{"count":400,"price":70,"interval":"Y"},"7":{"count":600,"price":62.5,"interval":"Y"},"8":{"count":800,"price":60,"interval":"Y"},"9":{"count":1000,"price":57.5,"interval":"Y"},"10":{"count":1500,"price":50,"interval":"Y"},"11":{"count":2000,"price":45,"interval":"Y"},"12":{"count":4000,"price":40,"interval":"Y"},"13":{"count":10000,"price":35,"interval":"Y"}}');
+var Packages = $.parseJSON('[{"id":"1","nev":"Alap SMTP csomag","ar":"9900"},{"id":"2","nev":"Profi SMTP csomag","ar":"14900"},{"id":"3","nev":"H\u00edrlev\u00e9l SMTP csomag (r\u00e9gi)","ar":"120000"},{"id":"4","nev":"H\u00edrlev\u00e9l k\u00fcld\u0151 csomag (egyenlegfelt\u00f6lt\u0151s)","ar":"0"}]');
+</script>
+        <table>
+          <tr>
+            <td>
+              <div id="modalBg"></div>
+              <div id="hirlForm">
+                <div class="header">Megrendelés: <span class="pName"></span></div>
+                <div class="adatok">
+                                  <table>
+                    <tr>
+                      <td colspan="2" style="text-align: center;font-weight: bold;">Megrendelés adatok</td>
+                    </tr>
+                    <tr>
+                      <td><label>Csomag neve:</label></td>
+                      <td><span class="pName"></span></td>
+                    </tr>
+                    <tr class="levelszam_cont">
+                      <td><label>Levélszám:</label></td>
+                      <td class="megr_levelszam"></td>
+                    </tr>
+                    <tr>
+                      <td><label>Szolgáltatás díja:</label></td>
+                      <td class="megr_osszeg"></td>
+                    </tr>
+                  </table>
+                </div>
+                <br/>
+                <form action="regisztracio.php" method="post">
+                  <input type="hidden" name="sent" value="1" />
+                  <input type="hidden" name="csomag_id" value="" />
+                  <input type="hidden" name="help_id" value="1" />
+                  <table>
+                    <tr class="domain">
+                      <td><label>Domain:</label></td><td><input type="text" name="domain[1]" placeholder="azondomainneve.hu" value=""/> *<br/></td>
+                    </tr>
+                    <tr>
+                      <td><label>Név / Cégnév:</label></td><td><input type="text" name="nev" placeholder="Név" value=""/> *</td>
+                    </tr>
+                    <tr>
+                      <td><label>Cím / Székhely:</label></td><td><input type="text" name="cim" placeholder="Cím / Székhely" value="" /> *</td>
+                    </tr>
+                    <tr>
+                      <td><label>Telefonszám:</label></td><td><input type="text" name="tel" placeholder="Telefonszám" value="" /> *</td>
+                    </tr>
+                    <tr>
+                      <td><label>E-mail cím:</label></td><td><input type="text" name="email" placeholder="E-mail cím"  value=""/> *<br/></td>
+                    </tr>
+                    <tr>
+                      <td><label>Felhasználónév:</label></td><td><input type="text" name="username" placeholder="Felhasználónév" value="" disabled="disabled"/> *</td>
+                    </tr>
+                    <tr>
+                      <td><label>Jelszó:</label></td><td><input type="password" name="jelszo" placeholder="Jelszó" /> *</td>
+                    </tr>
+                    <tr>
+                      <td><label>Jelszó mégegyszer:</label></td><td><input type="password" name="jelszo2" placeholder="Jelszó mégegyszer" /> *</td>
+                    </tr>
+                    <tr>
+                      <td colspan="2"><label>Megjegyzés:</label><br/><textarea style="width: 99%;border: solid thin #ccc;" rows="4" name="megjegyzes" ></textarea></td>
+                    </tr>
+                    <tr>
+                    	<td><label>Kupon kód:</label></td><td><input type="text" name="coupon" placeholder="Kupon kód" /><br/><button type="button" id="checkCoupon">Felhasználom</button><input type="hidden" name="felhasznalom" value="0" /></td>
+                    </tr>
+                    <tr>
+                      <td>Ellenőrzés:</td>
+                      <td><img src="captcha/captcha_pic.inc.php" border="0" height="33" style="vertical-align: middle;"> 
+      <input type="text" name="ckod" value="" class="select" size="5" style="vertical-align: middle;"></td>
+                    </tr>
+                    <tr>
+                      <td><input type="submit" value="Küldés" /></td><td style="text-align: right;"><input type="button" name="cancel" value="Mégsem" onmouseup="$('#modalBg').click()" /></td>
+                    </tr>
+                  </table>
+                </form>
+              </div>
+              <div id="loginForm">
+                <div class="header">Bejelentkezés</div>
+                <br/>
+                <form action="bejelentkezes.php" method="post">
+                  <input type="hidden" name="sent" value="1" />
+                  <table>
+                    <tr>
+                      <td><label>Felhasználónév:</label></td><td><input type="text" name="username" placeholder="Felhasználónév" value=""/></td>
+                    </tr>
+                    <tr>
+                      <td><label>Jelszó:</label></td><td><input type="password" name="password" placeholder="Jelszó" value=""/></td>
+                    </tr>
+                    <tr>
+                      <td><input type="submit" value="Bejelentkezés" /></td><td style="text-align: right;"><input type="button" name="cancel" value="Mégsem" onmouseup="$('#modalBg').click()" /></td>
+                    </tr>
+                  </table>
+                </form>
+                <div class="header">Facebook bejelentkezés</div>
+                <div style="width: 200px; margin: 20px auto;">
+                  <a href='/facebook-csatlakozas.php' title="Facebook bejelentkezés"><img src="/images/fb-bejelentkezes.png" style="width: 200px;" alt="Facebook bejelentkezés" title="Facebook bejelentkezés"/></a>
+                </div>
+              </div>
+              <!-- Lapozó menü      -->
+              <script type="text/javascript">
+              var oTabGroup = new TabGroup();
+              var oTabber = new Tabber('tab_btn_', 'tab_', 'tab_menu_bg_selected', 'tab_menu_bg', 'tab_div_visible', 'tab_div', 4, oTabGroup);
+              var oTabberRight = new Tabber('tab_right_btn_', 'tab_right_', 'tab_menu_sml_bg_selected', 'tab_menu_sml_bg', 'tab_div_visible', 'tab_div', 3, oTabGroup);
+              
+              function showLogin()
+              {
+                $("#modalBg").show(0, function()
+                    {
+                      $(document).keyup(function(e)
+                      {
+                        // ESC
+                        if(e.keyCode == 27)
+                          hideModal();
+                      });
+                      $(this).click(function()
+                      {
+                        hideModal();
+                      });
+                    });
+                    $("#loginForm").show();
+              }
+              
+              function showModal(pid)
+              {
+                $("input[name=csomag_id]").val(pid);
+                var pac;
+                for(var i in Packages)
+                {
+                  if(Packages[i].id == pid)
+                  {
+                    pac = Packages[i];
+                    break;
+                  }
+                }
+                $("#modalBg").show(0, function()
+                {
+                  $(document).keyup(function(e)
+                  {
+                    // ESC
+                    if(e.keyCode == 27)
+                      hideModal();
+                  });
+                  if(pid == 4)
+                  {
+                    $(".levelszam_cont").show();
+	                  $(".megr_levelszam").html(number_format(Slider_Values[$("input[name=help_id]").val()].count*1000*12, 0, ',', '.') + " darab");
+	                  //$(".megr_inter").html(Slider_Values[$("input[name=help_id]").val()].interval=="Y"?"Éves":"Havi");
+	                  $(".megr_osszeg").html(number_format(Slider_Values[$("input[name=help_id]").val()].price/1000*Slider_Values[$("input[name=help_id]").val()].count*1000*12, 0, ',', '.') + " Ft + ÁFA");                    
+                  }
+                  else
+                  {
+                    $(".levelszam_cont").hide();
+                    $(".megr_inter").html("Éves");
+                    $(".megr_osszeg").html(number_format(pac.ar, 0, ',', '.') + " Ft");
+                  }
+                  
+                  if(pid == 2)
+                  {
+                    var i = 5;
+                    for(i; i > 1; i--)
+                    {
+                      $(".domain:first").after("<tr class='plusDomains'><td><label>Domain #"+i+":</label></td><td><input type='text' name='domain["+i+"]' placeholder='azondomainneve.hu' /></td></tr>");
+                    }
+                    
+                  }
+                  
+                  $(".pName").html(pac.nev);
+                  $(this).click(function()
+                  {
+                    hideModal();
+                  });
+                });
+                $("#hirlForm").show();
+              }
+              
+              function hideModal()
+              {
+                $("#modalBg").hide();
+                $("#hirlForm").hide();
+                $("#loginForm").hide();
+                $(".plusDomains").remove();
+              }
+              
+              
+              function ShowRegisterForPackage(iPackage)
+              {
+                showModal(iPackage);
+                $("html, body").animate({
+                  scrollTop: $("html").offset().top
+                });
+                return;
+                
+                var oCsomagID = document.getElementById('csomag_id');
+                
+                oCsomagID.value = iPackage;
+                sendReq('domainlista', 'ajax.php', 'func=mutatDomainLista&args[csomag_id]='+iPackage);
+                  
+                oTabberRight.ShowTab(1);
+              }
+              oTabber.ShowTab(3);
+              </script>
+              <table>
+                <tr>
+                  <td class="tab_menu_pad"></td>
+                  <td class="tab_menu_left"></td>
+                  <td class="tab_menu_bg" id="tab_btn_0" onmouseup="oTabber.ShowTab(0);">
+                    <span class="tab_menu_label">Alap <span class="csomag_orange_title">SMTP</span> csomag</span>
+                  </td>
+                  <td class="tab_menu_bg_selected" id="tab_btn_1" onmouseup="oTabber.ShowTab(1);">
+                    <span class="tab_menu_label">Profi <span class="csomag_orange_title">SMTP</span> csomag</span>
+                  </td>
+                  <td class="tab_menu_bg" id="tab_btn_3" onmouseup="oTabber.ShowTab(3);">
+                    <span class="tab_menu_label">Hírlevél <span class="csomag_orange_title">SMTP</span> csomag</span>
+                  </td>
+                  <td class="tab_menu_pad2"></td>
+                  <td class="tab_menu_left"></td>
+                                    <td class="tab_menu_sml_bg" onmouseup="showLogin();">
+                    <span class="tab_menu_sml_label">Bejelentkezés</span>
+                  </td>
+                                    <td class="tab_menu_sml_bg" id="tab_right_btn_0" onmouseup="oTabberRight.ShowTab(0);">
+                    <span class="tab_menu_sml_label">Ismertető</span>
+                  </td>
+                  <td class="tab_menu_sml_bg" id="tab_right_btn_1" onmouseup="document.location='http://smtp.hu/aszf.pdf';">
+                    <span class="tab_menu_sml_label">ÁSZF</span>
+                  </td>
+                  <td class="tab_menu_sml_bg" id="tab_right_btn_2" onmouseup="oTabberRight.ShowTab(2);">
+                    <span class="tab_menu_sml_label">Elfeljetett jelszó</span>
+                  </td>
+                </tr>
+              </table>
+              <!-- Lapozó menü vége -->
+            </td>
+          </tr>
+          <tr>
+            <td class="tab_content_field">
+              <table>
+                <tr>
+                  <td class="tab_content_pad"></td>
+                  <td class="tab_content">
+                    <!-- Csomagok      -->
+                                        <div class="tab_div" id="tab_0">
+                                          <table>
+                        <tr>
+                          <td class="tab_left">
+                                                    
+                            <table>
+                              <tr><td class="tab_left_sep"></td></tr>
+                              <tr>
+                                <td class="tab_box_label">
+                                  Alap <span class="csomag_orange_title">SMTP</span> csomag                                </td>
+                              </tr>
+                              <tr>
+                                <td class="tab_box_bg">
+                                  <table>
+                                    <tr>
+                                      <td class="tab_box_topsep"></td>
+                                    </tr>
+                                    <tr>
+                                      <td>
+                                        <table>
+                                          <tr>
+                                            <td class="tab_box_inside_pad"></td>
+                                            <td>
+                                              <table>
+                                                <tr>
+                                                  <td class="tab_box_inside_label">
+                                                    Saját dedikált SMTP szerver hozzáférés 1 db domain címhez                                                  </td>
+                                                </tr>
+                                                <tr><td class="tab_box_inlabel2desc_sep"></td></tr>
+                                                <tr>
+                                                  <td>
+                                                    <table>
+                                                      <tr>
+                                                        <td class="tab_box_left_text">
+                                                          Alap SMTP csomagunk az 1 db domain címen belül korlátlan e-mail postafiókhoz használható! Általános célú üzleti és privát igényekre tervezve. Használata tárhely szolgáltatást nem igényel!                                                        </td>
+                                                        <td class="tab_box_stripe_pad"></td>
+                                                        <td class="tab_box_gray_stripe"></td>
+                                                        <td class="tab_box_stripe_pad"></td>
+                                                        <td>
+                                                          <table>
+                                                            <tr>
+                                                              <td class="tab_box_right_label">
+                                                                Most évente csak
+                                                              </td>
+                                                            </tr>
+                                                            <tr>
+                                                              <td>
+                                                                <table>
+                                                                  <tr>
+                                                                    <td class="tab_box_pricefield">9900</td>
+                                                                    <td class="tab_box_pricedesc">/ Ft+Áfa</td>
+                                                                  </tr>
+                                                                </table>
+                                                              </td>
+                                                            </tr>
+                                                            <tr><td class="tab_box_price2btn_sep"></td></tr>
+                                                            <tr>
+                                                              <td>
+                                                                <img class="clickable_image" src="images/btn_order.png" alt="Rendelés" title="Rendelés" onmouseup="ShowRegisterForPackage(1);" />
+                                                              </td>
+                                                            </tr>
+                                                          </table>
+                                                        </td>
+                                                      </tr>
+                                                    </table>
+                                                  </td>
+                                                </tr>
+                                              </table>
+                                            </td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                              <tr><td class="tab_box_bottom"></td></tr>
+                            </table>
+                                                      </td>
+                          <td>
+                            <table>
+                              <tr><td class="tab_right_sep"></td></tr>
+                              <tr>
+                                <td>
+                                  <table>
+                                    <tr>
+                                      <td class="tab_box_field1_alt"></td>
+                                      <td class="tab_box_field2_orange">
+                                        <table>
+                                          <tr>
+                                            <td class="tab_box_field2_pad"></td>
+                                            <td class="tab_box_field2_text_orange">
+                                              1 db domain névhez használható                                            </td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                      <td class="tab_box_field3_orange">
+                                        <table>
+                                          <tr>
+                                            <td class="tab_box_field3_orange_pad"></td>
+                                            <td>
+                                              <a href="#" title="Alap SMTP csomagunkat azoknak ajánljuk akik cégen, <br>vagy családon belül egy domain címhez, de korlátlan<br> e-mail címhez kívánják a szolgáltatást igénybe venni. <br><b>Ha Ön több domainhez szeretne SMTP szolgáltatást igényelni kattintson a Profi SMTP csomag fülre!"><img src="images/i.png" alt="" title="" /></a>
+                                            </td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                                                        <tr>
+                                      <td class="tab_box_field1"></td>
+                                      <td class="tab_box_field2">
+                                        <table>
+                                          <tr>
+                                            <td class="tab_box_field2_pad"></td>
+                                            <td class="tab_box_field2_text">
+                                              Korlátlan postafiókhoz használható 
+                                            </td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                      <td class="tab_box_field3">
+                                        <img src="images/ico_good.png" alt="" title="" />
+                                      </td>
+                                    </tr>
+                                                                        <tr>
+                                      <td class="tab_box_field1_alt"></td>
+                                      <td class="tab_box_field2_alt">
+                                        <table>
+                                          <tr>
+                                            <td class="tab_box_field2_pad"></td>
+                                            <td class="tab_box_field2_text">
+                                              Havi 20.000 db e-mail kiküldési limit!                                            </td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                      <td class="tab_box_field3_alt">
+                                        <img src="images/ico_good.png" alt="" title="" />
+                                      </td>
+                                    </tr>
+                                    
+                                                                        <tr>
+                                      <td class="tab_box_field1"></td>
+                                      <td class="tab_box_field2">
+                                        <table>
+                                          <tr>
+                                            <td class="tab_box_field2_pad"></td>
+                                            <td class="tab_box_field2_text">
+                                              Minden országban elérhető 
+                                            </td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                      <td class="tab_box_field3">
+                                        <img src="images/ico_good.png" alt="" title="" />
+                                      </td>
+                                    </tr>
+                                                                        <tr>
+                                      <td class="tab_box_field1_alt"></td>
+                                      <td class="tab_box_field2_alt">
+                                        <table>
+                                          <tr>
+                                            <td class="tab_box_field2_pad"></td>
+                                            <td class="tab_box_field2_text">
+                                              Titkosított kommunikáció (TLS/SSL)                                            </td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                      <td class="tab_box_field3_alt">
+                                        <img src="images/ico_good.png" alt="" title="" />
+                                      </td>
+                                    </tr>
+                                    
+                                                                        <tr>
+                                      <td class="tab_box_field1"></td>
+                                      <td class="tab_box_field2">
+                                        <table>
+                                          <tr>
+                                            <td class="tab_box_field2_pad"></td>
+                                            <td class="tab_box_field2_text">
+                                              SPAM szűrés és vírus ellenőrzés 
+                                            </td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                      <td class="tab_box_field3">
+                                        <img src="images/ico_good.png" alt="" title="" />
+                                      </td>
+                                    </tr>
+                                                                        <tr>
+                                      <td class="tab_box_field1_alt"></td>
+                                      <td class="tab_box_field2_alt">
+                                        <table>
+                                          <tr>
+                                            <td class="tab_box_field2_pad"></td>
+                                            <td class="tab_box_field2_text">
+                                              24/7 ügyfélszolgálati felügyelet                                            </td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                      <td class="tab_box_field3_alt">
+                                        <img src="images/ico_good.png" alt="" title="" />
+                                      </td>
+                                    </tr>
+                                    
+                                                                        <tr>
+                                      <td class="tab_box_field1"></td>
+                                      <td class="tab_box_field2">
+                                        <table>
+                                          <tr>
+                                            <td class="tab_box_field2_pad"></td>
+                                            <td class="tab_box_field2_text">
+                                              Díjmentes beállítási segédlet 
+                                            </td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                      <td class="tab_box_field3">
+                                        <img src="images/ico_good.png" alt="" title="" />
+                                      </td>
+                                    </tr>
+                                                                      </table>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                                              </table>
+                    </div>
+                                        <div class="tab_div_visible" id="tab_1">
+                                          <table>
+                        <tr>
+                          <td class="tab_left">
+                                                    
+                            <table>
+                              <tr><td class="tab_left_sep"></td></tr>
+                              <tr>
+                                <td class="tab_box_label">
+                                  Profi <span class="csomag_orange_title">SMTP</span> csomag                                </td>
+                              </tr>
+                              <tr>
+                                <td class="tab_box_bg">
+                                  <table>
+                                    <tr>
+                                      <td class="tab_box_topsep"></td>
+                                    </tr>
+                                    <tr>
+                                      <td>
+                                        <table>
+                                          <tr>
+                                            <td class="tab_box_inside_pad"></td>
+                                            <td>
+                                              <table>
+                                                <tr>
+                                                  <td class="tab_box_inside_label">
+                                                    Prémium üzleti igényekhez igazított SMTP szerver hozzáférés 5 db domain névhez                                                  </td>
+                                                </tr>
+                                                <tr><td class="tab_box_inlabel2desc_sep"></td></tr>
+                                                <tr>
+                                                  <td>
+                                                    <table>
+                                                      <tr>
+                                                        <td class="tab_box_left_text">
+                                                          Maximum ugyanazon tulajdonosú 5 db domain névhez tartozó domainenként korlátlan számú postafiókból egy jelszóval használható. Prémium kategóriás termék, üzleti igényekre tervezve! Használata tárhely szolgáltatást nem igényel!                                                        </td>
+                                                        <td class="tab_box_stripe_pad"></td>
+                                                        <td class="tab_box_gray_stripe"></td>
+                                                        <td class="tab_box_stripe_pad"></td>
+                                                        <td>
+                                                          <table>
+                                                            <tr>
+                                                              <td class="tab_box_right_label">
+                                                                Most évente csak
+                                                              </td>
+                                                            </tr>
+                                                            <tr>
+                                                              <td>
+                                                                <table>
+                                                                  <tr>
+                                                                    <td class="tab_box_pricefield">14900</td>
+                                                                    <td class="tab_box_pricedesc">/ Ft+Áfa</td>
+                                                                  </tr>
+                                                                </table>
+                                                              </td>
+                                                            </tr>
+                                                            <tr><td class="tab_box_price2btn_sep"></td></tr>
+                                                            <tr>
+                                                              <td>
+                                                                <img class="clickable_image" src="images/btn_order.png" alt="Rendelés" title="Rendelés" onmouseup="ShowRegisterForPackage(2);" />
+                                                              </td>
+                                                            </tr>
+                                                          </table>
+                                                        </td>
+                                                      </tr>
+                                                    </table>
+                                                  </td>
+                                                </tr>
+                                              </table>
+                                            </td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                              <tr><td class="tab_box_bottom"></td></tr>
+                            </table>
+                                                      </td>
+                          <td>
+                            <table>
+                              <tr><td class="tab_right_sep"></td></tr>
+                              <tr>
+                                <td>
+                                  <table>
+                                    <tr>
+                                      <td class="tab_box_field1_alt"></td>
+                                      <td class="tab_box_field2_orange">
+                                        <table>
+                                          <tr>
+                                            <td class="tab_box_field2_pad"></td>
+                                            <td class="tab_box_field2_text_orange">
+                                              Maximum 5 db domain névhez használható                                            </td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                      <td class="tab_box_field3_orange">
+                                        <table>
+                                          <tr>
+                                            <td class="tab_box_field3_orange_pad"></td>
+                                            <td>
+                                              <a href="#" title="Elsősorban  több céget üzemeltető vállalkozóknak, viszonteladóknak ajánljuk, akik számára fontos a megbízható levélküldés, a telefonos segítségnyújtás és<br> az üzleti felhasználókra tervezett egyedi SPAM és vírus szűrés. FIGYELEM: a csomag csak egyazon tulajdonos domainjei között osztható meg, több tulajdonos nem engedélyezett!"><img src="images/i.png" alt="" title="" /></a>
+                                            </td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                                                        <tr>
+                                      <td class="tab_box_field1"></td>
+                                      <td class="tab_box_field2">
+                                        <table>
+                                          <tr>
+                                            <td class="tab_box_field2_pad"></td>
+                                            <td class="tab_box_field2_text">
+                                              Korlátlan postafiókhoz használható 
+                                            </td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                      <td class="tab_box_field3">
+                                        <img src="images/ico_good.png" alt="" title="" />
+                                      </td>
+                                    </tr>
+                                                                        <tr>
+                                      <td class="tab_box_field1_alt"></td>
+                                      <td class="tab_box_field2_alt">
+                                        <table>
+                                          <tr>
+                                            <td class="tab_box_field2_pad"></td>
+                                            <td class="tab_box_field2_text">
+                                              Havi 50.000 db e-mail kiküldési limit!                                            </td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                      <td class="tab_box_field3_alt">
+                                        <img src="images/ico_good.png" alt="" title="" />
+                                      </td>
+                                    </tr>
+                                    
+                                                                        <tr>
+                                      <td class="tab_box_field1"></td>
+                                      <td class="tab_box_field2">
+                                        <table>
+                                          <tr>
+                                            <td class="tab_box_field2_pad"></td>
+                                            <td class="tab_box_field2_text">
+                                              Minden országban elérhető 
+                                            </td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                      <td class="tab_box_field3">
+                                        <img src="images/ico_good.png" alt="" title="" />
+                                      </td>
+                                    </tr>
+                                                                        <tr>
+                                      <td class="tab_box_field1_alt"></td>
+                                      <td class="tab_box_field2_alt">
+                                        <table>
+                                          <tr>
+                                            <td class="tab_box_field2_pad"></td>
+                                            <td class="tab_box_field2_text">
+                                              Titkosított kommunikáció (TLS/SSL)                                            </td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                      <td class="tab_box_field3_alt">
+                                        <img src="images/ico_good.png" alt="" title="" />
+                                      </td>
+                                    </tr>
+                                    
+                                                                        <tr>
+                                      <td class="tab_box_field1"></td>
+                                      <td class="tab_box_field2">
+                                        <table>
+                                          <tr>
+                                            <td class="tab_box_field2_pad"></td>
+                                            <td class="tab_box_field2_text">
+                                              Prémium SPAM és vírus szűrés 
+                                            </td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                      <td class="tab_box_field3">
+                                        <img src="images/ico_good.png" alt="" title="" />
+                                      </td>
+                                    </tr>
+                                                                        <tr>
+                                      <td class="tab_box_field1_alt"></td>
+                                      <td class="tab_box_field2_alt">
+                                        <table>
+                                          <tr>
+                                            <td class="tab_box_field2_pad"></td>
+                                            <td class="tab_box_field2_text">
+                                              24/7 ügyfélszolgálati felügyelet                                            </td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                      <td class="tab_box_field3_alt">
+                                        <img src="images/ico_good.png" alt="" title="" />
+                                      </td>
+                                    </tr>
+                                    
+                                                                        <tr>
+                                      <td class="tab_box_field1"></td>
+                                      <td class="tab_box_field2">
+                                        <table>
+                                          <tr>
+                                            <td class="tab_box_field2_pad"></td>
+                                            <td class="tab_box_field2_text">
+                                              Díjmentes beállítási segédlet, akár telefonos segítségnyújtással! 
+                                            </td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                      <td class="tab_box_field3">
+                                        <img src="images/ico_good.png" alt="" title="" />
+                                      </td>
+                                    </tr>
+                                                                      </table>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                                              </table>
+                    </div>
+                                        <div class="tab_div" id="tab_3">
+                                          <table>
+                        <tr>
+                          <td class="tab_left">
+                                                    <!-- ÚJDOBOZ      !-->
+                            <table>
+                              <tr><td class="tab_left_sep"></td></tr>
+                              <tr>
+                                <td class="tab_box_label">
+                                  Hírlevél <span class="csomag_orange_title">SMTP</span> csomag                                </td>
+                              </tr>
+                              <tr>
+                                <td class="tab_box_bg">
+                                  <table>
+                                    <tr><td class="tab_box_newslettertopsep"></td></tr>
+                                    <tr>
+                                      <td>
+                                        <table>
+                                          <tr>
+                                            <td class="tab_box_inside_pad"></td>
+                                            <td>
+                                              <table>
+                                                <tr>
+                                                  <td class="tab_box_inside_label">
+                                                    Segítségével forgalmi korlátozások nélkül, saját dedikált IP címén végezhet hírlevélküldő tevékenységet                                                </tr>
+                                                <tr><td class="tab_box_inlabel2desc_sep"></td></tr>
+                                                <tr>
+                                                  <td>
+                                                    <table>
+                                                      <tr>
+                                                        <td class="tab_box_text">
+                                                          Dedikált IP címmel, így használatában nem korlátozza mások akár SPAM jellegű tevékenysége.  Használata tárhely szolgáltatást nem igényel!                                                          </td>
+                                                      </tr>
+                                                    </table>
+                                                  </td>
+                                                </tr>
+                                              </table>
+                                            </td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                    <tr><td class="tab_box_newsletterbtmsep"></td></tr>
+                                  </table>
+                                </td>
+                              </tr>
+                              <tr><td class="tab_box_bottom"></td></tr>
+                            </table>
+                            <!-- ÚJDOBOZ vége !-->
+                                                    </td>
+                          <td>
+                            <table>
+                              <tr><td class="tab_right_sep"></td></tr>
+                              <tr>
+                                <td>
+                                  <table>
+                                    <tr>
+                                      <td class="tab_box_field1_alt"></td>
+                                      <td class="tab_box_field2_orange">
+                                        <table>
+                                          <tr>
+                                            <td class="tab_box_field2_pad"></td>
+                                            <td class="tab_box_field2_text_orange">
+                                              1 db domainhez dedikált IP címmel                                            </td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                      <td class="tab_box_field3_orange">
+                                        <table>
+                                          <tr>
+                                            <td class="tab_box_field3_orange_pad"></td>
+                                            <td>
+                                              <a href="#" title="Nagyobb e-mail kampány kiküldése esetén több IP-t is rendelhet, akár dedikált erőforrással, mely lehetővé <br>teszi, hogy hírlevele minél gyorsabban kiküldésre <br>kerüljön. Egyedi igényét jelezze az info@smtp.hu címen."><img src="images/i.png" alt="" title="" /></a>
+                                            </td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                                                        <tr>
+                                      <td class="tab_box_field1"></td>
+                                      <td class="tab_box_field2">
+                                        <table>
+                                          <tr>
+                                            <td class="tab_box_field2_pad"></td>
+                                            <td class="tab_box_field2_text">
+                                              Kifejezetten hírlevelek kiküldésére 
+                                            </td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                      <td class="tab_box_field3">
+                                        <img src="images/ico_good.png" alt="" title="" />
+                                      </td>
+                                    </tr>
+                                                                        <tr>
+                                      <td class="tab_box_field1_alt"></td>
+                                      <td class="tab_box_field2_alt">
+                                        <table>
+                                          <tr>
+                                            <td class="tab_box_field2_pad"></td>
+                                            <td class="tab_box_field2_text">
+                                              Évi <span class=\'\'\'\'mail_count\'\'\'\'></span> e-mail kiküldési limit!                                            </td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                      <td class="tab_box_field3_alt">
+                                        <img src="images/ico_good.png" alt="" title="" />
+                                      </td>
+                                    </tr>
+                                    
+                                                                        <tr>
+                                      <td class="tab_box_field1"></td>
+                                      <td class="tab_box_field2">
+                                        <table>
+                                          <tr>
+                                            <td class="tab_box_field2_pad"></td>
+                                            <td class="tab_box_field2_text">
+                                              SPAM és vírusszűrés kikapcsolva - garantált az e-mailek kiküldése 
+                                            </td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                      <td class="tab_box_field3">
+                                        <img src="images/ico_good.png" alt="" title="" />
+                                      </td>
+                                    </tr>
+                                                                        <tr>
+                                      <td class="tab_box_field1_alt"></td>
+                                      <td class="tab_box_field2_alt">
+                                        <table>
+                                          <tr>
+                                            <td class="tab_box_field2_pad"></td>
+                                            <td class="tab_box_field2_text">
+                                              Titkosított kommunikáció (TLS/SSL)                                            </td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                      <td class="tab_box_field3_alt">
+                                        <img src="images/ico_good.png" alt="" title="" />
+                                      </td>
+                                    </tr>
+                                    
+                                                                        <tr>
+                                      <td class="tab_box_field1"></td>
+                                      <td class="tab_box_field2">
+                                        <table>
+                                          <tr>
+                                            <td class="tab_box_field2_pad"></td>
+                                            <td class="tab_box_field2_text">
+                                              Egyedileg skálázható erőforrások, akár havi 1.000.000 kiküldhető hírlevél egyedi megállapodás alapján! 
+                                            </td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                      <td class="tab_box_field3">
+                                        <img src="images/ico_good.png" alt="" title="" />
+                                      </td>
+                                    </tr>
+                                                                        <tr>
+                                      <td class="tab_box_field1_alt"></td>
+                                      <td class="tab_box_field2_alt">
+                                        <table>
+                                          <tr>
+                                            <td class="tab_box_field2_pad"></td>
+                                            <td class="tab_box_field2_text">
+                                              Díjmentes beállítási segédlet, szolgáltatásunkat megrendeléskor díjmentesen beállítjuk honlapján, hírlevélküldőjében!                                            </td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                      <td class="tab_box_field3_alt">
+                                        <img src="images/ico_good.png" alt="" title="" />
+                                      </td>
+                                    </tr>
+                                    
+                                                                        <tr>
+                                      <td class="tab_box_field1"></td>
+                                      <td class="tab_box_field2">
+                                        <table>
+                                          <tr>
+                                            <td class="tab_box_field2_pad"></td>
+                                            <td class="tab_box_field2_text">
+                                              Minden országban elérhető 
+                                            </td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                      <td class="tab_box_field3">
+                                        <img src="images/ico_good.png" alt="" title="" />
+                                      </td>
+                                    </tr>
+                                                                      </table>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                                                <script type="text/javascript">
+                        
+                        $(document).ready(function()
+                        { 
+                          $("input[name='domain[1]']").change(function()
+                          {
+                            $("input[name=username]").val("smtp@"+$(this).val());
+                          }).change();
+                          function size(obj) {
+                            var size = 0, key;
+                            for (key in obj) {
+                                if (obj.hasOwnProperty(key)) size++;
+                            }
+                            return size;
+                          };
+                          $("#slider").slider({
+                              min: 1,
+                              max: size(Slider_Values),
+                              step: 1,
+                              slide: function (event, ui) {
+                                  $('.mail_count').html(number_format(parseInt(Slider_Values[ui.value].count)*1000*12, 0, ',', '.') + " darab");
+                                  $(".tcalc_price").html(number_format(Slider_Values[ui.value].price/1000*Slider_Values[ui.value].count*1000*12, 0, ',', '.'));
+                                  $(".perLevel").html(number_format(Slider_Values[ui.value].price/1000, 3, ',', '.'));
+                                  $("input[name=mail_count]").val(parseInt(Slider_Values[ui.value].count)*1000);
+                                  $("input[name=help_id]").val(ui.value);
+                              }
+                          });
+                          
+                                                    
+                                                  });
+                        $(".mail_count").html("240.000 darab");
+                        </script>
+                        <!-- KALKULÁTOR      -->
+                        <input name="mail_count" type="hidden" value="20000"/>
+                        <tr><td class="tab_box2calc_sep" colspan="2"></td></tr>
+                        <tr>
+                          <td colspan="2">
+                            <table>
+                              <tr><td class="tab_calc_head">Mennyi levelet szeretne küldeni egy év alatt? </td></tr>
+                              <tr>
+                                <td class="tab_calc_bg">
+                                  <form action="" method="post">
+                                    <table>
+                                      <tr><td class="tcalc_frm_sep"></td></tr>
+                                      <tr>
+                                        <td>
+                                          <table>
+                                            <tr>
+                                              <td class="tcalc_pad"></td>
+                                              <td><div class="mail_txt">Levélszám: </div><div id="slider"></div><div class="sliderHelp"></div><div class="mail_count">240.000 darab</div></td>
+                                              <td class="tcalc_pad"></td>
+                                              
+                                              <td class="tcalc_bar"></td>
+                                              <td class="tcalc_bar_pad"></td>
+                                              <td class="tcalc_txtfld">
+                                                <table>
+                                                  <tr><td class="tcalc_txt">Most csak <br/><span class="tcalc_price">30.000</span> <span class="tcalc_vat">Ft+Áfa</span></td></tr>
+                                                </table>
+                                                <table>
+                                                  <tr><td class="tcalc_txt"><span class="perLevel">0,125</span> Ft + ÁFA / levél</td></tr>
+                                                </table>
+                                              </td>
+                                              <td>
+                                                <img class="clickable_image" src="images/btn_order.png" alt="Rendelés" title="Rendelés" onmouseup="ShowRegisterForPackage(4);" />
+                                              </td>
+                                            </tr>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                    </table>
+                                  </form>
+                                </td>
+                              </tr>
+                              <tr><td class="tab_calc_btm"></td>
+                            </table>
+                          </td>
+                        </tr>
+                        <!-- KALKULÁTOR vége -->
+                                              </table>
+                    </div>
+                                        <!-- Csomagok vége -->
+                    <!-- Ismertető fül      -->
+                    <div class="tab_div" id="tab_right_0">
+                                            <table width="911" style="font-family: Trebuchet MS; font-size: 12px;">
+                        <tr>
+                          <td height="20" colspan="6"></td>
+                        </tr>
+                        <tr>
+                          <td rowspan="8" width="400" height="32" style="padding-left: 10px; vertical-align:top;">
+                            <!-- New injection -->
+                            <a class= "urlaplink" href="#" onclick="showsubdiv('regformholder')">
+                              <div id="ismertetoimg" style="display:block;">
+                                <div class="seperation">
+                                  <div class="flashholder">
+                                    <div class="flashpositioner">
+                                      <object data="flash/smtp_525x426.swf" type="application/x-shockwave-flash" id="myflash" width="525" height="426">
+                                      <param name="movie" value="flash/smtp_525x426.swf" />
+                                      <param name="height" value="426" />
+                                      <param name="width" value="525" />
+                                      <param name="quality" value="high" />
+                                      <param name="menu" value="false" />
+                                      <param name="allowscriptaccess" value="samedomain" />
+                                      <param name="wmode" value="transparent" />
+                                      </object>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div id="regformimg" style="display:none;">
+                                <div class="seperation">
+                                  <img src="imgs/megrendel.jpg" />
+                                </div>
+                              </div>
+                              <div id="jelszoimg" style="display:none;">
+                                <div class="seperation">
+                                  <img src="imgs/jelszo.jpg" />
+                                </div>
+                              </div>
+                            </a>
+                          </td>
+                          <td class="descriptionfield">
+                            <div class="seperation" id="descriptionholder">
+                              <table>
+                                <tr>
+                                  <td class="regformtop"></td>
+                                </tr>
+                                <tr>
+                                  <td class="regformbg">
+                                    <table>
+                                      <tr>
+                                        <td class="descriptionpad1"></td>
+                                        <td>
+                                          <table>
+                                            <tr>
+                                              <td align="justify"><b>Az SMTP.HU szolgáltatásunk bemutatása:</b></p>Független SMTP szerver szolgáltatásunk segítségével, Ön kapcsolt szolgáltatások (pl tárhely) nélkül is bárhol és bármikor internet szolgáltatótól függetlenül biztonságos Önnek dedikált csatornánk tud e-mailt küldeni notebookja, táblaszámítópe, mobiltelefonja segítségével. Mindezt belföldön, vagy külföldön előre tervezhető, éves költségért. Ismerje meg csomagkínálatunkat!</p></td>
+                                            </tr>
+                                            <tr>
+                                              <td><b>Kímélje meg magát az elveszett e-mailek és az örökös átállítás bonyodalmaitól.</p></b></td>
+                                            </tr>
+                                            <tr>
+                                              <td>
+                                                <a href="http://www.smtp.hu/tajekoztato.pdf" target="new">További információk érdeklik? Olvassa el tájékoztatónkat!</a><br>
+                                                <a href="http://www.smtp.hu/aszf.pdf" target="new">Általános Szerződési Feltételek SMTP kiszolgáló szerver szolgáltatásunkhoz</a></p>
+                                                Ha Ön már ügyfelünk töltse le smtp kiszolgáló beállítási útmutatónkat:<br>
+                                                <ul>
+                                                <li><a href="http://www.smtp.hu/segedlet/smtp_mo.pdf" target="new">Microsoft Outlook SMTP szerver beállítási segédlet</a></li>
+                                                <li><a href="http://www.smtp.hu/segedlet/smtp_wm.pdf" target="new">Windows Mail SMTP kiszolgáló beállítási segédlet</a></li>
+                                                <li><a href="http://www.smtp.hu/segedlet/smtp_tb.pdf" target="new">Thunderbird SMTP beállítási segédlet</a></li>
+                                                <li><a href="http://www.smtp.hu/segedlet/smtp_mac.pdf" target="new">Mac Mail SMTP server beállítási segédlet</a></li>
+                                                </ul>
+                                                <p><br><br></p><b><< Kérjük nézze meg bemutatkozó filmünket</b>
+                                              </td>
+                                            </tr>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                    </table>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td class="regformbottom"></td>
+                                </tr>
+                              </table>
+                            </div>
+                          </td>
+                        </tr>
+                      </table>
+                    </div>
+                    <!-- Ismertető fül vége -->
+                    <!-- Regisztráció fül      -->
+                    <div class="tab_div" id="tab_right_1">
+                                            <table border="0" cellspacing="0" cellpadding="0" width="911" style="font-family: Trebuchet MS; font-size: 12px;">
+                        <tr>
+                          <td height="20" colspan="6"></td>
+                        </tr>
+                        <tr>
+                          <td rowspan="8" width="400" height="32" style="padding-left: 10px; vertical-align:top;">
+                            <!-- New injection -->
+                            <a class= "urlaplink" href="#" onclick="showsubdiv('regformholder')">
+                              <div id="ismertetoimg" style="display:block;">
+                                <div class="seperation">
+                                  <div class="flashholder">
+                                    <div class="flashpositioner">
+                                      <object data="flash/smtp_525x426.swf" type="application/x-shockwave-flash" id="myflash" width="525" height="426">
+                                      <param name="movie" value="flash/smtp_525x426.swf" />
+                                      <param name="height" value="426" />
+                                      <param name="width" value="525" />
+                                      <param name="quality" value="high" />
+                                      <param name="menu" value="false" />
+                                      <param name="allowscriptaccess" value="samedomain" />
+                                      <param name="wmode" value="transparent" />
+                                      </object>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div id="regformimg" style="display:none;">
+                                <div class="seperation">
+                                  <img src="imgs/megrendel.jpg" />
+                                </div>
+                              </div>
+                              <div id="jelszoimg" style="display:none;">
+                                <div class="seperation">
+                                  <img src="imgs/jelszo.jpg" />
+                                </div>
+                              </div>
+                            </a>
+                          </td>
+                          <td class="descriptionfield">
+                            <div class="seperation" id="regformholder">
+                              <form name="regform" id="regform" method="post" action="regisztracio.php">
+                                <input type="hidden" name="formname" value="regformholder">
+                                <table>
+                                  <tr>
+                                    <td class="regformtop"></td>
+                                  </tr>
+                                  <tr>
+                                    <td class="regformbg">
+                                      <table>
+                                        <tr>
+                                          <td>
+                                            <table> 
+                                              <tr>
+                                                <td class="regformpad1"></td>
+                                                <td class="regformfield1">
+                                                  <span class="regformtext">Típus:</span>
+                                                </td>
+                                                <td class="regformpad2"></td>
+                                                <td>
+                                                  <table>
+                                                                                                        <tr>
+                                                      <td>
+                                                                                                                <input type="radio" name="tipus" id="tipus2" value="rendeles" checked="checked">
+                                                                                                              </td>
+                                                      <td>
+                                                        Megrendelés
+                                                      </td>
+                                                    </tr>
+                                                    </table>
+                                                </td>
+                                              </tr>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td class="regformsep"></td>
+                                        </tr>
+                                        <tr>
+                                          <td>
+                                            <table> 
+                                              <tr>
+                                                <td class="regformpad1"></td>
+                                                <td class="regformfield1">
+                                                  <span class="regformtext">Választott csomag:</span>
+                                                </td>
+                                                <td class="regformpad2"></td>
+                                                <td class="csomag_id">
+                                                  <div class="hider">
+                                                  <!-- <select name="csomag_id" id="csomag_id" class="regformselect" onChange="sendReq('domainlista', 'ajax.php', 'func=mutatDomainLista&args[csomag_id]='+getSelected(getObj('csomag_id')));">
+<option value="1">Alap SMTP csomag (9900 Ft)</option>
+<option value="2">Profi SMTP csomag (14900 Ft)</option>
+<option value="3">Hírlevél SMTP csomag (régi) (120000 Ft)</option>
+<option value="4">Hírlevél küldő csomag (egyenlegfeltöltős) (0 Ft)</option>
+</select> -->
+                                                  <select name="csomag_id" id="csomag_id" class="regformselect" onchange="sendReq('domainlista', 'ajax.php', 'func=mutatDomainLista&amp;args[csomag_id]='+getSelected(getObj('csomag_id')));">
+																										<option value="1">Alap SMTP csomag (9900 Ft)</option>
+																										<option value="2">Profi SMTP csomag (14900 Ft)</option>
+																										<!-- <option value="3">Hírlevél SMTP csomag (120000 Ft)</option> -->
+                                                  </div>
+																										
+																									</select>
+                                                </td>
+                                              </tr>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td class="regformsep"></td>
+                                        </tr>
+                                        <tr>
+                                          <td>
+                                            <table> 
+                                              <tr>
+                                                <td class="regformpad1"></td>
+                                                <td colspan="3">
+                                                  <div id="domainlista">
+                                                                                                    </div>
+                                                </td>
+                                              </tr>
+                                            </table>
+                                            
+                                                                                          <script>
+                                                //sendReq('domainlista', 'ajax.php', 'func=mutatDomainLista&args[csomag_id]='+getSelected(getObj('csomag_id')));
+                                                sendReq('domainlista', 'ajax.php', 'func=mutatDomainLista&args[csomag_id]='+1);
+                                              </script>
+                                                                                        
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td class="regformsep2"></td>
+                                        </tr>
+                                        <tr>
+                                          <td>
+                                            <table> 
+                                              <tr>
+                                                <td class="regformpad1"></td>
+                                                <td class="regformfield1">
+                                                  <span class="regformtext">Név / Cégnév:</span>
+                                                </td>
+                                                <td class="regformpad2"></td>
+                                                <td>
+                                                  <input type="text" class="regformtextinput" name="nev" value="">
+                                                </td>
+                                              </tr>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td class="regformsep"></td>
+                                        </tr>
+                                        <tr>
+                                          <td>
+                                            <table> 
+                                              <tr>
+                                                <td class="regformpad1"></td>
+                                                <td class="regformfield1">
+                                                  <span class="regformtext">Cím / Székhely:</span>
+                                                </td>
+                                                <td class="regformpad2"></td>
+                                                <td>
+                                                  <input type="text" class="regformtextinput" name="cim" value="">
+                                                </td>
+                                              </tr>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td class="regformsep"></td>
+                                        </tr>
+                                        <tr>
+                                          <td>
+                                            <table> 
+                                              <tr>
+                                                <td class="regformpad1"></td>
+                                                <td class="regformfield1">
+                                                  <span class="regformtext">Telefonszám:</span>
+                                                </td>
+                                                <td class="regformpad2"></td>
+                                                <td>
+                                                  <input type="text" class="regformtextinput" name="tel" value="">
+                                                </td>
+                                              </tr>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td class="regformsep"></td>
+                                        </tr>
+                                        <tr>
+                                          <td>
+                                            <table> 
+                                              <tr>
+                                                <td class="regformpad1"></td>
+                                                <td class="regformfield1">
+                                                  <span class="regformtext">E-mail cím:</span>
+                                                </td>
+                                                <td class="regformpad2"></td>
+                                                <td>
+                                                  <input type="text" class="regformtextinput" name="email" value="">
+                                                </td>
+                                              </tr>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td class="regformsep3"></td>
+                                        </tr>
+                                        <tr>
+                                          <td>
+                                            <table> 
+                                              <tr>
+                                                <td class="regformpad1"></td>
+                                                <td class="regformfield1">
+                                                  <span class="regformtext">Felhasználónév:</span>
+                                                </td>
+                                                <td class="regformpad2"></td>
+                                                <td>
+                                                  <input type="text" class="regformtextinput" name="username" value="">
+                                                </td>
+                                              </tr>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td class="regformsep"></td>
+                                        </tr>
+                                        <tr>
+                                          <td>
+                                            <table> 
+                                              <tr>
+                                                <td class="regformpad1"></td>
+                                                <td class="regformfield1">
+                                                  <span class="regformtext">Jelszó:</span>
+                                                </td>
+                                                <td class="regformpad2"></td>
+                                                <td>
+                                                  <input type="password" class="regformtextinput" name="jelszo" value="">
+                                                </td>
+                                              </tr>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td class="regformsep"></td>
+                                        </tr>
+                                        <tr>
+                                          <td>
+                                            <table> 
+                                              <tr>
+                                                <td class="regformpad1"></td>
+                                                <td class="regformfield1">
+                                                  <span class="regformtext">Jelszó ismét:</span>
+                                                </td>
+                                                <td class="regformpad2"></td>
+                                                <td>
+                                                  <input type="password" class="regformtextinput" name="jelszo2" value="">
+                                                </td>
+                                              </tr>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td class="regformsep2"></td>
+                                        </tr>
+                                        <tr>
+                                          <td>
+                                            <table> 
+                                              <tr>
+                                                <td class="regformpad1"></td>
+                                                <td class="regformfield1">
+                                                  <span class="regformtext">Megjegyzés:</span>
+                                                </td>
+                                                <td class="regformpad2"></td>
+                                                <td>
+                                                  <textarea class="regformcomment" name="megjegyzes"></textarea>
+                                                </td>
+                                              </tr>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td class="regformcaptchasep"></td>
+                                        </tr>
+                                        <tr>
+                                          <td>
+                                            <table> 
+                                              <tr>
+                                                <td class="regformpad1"></td>
+                                                <td class="regformfield1">
+                                                  <span class="regformtext">Kód:</span>
+                                                </td>
+                                                <td class="regformpad2"></td>
+                                                <td>
+                                                  <img src="captcha/captcha_pic.inc.php" border="0" height="33" style="vertical-align: middle;"> 
+                                                </td>
+                                                <td>
+                                                  <input type="text" class="regformcaptchainput" name="ckod" value="">
+                                                </td>
+                                              </tr>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td class="regformcaptchasep"></td>
+                                        </tr>
+                                        <tr>
+                                          <td>
+                                            <table>
+                                              <tr>
+                                                <td class="regformbuttonpad1"></td>
+                                                <td class="regformbuttonfield1">
+                                                  <input type="image" src="imgs/btn_send.png">
+                                                </td>
+                                                <td>
+                                                  <img src="imgs/btn_datadelete.png" style="cursor: pointer;" onClick="getObj('regform').reset();">
+                                                  <input type="hidden" name="sent" value="1">
+                                                </td>
+                                              </tr>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </table>
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td class="regformbottom"></td>
+                                  </tr>
+                                </table>
+                              </form>
+                            </div>
+                          </td>
+                        </tr>
+                      </table>
+                    </div>
+                    <!-- Regisztráció fül vége -->
+                    <!-- Elfelejtett jelszó fül      -->
+                    <div class="tab_div" id="tab_right_2">
+                                            <table border="0" cellspacing="0" cellpadding="0" width="911" style="font-family: Trebuchet MS; font-size: 12px;">
+                        <tr>
+                          <td height="20" colspan="6"></td>
+                        </tr>
+                        <tr>
+                          <td rowspan="8" width="400" height="32" style="padding-left: 10px; vertical-align:top;">
+                            <!-- New injection -->
+                            <a class= "urlaplink" href="#" onclick="showsubdiv('regformholder')">
+                              <div id="ismertetoimg" style="display:block;">
+                                <div class="seperation">
+                                  <div class="flashholder">
+                                    <div class="flashpositioner">
+                                      <object data="flash/smtp_525x426.swf" type="application/x-shockwave-flash" id="myflash" width="525" height="426">
+                                      <param name="movie" value="flash/smtp_525x426.swf" />
+                                      <param name="height" value="426" />
+                                      <param name="width" value="525" />
+                                      <param name="quality" value="high" />
+                                      <param name="menu" value="false" />
+                                      <param name="allowscriptaccess" value="samedomain" />
+                                      <param name="wmode" value="transparent" />
+                                      </object>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div id="regformimg" style="display:none;">
+                                <div class="seperation">
+                                  <img src="imgs/megrendel.jpg" />
+                                </div>
+                              </div>
+                              <div id="jelszoimg" style="display:none;">
+                                <div class="seperation">
+                                  <img src="imgs/jelszo.jpg" />
+                                </div>
+                              </div>
+                            </a>
+                          </td>
+                          <td class="descriptionfield">
+                            <div class="seperation" id="passwordresetholder">
+                              <table>
+                                  <tr>
+                                    <td class="regformtop"></td>
+                                  </tr>
+                                  <tr>
+                                    <td class="regformbg">
+                                      <table>
+                                        <tr>
+                                          <td class="passwordpad1"></td>
+                                          <td>
+                                            <form name="reminderform" id="reminderform" method="post" action="jelszo.php">
+                                              <input type="hidden" name="formname" value="passwordresetholder">
+                                              <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                                <tr>
+                                                  <td> 
+                                                    <table border="0" cellpadding="0" cellspacing="0" width="361">
+                                                      <tr valign="top">
+                                                        <td width="30%">Felhasználónév: *</td>
+                                                        <td width="70%"><input type="text" class="regformtextinput" name="username" value="" size=40></td>
+                                                        <td width="100"></td>
+                                                      </tr>
+                                                      <tr valign="top"><td width="30%">&nbsp;</td><td width="70%"></td><td width="100"></td></tr>
+                                                      <tr align="" valign="top">
+                                                        <td valign="top">
+                                                          Kód:
+                                                        </td>
+                                                        <td valign="top" align="">
+                                                          <img src="captcha/captcha_pic.inc.php" border="0" height="33" style="vertical-align: middle;"> 
+                                                          <input type="text" name="ckod" class="regformcaptchainput" value="">
+                                                          <tr>
+                                                        </td>
+                                                        <td width="100"></td>
+                                                      </tr>
+                                                      <tr align="" valign="top">
+                                                        <td valign="top" class="regformbuttonpad1"></td>
+                                                        <td valign="top" align="" class="regformbuttonfield1">
+                                                          <input type="image" src="imgs/btn_send.png" onClick="getObj('reminderform').submit();"><img src="imgs/btn_datadelete.png" style="cursor: pointer;" onClick="getObj('reminderform').reset();">
+                                                          <input type="hidden" name="sent" value="2">
+                                                        </td>
+                                                      <tr align="" valign="top">
+                                                        <td valign="top" align="" colspan="2">
+                                                          * Ajda meg az email címet amivel regisztrált az oldalon!<br/>
+                                                          Az email címére egy levelet fog kapni amiben megtalálja a további teendőket.
+                                                        </td>
+                                                        <td width="100"></td>
+                                                      </tr>
+                                                    </table>
+                                                  </td>
+                                                </tr>  
+                                              </table>
+                                            </form>
+                                          </td>
+                                        </tr>
+                                      </table>
+                                    </td>
+                                  </tr>
+                                <tr>
+                                  <td class="regformbottom"></td>
+                                </tr>
+                              </table>
+                            </div>
+                          </td>
+                        </tr>
+                      </table>
+                    </div>
+                    <!-- Ismertető fül vége -->
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr><td class="tabs2form_sep"></td></tr>
+          <tr>
+            <td>
+              <table>
+                <tr>
+                  <td class="bluebox_wide_pad"></td>
+                  <td>
+                    <!-- Form doboz      -->
+                    <table>
+                      <tr><td class="bluebox_wide_top"></td></tr>
+                      <tr>
+                        <td class="bluebox_wide_bg">
+                          <table>
+                            <tr>
+                              <td class="form_left_pad"></td>
+                              <td class="form_left_field">
+                                                                <!-- Visszahívás      -->
+                                <form name="cbform" id="cbform" action="" method="post">
+                                  <input type="hidden" name="sent" value="1" />
+                                  <input type="hidden" name="vendegkonyv" value="1" />
+                                  <table>
+                                    <tr><td class="form_top_sep"></td></tr>
+                                    <tr>
+                                      <td class="form_label">Kérjen ingyenes visszahívást!</td>
+                                    </tr>
+                                    <tr><td class="form_label_sep"></td></tr>
+                                    <tr>
+                                      <td>
+                                        <table>
+                                          <tr><td class="callback_gray_top"></td></tr>
+                                          <tr>
+                                            <td class="callback_gray_bg">
+                                              <table>
+                                                <tr>
+                                                  <td class="callback_gray_pad"></td>
+                                                  <td class="callback_gray_text">
+                                                    Adja meg adatait, valamint, hogy mivel kapcsolatban érdeklődik.<br/>
+                                                    <span class="callback_gray_label">Illetékes kollégáink hamarosan visszahívják!</span>
+                                                  </td>
+                                                </tr>
+                                              </table>
+                                            </td>
+                                          </tr>
+                                          <tr><td class="callback_gray_bottom"></td></tr>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                    <tr><td class="callback_gray_sep"></td></tr>
+                                    <tr>
+                                      <td>
+                                        <table>
+                                          <tr>
+                                            <td class="callback_left">
+                                              <table>
+                                                <tr>
+                                                  <td class="callback_tx_bg">
+                                                    <table>
+                                                      <tr>
+                                                        <td class="callback_tx_pad"></td>
+                                                        <td class="callback_tx_label">Név:</td>
+                                                        <td>
+                                                          <input type="text" class="callback_tx" name="ffname" id="ffname" />
+                                                        </td>
+                                                      </tr>
+                                                    </table>
+                                                  </td>
+                                                </tr>
+                                                <tr><td class="callback_input_sep"></td></tr>
+                                                <tr>
+                                                  <td>
+                                                    <table>
+                                                      <tr>
+                                                        <td>
+                                                          <table>
+                                                            <tr><td class="callback_largeinput_top"></td></tr>
+                                                            <tr>
+                                                              <td class="callback_largeinput_bg">
+                                                                <table>
+                                                                  <tr>
+                                                                    <td class="callback_largeinput_pad"></td>
+                                                                    <td>
+                                                                      <textarea class="callback_largeinput" name="ffcomment" id="ffcomment" onfocus="ClearField('ffcomment');" cols="25" rows="4">Kérdés:</textarea>
+                                                                    </td>
+                                                                  </tr>
+                                                                </table>
+                                                              </td>
+                                                            </tr>
+                                                            <tr><td class="callback_largeinput_bottom"></td></tr>
+                                                          </table>
+                                                        </td>
+                                                      </tr>
+                                                    </table>
+                                                  </td>
+                                                </tr>
+                                              </table>
+                                            </td>
+                                            <td>
+                                              <table>
+                                                <tr>
+                                                  <td class="callback_tx_bg">
+                                                    <table>
+                                                      <tr>
+                                                        <td class="callback_tx_pad"></td>
+                                                        <td class="callback_tx_label">Telefon:</td>
+                                                        <td>
+                                                          <input type="text" class="callback_tx" id="fftel" name="fftel" />
+                                                        </td>
+                                                      </tr>
+                                                    </table>
+                                                  </td>
+                                                </tr>
+                                                <tr><td class="callback_input_sep"></td></tr>
+                                                <tr>
+                                                  <td class="callback_tx_bg">
+                                                    <table>
+                                                      <tr>
+                                                        <td class="callback_tx_pad"></td>
+                                                        <td class="callback_tx_label">E-mail:</td>
+                                                        <td>
+                                                          <input type="text" class="callback_tx" id="ffemail" name="ffemail" />
+                                                        </td>
+                                                      </tr>
+                                                    </table>
+                                                  </td>
+                                                </tr>
+                                                <tr><td class="callback_input_sep"></td></tr>
+                                                <tr>
+                                                  <td>
+													<img src="captcha/captcha_pic.inc.php" border="0" height="33" style="vertical-align: middle;" />
+													<input type="text" name="code" placeholder="Hitelesítő kód" style="width: 102px;font-weight:bold;font-size:11px;color:#696872;border: solid 1px #ccc;-webkit-border-radius: 0 7px 7px 7px;border-radius: 0 7px 7px 7px;padding: 6px 4px;"/>
+                                                  </td>
+                                                </tr>
+                                                <tr>
+                                                  <td>
+                                                    <input type="submit" class="green_btn_sml" name="callbackbutton" id="callbackbutton" value="Elküld"/>
+                                                  </td>
+                                                </tr>
+                                              </table>
+                                            </td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                </form>
+                                <!-- Visszahívás vége -->                              </td>
+                              <td class="form_right_field">
+                                                                                                <!-- Ügyfeleink mondták      -->
+                                <table>
+                                  <tr><td class="form_top_sep"></td></tr>
+                                  <tr>
+                                    <td class="form_label">Ügyfeleink mondták</td>
+                                  </tr>
+                                  <tr><td class="form_label_sep"></td></tr>
+                                  <tr>
+                                    <td>
+                                      <table>
+                                        <tr><td class="consumersaid_top"></td></tr>
+                                        <tr>
+                                          <td class="consumersaid_bg">
+                                            <table>
+                                              <tr>
+                                                <td class="consumersaid_pad"></td>
+                                                <td class="consumersaid_text">
+                                                  “Cégünk nagyon telített piacon dolgozik, így a piac ösztönzésére és saját üzleti céljaink elérésére fontosnak tartottuk az interneten való hatékony kommunikációt. Mi megtaláltuk partnerünket a SMTP.hu-ban!”
+                                                </td>
+                                              </tr>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                        <tr><td class="consumersaid_bottom"></td></tr>
+                                      </table>
+                                    </td>
+                                  </tr>
+                                  <tr><td class="consumersaid_bottom_sep"></td></tr>
+                                  <tr>
+                                    <td>
+                                      <table>
+                                        <tr>
+                                          <td class="consumersaid_name_pad"></td>
+                                          <td>
+                                            <table>
+                                              <tr>
+                                                <td class="consumersaid_name">
+                                                  Dr. Nagy Balázs - vezérigazgató                                                 </td>
+                                              </tr>
+                                              <tr>
+                                                <td class="consumersaid_company">
+                                                  GRAFINET TEAM KFT. - grafinet.hu                                                </td>
+                                              </tr>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </table>
+                                    </td>
+                                  </tr>
+                                </table>
+                                <!-- Ügyfeleink mondták vége -->                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                      <tr><td class="bluebox_wide_bottom"></td></tr>
+                    </table>
+                    <!-- Form doboz vége -->
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr><td class="form2replacement_sep"></td></tr>
+          <tr>
+            <td>
+              <table>
+                <tr>
+                  <td class="replacement_label_pad"></td>
+                  <td class="replacement_label">
+                    Dedikált SMTP kiszolgálónkat az alábbi szolgáltatók teljeskörű kiváltására fejlesztettük ki, mindegyik levelezővel 100%-ban kompatibilis:
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr><td class="replacement_sep"></td></tr>
+          <tr>
+            <td>
+              <table>
+                <tr>
+                  <td class="replacement_leftpad"></td>
+                  <td>
+                                        <table>
+                      <tr>
+                        <td>
+                          <table>
+                            <tr>
+                                                            <td>
+                                <span class="replacement_underline"><a href="#" class="replacement_link">T-online SMTP szolgáltatás helyett 	</a></span>
+                              </td>
+                                                                <td class="replacement_pad"><img src="images/link_sep.png" alt="" title="" /></td>
+                                                            <td>
+                                <span class="replacement_underline"><a href="#" class="replacement_link">T-home SMTP szolgáltatás helyett 	</a></span>
+                              </td>
+                                                                <td class="replacement_pad"><img src="images/link_sep.png" alt="" title="" /></td>
+                                                            <td>
+                                <span class="replacement_underline"><a href="#" class="replacement_link">	T-mobile SMTP szolgáltatás helyett 	</a></span>
+                              </td>
+                                                                <td class="replacement_pad"><img src="images/link_sep.png" alt="" title="" /></td>
+                                                            <td>
+                                <span class="replacement_underline"><a href="#" class="replacement_link">	Telenor SMTP szolgáltatás helyett</a></span>
+                              </td>
+                                                          </tr>
+                          </table>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <table>
+                            <tr>
+                                                            <td>
+                                <span class="replacement_underline"><a href="#" class="replacement_link">Vodafone SMTP szolgáltatás helyett 	</a></span>
+                              </td>
+                                                                <td class="replacement_pad"><img src="images/link_sep.png" alt="" title="" /></td>
+                                                            <td>
+                                <span class="replacement_underline"><a href="#" class="replacement_link">	UPC SMTP szolgáltatás helyett 	</a></span>
+                              </td>
+                                                                <td class="replacement_pad"><img src="images/link_sep.png" alt="" title="" /></td>
+                                                            <td>
+                                <span class="replacement_underline"><a href="#" class="replacement_link">	Digitv SMTP szolgáltatás helyett 	</a></span>
+                              </td>
+                                                                <td class="replacement_pad"><img src="images/link_sep.png" alt="" title="" /></td>
+                                                            <td>
+                                <span class="replacement_underline"><a href="#" class="replacement_link">	Enternet SMTP szolgáltatás helyett</a></span>
+                              </td>
+                                                          </tr>
+                          </table>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <table>
+                            <tr>
+                                                            <td>
+                                <span class="replacement_underline"><a href="#" class="replacement_link">Externet SMTP szolgáltatás helyett 	</a></span>
+                              </td>
+                                                                <td class="replacement_pad"><img src="images/link_sep.png" alt="" title="" /></td>
+                                                            <td>
+                                <span class="replacement_underline"><a href="#" class="replacement_link">	Invitel SMTP szolgáltatás helyett 	</a></span>
+                              </td>
+                                                                <td class="replacement_pad"><img src="images/link_sep.png" alt="" title="" /></td>
+                                                            <td>
+                                <span class="replacement_underline"><a href="#" class="replacement_link">	Gmail SMTP szolgáltatás helyett 	</a></span>
+                              </td>
+                                                                <td class="replacement_pad"><img src="images/link_sep.png" alt="" title="" /></td>
+                                                            <td>
+                                <span class="replacement_underline"><a href="#" class="replacement_link">	Freemail SMTP szolgáltatás helyett</a></span>
+                              </td>
+                                                          </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                                      </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr><td class="replacement2contact_sep"></td></tr>
+          <tr>
+            <td>
+              <!-- Kapcsolat      -->
+              <table>
+                <tr>
+                  <td class="contact_shadowfield">
+                    <img src="images/contact_shadow.png" alt="" title="" />
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <table>
+                      <tr>
+                        <td class="contact_left_pad"></td>
+                        <td class="contact_map_field">
+                          <a href="http://maps.google.co.hu/maps?q=Koch+Alad%C3%A1r+utca+4.+I%2F4.&hl=hu&ie=UTF8&ll=47.469639,19.228467&spn=0.00491,0.013078&sll=47.176179,19.469318&sspn=0.078996,0.209255&t=h&hnear=Budapest,+XVII.+ker%C3%BClet,+Koch+Alad%C3%A1r+utca+4&z=17" target="_blank"><img src="images/contact_map.png" alt="" title="" /></a>
+                        </td>
+                        <td class="contact_left_info_field">
+                          <table>
+                            <tr>
+                              <td class="contact_label">
+                                E.N.S. Informatikai és Rendszerintegrációs Zrt.
+                              </td>
+                            </tr>
+                            <tr><td class="contact_label_sep"></td></tr>
+                            <tr>
+                              <td>
+                                <table>
+                                  <tr>
+                                    <td class="contact_table_left">Cégjegyzékszám:</td>
+                                    <td class="contact_table_right">13-10-040941</td>
+                                  </tr>
+                                  <tr>
+                                    <td class="contact_table_left">Adószám:</td>
+                                    <td class="contact_table_right">14032868-2-42</td>
+                                  </tr>
+                                  <tr>
+                                    <td class="contact_table_left">Székhely:</td>
+                                    <td class="contact_table_right">H-1174 Budapest, <br/>Koch Aladár utca 4. I/4.</td>
+                                  </tr>
+                                  <tr>
+                                    <td class="contact_table_left">Telephely:</td>
+                                    <td class="contact_table_right">H-1106, Budapest, <br/>Fehér út 1, B lépcsőház 7. em.<br/></td>
+                                  </tr>
+                                  <tr>
+                                    <td class="contact_table_left">Tel.:</td>
+                                    <td class="contact_table_right">+36 20 222 0011</td>
+                                  </tr>
+                                  <tr>
+                                    <td class="contact_table_left">Fax.:</td>
+                                    <td class="contact_table_right">+36 1 999 1750</td>
+                                  </tr>
+                                  <tr>
+                                    <td class="contact_table_left">E-mail cím:</td>
+                                    <td class="contact_table_right"><a href="mailto:info@ens.hu" class="contact_table_link">info@ens.hu</a></td>
+                                  </tr>
+                                </table>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                        <td>
+                          <table>
+                            <tr>
+                              <td class="contact_label">
+                                Ügyfélszolgálat
+                              </td>
+                            </tr>
+                            <tr><td class="contact_label_sep"></td></tr>
+                            <tr>
+                              <td>
+                                <table>
+                                  <tr>
+                                    <td class="contact_table_left">Cím:</td>
+                                    <td class="contact_table_right">H-1106, Budapest, <br/>Fehér út 1, B lépcsőház 7. em.</td>
+                                  </tr>
+                                  <tr>
+                                    <td class="contact_table_left">Tel.:</td>
+                                    <td class="contact_table_right">+36 20 222 0011</td>
+                                  </tr>
+                                  <tr>
+                                    <td class="contact_table_left">Fax:</td>
+                                    <td class="contact_table_right">+36 1 999 1750</td>
+                                  </tr>
+                                  <tr>
+                                    <td class="contact_table_left">Nyitvatartás: </td>
+                                    <td class="contact_table_right">munkanapokon H-P 09:00-16:00-ig</td>
+                                  </tr>
+                                  <tr>
+                                    <td class="contact_table_left">Email cím:</td>
+                                    <td class="contact_table_right"><a href="mailto:support@smtp.hu" class="contact_table_link">support@smtp.hu</a></td>
+                                  </tr>
+                                  <tr>
+                                    <td class="contact_table_left">Honlap:</td>
+                                    <td class="contact_table_right"><a href="http://www.smtp.hu" class="contact_table_link">www.smtp.hu</a></td>
+                                  </tr>
+                                </table>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+              <!-- Kapcsolat vége -->
+            </td>
+          </tr>
+          <tr><td class="bottom_sep"></td></tr>
+        </table>
+        <script type="text/javascript">
+        $(document).ready(function()
+        {
+          oTabber.ShowTab(3);
+          
+       	  $("#checkCoupon").click(function(){
+       	  	var btn = $(this);
+       	  	var code = $("input[name=coupon]").val();
+       	  	var pid = $("input[name=csomag_id]").val();
+       	  	var pid2 = $("input[name=help_id]").val();
+       	  	if(code == '') return false;
+       	  	if($("input[name=felhasznalom]").val() != 0) return false;
+       	  	$.post('ajax.php', {
+       	  		'func' : 'checkCoupon',
+       	  		'args' : {
+       	  			'cid' : code,
+       	  			'pid' : pid,
+       	  			'pid2' : pid2
+       	 		}
+       	  	}, function(data){
+       	  		try
+       	  		{
+       	  			var obj = $.parseJSON(data);
+       	  			if(obj.error == 1) {
+       	  				alert("Sikertelen kuponbeváltás. Érvénytelen kuponkód!");
+       	  			} else {
+       	  				btn.remove();
+       	  				$("td.megr_osszeg").html(obj.price);
+       	  				$("input[name=felhasznalom]").val(1);
+       	  				$("input[name=coupon]").attr('name','coupon_bevaltva').attr('disabled', 'disabled').parent()
+       	  				.append('<input type="hidden" name="coupon" value="'+code+'" />');
+       	  				var unitName;
+       	  				if(obj.type == 1) unitName = '%';
+       	  				else unitName = ' Ft'; 
+       	  				alert("Sikeres kuponbeváltás. A szolgáltatás díját csökkentettük a kupon értékével. (-"+obj.value+unitName+")");
+       	  			}
+       	  		}
+       	  		catch(Exception)
+       	  		{
+       	  			alert('Sikertelen kuponbeváltás.');
+       	  		}
+       	  	});
+       	  });
+        });
+        </script>                      </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr><td class="maintable_sep"></td></tr>
+  <tr>
+    <td>
+      <table>
+        <tr><td class="bottom_text_sep"></td></tr>
+        <tr>
+          <td class="bottom_text_field">
+            <span class="bottom_text">Azonnali kérdése van? Segítségre, tanácsra szorul? Keressen minket: +36 20 222 0011 vagy <a href="mailto:info@smtp.hu" class="bottom_link">info@smtp.hu</a></span>
+          </td>
+        </tr>
+        <tr><td class="bottom_text2logos_sep"></td></tr>
+        <tr>
+          <td>
+		        <div style="margin: 0 auto;text-align: center;">
+		          <img src="/images/cib.gif" title="CIB" />
+		        </div>
+          </td>
+        </tr>
+        <tr><td class="bottom_text2logos_sep"></td></tr>
+        <tr>
+          <td>
+		        <div style="margin: 0 auto;text-align: center;">
+		          <a href='fiz_taj_cib.html' target='_blank' style="margin-right: 30px;">CIB Fizetési tájékoztató</a>
+				  <a href='vas_taj_cib.html' target='_blank' style="">Vásárlói tájékoztató</a>
+		        </div>
+          </td>
+        </tr>
+        <tr><td class="bottom_text2logos_sep"></td></tr>
+        <tr>
+          <td>
+            <table class="bottom_logo_table">
+              <tr>
+                <td>
+                  <table class="clickable_table" onmouseup="document.location='http://www.grafinet.hu';">
+                    <tr>
+                      <td class="grafinet_logo_bg">
+                        <div class="grafinet_logo_inside">
+                          <div class="grafinet_logo_caption_holder">GRAFINET</div>
+                          <div class="grafinet_logo_upper_text_holder">Design és programozás:</div>
+                          <div class="grafinet_logo_lower_text_holder">Üzleti informatika</div>
+                        </div>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+                <td class="bottom_logo_pad"></td>
+                <td>
+                  <table class="clickable_table" onmouseup="document.location='http://www.mobicom.hu';">
+                    <tr>
+                      <td class="mobicom_logo_bg">
+                        <table>
+                          <tr><td class="mobicom_sep1"></td></tr>
+                          <tr>
+                            <td>
+                              <table>
+                                <tr>
+                                  <td class="mobicom_pad1"></td>
+                                  <td>
+                                    <span class="logo_text">Üzemeltetés, tárhely:</span>
+                                  </td>
+                                </tr>
+                              </table>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                  
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr><td class="maintable_bottom_sep"></td></tr>
+</table>
+</body>
+</html>

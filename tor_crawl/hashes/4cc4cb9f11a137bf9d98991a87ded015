@@ -1,0 +1,101 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>Mensaje de error</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=UTF-8">
+<STYLE id=L_11001_1>A {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #005a80; FONT-FAMILY: tahoma
+}
+A:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #0d3372; FONT-FAMILY: tahoma
+}
+TD {
+	FONT-SIZE: 8pt; FONT-FAMILY: tahoma
+}
+TD.titleBorder {
+	BORDER-RIGHT: #955319 1px solid; BORDER-TOP: #955319 1px solid; PADDING-LEFT: 8px; FONT-WEIGHT: bold; FONT-SIZE: 12pt; VERTICAL-ALIGN: middle; BORDER-LEFT: #955319 0px solid; COLOR: #955319; BORDER-BOTTOM: #955319 1px solid; FONT-FAMILY: tahoma; HEIGHT: 35px; BACKGROUND-COLOR: #d2b87a; TEXT-ALIGN: left
+}
+TD.titleBorderx {
+	BORDER-RIGHT: #955319 0px solid; BORDER-TOP: #955319 1px solid; PADDING-LEFT: 8px; FONT-WEIGHT: bold; FONT-SIZE: 12pt; VERTICAL-ALIGN: middle; BORDER-LEFT: #955319 1px solid; COLOR: #978c79; BORDER-BOTTOM: #955319 1px solid; FONT-FAMILY: tahoma; HEIGHT: 35px; BACKGROUND-COLOR: #d2b87a; TEXT-ALIGN: left
+}
+.TitleDescription {
+	FONT-WEIGHT: bold; FONT-SIZE: 12pt; COLOR: black; FONT-FAMILY: tahoma
+}
+SPAN.explain {
+	FONT-WEIGHT: normal; FONT-SIZE: 10pt; COLOR: #934225
+}
+SPAN.TryThings {
+	FONT-WEIGHT: normal; FONT-SIZE: 10pt; COLOR: #934225
+}
+.TryList {
+	MARGIN-TOP: 5px; FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: black; FONT-FAMILY: tahoma
+}
+.X {
+	BORDER-RIGHT: #955319 1px solid; BORDER-TOP: #955319 1px solid; FONT-WEIGHT: normal; FONT-SIZE: 12pt; BORDER-LEFT: #955319 1px solid; COLOR: #7b3807; BORDER-BOTTOM: #955319 1px solid; FONT-FAMILY: verdana; BACKGROUND-COLOR: #d1c2b4
+}
+.adminList {
+	MARGIN-TOP: 2px
+}
+</STYLE>
+<META content="MSHTML 6.00.2800.1170" name=GENERATOR></HEAD>
+<BODY bgColor=#f3f3ed>
+<TABLE cellSpacing=0 cellPadding=0 width="100%">
+  <TBODY>
+  <TR>
+    <TD class=titleBorderx width=30>
+      <TABLE height=25 cellSpacing=2 cellPadding=0 width=25 bgColor=black>
+        <TBODY>
+        <TR>
+          <TD id=L_11001_x class=x valign=middle align=center>X</TD>
+        </TR>
+        </TBODY>
+      </TABLE>
+    </TD>
+    <TD class=titleBorder id=L_11001_2>Mensaje de acceso a redes:<SPAN class=TitleDescription> no se puede encontrar el sitio web</SPAN> </TD>
+  </TR>
+  </TBODY>
+</TABLE>
+
+<TABLE id=spacer>
+  <TBODY>
+  <TR>
+    <TD height=10></TD></TR></TBODY></TABLE>
+<TABLE width=400>
+  <TBODY>
+  <TR>
+    <TD noWrap width=25></TD>
+    <TD width=400><SPAN class=explain><ID id=L_11001_3><B>Explicación:</B></ID></SPAN><ID id=L_11001_4> No se puede encontrar la dirección IP del sitio web solicitado. </ID><BR><BR>
+    <B><SPAN class=tryThings><ID id=L_11001_5><B>Intente lo siguiente:</B></ID></SPAN></B> 
+      <UL class=TryList>
+        <LI id=L_11001_6><B>Actualizar la página:</B> busque la página de nuevo haciendo clic en el botón Actualizar. Puede que el tiempo de espera se haya agotado debido a una congestión de Internet.
+<LI id=L_11001_7><B>Comprobar ortografía:</B> compruebe que la dirección de la página web esté bien escrita. Puede que se haya cometido un error al escribirla.
+<LI id=L_11001_8><B>Obtener acceso desde un vínculo:</B> si existe un vínculo a la página que está buscando, intente obtener acceso a la página desde dicho vínculo.
+
+      </UL>
+<ID id=L_11001_9>Si aún no puede ver la página solicitada, intente ponerse en contacto con el administrador o con el soporte técnico.</ID> <BR><BR>
+    </TD>
+  </TR>
+  </TBODY>
+</TABLE>
+
+<TABLE id=spacer><TBODY><TR><TD height=15></TD></TR></TBODY></TABLE>
+
+<TABLE width=400>
+  <TBODY>
+  <TR>
+    <TD noWrap width=25></TD>
+    <TD width=400 id=L_11001_10><B>Información técnica (para personal de soporte técnico)</B> 
+      <UL class=adminList>
+        <LI id=L_11001_11>Código de error 11001: host no encontrado
+<LI id=L_11001_12>Contexto: este error indica que la puerta de enlace no pudo encontrar la dirección IP del sitio web al que se intenta tener acceso. Esto usualmente se debe a un error relacionado con DNS.
+<LI id=L_11001_13>Fecha: 15/05/2019 05:54:06 p.m. [GMT]
+<LI id=L_11001_14>Servidor: SVZFOREFRONT.SANTILLANA.LOCAL
+<LI id=L_11001_15>Origen: error de DNS
+
+      </UL>
+    </TD>
+  </TR>
+  </TBODY>
+</TABLE>
+
+</BODY>
+</HTML>
+

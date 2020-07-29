@@ -1,0 +1,49 @@
+<html>
+
+<!-- Popup Killer -->
+<script language="JavaScript">
+<!--
+function dummy(a,b,c) { return true; }
+window.onerror = dummy;
+//
+var wo_enable=false;
+function wo_on() { wo_enable=true }
+function wo_off(x) { wo_enable=false; return x }
+//
+function open_with_features(url,name,parm) {
+  if (parm>'') parm+=',resizable=1,toolbar=1,menubar=1,scrollbars=1,location=1,status=1';
+  return window.open_original(url,name,parm);
+}
+function open_no_popups(url,name,parm) {
+  var w = (wo_enable||(name=='_self')||(name=='_top')||(name=='_parent')) ? window.do_open(url,name,parm) : new String('X');
+  // wo_enable=false;
+  return w;
+}
+window.open_original=window.open;
+window.open=open_no_popups;
+window.do_open=open_with_features;
+//
+function modeless_with_features(url,arg,parm) {
+  if (parm>'') parm+=',resizable:1,scroll:1,status:1';
+  return window.modeless_original(url,arg,parm);
+}
+function modeless_no_popups(url,arg,parm) {
+  var w = wo_enable ? window.do_modeless(url,arg,parm) : new String('X');
+  // wo_enable=false;
+  return w;
+}
+window.modeless_original=window.showModelessDialog;
+window.showModelessDialog=modeless_no_popups;
+window.do_modeless=modeless_with_features;
+//
+window.attachEvent=dummy;
+//-->
+</script>
+
+<body>
+<img src="sailing.gif">
+<p></p>
+<h1>Test file 07/14/2017</h1>
+<p></p>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <title>Your Account Is Locked</title>
+        <style media="screen" type="text/css">
+            body { font-family: Tahoma, sans-serif; font-size: 16px; color: #444; text-align: left; background-color:white; width: 100%; height: 100%; margin: 0; padding: 0; }
+            h1 { font-size: 32px; letter-spacing: -1px;
+                font-weight: bold; color: #659ebf; text-align: center; margin-top: 20px; margin-bottom: 20px; }
+            a { color: #659ebf; font-weight: bold; text-decoration: none; }
+            .micro { font-size: 13px; text-align: center; }
+            .med { font-size: 13px; }
+            #detailed-info {
+                display: none;
+            }
+            .content {
+                margin: 0 auto;
+                width: 40em;
+                text-align: center;
+                padding-top: 1em;
+            }
+            @media (max-width: 700px) {
+                .content {
+                    margin: 0 0.5em;
+                    width: auto;
+                }
+            }
+            .logo {
+                width: auto;
+                margin: 0 auto;
+            }
+        </style>
+    </head>
+    <body>
+        <table id="f" style="width:100%; height:100%; border:1px solid black">
+            <tr><td style="font:normal 10px Tahoma, sans-serif;color:#333;text-align:center;">Content is Blocked</td></tr>
+        </table>
+        <div id="b" class="content" style="display: none">
+            
+                <div align="center">
+                    <img class="logo" src="https://www.safedns.com/userfiles/blockpages/0.jpg" border="0">
+                </div>
+            
+            <h1>Your Account Is Locked</h1>
+
+            
+
+            
+
+            
+    <p>Your subscription to SafeDNS content filter has expired.
+    You can renew SafeDNS subscription <a href="https://www.safedns.com/order-safedns-online" target="_top">online</a>.
+    If you need our help with selection of a suitable plan, please <a href="https://www.safedns.com/feedback" target="_top">contact us</a>.</p>
+    <p>You can learn how to stop using our service in the Instructions on our website.</p>
+
+        </div>
+        <script type="text/javascript">
+            if (window == top || false) {
+                document.getElementById("f").style.display = "none";
+                document.getElementById("b").style.display = "";
+            }
+            document.getElementById('show-details').onclick = function(){
+                document.getElementById("detailed-info").style.display = "block";
+                document.getElementById("show-details").remove();
+                return false;
+            };
+        </script>
+    </body>
+    <!-- wdc -->
+    <!-- profile: 67987 -->
+</html>

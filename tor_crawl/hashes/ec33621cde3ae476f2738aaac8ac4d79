@@ -1,0 +1,495 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- To allow pages to show/hide toolbar via url param even if page doesn't pass in the parameter -->
+
+    
+
+
+    
+
+
+    
+
+<html>
+<head>
+  <title>
+    
+    Mango Automation, by Infinite Automation
+  </title>
+  
+  <!-- Meta -->
+  <meta http-equiv="content-type" content="application/xhtml+xml;charset=utf-8"/>
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="Copyright" content="&copy;2016 Infinite Automation Systems Inc."/>
+  <meta name="DESCRIPTION" content="Mango Automation from Infinite Automation Systems"/>
+  <meta name="KEYWORDS" content="Mango Automation from Infinite Automation Systems"/>
+  
+  
+	
+  
+  
+  <!-- Style -->
+  <link rel="icon" href="/images/favicon.ico"/>
+  <link rel="shortcut icon" href="/images/favicon.ico"/>
+
+  <link rel="stylesheet" type="text/css" href="/resources/dojox/editor/plugins/resources/css/StatusBar.css"/>  
+  <link rel="stylesheet" type="text/css" href="/resources/dojox/layout/resources/FloatingPane.css"/> 
+  <link rel="stylesheet" type="text/css" href="/resources/dijit/themes/claro/claro.css"/> 
+  <link rel="stylesheet" type="text/css" href="/resources/dojo/resources/dojo.css"/>
+  <link rel="stylesheet" type="text/css" href="/resources/common.css"/>
+  
+  
+    <link rel="stylesheet" type="text/css" href="/modules/graphicalViews/web/style.css"/>
+    <link rel="stylesheet" type="text/css" href="/modules/sstTheme/web/style.css"/>
+  
+  
+  
+  <!-- Scripts -->
+  <script type="text/javascript" src="/resources/loaderConfig.js" data-loader="Dojo"></script>
+  <script type="text/javascript" src="/resources/dojo/dojo.js" data-dojo-config="has:{'dojo-firebug': true}, async: false, parseOnLoad: true, isDebug:true, extraLocale: ['']"></script>
+  <script type="text/javascript" src="/dwr/engine.js"></script>
+  <script type="text/javascript" src="/dwr/util.js"></script>
+  <script type="text/javascript" src="/dwr/interface/MiscDwr.js"></script>
+  <script type="text/javascript" src="/resources/soundmanager2-nodebug-jsmin.js"></script>
+  <script type="text/javascript" src="/resources/common.js"></script>
+
+  
+  
+  <script type="text/javascript">
+    mango.i18n = function() {return {'common.alarmLevel.lifeSafety':"Safety",'common.disabled':"Disabled",'header.mute':"Mute",'header.unmute':"Unmute",'common.alarmLevel.critical':"Critical",'js.help.related':"Related items",'js.help.lastUpdated':"Last updated",'js.email.addAddress':"Add address",'js.help.error':"Error",'js.email.addUser':"Add user",'js.email.addMailingList':"Add mailing list",'js.email.noRecipForEmail':"No recipients to which to send test email",'common.access.set':"set",'common.access.read':"read",'common.loading':"Loading...",'common.sendTestEmail':"Send test email",'common.disabledToggle':"Disabled - click to enable",'common.alarmLevel.none':"None",'common.administrator':"Administrator",'common.enabledToggle':"Enabled - click to disable",'common.alarmLevel.urgent':"Urgent",'common.minimize':"Minimize",'js.email.noRecipients':"No recipients",'common.user':"User",'events.silence':"Silence",'js.email.testSent':"Test email has been sent",'common.alarmLevel.ignore':"Ignore",'common.maximize':"Maximize",'common.alarmLevel.doNotLog':"Do Not Log",'events.unsilence':"Unsilence",'common.alarmLevel.info':"Information"};}();
+  </script>
+  
+    <script type="text/javascript" src="/resources/header.js"></script>
+    <script type="text/javascript">
+      dwr.util.setEscapeHtml(false);
+      
+      
+      function setLocale(locale) {
+          MiscDwr.setLocale(locale, function() { window.location = window.location });
+      }
+      
+      function goHomeUrl() {
+          MiscDwr.getHomeUrl(function(loc) { window.location = loc; });
+      }
+      
+      function setHomeUrl() {
+          MiscDwr.setHomeUrl(window.location.href, function() { alert("Home URL saved"); });
+      }
+      
+      function deleteHomeUrl() {
+          MiscDwr.deleteHomeUrl(function() { alert("Home URL cleared"); });
+      }
+    </script>
+  
+  
+    <script type="text/javascript" src="/modules/sstGraphics/web/view.js"></script>
+  
+    
+  
+</head>
+
+<body class="claro">
+
+<!-- i18n Messaging Layer, there is also a servlet that does this -->
+
+
+
+
+
+
+<!-- Add in useful messages for page, also done in M2M2ContextListener, should be moved to here -->
+
+
+
+
+<script type="text/javascript">
+	
+	//Setup the mango New ID Parameter
+	mango.newId = -1;
+	
+	
+	//Create a global array of available messages
+	var mangoMsg = {};
+	
+	mangoMsg['common.active'] = "Active";
+	mangoMsg['common.alarmLevel'] = "Alarm level";
+	mangoMsg['common.alarmLevel.greaterthan.none'] = ">= None";
+	mangoMsg['common.alarmLevel.greaterthan.info'] = ">= Information";
+	mangoMsg['common.alarmLevel.greaterthan.urgent'] = ">= Urgent";
+	mangoMsg['common.alarmLevel.greaterthan.critical'] = ">= Critical";
+	mangoMsg['common.alarmLevel.greaterthan.lifeSafety'] = ">= Safety";
+	mangoMsg['common.alarmLevel.none'] = "None";
+	mangoMsg['common.alarmLevel.none.rtn'] = "None - returned to normal";
+	mangoMsg['common.alarmLevel.info'] = "Information";
+	mangoMsg['common.alarmLevel.info.rtn'] = "Information - returned to normal";
+	mangoMsg['common.alarmLevel.urgent'] = "Urgent";
+	mangoMsg['common.alarmLevel.urgent.rtn'] = "Urgent - returned to normal";
+	mangoMsg['common.alarmLevel.critical'] = "Critical";
+	mangoMsg['common.alarmLevel.critical.rtn'] = "Critical - returned to normal";
+	mangoMsg['common.alarmLevel.lifeSafety'] = "Safety";
+	mangoMsg['common.alarmLevel.lifeSafety.rtn'] = "Safety - returned to normal";
+	mangoMsg['common.alarmLevel.unknown'] = "unknown alarm level";
+	mangoMsg['common.all'] = "All";
+	mangoMsg['common.dateRangeFrom'] = "From";
+	mangoMsg['common.dateRangeTo'] = "To";
+	mangoMsg['common.duration'] = "Duration";
+	mangoMsg['common.durationStd'] = "{0}";
+	mangoMsg['common.durationDays'] = "{0} days";
+	mangoMsg['common.inactiveTime'] = "Inactive time";
+	mangoMsg['common.nortn'] = "No RTN";
+	mangoMsg['common.name'] = "Name";
+	mangoMsg['common.status'] = "Status";
+	mangoMsg['common.time'] = "Time";
+	mangoMsg['common.totalResults'] = "Total results: ";
+	mangoMsg['common.clearDates'] = "Clear Dates";
+	mangoMsg['common.xid'] = "Export ID (XID)";
+	mangoMsg['chartRenderer.none'] = "None";
+	mangoMsg['chartRenderer.image'] = "Image";
+	mangoMsg['chartRenderer.flipbook'] = "Flipbook";
+	mangoMsg['chartRenderer.statistics'] = "Statistics";
+	mangoMsg['chartRenderer.table'] = "Table";
+	mangoMsg['dsList.name'] = "Name";
+	mangoMsg['dsList.type'] = "Type";
+	mangoMsg['dsList.connection'] = "Connection";
+	mangoMsg['dsList.status'] = "Status";
+	mangoMsg['dsEdit.deviceName'] = "Device Name";
+	mangoMsg['dsEdit.dataSourceType'] = "Data Source Type";
+	mangoMsg['dsEdit.pointDataType'] = "Data type";
+	mangoMsg['dsEdit.pointSaved'] = "Point details saved";
+	mangoMsg['dsEdit.dataSourceSaved'] = "???dsEdit.dataSourceSaved(i18n_es_ES)???";
+	mangoMsg['dsEdit.saved'] = "Data source has been saved";
+	mangoMsg['dsEdit.saveWarning'] = "Save the data source before adding points";
+	mangoMsg['dsEdit.points.details'] = "Point details";
+	mangoMsg['emport.export'] = "Export";
+	mangoMsg['emport.import'] = "Import";
+	mangoMsg['event.rtn.rtn'] = "Returned to normal";
+	mangoMsg['events.acknowledge'] = "Acknowledge";
+	mangoMsg['events.acknowledged'] = "Acknowledged";
+	mangoMsg['events.editDataSource'] = "Edit data source";
+	mangoMsg['events.editEventHandler'] = "Edit event handler";
+	mangoMsg['events.editPublisher'] = "Edit publisher";
+	mangoMsg['events.id'] = "Id";
+	mangoMsg['events.msg'] = "Message";
+	mangoMsg['events.pointDetails'] = "Point details";
+	mangoMsg['events.pointEdit'] = "Point edit";
+	mangoMsg['events.silence'] = "Silence";
+	mangoMsg['events.showAuditEvents'] = "Show Audit Events";
+	mangoMsg['events.unsilence'] = "Unsilence";
+	mangoMsg['events.unacknowledged'] = "Un-Acknowledged";
+	mangoMsg['header.dataPoints'] = "Data points";
+	mangoMsg['modules.modules'] = "Modules";
+	mangoMsg['notes.addNote'] = "Add comment";
+	mangoMsg['notes.enterComment'] = "A comment must be entered";
+	mangoMsg['pointEdit.chart.missingLimit'] = "Chart renderer: limit must be entered";
+	mangoMsg['pointEdit.chart.invalidLimit'] = "Chart renderer: limit must be between 2 and 50";
+	mangoMsg['pointEdit.chart.missingPeriods'] = "Chart renderer: number of periods must be entered";
+	mangoMsg['pointEdit.chart.invalidPeriods'] = "Chart renderer: number of periods must be greater than zero";
+	mangoMsg['pointEdit.detectors.highLimit'] = "High limit";
+	mangoMsg['pointEdit.detectors.lowLimit'] = "Low limit";
+	mangoMsg['pointEdit.detectors.change'] = "Change";
+	mangoMsg['pointEdit.detectors.state'] = "State";
+	mangoMsg['pointEdit.detectors.changeCount'] = "State change count";
+	mangoMsg['pointEdit.detectors.noChange'] = "No change";
+	mangoMsg['pointEdit.detectors.noUpdate'] = "No update";
+	mangoMsg['pointEdit.detectors.posCusum'] = "Positive CUSUM";
+	mangoMsg['pointEdit.detectors.negCusum'] = "Negative CUSUM";
+	mangoMsg['pointEdit.detectors.regexState'] = "Regex";
+	mangoMsg['pointEdit.detectors.range'] = "Range";
+	mangoMsg['pointEdit.detectors.smoothness'] = "Smoothness";
+	mangoMsg['pointEdit.logging.period'] = "Interval logging period";
+	mangoMsg['pointEdit.logging.tolerance'] = "Tolerance";
+	mangoMsg['pointEdit.logging.type'] = "Logging type";
+	mangoMsg['pointEdit.logging.type.change'] = "When point value changes";
+	mangoMsg['pointEdit.logging.type.all'] = "All data";
+	mangoMsg['pointEdit.logging.type.never'] = "Do not log";
+	mangoMsg['pointEdit.logging.type.interval'] = "Interval";
+	mangoMsg['pointEdit.logging.type.tsChange'] = "When point timestamp changes";
+	mangoMsg['pointEdit.template.templateName'] = "Template name";
+	mangoMsg['filter.byReadPermissions'] = "Read permissions";
+	mangoMsg['filter.bySetPermissions'] = "Set permissions";
+	mangoMsg['table.confirmDelete.DataSource'] = "Really delete this data source?";
+	mangoMsg['table.confirmDelete.DataPoint'] = "Really delete this data point?";
+	mangoMsg['table.confirmDelete.AllDataPoints'] = "Really delete this data point?";
+	mangoMsg['table.edit'] = "Edit";
+	mangoMsg['table.add'] = "Add";
+	mangoMsg['table.delete'] = "Delete";
+	mangoMsg['table.copy'] = "Copy";
+	mangoMsg['table.toggle'] = "Toggle";
+	mangoMsg['table.export'] = "Export";
+	mangoMsg['table.exportCSV'] = "Export CSV";
+	mangoMsg['table.noData'] = "No Data Available";
+	mangoMsg['table.missingKey'] = "Missing Key: {0}";
+	mangoMsg['table.error.wrongId'] = "Item with ID ''{0}'' does not exist";
+	mangoMsg['table.error.dwr'] = "Server error: {0}";
+	mangoMsg['table.pointDetails'] = "Point Details";
+	mangoMsg['textRenderer.analog'] = "Analog";
+	mangoMsg['textRenderer.binary'] = "Binary";
+	mangoMsg['textRenderer.multistate'] = "Multistate";
+	mangoMsg['textRenderer.none'] = "None";
+	mangoMsg['textRenderer.plain'] = "Plain";
+	mangoMsg['textRenderer.range'] = "Range";
+	mangoMsg['textRenderer.time'] = "Time";
+	mangoMsg['textRenderer.engineeringUnits'] = "Engineering units";
+	mangoMsg['view.browse'] = "Browse";
+	mangoMsg['view.clear'] = "Clear";
+	mangoMsg['view.submit'] = "Submit";
+
+	
+	function mangoImg(name) {
+		return "/images/" + name;
+	}
+	
+	function mangoTranslate(key, vars) {
+	    var msg = mangoMsg[key];
+       if(typeof msg == 'undefined'){
+           console.log("Missing Key in mangoMsg: " + key);
+           return "Missing Msg Key: " + key;
+       }
+
+	    if (typeof vars == 'undefined') {
+	        return msg;
+	    }
+	    
+
+	    
+	    for (var i = 0; i < vars.length; i++) {
+		        msg = msg.replace("'{" + i + "}'", vars[i]);
+		        msg = msg.replace("{" + i + "}", vars[i]);
+		}
+	    return msg;
+	}
+	
+	/**
+	 * Some description on how to use this would be good.
+	 */
+	function mangoAppendTranslations(map) {
+		if(typeof(map) != "object")
+			return;
+		for(key in map) {
+			if(key in mangoMsg)
+				console.log("Recieved duplicate key: " + key);
+			else if(typeof(map[key]) != "string")
+				console.log("Recieved nonstring value as translation for: " + key);
+			else
+				mangoMsg[key] = map[key];
+		}
+	}
+</script>
+
+
+<div id="mainContainer" style="height:100%">
+    <div id="headerArea">
+      
+
+
+
+<div id="mainHeader" data-dojo-type="dijit/layout/BorderContainer" >
+	<div id="mainHeader_leadingRegion"
+		style="width: 20%; border: 0px; padding: 0px"
+		data-dojo-type="dijit/layout/ContentPane"
+		data-dojo-props="region:'leading'">
+      <img id="application_logo" src="/images/logo.png" alt="Logo" />
+	</div>
+
+	
+		<div id="alarmToaster"
+			style="width: 60%; height: 85px; border: 0px; padding: .2em 0em 0em 5em;"
+			data-dojo-type="dijit/layout/ContentPane"
+			data-dojo-props="region:'center'"></div>
+	
+
+	<div style="width: 20%; border: 0px; padding: 0px;"
+		data-dojo-type="dijit/layout/ContentPane"
+		data-dojo-props="region:'trailing'">
+		
+	</div>
+	<!-- Could put toolbar here later     <div data-dojo-type="dijit/layout/ContentPane" data-dojo-props="region:'bottom'">Bottom pane</div> -->
+</div>
+
+
+<script type="text/javascript">
+	require([ "dojo/parser", "dijit/registry", "dojo/on", "dojo/topic",
+			"dojo/dom-construct", "dojo/dom", "dijit/layout/BorderContainer",
+			"dijit/layout/ContentPane", "dojox/image", "dojo/domReady!" ],
+			function(parser, registry, on, topic, domConstruct,
+					BorderContainer, ContentPane) {
+
+				//Get the logo image size, then resize the leading region to have that width
+				var logo = dojo.byId("application_logo");
+				var leadingRegion = dojo.byId("mainHeader_leadingRegion");
+				if (logo.width < 100)
+					leadingRegion.style.width = "20%";
+				else
+					leadingRegion.style.width = logo.width + "px";
+
+				// Register the alerting routine with the "alertUser" topic.
+				topic.subscribe("alarmTopic", function(message) {
+					//Message has members:
+					// duration - int
+					// message - string
+					// type - string
+					var alarmMessageDiv = dijit.byId("alarmToaster");
+					if (message.type == 'clear')
+						alarmMessageDiv.set('content', "");
+					else {
+						alarmMessageDiv.set('content', alarmMessageDiv
+								.get('content')
+								+ message.message + "</br>");
+					}
+				});
+			});
+</script>
+
+      
+
+
+
+
+
+  
+  <table class="wide" id="subHeader" >
+    <tr>
+      <td style="cursor:default">
+        
+        
+        
+          <a href="/login.htm"><img id="loginMi" src="/images/control_play_blue.png" class="ptr" onmouseout="if (typeof hMD == 'function') hMD();" onmouseover="if (typeof hMD == 'function') hMD('Login', this);"/></a>
+          
+            <a href="/help.htm"><img id="helpMi" src="/images/help.png" class="ptr" onmouseout="if (typeof hMD == 'function') hMD();" onmouseover="if (typeof hMD == 'function') hMD('Help', this);"/></a>
+          
+        
+        <div id="headerMenuDescription" class="labelDiv" style="position:absolute;display:none;"></div>
+      </td>
+      
+      <td align="right">
+        
+        
+      </td>
+    </tr>
+  </table>
+
+      
+
+
+
+
+<script type="text/javascript" >
+    function closeErrorBox() {
+        var errorBox = dojo.byId("mangoErrorBox");
+        hide(errorBox);
+        var divs = errorBox.getElementsByTagName("div");
+        while(divs.length > 0) {
+            errorBox.removeChild(divs[0]);
+        }
+    }
+    
+    // TODO rename these, way too generic
+    function addErrorDiv(message) {
+        var errorBox = dojo.byId("mangoErrorBox");
+        var div = document.createElement('div');
+        div.innerHTML = message;
+        errorBox.appendChild(div);
+        show(errorBox);
+    }
+    
+    function addContextualMessage(key, message) {
+        addErrorDiv("Error with '" + key + "': " + message);
+    }
+    
+    function addMessage(message) {
+        if (message.contextualMessage) {
+            addContextualMessage(message.contextKey, message.contextualMessage);
+        } else {
+            addErrorDiv(message.genericMessage);
+        }
+    }
+    
+    function addMessages(messages) {
+        for (var i = 0; i < messages.length; i++) {
+            addMessage(messages[i])
+        }
+    }
+</script>
+
+<div id="mangoErrorBox" class="borderDiv" style="display:none">
+  <img id="closeErrorBoxImg" src="/images/cross.png" alt="Clear errors" title="Clear errors" class="ptr" onclick="closeErrorBox()"/>
+</div>
+
+    </div>
+    <div id="mainContent" style="padding:5px; ">
+        
+  <br/>
+  <span class="bigTitle">Page Not Found!</span><br/>
+  <br/>
+  The page that you requested was not found. Please check your URL
+  and try your request again, or start again from the <a href="/login.htm">login page</a>.<br/>
+  <br/>
+  <br/>
+
+    </div>
+    
+    <div id="footerArea" style="float:left; width:100%; height:60px;">
+      <table width="100%" cellspacing="0" cellpadding="0" border="0">
+        <tr><td colspan="2">&nbsp;</td></tr>
+        <tr>
+          <td colspan="2" class="footer" align="center">&copy;2016 Infinite Automation Systems Inc. All rights reserved</td>
+        </tr>
+        <tr>
+          <td colspan="2" align="center"><a href="http://www.infiniteautomation.com/" ><b></b>www.InfiniteAutomation.com</a></td>
+        </tr>
+      </table>    
+    </div>
+    
+</div>
+
+
+
+
+
+
+<!-- Include the Export Dialog -->
+
+
+
+
+
+<script>
+  require(["dojo/parser", "dijit/Dialog", "dijit/form/Form", "dijit/form/Button"]);
+</script>
+
+<div data-dojo-type="dijit/Dialog" data-dojo-id="exportDialog" title="Export" style="display: none">
+  <form data-dojo-type="dijit/form/Form">
+    <div class="dijitDialogPaneContentArea">
+      <textarea rows="20" cols="100" id="exportData"></textarea>
+    </div>
+    <div class="dijitDialogPaneActionBar">
+      <button data-dojo-type="dijit/form/Button" type="button" data-dojo-props="onClick:function() {exportDialog.hide();}">Close</button>
+    </div>
+  </form>
+</div>
+
+
+
+  
+
+</body>
+</html>

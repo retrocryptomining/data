@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pl" lang="pl">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate" />
+    <meta http-equiv="Cache-Control" content="post-check=0, pre-check=0" />
+    <meta http-equiv="Expires" content="-1" />
+    <title>INTERNETIA</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/main.css" />
+        <script type="text/javascript">
+	function enableDIV(divID, isEnabled) {
+		var element = document.getElementById(divID);
+		if (isEnabled) {
+			element.style.display='block';
+		} else {
+			element.style.display='none';
+		}
+	}
+    </script>
+    <base href="http://auth-szcz.internetia.pl"/>
+
+  </head>
+  <body>
+    <div class="tresc">
+<h1>
+	PROŚBA O UREGULOWANIE NALEŻNOŚCI
+		<sup>*</sup>
+</h1>
+<br>
+<b>Szanowni Państwo</b>,
+	<p>
+			Internetia Sp.&nbsp;z&nbsp;o.o. przypomina
+		o&nbsp;<b>uregulowaniu zaległych należności za świadczone usługi telekomunikacyjne</b>.
+		<br> 
+		Szczegółowe informacje dotyczące wysokości należnych płatności oraz indywidualnego numeru konta bankowego odnajdą Państwo w&nbsp;Elektronicznym Systemie Obsługi Klienta pod adresem <a href="https://bok.internetia.pl/"><b>https://bok.internetia.pl/</b></a>
+	</p>
+	<p>
+		Jednocześnie pragniemy poinformować, iż wpływ należności na indywidualny numer konta bankowego spowoduje wyłączenie komunikatu w&nbsp;ciągu 24h (w&nbsp;dni robocze).
+	</p>
+	<p>
+		Jeżeli mają Państwo wątpliwości, prosimy o&nbsp;kontakt z&nbsp;<b>Biurem Obsługi Klienta</b> pod numerem <b>801880150</b> lub adresem <b><a href="mailto:bok@internetia.pl">bok@internetia.pl</a></b>
+	</p>
+		<p>
+			Z poważaniem<br>
+			Dział rozliczeń – Internetia Sp. z o.o.
+		</p>
+	
+	<form action="/click.php" method="post" class="kontakt" >
+		<fieldset>
+		<div align="center">
+			<INPUT TYPE=CHECKBOX NAME="confirmBox" id="confirmBox" checked="false" onClick="if (!confirmBox.checked) enableDIV('confirmSection', false); else enableDIV('confirmSection', true);"><label for="confirmBox">Potwierdzam zapoznanie się z treścią komunikatu</label>
+		</div>
+		<div id="confirmSection" align="center" style="display: none">
+			<input class="click" type="submit" value="Wyślij" />
+		</div>
+                    <input type="hidden" name="url" value="http://netia.pl/internetia.html"/>
+		</fieldset>
+	</form>
+</div>
+<script type="text/javascript">
+	document.getElementById('confirmBox').checked=false;
+</script>
+
+<p>&nbsp;</p>
+<div class="trescWyjasnienia">
+	<sup>*</sup>Komunikat ten został wygenerowany na podstawie:<br>
+	Rozdziału III § 10 Regulaminu Świadczenia Usług przez Spółki Grupy Netia , który mówi:<br>
+	1. ABONENT zobowiązany jest do zapłaty należności określonych w Rachunku na rachunek bankowy operatora w terminie 14 dni od daty wystawienia Rachunku, chyba że na umowie lub rachunku wskazano inny termin.<br>
+	2. Za dzień zapłaty uważa się dzień uznania rachunku bankowego Operatora określonego w opłacanym Rachunku.<br>
+	Rozdziału V § 14 Regulaminu Świadczenia Usług przez Spółki Grupy Netia , który mówi:<br>
+	1. Operator ma prawo zawiesić świadczenie Usług Abonamentowi, jeżeli Abonent:<br>
+	a) będący Konsumentem opóźnia się z zapłatą całości lub części jakiejkolwiek należności na rzecz Operatora przez okres dłuższy niż 15 dni od daty wymagalności, a Abonent nie będący Konsumentem opóźnia się z zapłatą całości lub części jakiej kolwiek należności na rzecz Operatora przez okres dłuższy niż 15 dni po uprzednim wezwaniu do uregulowania przeterminowanej należności<br>
+	4. Ponowna aktywacja Usług następuje po ustaleniu przyczyny Zawieszenia, nie wcześniej niż po uiszczeniu przez Abonenta zaległości wobec Operatora.<br>
+	6. W okresie Zawieszenia Usług od Abonentów niebędących Konsumentami pobierane są opłaty określone w Cenniku. 
+</div>
+
+  </body>
+</html>

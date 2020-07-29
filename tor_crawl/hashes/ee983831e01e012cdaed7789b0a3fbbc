@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head><link type="text/css" rel="stylesheet" href="/javax.faces.resource/theme.css.xhtml?ln=primefaces-aristo" /><link type="text/css" rel="stylesheet" href="/javax.faces.resource/fa/font-awesome.css.xhtml?ln=primefaces&amp;v=5.3" /><link type="text/css" rel="stylesheet" href="/javax.faces.resource/plugins/jquery-ui/themes/base/minified/jquery-ui.min.css.xhtml;jsessionid=fb6dae869d8a479cc44b8b2961e1" /><link type="text/css" rel="stylesheet" href="/javax.faces.resource/plugins/bootstrap/css/bootstrap.min.css.xhtml;jsessionid=fb6dae869d8a479cc44b8b2961e1" /><link type="text/css" rel="stylesheet" href="/javax.faces.resource/plugins/font-awesome/css/font-awesome.min.css.xhtml;jsessionid=fb6dae869d8a479cc44b8b2961e1" /><link type="text/css" rel="stylesheet" href="/javax.faces.resource/css/animate.min.css.xhtml;jsessionid=fb6dae869d8a479cc44b8b2961e1" /><link type="text/css" rel="stylesheet" href="/javax.faces.resource/css/style.min.css.xhtml;jsessionid=fb6dae869d8a479cc44b8b2961e1" /><link type="text/css" rel="stylesheet" href="/javax.faces.resource/css/style-responsive.min.css.xhtml;jsessionid=fb6dae869d8a479cc44b8b2961e1" /><link type="text/css" rel="stylesheet" href="/javax.faces.resource/css/theme/default.css.xhtml;jsessionid=fb6dae869d8a479cc44b8b2961e1" /><link type="text/css" rel="stylesheet" href="/javax.faces.resource/css/custom.css.xhtml;jsessionid=fb6dae869d8a479cc44b8b2961e1" /><link type="text/css" rel="stylesheet" href="/javax.faces.resource/css/icons.css.xhtml;jsessionid=fb6dae869d8a479cc44b8b2961e1" /><link type="text/css" rel="stylesheet" href="/javax.faces.resource/css/newIcons.css.xhtml;jsessionid=fb6dae869d8a479cc44b8b2961e1" /><link type="text/css" rel="stylesheet" href="/javax.faces.resource/css/icons-buttons.css.xhtml;jsessionid=fb6dae869d8a479cc44b8b2961e1" /><link type="text/css" rel="stylesheet" href="/javax.faces.resource/css/app.css.xhtml;jsessionid=fb6dae869d8a479cc44b8b2961e1" /><link type="text/css" rel="stylesheet" href="/javax.faces.resource/css/hover-min.css.xhtml;jsessionid=fb6dae869d8a479cc44b8b2961e1" /><link type="text/css" rel="stylesheet" href="/javax.faces.resource/plugins/sweetalert/sweetalert.css.xhtml;jsessionid=fb6dae869d8a479cc44b8b2961e1" /><link type="text/css" rel="stylesheet" href="/javax.faces.resource/plugins/pNotify/pnotify.custom.min.css.xhtml;jsessionid=fb6dae869d8a479cc44b8b2961e1" /><link type="text/css" rel="stylesheet" href="/javax.faces.resource/plugins/morris-chart/morris.css.xhtml;jsessionid=fb6dae869d8a479cc44b8b2961e1" /><link type="text/css" rel="stylesheet" href="/javax.faces.resource/plugins/responsive-tab/easy-responsive-tabs.css.xhtml;jsessionid=fb6dae869d8a479cc44b8b2961e1" /><link type="text/css" rel="stylesheet" href="/javax.faces.resource/plugins/bootstrap-select/bootstrap-select.min.css.xhtml;jsessionid=fb6dae869d8a479cc44b8b2961e1" /><link type="text/css" rel="stylesheet" href="/javax.faces.resource/css/mediaQueries.css.xhtml;jsessionid=fb6dae869d8a479cc44b8b2961e1" /><link type="text/css" rel="stylesheet" href="/javax.faces.resource/css/font-awesome.min.css.xhtml;jsessionid=fb6dae869d8a479cc44b8b2961e1" /><link type="text/css" rel="stylesheet" href="/javax.faces.resource/css/tempo.css.xhtml;jsessionid=fb6dae869d8a479cc44b8b2961e1" /><script type="text/javascript" src="/javax.faces.resource/validation/validation.js.xhtml?ln=primefaces&amp;v=5.3"></script><script type="text/javascript" src="/javax.faces.resource/validation/beanvalidation.js.xhtml?ln=primefaces&amp;v=5.3"></script><script type="text/javascript">
+//<![CDATA[
+if(window.PrimeFaces){PrimeFaces.settings.locale='pt_BR';PrimeFaces.settings.validateEmptyFields=true;PrimeFaces.settings.considerEmptyStringNull=true;}
+//]]>
+</script>
+        <title>Metre - Erro 404</title></head><body>
+        <link rel="icon" type="image/x-icon" href="/resources/img/Senior.ico" /><script type="text/javascript" src="/javax.faces.resource/plugins/pace/pace.min.js.xhtml;jsessionid=fb6dae869d8a479cc44b8b2961e1"></script><script type="text/javascript" src="/javax.faces.resource/js/chef.js.xhtml;jsessionid=fb6dae869d8a479cc44b8b2961e1"></script>
+        <script>
+//<![CDATA[
+
+            function waitCursor() {
+                $('body').addClass('waiting');
+                //    $('*').css('cursor', 'wait');
+            }
+
+            function normalCursor() {
+                $('body').removeClass('waiting');
+                //    $('*').css('cursor', 'default');
+            }
+            function errorCursor() {
+                $('body').addClass('no-drop');
+                //    $('*').css('cursor', 'default');
+            }
+
+
+            //            localStorage['ss'] = JSON.stringify('');
+            //            var cont = localStorage['ss'];
+            //             console.log('asdas'+cont);
+
+        
+//]]>
+</script>
+        <style>
+<![CDATA[
+
+            @font-face {
+                font-family: cheft-font;
+                src: url(/resources/plugins/font-awesome/fonts/Brasserie.ttf);
+            }
+            body{
+                background: white !important;
+            }
+        
+]]>
+</style>
+        
+            <div class="row">
+                <div class="col-md-12">
+                    <div style="height: 50px;"></div>
+                    <center>
+                        <h1><a href="/Restrito/" class="btn btn-primary">Voltar ao início!</a></h1>
+                        <h3>404 - O Que você procura não foi encontrado!</h3>
+                        <h5>Desculpe-nos pelo transtorno. Clique em voltar ao início para ser redirecionado!</h5>
+                        <br /><img src="/javax.faces.resource/img/when-cooking-fails.png.xhtml;jsessionid=fb6dae869d8a479cc44b8b2961e1" alt="" />
+                    </center>
+                </div>
+            </div></body>
+</html>

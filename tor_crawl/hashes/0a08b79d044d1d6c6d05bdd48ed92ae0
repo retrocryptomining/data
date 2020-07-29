@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <title>Please update your IP address!</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--[if IE]>
+                <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+
+<style>
+        body{font-family:'Time New Roman',Georagia,sans;color:#222;padding:70px 0 0 0;}
+        h1{font-size:32px;font-weight:bold;}
+        h2{font-size:21px;line-height:32px;font-weight:normal;}
+        .container{margin:0 auto;width:600px;}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+<h1>Validate your IP Address!</h1>
+<h2>As we can see, your DNS settings are configured correctly. This page appeared because you need to Validate your IP address.</h2>
+<h2>To do this, sign in to your Client Area, go to your package and press "Validate IP" button.</h2>
+<h2>Also, check if your package is not expired.</h2>
+</div>
+
+
+</body>
+</html>

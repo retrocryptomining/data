@@ -1,0 +1,22 @@
+
+
+<!DOCTYPE html>
+<html>
+<!--STATUS OK-->
+<head>
+<meta charset="UTF-8" />
+<title>页面不存在</title>
+</head>
+<body>
+<div id="page">
+	<div id="header" class="bg-f8f8f8">
+		<a href="javascript:window.history.go(-1);" class="icon icon-left left"></a>
+		<span class="title">页面错误</span>
+		<a href="javascript:goback();" class="icon icon-home right"></a>
+	</div>
+	<div id="container" class="padd6">
+		<div class="center">您访问的页面不存在！</div>
+	</div>
+</div>
+</body>
+</html>

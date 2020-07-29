@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <title>Message Unavailable</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  </head>
+  <body bgcolor="#FFFFFF">
+    <p align="center">
+      <b>
+        <font face="Verdana, Arial, Helvetica, sans-serif" size="3">
+          Browser Error 
+        </font>
+      </b>
+      <br>
+      <font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+        (Error type 400: Bad Request)
+      </font>
+    </p>
+    <p>
+      <font size="2" face="Verdana, Arial, Helvetica, sans-serif">
+        Your web browser has sent an invalid request to the server.
+		Please try again.
+      </font>
+    </p>
+    <p>
+      <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+        If you believe something is wrong, send an e-mail to the
+		site's administrator and include the following information
+		in your message:
+      </font>
+    </p>
+    <pre>
+  Error:          400 Bad Request
+  Time:           <!--#echo var="DATE_LOCAL" -->
+  Browser:        <!--#echo var="HTTP_USER_AGENT" -->
+  From:           <!--#echo var="REMOTE_HOST" --> (<!--#echo var="REMOTE_ADDR" -->)
+  Document:       <!--#echo var="REQUEST_URI" -->
+  <!--#if expr="$HTTP_REFERER" -->Refering Page: <!--#echo var="HTTP_REFERER" --><!--#endif -->
+    </pre>
+  </body>
+</html>

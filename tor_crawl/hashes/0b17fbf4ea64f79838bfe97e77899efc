@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Error 404</title>
+    <link rel="stylesheet" href="/def.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=69PXg54oEr" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v=69PXg54oEr" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?v=69PXg54oEr" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg?v=69PXg54oEr" color="#5bbad5" />
+    <link rel="shortcut icon" href="/favicon.ico?v=69PXg54oEr" />
+    <meta name="msapplication-TileColor" content="#2b5797" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <h1><a href="/" class="nodeco nodecoanim">Oops, that's an error.</a></h1>
+    <h3>404 - File Not Found</h3>
+    <p>It seems that the page you were looking for doesn't exist.</p>
+    <p>I can't seem to find <code><span id="url">that page</span></code> anywhere.</p>
+    <p>Try the <a href="/weirdness/select.php">select page</a> to see if what you're looking for is there.</p>
+    <button onclick="goback()">back to sanity-land</button>
+    <script>
+      window.onload = function() {
+	  document.querySelector("#url").innerHTML = window.location.href;
+      }
+      function goback() {
+	  window.history.back();
+      }
+    </script>
+  </body>
+</html>

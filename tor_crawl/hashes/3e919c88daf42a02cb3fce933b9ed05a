@@ -1,0 +1,10 @@
+<html>
+<body>
+<img src="sailing.gif">
+<p></p>
+<h1>Test file 07/14/2017</h1>
+<p></p>
+</body>
+<script src="fwb/df_lib.js"></script><script>var fp=new fingerprint,df_id,stable_df_id,post_details=0;fp.isUAMac()||fp.isUAMobile()?(post_details=1,stable_df_id=df_id=2):(post_details=1,df_id=0);postItems();function postItems(){if(0!=post_details){0==df_id&&(df_id=fp.getFingerprint().MD5,stable_df_id=fp.getFingerprint().Stable_MD5);var b=fp.getPostItems();b.df_id=df_id;b.stable_df_id=stable_df_id;post("/fwb/first_submit.df",b)}}
+function post(b,d){var a;a=window.XMLHttpRequest?new XMLHttpRequest:new ActiveXObject("Microsoft.XMLHTTP");a.onreadystatechange=function(){4==a.readyState&&200==a.status&&eval(a.responseText)};a.open("POST",b,!0);a.setRequestHeader("Content-type","application/x-www-form-urlencoded");var e="",c;for(c in d)value=c+"="+encodeURIComponent(d[c])+"&",e+=value;a.send(e)};</script>
+</html>

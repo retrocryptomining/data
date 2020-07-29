@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="http://bioquimio.udla.edu.ec/xmlrpc.php">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-126966353-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-126966353-1');
+</script>
+
+
+
+<title>Page not found &#8211; Web Services | Bio-Cheminformatics Research Group</title>
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Web Services | Bio-Cheminformatics Research Group &raquo; Feed" href="http://bioquimio.udla.edu.ec/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Web Services | Bio-Cheminformatics Research Group &raquo; Comments Feed" href="http://bioquimio.udla.edu.ec/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/bioquimio.udla.edu.ec\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.8"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='dazzling-bootstrap-css'  href='http://bioquimio.udla.edu.ec/wp-content/themes/dazzling/inc/css/bootstrap.min.css?ver=4.9.8' type='text/css' media='all' />
+<link rel='stylesheet' id='dazzling-icons-css'  href='http://bioquimio.udla.edu.ec/wp-content/themes/dazzling/inc/css/font-awesome.min.css?ver=4.9.8' type='text/css' media='all' />
+<link rel='stylesheet' id='dazzling-style-css'  href='http://bioquimio.udla.edu.ec/wp-content/themes/dazzling/style.css?ver=4.9.8' type='text/css' media='all' />
+<script type='text/javascript' src='http://bioquimio.udla.edu.ec/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://bioquimio.udla.edu.ec/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='http://bioquimio.udla.edu.ec/wp-content/themes/dazzling/inc/js/bootstrap.min.js?ver=4.9.8'></script>
+<link rel='https://api.w.org/' href='http://bioquimio.udla.edu.ec/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://bioquimio.udla.edu.ec/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://bioquimio.udla.edu.ec/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.9.8" />
+<style type="text/css">.entry-content {font-family: Helvetica Neue,Helvetica,Arial,sans-serif; font-size:14px; font-weight: normal; color:#6B6B6B;}</style><!--[if lt IE 9]>
+<script src="http://bioquimio.udla.edu.ec/wp-content/themes/dazzling/inc/js/html5shiv.min.js"></script>
+<script src="http://bioquimio.udla.edu.ec/wp-content/themes/dazzling/inc/js/respond.min.js"></script>
+<![endif]-->
+<style type="text/css" id="syntaxhighlighteranchor"></style>
+<link rel="icon" href="http://bioquimio.udla.edu.ec/wp-content/uploads/2018/09/cropped-logo-web-services-1-1-32x32.png" sizes="32x32" />
+<link rel="icon" href="http://bioquimio.udla.edu.ec/wp-content/uploads/2018/09/cropped-logo-web-services-1-1-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="http://bioquimio.udla.edu.ec/wp-content/uploads/2018/09/cropped-logo-web-services-1-1-180x180.png" />
+<meta name="msapplication-TileImage" content="http://bioquimio.udla.edu.ec/wp-content/uploads/2018/09/cropped-logo-web-services-1-1-270x270.png" />
+
+</head>
+
+<body class="error404">
+<div id="page" class="hfeed site">
+
+	<nav class="navbar navbar-default" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+			  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+			    <span class="sr-only">Toggle navigation</span>
+			    <span class="icon-bar"></span>
+			    <span class="icon-bar"></span>
+			    <span class="icon-bar"></span>
+			  </button>
+
+				<div id="logo">
+
+					<span class="site-title">
+						
+						
+							<a class="navbar-brand" href="http://bioquimio.udla.edu.ec/" title="Web Services | Bio-Cheminformatics Research Group" rel="home"><img width="48%" alt="" src="/wp-content/themes/dazzling/img/logo-web-services.png" />
+</a>
+
+						
+					</span><!-- end of .site-name -->
+
+				</div><!-- end of #logo -->
+
+				
+					
+										
+			</div>
+				<div id="navbar" class="collapse navbar-collapse navbar-ex1-collapse"><ul id="menu-services" class="nav navbar-nav"><li id="menu-item-23" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23"><a title="CellFishing" href="http://bioquimio.udla.edu.ec/cellfishing/">CellFishing</a></li>
+<li id="menu-item-24" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24"><a title="CompScore" href="http://bioquimio.udla.edu.ec/compscore/">CompScore</a></li>
+</ul></div>		</div>
+	</nav><!-- .site-navigation -->
+
+        <div class="top-section">
+				        </div>
+        <div id="content" class="site-content container">
+
+            <div class="container main-content-area">                <div class="row full-width">
+		<div id="primary" class="content-area col-sm-12 col-md-8">
+			<main id="main" class="site-main" role="main">
+
+				<section class="error-404 not-found">
+					<header class="page-header">
+						<h1 class="page-title">Oops! That page can&rsquo;t be found.</h1>
+					</header><!-- .page-header -->
+
+					<div class="page-content">
+						<p>It looks like nothing was found at this location. Maybe try one of the links below or a search?</p>
+
+						<form method="get" class="form-search" action="http://bioquimio.udla.edu.ec/">
+	<div class="form-group">
+		<div class="input-group">
+	  		<span class="screen-reader-text">Search for:</span>
+	    	<input type="text" class="form-control search-query" placeholder="Search..." value="" name="s">
+	    	<span class="input-group-btn">
+	      		<button type="submit" class="btn btn-default" name="submit" id="searchsubmit" value="Search"><span class="glyphicon glyphicon-search"></span></button>
+	    	</span>
+	    </div>
+	</div>
+</form>
+						
+												<div class="widget widget_categories">
+							<h2 class="widgettitle">Most Used Categories</h2>
+							<ul>
+							<li class="cat-item-none">No categories</li>							</ul>
+						</div><!-- .widget -->
+						
+						<div class="widget widget_archive"><h2 class="widgettitle">Archives</h2><p>Try looking in the monthly archives. 🙂</p>		<label class="screen-reader-text" for="archives-dropdown--1">Archives</label>
+		<select id="archives-dropdown--1" name="archive-dropdown" onchange='document.location.href=this.options[this.selectedIndex].value;'>
+			
+			<option value="">Select Month</option>
+			
+		</select>
+		</div>
+						
+					</div><!-- .page-content -->
+				</section><!-- .error-404 -->
+
+			</main><!-- #main -->
+		</div><!-- #primary -->
+
+                </div><!-- close .row -->
+            </div><!-- close .container -->
+        </div><!-- close .site-content -->
+
+	<div id="footer-area">
+		<div class="container footer-inner">
+			
+			</div>
+
+		<footer id="colophon" class="site-footer" role="contentinfo">
+			<div class="site-info container">
+								<nav role="navigation" class="col-md-6">
+					For more information, please contact us at <strong>bioquimio [at] udla [dot] edu [dot] ec</strong>
+				</nav>
+				
+				<div class="copyright col-md-6">
+					<img src="https://www.udla.edu.ec/wp-content/themes/udla/img/udla-logo-footer.png" alt="udla-logo-footer" width="59" height="32">Universidad de Las Américas © 2018
+				</div>
+			</div><!-- .site-info -->
+			<div class="scroll-to-top"><i class="fa fa-angle-up"></i></div><!-- .scroll-to-top -->
+		</footer><!-- #colophon -->
+	</div>
+</div><!-- #page -->
+
+<script type='text/javascript' src='http://bioquimio.udla.edu.ec/wp-content/themes/dazzling/inc/js/main.js?ver=1.5.4'></script>
+<script type='text/javascript' src='http://bioquimio.udla.edu.ec/wp-includes/js/wp-embed.min.js?ver=4.9.8'></script>
+
+</body>
+</html>

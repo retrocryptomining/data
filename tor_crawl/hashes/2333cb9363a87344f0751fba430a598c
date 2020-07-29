@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>easyname | Seite nicht gefunden</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="generator" content="easyname.com domainparking"/>
+    <meta name="viewport" content="width=device-width" />
+    <meta name="robots" content="nofollow" />
+
+    <link rel="stylesheet" type="text/css" href="https://static.easyname.com/vendor/bootstrap/docs/assets/css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="https://static.easyname.com/vendor/bootstrap/docs/assets/css/bootstrap-responsive.css" />
+    <link rel="stylesheet" type="text/css" href="https://static.easyname.com/error/easyname_error.min.css" />
+
+    <script type="text/javascript" src="http://static.easyname.com/js/jquery-1.10.1.min.js"></script>
+    <script type="text/javascript">
+        var translation = {
+            'en': {
+                'title_head': 'easyname | Page not found',
+                'title': 'Error 404',
+                'subtitle': 'Page not found',
+                'controlpanel': 'The page you requested cannot be found. <br />Possible reasons for this error message can be found in the <a href="http://www.easyname.com/en/support/hosting/158-what-do-the-http-status-codes-401-403-404-and-500-mean?utm_medium=Domainparking&utm_campaign=Error404&utm_source=" target="_blank">easyname FAQ</a>.',
+                'footer': '<p>This domain is managed by <a rel="nofollow" href="http://www.easyname.com/?utm_medium=Domainparking&utm_campaign=Error404&utm_source=" target="_blank">easyname.com</a>.</p>'
+            }
+        };
+
+        $(document).ready(function() {
+            var language = 'en';
+            var userLanguage = navigator.language || navigator.userLanguage;
+            if (userLanguage.match(/^de/)) {
+                language = 'de';
+            }
+
+            if (language != 'de') {
+                document.title = translation[language]['title_head'];
+                $('#content h1').html(translation[language]['title']);
+                $('#content h3').html(translation[language]['subtitle']);
+                $('#content p').html(translation[language]['controlpanel']);
+                $('#footer').html(translation[language]['footer']);
+            }
+
+            $('#easyname-logo').click(function(e) {
+                e.preventDefault();
+                window.location.href = 'http://www.easyname.com/?utm_medium=Domainparking&utm_campaign=Error404&utm_source='+window.location.host;
+            });
+
+            $('a').each(function(){
+                this.href = this.href + window.location.host;
+            });			
+        });
+    </script>
+</head>
+<body>
+
+<div class="container">
+
+    <div class="jumbotron" id="content">
+        <h1>Fehler 404</h1>
+        <h3>Seite nicht gefunden</h3>
+        <p>
+            Die von Ihnen angeforderte Seite konnte nicht gefunden werden.<br />
+            M&ouml;gliche Ursachen f&uuml;r diese Fehlermeldung finden Sie in den <a href="http://www.easyname.com/de/support/hosting/158-was-bedeuten-die-http-fehlercodes-401-403-404-und-500?utm_medium=Domainparking&utm_campaign=Error404&utm_source=" target="_blank">easyname FAQ</a>.
+        </p>
+    </div>
+    <div class="row">
+        <div class="span8">
+            <p id="footer">Diese Domain wird von <a rel="nofollow" href="http://www.easyname.com/?utm_medium=Domainparking&utm_campaign=Error404&utm_source=" target="_blank">easyname.com</a> verwaltet.</p>
+        </div>
+        <div class="span4">
+            <div id="easyname-logo"></div>
+        </div>
+    </div>
+
+</div>
+<script type="text/javascript" src="https://static.easyname.com/vendor/bootstrap/docs/assets/js/bootstrap.min.js"></script>
+<!--// Google Analytics Code Begin //-->
+<script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-36437612-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+</script>
+<!--// Google Analytics Code End //-->
+</body>
+</html>

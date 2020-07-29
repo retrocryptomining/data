@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta property="qc:admins" content="345156531462026247654751445752" />
+    <meta name="renderer" content="webkit" />
+    <title>那家网</title>
+<link href="/assets/images/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+<meta name="description" content="那家网-买卖都欢喜:正品低价、品质保障、配送及时、放心服务、轻松购物！页面描述">
+<meta name="Keywords" content="那家网-买卖都欢喜:正品低价、品质保障、配送及时、放心服务、轻松购物！关键字"></head>
+<body class="bg_06">
+<!--获取oss和ftp切换的状态值-->
+<link type="text/css" href="/assets/css/basic.css" rel="stylesheet"/>
+<script type="text/javascript" src="/assets/js/jquery-1.11.2.min.js"></script>
+<script type="text/javascript" src="/assets/js/jquery.cookie.js"></script>
+<script type="text/javascript" src="/assets/js/xiaoguo.js"></script>
+<script type="text/javascript" src="/assets/js/js.js"></script>
+<script type="text/javascript">
+
+    var _hmt = _hmt || [];
+
+	$(document).ready(function(){
+		// ajax global setting
+		$.ajaxSetup({
+			type: 'post',
+			cache: false,
+			timeout: 30000,
+			dataType: 'json',
+			error: function(evt, request, settings){
+				if(evt.status == "600" ){
+					$("#winFastLogin").find(".po_main").css("z-index","102");
+			    	//$("#winFastLogin").show();
+                    $(".submit-loading").fadeOut().remove();
+				}
+			}
+		});
+
+		var region = $.cookie('region');
+		if(!region){
+			selectRegion("11","北京");
+		}else{
+			$("#region").text(region);
+		}
+
+		$("#shop_car").mouseenter(function(){
+			$("#mini_cart").load("/shopCart/mini");
+		});
+
+/*		var nickname = $.cookie('uname');
+		if(nickname != null && nickname != "") {
+			$("#top_login_id").html("<span class='font_82'>Hi，" + nickname + "&nbsp;欢迎！</span>&nbsp;&nbsp;<a href='/user/logout'>[注销]");
+			$("#top_login_id").append("</a><i class='mar_lr10 font_ec'>|</i><a href='/backlog/backlogInfo' onclick='closeMenu()'>个人中心</a>");
+		}*/
+
+		$.getJSON("/shopCart/cart",function(data){
+			$("#cartQuantity").html(data.allQuantity);
+		});
+
+		$.getJSON("/user/status",function(data){
+			if(data.msg){
+				if(data.buyer ==5){
+					//update by jiacf 暂时处理为点击用户名字去往分销商中心（如果类型为分销商）
+                    var htmlStr = "<span class='font_82'>Hi，<a href='/distribute/register/informationDB'>" + data.user.loginname + "</a>&nbsp;欢迎！</span>&nbsp;&nbsp;<a href='/user/logout'>[注销]</a>";
+				}else{
+                    var htmlStr = "<span class='font_82'>Hi，<a href='/order/queryBuyer?otoFlag=0'>" + data.user.loginname + "</a>&nbsp;欢迎！</span>&nbsp;&nbsp;<a href='/user/logout'>[注销]</a>";
+				}
+				$("#top_login_id").html(htmlStr);
+				$("#top_login_id").append("</a><i class='mar_lr10 font_ec'>|</i><a href='/backlog/backlogInfo' onclick='closeMenu()'>个人中心</a>");
+			} else {
+				$("#top_login_id").html('<a href="/user/login">登录</a><i class="mar_lr10 font_ec">|</i><a href="/information/register/initRegister">注册</a>');
+			}
+		});
+		$.getJSON("/user/status",function(data){
+			if(data.msg){
+				if(data.buyer ==2){
+					var htmlStr = '<a onclick="confirmOpen();">开店申请</a><i class="mar_lr10 font_ec">|</i>';
+				}else if(data.buyer ==3){
+					var htmlStr = '<a onclick="changeCategory()" href="/sellerDB/initDB" onclick="closeMenu()">卖家中心 </a><i class="mar_lr10 font_ec">|</i>';
+				}else if(data.buyer ==5){
+                    var htmlStr = '<a onclick="changeCategory()" href="/distribute/register/informationDB" onclick="closeMenu()">分销商中心 </a><i class="mar_lr10 font_ec">|</i>';
+                }
+				$("#openShopId").html(htmlStr);
+			} else {
+				$("#openShopId").html('<a href="/user/login">开店申请</a><i class="mar_lr10 font_ec">|</i>');
+			}
+		});
+
+		/**当图片地址不存在时，修改图片的src为"",避免出现裂图的问题*/
+		$("img").each(function(index){
+			if($(this).attr("src")=="http://image.gogbuy.com"){
+				$(this).attr("src","");
+			}
+		});
+
+		$.getJSON("/logo", function(data){
+			if(data){
+				                    $("#logo").attr("src","http://image.gogbuy.com"+data.picUrl).attr("title",data.logoName);
+							}
+		});
+	});
+
+	function selectRegion(code,name){
+		$.cookie('region',name,{expires: 7, path:"/"});
+		$.cookie('regionCode',code,{expires: 7, path:"/"});
+		$("#region").text(name);
+		$(".city").hide();
+	}
+
+	Date.prototype.format = function(format) {
+		var o = {
+			"M+" : this.getMonth() + 1, // month
+			"d+" : this.getDate(), // day
+			"h+" : this.getHours(), // hour
+			"m+" : this.getMinutes(), // minute
+			"s+" : this.getSeconds(), // second
+			"q+" : Math.floor((this.getMonth() + 3) / 3), // quarter
+			"S" : this.getMilliseconds()
+			// millisecond
+		}
+		if (/(y+)/.test(format)) {
+			format = format.replace(RegExp.$1, (this.getFullYear() + "").substr(4 - RegExp.$1.length));
+		}
+		for ( var k in o) {
+			if (new RegExp("(" + k + ")").test(format)) {
+				format = format.replace(RegExp.$1, RegExp.$1.length == 1 ? o[k] : ("00" + o[k]).substr(("" + o[k]).length));
+			}
+		}
+		return format;
+	};
+	function confirmOpen(){
+		if(confirm("非企业用户不可进行开店申请，是否确认申请开通店铺?")){
+		window.location.href="/information/registerSeller/initSeller"
+		}
+	}
+	function  changeCategory(){
+        $.cookie('clicked_menu',96,{path:'/'});
+	}
+	function closeMenu(menuId){
+		/*if(menuId==61){
+            $.ajax({
+                url: "/order/checkUser",
+                type: "post",
+                dataType: "json",
+                success: function (data) {
+					if(data.success){
+                        alert("对不起，您没有该权限！");
+                        return false;
+					}else{
+                        window.location.href="/order/queryBuyer";
+					}
+
+                }
+            });
+		}*/
+
+        if(!menuId){
+            menuId=40;
+        }
+		$.cookie('clicked_menu', menuId, {path:'/'});
+	}
+</script>
+<!--头部开始-->
+<div class="header_top" id="header_top">
+	<div class="top_mid po_re">
+
+        <div class="top_mid_r po_re ">
+        <ul class="nav_list">
+        	<!-- <li class="drop-menu-effect" id="shop_car" >
+        	<a href="/shopCart/toCart"><i class="fa-cart"></i>购物车
+        	<span class="tip" id="cartQuantity"></span><i class="demo-icons fa-sort-desc font_14 font_c7"></i></a>
+		    	 <div id="mini_cart" class="shopping right_botton wid_400 po_ab bg_06 border-4 box-shadow1 hide" style="top:35px;">
+					<div class="tit mar_lr10 bg_05 pad_l10 mar_tb10" style="text-align: left;">最新加入的商品</div>
+					<div class="car_shopping" style="height: 60px; line-height: 60px; text-align: center;">
+						<img src="/assets/images/loading-1j.gif">
+					</div>
+		    	</div>
+        	</li> -->
+            <li class="drop-menu-effect">
+                <a href="http://www.gogbuy.com" class="selected2">商城首页</a>
+            	<i class="font_ec mar_l10">|</i></li>
+            <li>
+           <a href="/order/queryBuyer" id="myOrder" onclick="closeMenu(61)"><span>我的订单</span><i class="font_ec mar_l10 ">|</i></a>
+           </li>
+          <li class="drop-menu-effect"><a ><span id="openShopId">开店申请</span></a>
+            </li>
+            <li class="drop-menu-effect"><a href="javascript:void(0);"><i class="demo-icons fa-star font_82"></i><span>我的收藏</span></a>
+               <dl class="submenu collect">
+                <dd><a href="/favourite/shops">店铺收藏</a></dd>
+                <dd><a href="/favourite/products">商品收藏</a></dd>
+              </dl>
+              <i class="font_ec mar_l10 ">|</i>
+            </li>
+            <li class="drop-menu-effect"><a href="#"><span>客服中心</span></a>
+            <dl class="submenu collect">
+				<!--  -->
+
+				<!-- 平台客服 -->
+									<img src="/assets/images/icon_custom.png" width="24" height="26"/>暂无客服
+				           </dl>
+         </li>
+        </ul>
+      </div><!-- top_mid_r 结束-->
+
+      <!-- 登录 注册-->
+          	<div class="top_mid_l po_re">
+			<span id="top_login_id" class="mar_l10 font_fe">
+			</span>
+        </div><!--top_mid_l end-->
+
+    </div><!--top_mid end-->
+</div><!--header_top end-->
+
+
+
+<!--以下为弹出层-->
+<div id="winFastLogin" class="po_fai" style="display: none;">
+    <div class="po_fai_bg"></div>
+    <div class="po_main" style="width:400px; margin-left:-200px;">
+    	<form action="/user/homepage" id="top_login_form" method="post">
+      		<input id="def_id" type="hidden" name="def" value="2"/>
+      		<div class="tit pad_l10 hei_24 bg_05" >
+        		<p class="fl">您尚未登陆</p><i id="winFastLoginClose" class="cursor fa-times-circle fr font_14 mar_r10"></i>
+      		</div>
+      		<div class="mar_l30 mar_r30">
+         		<h3 class="hei_35  font_16 fl">会员</h3>
+         		<p class="fr font_65 hei_35 cursor">
+         			<i class="fa fa-arrow-right"></i><a href="/information/register/initRegister">注册</a>
+         		</p>
+        		<div class="clear"></div>
+        		<div class="user">
+            		<i class="fa fa-uesr wid_30 hei_32 fl bg_05 font_cen border-1 border-12"></i>
+            		<input type="text" id="top_loginname_id" name="loginname" class="input_Style2 hei_30 wid_220" value="" placeholder="用户名" />
+        		</div>
+        		<div class="user mar_t20 ">
+            		<i class="fa fa-lock wid_30 hei_32 fl bg_05 font_cen border-1 border-12"></i>
+            		<input type="password" id="top_loginpwd_id" name="loginpwd" class="input_Style2 hei_30 wid_220" value="" placeholder="密码" />
+        		</div>
+        		<div class="jizhu mar_t20 ">
+<!--           	<input name="remember" type="checkbox" value="remember" class="fl"/><span class="fl">自动登录</span> -->
+          			<span class="fr mar_r20 cursor"><a href="/findpwd/editusername">忘记密码？</a></span>
+        		</div>
+        		<div class="clear"></div>
+        		<div class="font_cen mar_t20 pad_t50" >
+          			<button class="button_1 hei_30 " type="button" style="width:200px;" id="top_btn_submit">登录</button>
+        		</div>
+        		
+  	  		</div>
+  	  	</form>
+	</div>
+</div>
+<!--以上为弹出层-->
+
+<script type="text/javascript">
+  $("#winFastLoginClose").click(function(){
+    $("#winFastLogin").hide();
+  });
+
+  $("#top_login_id_i").click(function(){
+	  $("#winFastLogin").show();
+  });
+
+	$("#top_btn_submit").click(function(){
+	  var logname = $("#top_loginname_id").val();
+	  var logpwd = $("#top_loginpwd_id").val();
+	  $.ajax({
+			url:"/user/ajaxLogin",
+			type:"post",
+			data:{loginname:logname, loginpwd:logpwd},
+			success:function(data){
+				if(data.success){
+					//if(data.ustatus > 1){
+						$("#winFastLogin").hide();
+						/*var htmlStr = "<span class='font_82'>Hi，<a href='/buyercenter/loadBuyerCenter'>" +logname + "</a>&nbsp;欢迎！</span>&nbsp;&nbsp;<a href='/user/logout'>[注销]</a>";
+						$("#top_login_id").html(htmlStr);*/
+//						history.go(0);//刷新当前页面
+
+						// 登录成功后强制刷新，防止提交订单时切换用户后数据不匹配
+						window.location.reload();
+					//} else {
+					//	window.location.href="/user/login";
+					//}
+				}else{
+					alert(data.errorMessages)
+				}
+			}
+		});
+	  });
+
+</script>
+<script type="text/javascript" src="/assets/js/xiaoguo.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+         if($("#flag").val()=="shop"){
+          $("#search_select").html("店铺   <input type='hidden' id='type' value='shop'/><i class='demo-icons fa-angle-down font_14 font_c7'></i>");
+         }
+ 
+        // 搜索类型切换  宝贝/店铺
+        $(".mid_search .big_class span").click(function(){
+            $(".mid_search .big_class span").removeClass("focus_class");
+            $(this).addClass("focus_class");
+        });
+		
+        // 搜索按钮事件添加
+        $(".mid_search .button_search").click(function(){
+            var flag = "";//标识位，区分是否是二手市场
+            if(flag && flag=='used'){
+                usedSearch();
+            }else{
+                wholeNewSearch();
+            }
+        });
+
+        $("#keyword_searchForm").keydown(function(e){
+            if(e.keyCode==13){
+                $(".mid_search .button_search").trigger("click");
+            }
+        });
+        // 左侧导航菜单
+        $(".Nav_classify").load("/allCategory");
+
+        $("[module='index']").addClass("first_current");
+
+        // 搜索框下的热销词
+        $.getJSON("/mallWord?type=1",function(data){
+            $(data).each(function(i,obj){
+                $(".mid_search .Tag").append('<a href="#"><span class="mall_word">'+obj.word+'</span></a>');
+            });
+
+            $(".mall_word").bind("click",function(){
+                var word = $(this).html();
+                $("#keyword_searchForm").val(word);
+                wholeNewSearch();
+            });
+        });
+
+        $("#buyer").on("mouseenter",function(){
+            $("#loginArea").load("/loginFragement?type=buyer");
+            $("#loginArea").show();
+            $(this).addClass("Nav_focus");
+            $("#seller").removeClass();
+        });
+        $("#seller").on("mouseenter",function(){
+            $("#loginArea").load("/loginFragement?type=seller");
+            $("#loginArea").show();
+            $(this).addClass("Nav_focus");
+            $("#buyer").removeClass();
+        });
+        $("#loadcenter").on("mouseleave",function(){
+            $("#loginArea").hide();
+            $("#seller").removeClass();
+            $("#buyer").removeClass();
+        });
+		//搜索栏下切换搜索条件-->商品 店铺搜索
+        /* var selectSel = function() {
+       	 var arrA = document.getElementById("search_select_con").getElementsByTagName('a');
+       	 for(var a=0;a<arrA.length;a++){
+       		 arrA[a].onclick = function(){
+       			 document.getElementById("search_select").innerHTML=this.innerHTML+'<i class="demo-icons fa-angle-down font_14 font_c7"></i>';
+       			 this.parentNode.parentNode.style.display='none';
+       		 }
+       	 }
+       	 
+        }(); */
+    });
+    // 搜索全新商品
+    function wholeNewSearch(){
+//       	var type = $(".search .big_class").find(".focus_class").attr("type");
+		var type=$("#search_select").find("#type").val();
+        var keyword = $.trim($("#keyword_searchForm").val());
+            if(type=="product"){
+                //商品搜索
+                //location.href="/goods/search/searchItem"+(( keyword != null && keyword != "" )?("?keyword="+keyword):"");
+            	location.href="/goods/search/searchItem?keyword="+encodeURIComponent(keyword);
+            }else if(type=="shop"){
+                //店铺搜索
+                //location.href="/goods/search/searchShop?type="+type+(( keyword != null && keyword != "" )?("&keyword="+keyword):"");;
+                location.href="/goods/search/searchShop?type="+type+"&keyword="+encodeURIComponent(keyword);
+            }
+    }
+
+    // 搜索二手商品
+    function usedSearch(){
+        var keyword = $.trim($("#keyword_searchForm").val());
+        if( keyword != null && keyword != "" ){
+            location.href="/usedMarket?keyword="+keyword;
+        }else{
+            location.href="/usedMarket";
+        }
+    }
+    //购物车查询
+    $(document).ready(function(){
+	    $("#shop_car").mouseenter(function(){
+			$("#mini_cart").load("/shopCart/mini");
+		});
+	    /* $("#shop_car").click(function(){
+	    	url="/shopCart/toCart";
+	    	window.open(url);
+		}); */  
+	    $.getJSON("/shopCart/cart",function(data){
+			$("#cartQuantity").text(data.allQuantity);
+		});
+	    $("#menu_mid").load("/banner/topMenuList");
+    });
+    function top_banner(){
+        $("#top_banner").slideUp("slow");
+    }
+</script>
+<!-- 顶部广告位 -->
+
+<input type="hidden" id="flag" value=""/>
+<div id="top_banner" class="top_banner" style="display: none;" ></div>
+<div class="clear"></div>
+<div id="header">
+    <div class="left_img">
+        <a href="http://www.gogbuy.com">
+
+                            <img id="logo" src="http://image.gogbuy.com/album/2017/12/26/8adf0fae-45eb-4621-9d96-3f539cb6b11d.jpg" style="width:227px; height: 90px;"/>
+                    </a>
+    </div>
+
+    <div class="mid_search">
+        <!--(输入框和搜索按钮)-->
+        <div class="search po_re">
+	        <div class="big_class">
+	            	              <span id="search_select" class="pointer">商品<input type="hidden" id="type" value="product"/><i class="demo-icons fa-angle-down font_14 font_c7"></i></span>
+	             <ul style="display:none" id="search_select_con">
+	             	<li class="pointer focus_class " type="g"><a href="javascript:void(0);" type="product">商品</a></li>
+	                <li class="pointer" type="s"><a id="shopid" href="javascript:void(0);" type="shop">店铺</a></li>
+	             </ul>
+	            	        </div>
+            <input name="keyword" id="keyword_searchForm" type="text" class="search_input" value="" placeholder="请输入要搜索的信息"/>
+            <button type="button" class="button_search wid_80 po_ab pa_01 pointer js_search" style="outline: none;cursor:pointer;">
+                                    搜 索
+                            </button>
+        </div>
+        <!--search po_re end (输入框和搜索按钮)-->
+
+        <!--（中间搜索框下的标签）-->
+        <div class="Tag"></div>
+        <!--Tag（中间搜索框下的标签） end-->
+
+    </div>
+    <!--mid_search (包着中间搜索的框)end-->
+
+    <div class="right_img">
+		<div class="button po_re" id="shop_car">
+			<span class="icon_chart"><b class="tip" id="cartQuantity"></b></span><a class="like_shop" onclick="window.open('/shopCart/toCart')">购物车商品</a>
+				<div id="mini_cart" class=" right_botton box-shadow1 shopping hide">
+			</div>
+		</div>
+
+	</div><!--right_img end-->
+</div><!--头部结束-->
+
+
+
+<!--导航菜单开始-->
+<div class="Nav_bg">
+    <div class="Nav" >
+        <div class="Nav_left po_re">
+            <h2 class="all_select">
+                <a href="/categoryes">
+                    <i class="demo-icons fa-list-ul mar_r10"></i>
+                    	全部商品分类
+                </a>
+            </h2>
+            <div class="Nav_classify hide">
+            </div>
+        </div>
+		<!-- 首页导航查询 -->
+        <div class="menu_mid" id="menu_mid">
+        </div>
+    </div>
+</div>
+<!--导航菜单结束--><div class="clear"></div>
+<section class="w">
+    <link type="text/css" href="/assets/css/index.css" rel="stylesheet" />
+<link type="text/css" href="/assets/css/scnav.css" rel="stylesheet" />
+<link type="text/css" href="/assets/css/carousel.css" rel="stylesheet" />
+<script type="text/javascript" src="/assets/js/carousel.js"></script>
+<script type="text/javascript" src="/assets/js/adver_main.js"></script>
+<script type="text/javascript" src="/assets/js/scnav.js"></script>
+<script type="text/javascript" src="/assets/js/tab.js"></script>
+<script type="text/javascript" src="/assets/js/unslider.min.js"></script>
+<script type="text/javascript" src="/assets/js/fingerprint.js"></script>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+
+/*		if(null != _globle_f && "" != _globle_f){
+			$.getJSON("/localJsonp/allApplication?fingerPrint="+ _globle_f + "&jsonpCallback=?", function(data){
+				for(var i=0; i<data.length; i++){
+					var uri = data[i].uri+"&fingerPrint="+_globle_f;
+					var p = data[i].p;
+					$.getJSON(uri,p,function(data){
+						alert("(" + data + ")");
+					});
+				}
+			});
+		}*/
+
+		$.ajax({
+	          type : "post",
+	          url : "/banner/showBunner",
+	          async : false,
+	          dataType:"text",
+	          success : function(data){
+	        	//顶部广告
+	        	if(data){
+				 	$("#top_banner").load("/banner/topBunner");
+					$("#top_banner").slideDown("slow");
+	        	}
+	          },
+	          error:function(){
+
+	          }
+	     });
+
+		//便民服務小圖標
+		$("#showcontentServices").load("/banner/convenientService");
+		// 猜你喜欢
+		$("#guessLove").load("/guessLove");
+		//底部服务
+		$("#foot_noe").load("/banner/footerOne");
+	});
+	$(document).ready(function(){
+		$("#loginArea").load("/loginFragement?type=buyer");
+		//服务公告加载
+		$("#noticeArea").load("/noticeFragement");
+		// 冲销all_classify.js 中的click方法
+		setTimeout(function(){
+			$(".Nav_left").unbind("mouseleave");
+			$(".Nav_left").unbind("mouseenter");
+		},40);
+		$(".Nav_classify").show();
+	});
+
+
+
+	// 广告点击量统计
+	function adVisit(id,url,type){
+		$.ajax({
+			url: "/adVisit",
+			type: "post",
+			data: {
+				"id": id,
+				"type": type
+			}
+		});
+		var url = ( url != "" && url != null ) ? ( url.indexOf("http") != -1 ? url : ( "http://" + url ) ) : "/";
+		window.open(url);
+	}
+</script>
+<!--获取oss和ftp切换的状态值-->
+<!--轮播图开始-->
+<div class="main_flash">
+	<div class="main_flash_bg">
+		<div class="main_right">
+			<!--          -->
+			<div class="nTab">
+				<div class="TabTitle">
+					<ul id="myTab0">
+						<li class="active normal" onclick="nTabs(this,0);">便民服务</li>
+						<li class="normal" onclick="nTabs(this,1);">服务公告</li>
+					</ul>
+				</div>
+				<!--标题结束 -->
+				<div class="TabContent">
+					<!-- 便民服务 下的内容开始 -->
+					<div id="myTab0_Content0">
+						<div id="showcontentServices"></div>
+					</div>
+					<!-- 便民服务  end-->
+					<!-- 服务公告 下的内容开始 -->
+					<div id="myTab0_Content1" class="none">
+						<div id="noticeArea" class="noticeArea">
+							<!-- <img src="http://image.gogbuy.com/images/loading-2.gif"
+								style="margin: 20px auto"> -->
+						</div>
+					</div>
+					<!-- 服务公告  end-->
+				</div>
+				<!--TabContent  内容结束  -->
+			</div>
+			<!--nTab end-->
+			<div class="clear"></div>
+			<div class="marn_right_pic">
+				<span class="chevron chevron_left">
+					<i class=" fa-angle-left" onclick="SetActiveIndexSmall($('.marn_right_pic>.lbp'),0);">
+					</i>
+				</span>
+				<span class="chevron chevron_right">
+					<i
+						class=" fa-angle-right"
+						onclick="SetActiveIndexSmall($('.marn_right_pic>.lbp'),1);">
+					</i>
+				</span>
+														<a
+						onclick="adVisit('275','http://www.gogbuy.com/goods/product/details?id=1000000544&amp;skuId=1000000797',2)"
+						class="cursor lbp" style="display: block;" title="">
+                        <!--转换-->
+						                            <img src="http://image.gogbuy.com/album/2017/11/15/5f239b8d-daab-4030-8386-9f53f7ac6ca8.jpg" border="0" width="200" height="205" />
+						
+					</a>
+												</div>
+			<!--marn_right_pic -->
+			<!--          -->
+		</div>
+		<!--main_right end -->
+	</div><!--main_flash_bg end -->
+	<!-- 每一行轮播图片站位一个DIV-->
+	<div>
+		<div class="unslider_banner zoom_inout" id="b03">
+		    <ul>
+		    				        <li  style="background-color: #ffffff;">
+			        	<a onclick="adVisit('301','http://ztgog.gogbuy.com/page/369',2)" class="cursor lbp">
+			        	                            <img src="http://image.gogbuy.com/album/2018/1/29/d2adfca0-f53c-4a11-9ab0-e8daf6962b41.jpg" width="1280" height="450" >
+			        				        	</a>
+			        </li>
+		        			        <li  style="background-color: #ffffff;">
+			        	<a onclick="adVisit('303','http://www.gogbuy.com/',2)" class="cursor lbp">
+			        	                            <img src="http://image.gogbuy.com/album/2018/1/30/d37eb7c9-5f50-4a3b-850f-1a164bb0522a.jpg" width="1280" height="450" >
+			        				        	</a>
+			        </li>
+		        			        <li  style="background-color: #ffffff;">
+			        	<a onclick="adVisit('298','http://ztgog.gogbuy.com/page/381',2)" class="cursor lbp">
+			        	                            <img src="http://image.gogbuy.com/album/2018/1/29/7a29558f-f425-46bf-a90b-c2e16b30bffa.jpg" width="1280" height="450" >
+			        				        	</a>
+			        </li>
+		        			        <li  style="background-color: #ffffff;">
+			        	<a onclick="adVisit('302','http://www.gogbuy.com/goods/product/details?id=1000001314&amp;skuId=1000002082',2)" class="cursor lbp">
+			        	                            <img src="http://image.gogbuy.com/album/2018/1/24/dcb2194d-1979-4450-a8c2-c5e035c884a9.png" width="1280" height="450" >
+			        				        	</a>
+			        </li>
+		        			        <li  style="background-color: #ffffff;">
+			        	<a onclick="adVisit('300','http://www.gogbuy.com/goods/product/details?id=1000001099',2)" class="cursor lbp">
+			        	                            <img src="http://image.gogbuy.com/album/2018/1/18/9ef35916-e8a0-4bf2-917a-6fb5329ea74e.jpg" width="1280" height="450" >
+			        				        	</a>
+			        </li>
+		        			        <li  style="background-color: #ffffff;">
+			        	<a onclick="adVisit('297','http://ztgog.gogbuy.com/page/90',2)" class="cursor lbp">
+			        	                            <img src="http://image.gogbuy.com/album/2018/1/12/ef7b808e-f89b-48b7-89e7-60096a092884.jpg" width="1280" height="450" >
+			        				        	</a>
+			        </li>
+		        		    </ul>
+		</div>
+	</div><!-- focusPic end-->
+
+
+</div><!--main_flash end -->
+<!--轮播图结束-->
+
+
+<div id="content">
+	<!--广告banner 开始 -->
+	<div class="clear"></div>
+	<div class="banner"></div>
+	<!--广告banner 结束 -->
+
+
+	<!--广告推荐位开始 -->
+	<div class="group_list wid">
+		<p>
+			<img src="/assets/images/banner-01.jpg">
+		</p>
+		<!-- 存放标题-->
+		<ul>
+									<li>
+			<a
+				onclick="adVisit('409','http://www.gogbuy.com/goods/product/details?id=1000000717&skuId=1000001034',1)"
+				class="cursor" title="汉堡">
+                <!--转换-->
+				                    <img src="http://image.gogbuy.com/album/2017/12/1/b9e2bfcb-8303-4137-9268-5df139c60693.jpg" width="295" height="190" />
+							</a>
+			</li>  						<li>
+			<a
+				onclick="adVisit('412','http://www.gogbuy.com/goods/product/details?id=1000000536&skuId=1000000787',1)"
+				class="cursor" title="鸡蛋">
+                <!--转换-->
+				                    <img src="http://image.gogbuy.com/album/2017/12/1/5b56fe3c-200b-4d25-8e64-d8c83b352566.jpg" width="295" height="190" />
+							</a>
+			</li>  						<li>
+			<a
+				onclick="adVisit('413','http://www.gogbuy.com/goods/product/details?id=29578&skuId=36283',1)"
+				class="cursor" title="羊肉粉">
+                <!--转换-->
+				                    <img src="http://image.gogbuy.com/album/2017/12/1/ae0b41ec-e37c-4962-95b5-b1351d65b7c2.jpg" width="295" height="190" />
+							</a>
+			</li>  						<li>
+			<a
+				onclick="adVisit('414','http://www.gogbuy.com/goods/product/details?id=1000000279&skuId=1000000452',1)"
+				class="cursor" title="习酒">
+                <!--转换-->
+				                    <img src="http://image.gogbuy.com/album/2017/12/1/3fd19470-a8e0-417e-8b83-09761ff1b875.jpg" width="295" height="190" />
+							</a>
+			</li>  		</ul>
+	</div>
+	<!--广告推荐位结束 -->
+
+	<!--猜你喜欢 end -->
+	<!--   <div class="clear"></div> -->
+	<div id="guessLove"></div>
+	<!--猜你喜欢 end -->
+
+	<div class="clear"></div>
+	<!-- 楼层开始 -->
+	<div id="floors" class="wid">
+				<div id="floor1" name="floor1">
+			<!-- <div style="width: 100%; height: 380px; line-height: 380px;">
+				<img style="margin: 10px auto auto 600px;"
+					src="/assets/images/loading-4.gif"> -->
+				<script type="text/javascript">
+					$("#floor1").load("/floor/floorTabs?fid=167&louNum=1&num=1");
+  				</script>
+<!-- 			</div> -->
+		</div>
+				<div id="floor2" name="floor2">
+			<!-- <div style="width: 100%; height: 380px; line-height: 380px;">
+				<img style="margin: 10px auto auto 600px;"
+					src="/assets/images/loading-4.gif"> -->
+				<script type="text/javascript">
+					$("#floor2").load("/floor/floorTabs?fid=168&louNum=2&num=2");
+  				</script>
+<!-- 			</div> -->
+		</div>
+				<div id="floor3" name="floor3">
+			<!-- <div style="width: 100%; height: 380px; line-height: 380px;">
+				<img style="margin: 10px auto auto 600px;"
+					src="/assets/images/loading-4.gif"> -->
+				<script type="text/javascript">
+					$("#floor3").load("/floor/floorTabs?fid=169&louNum=3&num=3");
+  				</script>
+<!-- 			</div> -->
+		</div>
+				<div id="floor4" name="floor4">
+			<!-- <div style="width: 100%; height: 380px; line-height: 380px;">
+				<img style="margin: 10px auto auto 600px;"
+					src="/assets/images/loading-4.gif"> -->
+				<script type="text/javascript">
+					$("#floor4").load("/floor/floorTabs?fid=170&louNum=4&num=4");
+  				</script>
+<!-- 			</div> -->
+		</div>
+				<div id="floor5" name="floor5">
+			<!-- <div style="width: 100%; height: 380px; line-height: 380px;">
+				<img style="margin: 10px auto auto 600px;"
+					src="/assets/images/loading-4.gif"> -->
+				<script type="text/javascript">
+					$("#floor5").load("/floor/floorTabs?fid=171&louNum=5&num=5");
+  				</script>
+<!-- 			</div> -->
+		</div>
+				<div id="floor6" name="floor6">
+			<!-- <div style="width: 100%; height: 380px; line-height: 380px;">
+				<img style="margin: 10px auto auto 600px;"
+					src="/assets/images/loading-4.gif"> -->
+				<script type="text/javascript">
+					$("#floor6").load("/floor/floorTabs?fid=172&louNum=6&num=6");
+  				</script>
+<!-- 			</div> -->
+		</div>
+				<div id="floor7" name="floor7">
+			<!-- <div style="width: 100%; height: 380px; line-height: 380px;">
+				<img style="margin: 10px auto auto 600px;"
+					src="/assets/images/loading-4.gif"> -->
+				<script type="text/javascript">
+					$("#floor7").load("/floor/floorTabs?fid=173&louNum=7&num=7");
+  				</script>
+<!-- 			</div> -->
+		</div>
+				<div id="floor8" name="floor8">
+			<!-- <div style="width: 100%; height: 380px; line-height: 380px;">
+				<img style="margin: 10px auto auto 600px;"
+					src="/assets/images/loading-4.gif"> -->
+				<script type="text/javascript">
+					$("#floor8").load("/floor/floorTabs?fid=174&louNum=8&num=8");
+  				</script>
+<!-- 			</div> -->
+		</div>
+			</div>
+
+	<!-- 楼层导航功能条 -->
+	<div id="leftBar" style="">
+				<div>
+			<a href="#" class="border-5" code="1"> <span
+				class="floor_s">1F</span> <span class="floor_h">那家优选</span>
+			</a>
+		</div>
+				<div>
+			<a href="#" class="border-5" code="2"> <span
+				class="floor_s">2F</span> <span class="floor_h">特产小吃</span>
+			</a>
+		</div>
+				<div>
+			<a href="#" class="border-5" code="3"> <span
+				class="floor_s">3F</span> <span class="floor_h">黔茶茗品</span>
+			</a>
+		</div>
+				<div>
+			<a href="#" class="border-5" code="4"> <span
+				class="floor_s">4F</span> <span class="floor_h">醉美贵州</span>
+			</a>
+		</div>
+				<div>
+			<a href="#" class="border-5" code="5"> <span
+				class="floor_s">5F</span> <span class="floor_h">生态黔椒</span>
+			</a>
+		</div>
+				<div>
+			<a href="#" class="border-5" code="6"> <span
+				class="floor_s">6F</span> <span class="floor_h">高原粮油</span>
+			</a>
+		</div>
+				<div>
+			<a href="#" class="border-5" code="7"> <span
+				class="floor_s">7F</span> <span class="floor_h">民族工艺</span>
+			</a>
+		</div>
+				<div>
+			<a href="#" class="border-5" code="8"> <span
+				class="floor_s">8F</span> <span class="floor_h">肉禽蛋类</span>
+			</a>
+		</div>
+			</div>
+
+	<!-- 楼层导航功能条 -->
+	<div id="foot_noe"></div>
+
+
+	<!--底部信誉介绍开始-->
+
+
+</section>
+<div class="clear"></div>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("#foot").load("/footer");
+	});
+</script>
+<div class="clear"></div>
+<div id="foot"></div>
+</body>
+</html>

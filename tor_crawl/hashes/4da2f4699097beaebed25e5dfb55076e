@@ -1,0 +1,124 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+  <!-- Bitte hier den Firmennamen eintragen -->
+  <title>Error</title>
+  <meta http-equiv="Expires" content="0">
+  <meta http-equiv="pragma" content="no-cache">
+  <meta http-equiv="Description" content="d-hosting.de">
+  <meta http-equiv="Keywords" content="d-hosting">
+
+  <meta http-equiv="author" content="freeware">
+  <meta http-equiv="Reply-to" content="hostmaster@d-hosting.de">
+</head>
+
+<style>         A  {
+          text-decoration : none;
+          color : #FFFFFF;
+         }
+         
+         A:Visited  {
+          text-decoration : none;
+          color : #FFFFFF;
+         }
+         
+         A:Active  {
+          color : #FFFFFF;
+          text-decoration : none;
+         }
+         
+         A:Hover  {
+          color : #FF0000;
+          text-decoration : none;
+         }
+         
+        TD  {
+          font-family : sans-serif;
+          font-size : 10pt;
+          color : #FFFFFF;
+          font-weight : bold;
+         }
+         
+         .KLEIN  {
+          font-family : sans-serif;
+          font-size : 10pt;
+          color : #FFFFFF;
+          font-weight : bold;
+         }
+         
+         </style>
+
+
+<body bgcolor="#000000">
+
+<table width="100%" height="100%" border="0" cellspacing="0" cellpadding="0" align="center" valign="middle">
+<tr>
+    <td width="8%"  height="45%" bgcolor="#ffff00"><br></td>
+    <td width="8%"  height="45%" bgcolor="#ffff00"><br></td>
+
+    <td width="16%" height="45%" bgcolor="#00ffff"><br></td>
+    <td width="16%" height="45%" bgcolor="#00ff00"><br></td>
+    <td width="16%" height="45%" bgcolor="#ff00ff"><br></td>
+    <td width="16%" height="45%" bgcolor="#ff0000"><br></td>
+    <td width="8%"  height="45%" bgcolor="#0000ff"><br></td>
+    <td width="8%"  height="45%" bgcolor="#0000ff"><br></td>
+
+</tr>
+<tr>
+    <td width="8%" height="10%" bgcolor="#ffff00"><br></td>
+
+    <td align="center" colspan="6" height="10%" width="84%" bgcolor="#000000">
+  <!-- Bitte hier die URL eintragen -->
+<?php
+echo "<H1>[".$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']."]</H1>\n";
+echo "<h2 style='color:RED;'>ERROR : ".$_SERVER['REDIRECT_STATUS']."</h2>";
+echo "YOUR IP: ".$_SERVER['REMOTE_ADDR']."<br>";
+?>
+  <a href="http://www.d-hosting.de">d-hosting GmbH</a></td>
+    <td width="8%" height="10%" bgcolor="#0000ff"><br></td>
+
+</tr>
+<tr>
+    <td width="8%"  height="45%" bgcolor="#ffff00"><br></td>
+    <td width="8%"  height="45%" bgcolor="#ffff00"><br></td>
+    <td width="16%" height="45%" bgcolor="#00ffff"><br></td>
+    <td width="16%" height="45%" bgcolor="#00ff00"><br></td>
+    <td width="16%" height="45%" bgcolor="#ff00ff"><br></td>
+    <td width="16%" height="45%" bgcolor="#ff0000"><br></td>
+    <td width="8%"  height="45%" bgcolor="#0000ff"><br></td>
+    <td width="8%"  height="45%" bgcolor="#0000ff"><br></td>
+
+</tr>
+</table>
+
+</body>
+</html>
+<?php
+exit(0);
+?>
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+ <head>
+<?php
+if(false)
+{
+
+echo " <title>Error ".$_SERVER['REDIRECT_STATUS']."</title>\n";
+echo " </head>\n <body>\n";
+echo "<table width='100%' height='100%'><tr><td align='center' valign='top'>";
+echo "<H1>[".$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']."]</H1>\n";
+echo "<h2 style='color:RED;'>ERROR : ".$_SERVER['REDIRECT_STATUS']."</h2>";
+echo "YOUR IP: ".$_SERVER['REMOTE_ADDR']."<br>";
+echo "<table><tr><td align='left'>";
+echo "<pre style='font-size: 8px;'>";
+system("traceroute -n -I ".$_SERVER['REMOTE_ADDR']);
+echo "</pre>";
+echo "</table>";
+echo "</td></tr></table>";
+}
+?>
+ </body>
+</html>

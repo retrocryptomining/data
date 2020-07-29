@@ -1,0 +1,13 @@
+<html>
+<head>
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+<title>Error: The requested URL could not be checked</title>
+</head>
+<body>
+<H2>The requested URL could not be checked</H2>
+<HR noshade size="1px">
+Too many clients, please try again later.
+<HR noshade size="1px">
+stproxy/0.9
+</body>
+</html>

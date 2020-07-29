@@ -1,0 +1,86 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML>
+<HEAD>
+<TITLE>SpeedTransfer - Bezprzewodowy Internet w Tomaszowie Mazowieckim</TITLE>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+<meta http-equiv="Content-Language" content="pl">
+<meta http-equiv="Refresh" Content="15" />
+<META content="SpeedTransfer - Bezprzewodowy Internet w Tomaszowie Mazowieckim" name="description">
+<META content="internet, wi-fi, szybkie łącza" name="keywords">
+
+<link type="text/css" rel="stylesheet" href="style_speedtransfer.css">
+<link rel="shortcut icon" href="favicon.ico">
+
+<!--[if IE]>
+  <style>
+  li a.menu {width:180px;}
+  li.sub a {width:160px;}
+  </style>
+<![endif]-->
+</HEAD>
+
+<BODY>
+
+
+
+
+<TABLE width="1000" align="center" cellpadding="0" cellspacing="0" border="0" style="padding-top:50px;">
+	<TR>
+		<TD valign="top" align="left" width="1000">
+			<table width="50%" align="center" border="0">
+				<tr>
+					<td colspan="2" align="center"><img src="logo.png" border="0" alt=""></td>
+				</tr>
+			<tr>
+				<td colspan="2" align="center"><H1>Przypomnienie o braku płatności za usługi telekomunikacyjne</H1></td>
+			</tr>
+			
+			<TR><TD colspan="2"><HR></TD></TR>
+        <TR><TD colspan="2" align="center">
+
+				<center><b>Szanowny Abonencie<br>  JATEX JACEK KRZEŚLAK</b></center>
+				<p>Do dnia dzisiejszego na konto firmy Speedtransfer <strong>nie wpłynęła</strong> opłata za usługę dostępu do sieci Internet, a Twoje saldo na dzień dzisiejszy wynosi: <span style="color:#e00;font-weight:bold">-53.00</span>.</p>
+				<p style="text-align:center"><font color="red"><b>Zaległą wpłatę prosimy uregulować na Państwa indywidualny rachunek:</font></br>
+                                                        27 1240 6960 1046 0000 0000 1135</b></p>
+	       			<BR><BR>
+
+
+       				Aby nadal korzystac z Internetu zaznacz kwadratowe pole i kliknij na "Odblokuj".<BR>
+       				<BR>
+       				<B>Oswiadczenie:</B><BR>
+       				<FORM action="http://185.89.64.7:83/strona.php" name="ob" method="post">
+       					<INPUT type="checkbox" required name="zgoda" value="1"> niniejszym zobowiazuje sie do pokrycia naleznosci za dostawe Internetu w terminie 7 dni kalendarzowych.<BR>
+       					<INPUT type="hidden" name="wyslij" value="1"><br />
+	       				<INPUT type="submit" value="Odblokuj">
+       				</FORM>
+				</TD></TR>
+				<TR><TD colspan="2"><HR></TD></TR>
+			<TR><TD colspan="2" align="center">
+				<BR>
+				<img src="images/zalamka.gif" alt="" class="imgCenter"><BR>
+				 <BR>
+
+				 W celu wyja&#347;nienia powod&oacute;w blokady oraz ponownego udost&#281;pnienia<BR>
+				 &#322;&#261;cza prosimy o kontakt:<BR>
+				 <BR>
+				 Biuro tel. <B>(0-44) 724 71 94</B><BR>
+				 <BR>
+				 Serwis tel. <B>691 704 886</B><BR>
+				 <BR>
+				 lub osobi&#347;cie w siedzibie firmy:<BR>
+				 <B>Tomasz&oacute;w Mazowiecki, ul. Legionów 25</B><BR>
+				 <BR>
+				 Godziny pracy: 10.00 - 17.00
+			 </TD></TR>
+
+			<TR><TD colspan="2" style="background: url(images/kreska_pozioma.gif) repeat-x; height:11px; "></TD></TR>
+
+			</table>
+	</TD>
+</TR>
+
+	</TBODY>
+</TABLE>
+</DIV>
+</BODY>
+</HTML>

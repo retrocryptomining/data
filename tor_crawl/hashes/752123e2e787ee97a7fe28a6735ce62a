@@ -1,0 +1,351 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="阳光安吉,最权威的舆情监测监控公司,舆情监控、舆情监测、媒体监测、品牌监测、竞品监测,提供专业,的舆情分析和舆情报告,找专业的舆情公司首选阳光安吉舆情监测公司,舆情监控咨询热线：400-890-1230。" />
+<meta name="keywords" content="阳光安吉,北京阳光安吉,安吉舆情,舆情监测,舆情监测软件,舆情监测服务,舆情监测公司,舆情分析,微博监测,微信监测" />
+<title>舆情监测|舆情监控|品牌监控|阳光安吉-阳光安吉-北京阳光安吉-北京阳光安吉舆情监控公司-中国舆情监测领导者</title>
+<link rel="stylesheet" href="../css/global.css" type="text/css" />
+<SCRIPT type="text/javascript" src="../js/jquery-1.8.0.min.js"></SCRIPT>
+<script type="text/javascript" src="../js/menu.js"></script>
+</head>
+<body>
+<div id="box">
+
+<div id="header">
+    
+         
+         <div id="nav">
+  
+    
+    <div class="nav_con1">
+      <div id="center">
+        <div class="logo"><h1><a target="_blank" href="#">阳光安吉</a></h1></div>
+        <div class="logo2"></div>
+        <div class="topnav">
+             <div class="top_nav"><p><a href="javascript:;" id="addSiteFavorite">加为收藏</a> | <a target="_blank" href="contactus.php">联系我们</a> | <a target="_blank" href="test.php">试用申请</a> | <a target="_blank" href="http://gov3.saitdiscover.com">账号登录</a> | <a target="_blank" href="http://weibo.com/u/1793514335">官方微博</a>&nbsp;</p></div>
+             <div class="top_wb"><a target="_blank" href="http://weibo.com/u/1793514335">加关注</a></div>
+         </div>
+        <div id="menu">
+        
+            <ul id="menu_nav">
+            
+                <li class="mainlevel"><a href="index.html">首页</a></li> 
+                
+                <li id="mainlevel_01" class="mainlevel"><a href="/yuqingjiance/service.html">产品&amp;服务</a>
+                     <ul style="display: none;" class="sub_nav_01">
+                        <span class="Triangle_con"></span>
+                        <li><a href="/yuqingjiance/service.html">舆情服务</a></li>
+                        <li><a href="/yuqingjiance/software.html">舆情软件</a></li>
+                        <li><a href="/yuqingjiance/consulting.html">舆情咨询</a></li>
+   
+                     </ul>
+                </li> 
+                
+                <li id="mainlevel_02" class="mainlevel"><a href="/yuqingjiance/applications.html">应用领域</a>
+                <!--
+                    <ul style="display: none;" class="sub_nav_01">
+                       <span class="Triangle_con"></span>
+                       <li><a target="_blank" href="/yuqingjiance/applications.html">应用领域</a></li>
+                    </ul>
+                -->
+                </li>
+                
+                <li class="mainlevel"><a href="/yuqingjiance/support.html">技术支持</a>
+                <!--
+                 <ul style="display: none;" class="sub_nav_01">
+                       <span class="Triangle_con"></span>
+                       <li><a target="_blank" href="#">采集</a></li>
+                       <li><a target="_blank" href="#">微博数据</a></li>
+                       <li><a target="_blank" href="#">其他</a></li>
+                   </ul>
+                -->
+                </li> 
+                
+                <li class="mainlevel"><a href="/yuqingjiance/cooperation.html">合作方式</a>
+                    <ul style="display: none;" class="sub_nav_01">
+                       <span class="Triangle_con"></span>
+                       <li><a href="/yuqingjiance/cooperation.html">合作流程</a></li>
+                       <li><a href="/yuqingjiance/proxy.html">舆情代理</a></li>
+                    </ul>
+                </li>
+                
+                <li class="mainlevel"><a href="/yuqingjiance/information.html">重要资讯</a>
+                   <ul style="display: none;" class="sub_nav_01">
+                      <span class="Triangle_con"></span>
+                      <li><a href="/yuqingjiance/information.html">舆情动态</a></li>
+                      <li><a href="/yuqingjiance/share.html">安吉分享</a></li>
+                   </ul>
+                </li>
+                
+                <li class="mainlevel"><a href="/yuqingjiance/aboutus.html">关于我们</a>
+                   <ul style="margin-left: -200px; width: 289px; display: none;" class="sub_nav_01">
+                      <span class="Triangle_con2"></span>
+                      <li><a href="/yuqingjiance/aboutus.html">公司简介</a></li>
+                      <li><a href="/yuqingjiance/course.html">发展历程</a></li>
+                      <li><a href="/yuqingjiance/contactus.html">联系我们</a></li>
+                      <li><a href="/yuqingjiance/jobs.html">招聘信息</a></li>
+                   </ul>
+                </li>
+            </ul>
+        
+        </div>
+      </div>
+      
+    </div>
+  
+         </div>
+    
+    </div>
+    
+</div>
+<!--下拉导航-->
+
+<script type="text/javascript">
+$(document).ready(function(){
+    $(".nav_2 li:first a").css("border-left","0px");
+    $(".nav_2 li:last a").css("border-right","0px");
+	$(".nav_1 li").mouseover(function(){
+		$(this).find(">a").addClass("nav_dq");
+		$(this).find(".nav-all-list").css("display","block");
+	})
+	$(".nav_1 li").mouseleave(function(){
+		$(this).find(">a").removeClass("nav_dq");
+		$(this).find(".nav-all-list").css("display","none");
+	})
+	
+var C = $("#addSiteFavorite");
+var u = function () {
+	var V = "安吉舆情";
+	var U = "http://www.saitseo.com";
+ 	try {
+        window.external.addFavorite(U, V);
+    }catch (e) {
+        try {
+            window.sidebar.addPanel(V, U, "");
+        }catch (e) {
+            alert("抱歉，您所使用的浏览器无法完成此操作。\n\n加入收藏失败，请使用Ctrl+D进行添加");
+        }
+    }
+};
+
+C.bind("click", function () {
+	u();
+});
+});
+</script>
+ 
+<!--导航平滑效果-->
+<link rel="stylesheet" href="../css/mainbody.css" type="text/css" />
+<link rel="stylesheet" href="../css/lxwm.css" type="text/css" />
+
+
+<div id="mainbody">
+    
+      <div id="center">
+      
+       <div id="left">
+       
+           <div class="lf_tub"><img src="../images/ej_gywm.jpg"></div>
+           
+           <div class="leftside">
+           
+               <ul>
+                      <li><a href="aboutus.php">关于我们</a></li>
+                      <li><a href="course.php">发展历程</a></li>
+                      <li class="ej_no"><a href="contactus.php">联系我们</a></li>
+                      <li><a  href="jobs.php">招聘信息</a></li>
+               </ul>
+           
+           </div>
+           
+           <div class="ej_zxdt">
+           
+              <div class="ej_dtbt"><a href="information.php">舆情动态</a></div>
+               <div class="ej_dtnr">
+                  <ul>
+                                          </ul>
+               </div>
+           
+           </div>
+           
+           <div class="ej_phone"><img src="../images/ej_phon.jpg"></div>
+           
+           <div class="ej_top"><a href="#top"><img src="../images/ej_top.jpg"></a></div>
+           <div class="ej_lx"></div>
+           
+       
+       </div>
+       
+       <div id="right">
+       
+          <div id="rt_con">
+          
+             <div class="ej_nav">
+             
+                <div class="ej_current">
+                
+                    <img src="../images/ej_hm.jpg"> <a target="_blank" href="#">首页</a> &gt; <a target="_blank" href="#">关于我们</a> &gt; <a target="_blank" href="#">联系我们</a>
+                 
+                </div>
+                
+             
+             </div>
+             
+             <div class="rt_tit">联系我们</div>
+             
+             <div class="ej_lxwm">
+             
+                 <div class="ej_lxlg"></div>
+                 <div class="ej_lxys">
+                    <ul>
+                           <li><span class="bold">地址：</span>北京市东城区和平里中街19号天元和平商业大厦西侧6层</li>
+                           <li><span class="bold">总机：</span>+86 10 84210155</li>
+                           <li><span class="bold">传真：</span>+86 10 84221566</li>
+                           <li><span class="bold">邮编：</span>100013</li>
+                    </ul>
+                 </div>
+                 <div class="ej_lxwz">
+                 
+                     <div class="ej_lxwz1"><img src="../images/ej_lxwz.jpg"></div>
+                     <div class="ej_lxwz1"><img src="../images/ej_lxwz2.jpg"></div>
+                     <div class="ej_lxwz1"><img src="../images/ej_lxwz3.jpg"></div>
+                     <div class="ej_lxwz1"><img src="../images/ej_lxwz4.jpg"></div>
+                     <div class="ej_lxwz1"><img src="../images/ej_lxwz5.jpg"></div>
+                     <div class="ej_lxwz1"><img src="../images/ej_lxwz6.jpg"></div>
+                     <div class="ej_lxwz1"><img src="../images/ej_lxwz7.jpg"></div>
+                 
+                 </div>
+             
+             </div>
+             
+          
+          </div>
+       
+       </div>
+       
+      </div>
+    
+    </div>
+
+<div id="footer">
+    
+        <div id="center">
+        
+            <div class="footer_nav">
+            
+                <div class="footer_lg"><img src="images/footer_logo.jpg"></div>
+                <div class="footer_bn">
+                   <ul>
+                          <li>阳光安吉舆情监控、舆情监测公司 版权所有</li>
+                          <li>Copyright&nbsp;&copy;&nbsp;2009-2012 </li>
+                          <li>京ICP备09083531号</li>
+                          <li>京公网安备11010102000468号</li>
+                          <li><a target="_blank" href="#">站长统计</a></li>
+                   </ul>
+                </div>
+                
+                <div class="subnav">
+                
+                     <div class="sub_nav4">
+                     
+                         <ul>
+                                <li class="sub_nav"><a target="_blank" href="/yuqingjiance/service.html">产品&amp;服务</a></li>
+                                <li><a target="_blank" href="/yuqingjiance/service.html" title="【安吉舆情】舆情服务">舆情服务</a></li>
+                                <li><a target="_blank" href="/yuqingjiance/software.html" title="【安吉舆情】舆情软件">舆情软件</a></li>
+                                <li><a target="_blank" href="/yuqingjiance/consulting.html" title="【安吉舆情】舆情咨询">舆情咨询</a></li>
+                         </ul>
+                     
+                     </div>
+                     
+                     <div class="sub_nav4">
+                     
+                         <ul>
+                                <li class="sub_nav"><a target="_blank" href="/yuqingjiance/applications.html">应用领域</a></li>
+                                <li><a target="_blank" href="/yuqingjiance/applications.html" title="【安吉舆情】应用领域">应用领域</a></li>
+                         </ul>
+                     
+                     </div>
+                     
+                     <div class="sub_nav4">
+                     
+                         <ul>
+                                <li class="sub_nav"><a target="_blank" href="/yuqingjiance/support.html">技术支持</a></li>
+                                <li><a target="_blank" href="/yuqingjiance/support.html" title="【安吉舆情】技术支持">技术支持</a></li>
+                         </ul>
+                     
+                     </div>
+                     
+                     <div class="sub_nav4">
+                     
+                         <ul>
+                                <li class="sub_nav"><a target="_blank" href="/yuqingjiance/cooperation.html">合作方式</a></li>
+                                <li><a target="_blank" href="/yuqingjiance/cooperation.html" title="【安吉舆情】合作流程">合作流程</a></li>
+                                <li><a target="_blank" href="/yuqingjiance/proxy.html" title="【安吉舆情】舆情代理">舆情代理</a></li>
+                         </ul>
+                     
+                     </div>
+                     
+                     <div class="sub_nav4">
+                     
+                         <ul>
+                                <li class="sub_nav"><a target="_blank" href="information.php">重要资讯</a></li>
+                                <li><a target="_blank" href="/yuqingjiance/information.html" title="【安吉舆情】舆情动态">舆情动态</a></li>
+                                <li><a target="_blank" href="/yuqingjiance/share.html" title="【安吉舆情】安吉分享">安吉分享</a></li>
+                         </ul>
+                     
+                     </div>
+                     
+                     <div class="sub_nav4">
+                     
+                         <ul>
+                                <li class="sub_nav"><a target="_blank" href="/yuqingjiance/aboutus.html">关于我们</a></li>
+                                <li><a target="_blank" href="/yuqingjiance/aboutus.html" title="【安吉舆情】公司简介">公司简介</a></li>
+                                <li><a target="_blank" href="/yuqingjiance/course.html" title="【安吉舆情】发展历程">发展历程</a></li>
+                                <li><a target="_blank" href="/yuqingjiance/contactus.html" title="【安吉舆情】联系我们">联系我们</a></li>
+                                <li><a target="_blank" href="/yuqingjiance/jobs.html" title="【安吉舆情】招聘信息">招聘信息</a></li>
+                         </ul>
+                     
+                     </div>
+                
+                </div>
+            
+            </div>
+        
+        </div>
+    
+    </div>
+</body>
+<div id="messagesDIV"  style="position: absolute; z-index: 3;display: none;">
+<img src="images/Messages.jpg" width="420" height="271" border="0" usemap="#Map" />
+</div>
+<map name="Map" id="Map">
+<area shape="rect" coords="188,204,304,271" href="javascript:;" onclick="openZoosUrl();LR_HideInvite();return false;" />
+<area shape="rect" coords="304,204,417,270" href="javascript:;" onclick="$('#messagesDIV').hide();" />
+<area shape="rect" coords="378,-1,420,40" href="javascript:;" onclick="$('#messagesDIV').hide();"/>
+
+<script type="text/javascript">
+function showDIV(){
+	var windowWidth = document.documentElement.clientWidth;  
+	var windowHeight = document.documentElement.clientHeight;  
+	var popupHeight = $("#messagesDIV").height();  
+	var popupWidth = $("#messagesDIV").width();   
+	$("#messagesDIV").css({
+	    "position": "absolute",
+	    "top": (windowHeight-popupHeight)/2+$(document).scrollTop(),
+	    "z-index":999,
+	    "left": (windowWidth-popupWidth)/2
+	});
+}
+$(window).scroll( function() { 
+showDIV();
+});
+setTimeout(function(){
+showDIV();
+$("#messagesDIV").show();
+},10000);
+</script>
+
+</html>
+<script language="javascript" src="http://pat.zoosnet.net/JS/LsJS.aspx?siteid=PAT26179553&float=1&lng=cn"></script>
+    

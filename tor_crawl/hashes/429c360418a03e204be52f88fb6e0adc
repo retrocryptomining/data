@@ -1,0 +1,9 @@
+<head>
+<title>Error response</title>
+</head>
+<body>
+<h1>Error response</h1>
+<p>Error code 502.
+<p>Message: Bad Gateway.
+<p>Error code explanation: 502 = Invalid responses from another server/proxy..
+</body>

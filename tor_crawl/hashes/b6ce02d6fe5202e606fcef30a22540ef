@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!-------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+    _______                   _____   __       _________
+    ___    |________ ________ ___  | / /______ ______  /_____
+    __  /| |___  __ \___  __ \__   |/ / _  __ \_  __  / _  _ \
+    _  ___ |__  /_/ /__  /_/ /_  /|  /  / /_/ // /_/ /  /  __/
+    /_/  |_|_  .___/ _  .___/ /_/ |_/   \____/ \__,_/   \___/
+            /_/      /_/
+---------------------------------------------------------------------------------
+-------------------------------------------------------------------------------->
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <title>404页面 - Linux 服务器管理面板</title>
+    <meta name="description" content="AppNode受控端,Linux 服务器管理面板">
+    <meta name="viewport" content="width=device-width">
+    <meta name="renderer" content="webkit">
+    <link rel="shortcut icon" href="favicon.ico"/>
+    
+<link href="/wrap-2018040301/app/styles/404.css" media="screen" rel="stylesheet">
+
+</head>
+<body>
+<!--[if lt IE 7]>
+<p class="browser">您使用的浏览器已过时， <a href="http://browsehappy.com/" target="_blank">马上更新浏览器</a>。</p>
+<![endif]-->
+<div id="wrap">
+    
+<h3 class="logo"><a title="appnode" href="/">AppNode</a></h3>
+<div class="error-wrap">
+    <div class="error">
+        <div class="error-tit">很抱歉！您所访问的页面不存在...</div>
+        <div class="error-con">
+            您可以选择跳转到：
+            <a href="/">服务器管理</a>
+            <a href="http://bbs.appnode.com/" target="_blank">用户社区</a>
+        </div>
+        <div class="error-con">
+            如需联系我们，请发送邮件至：<span class="error-email">support@appnode.com</span>
+        </div>
+    </div>
+</div>
+
+</div>
+
+
+</body>
+</html>

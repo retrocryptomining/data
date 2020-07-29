@@ -1,0 +1,80 @@
+<HTML>
+  <HEAD>
+    <title>P&aacute;ginas Amarillas Cantv - P&aacute;gina no encontrada - 404</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<style>
+	body{font-family:Arial;color:#444;background:#333}
+	p{font-size:14px;line-height:22px}
+	.btn {
+	  background: #FFE401;
+	  background-image: -webkit-linear-gradient(top, #FFE401, #e8ce09);
+	  background-image: -moz-linear-gradient(top, #FFE401, #e8ce09);
+	  background-image: -ms-linear-gradient(top, #FFE401, #e8ce09);
+	  background-image: -o-linear-gradient(top, #FFE401, #e8ce09);
+	  background-image: linear-gradient(to bottom, #FFE401, #e8ce09);
+	  -webkit-border-radius: 4;
+	  -moz-border-radius: 4;
+	  border-radius: 4px;
+	  -webkit-box-shadow: 3px 3px 6px #999;
+	  -moz-box-shadow: 3px 3px 6px #999;
+	  box-shadow: 3px 3px 6px #999;
+	  font-family: Arial;
+	  color: #444;
+	  font-size: 18px;
+	  padding: 14px 24px 14px 24px;
+	  border: solid #C9C9C9 1px;
+	  text-decoration: none;
+	}
+
+	.btn:hover {
+	  background: #ffe100;
+	  text-decoration: none;
+	}
+	
+	hr {
+		border: 0;
+		width: 100%;
+		color: #999;
+		background-color: #999;
+		height: 1px;	  
+	}
+	@media (max-width: 400px) {
+		.boton{display:none}
+	}
+	</style>
+  </HEAD>
+  <BODY>
+	
+<div style="max-width:680px;border:1px solid #DDD;margin:0 auto;background:#FFF;border-radius:4px;box-shadow: 3px 3px 6px #999;margin:20px auto 0;">
+<center><a href="http://www.pac.com.ve" title="Ir a la p&aacute;gina principal"><img style="max-width:100%"src="/Errores/logo-paginas-amarillas.jpg" border="0" alt="P&aacute;ginas Amarillas Cantv"></a></center>
+<div style="margin:20px">
+<hr>
+<h3>P&aacute;gina no encontrada</h3>
+<p>La p&aacute;gina solicitada puede no estar disponible, haber cambiado de direcci&oacute;n (URL) o no existir. Disculpe las molestias.</p>
+<p>Con frecuencia es debido a un error al escribir la direcci&oacute;n de la p&aacute;gina (URL). Compru&eacute;bela de nuevo para ver si es correcta.</p>
+
+<p>Usted puede:</p>
+<p>- Volver a la <a href="http://www.pac.com.ve" title="Ir a la p&aacute;gina principal">p&aacute;gina de inicio</a> de P&aacute;ginas Amarillas Cantv.</p>
+<br><br>
+<center class="boton"><a href="http://www.pac.com.ve" title="Ir a P&aacute;ginas Amarillas Cantv" class="btn">volver a la p&aacute;gina principal</a></center>
+<br><br>
+<center><p>Gracias por visitarnos.</p></center>
+</div>
+</div>	
+<br>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-10334839-1']);
+  _gaq.push(['_setDomainName', 'pac.com.ve']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>		
+</BODY>
+</HTML>

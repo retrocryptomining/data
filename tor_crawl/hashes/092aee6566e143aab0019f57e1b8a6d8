@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dolly Sites</title>
+    <link rel="stylesheet" href="/dolly_templates/css/main.css" />
+    <link rel="stylesheet" href="/dolly_templates/css/ztree.css" />
+    <meta charset="utf-8" />
+    <meta name="robots" content="noindex,nofollow" />
+</head>
+<body class="install_page" >
+<div class="logo_text">
+    DollySites <span style="font-size:15px;color:#7b7c7d;">1.11.6</span>
+</div>
+<div class="body">	<form action="/index.php" method="post" id="form1">
+		<input type='hidden' name='main' value='true' />
+		<input type='hidden' name='__dolly_action' value='controller.parse' />
+        <div class="installation_steps">
+            <ul>
+                <li class="first active">
+                    <span>Шаг 1</span>
+                    Основные настройки                </li>
+                <li class="second">
+                    <span>Шаг 2</span>
+                    Кэширование                </li>
+                <li class="third">
+                    <span>Шаг 3</span>
+                    Готово                </li>
+            </ul>
+        </div>
+        <div class="__mssm_msg_container" data-state='hidden'><input type='button' class='mssm_msg_container__close' value='×' /><div class='mssm_msg_container__messages'></div></div>
+        <div class="install_content">
+            <div class="first_step step active">
+                <div class="install_first_step">
+                    <div class="col col-xs-9 pd0">
+                        <label for="url_site" class="label">URL</label>
+                        <input type="text" class="input" name="url" id="url_site" required='required' />
+                    </div>
+                    <div class="col col-xs-3 pd0">
+                        <label for="encoding" class="label">Кодировка</label>
+                        <input type="text" class="input" name="charset_site" id="encoding" />
+                    </div>
+                </div>
+            </div>
+            <div class="second_step step hidden">
+                <div id="manual_info" class="install_second_step">
+                    <div class="col">
+                        <label for="" class="label">Кэширование</label>
+                                                <select name="cache_adapter" id="chache" class="magic_select">
+                            <option value="File" selected='selected'>Файлы</option>
+                                                            <option value="MysqlMysqli">MySQL</option>
+                            
+                                                            <option value="Sqlite3">Sqlite3</option>
+                            
+                            
+                                
+                                                            <option value="Not">Не кэшировать</option>
+                        </select>
+                    </div>
+                    <div class="mysql">
+                        <div class="col">
+                            <label for="dbhost" class="label">Хост</label>
+                            <input id="dbhost" type="text" placeholder="localhost" autocomplete="off" name="dbhost" value="localhost" class="input" />                        </div>
+                        <div class="col">
+                            <label for="dbname" class="label">База данных</label>
+                            <input id="dbname" type="text" required="required" autocomplete="off" name="dbname" class="input" />                        </div>
+                        <div class="col">
+                            <label for="dbusername" class="label">Пользователь</label>
+                            <input id="dbusername" type="text" required="required" autocomplete="off" name="dbuser" class="input" />                        </div>
+                        <div class="col">
+                            <label for="dbpassword" class="label">Пароль</label>
+                            <input id="dbpassword" type="text" required="required" autocomplete="off" name="dbpassword" class="input" />                        </div>
+                    </div>
+                    <!--
+                    <div class="files">
+                        <div class="col">
+                            <label for="" class="label">Имена файлов</label>
+                            <select name="file_names" id="file_names" class="magic_select">
+                                <option value="Полное имя">Полное имя</option>
+                                <option value="Хэш">Хэш</option>
+                            </select>
+                        </div>
+                    </div>
+                    -->
+                    <div class="chaching_files">
+                        <div class="col">
+                            <label for="" class="label">Кэширование файлов с других доменов</label>
+                            <!--
+                            <div class="check">
+                                <input type="checkbox" class="super_checkbox" id="js_check">
+                                <label for="js_check" class="checkbox_label">Подключаемые JS</label>
+                            </div>-->
+                            <div class="check">
+                                <input type="checkbox" class="super_checkbox cb2" value="true"  name="css" id="css_check">
+                                <label for="css_check" class="checkbox_label">Подключаемые JS/CSS</label>
+                            </div>
+                            <div class="check">
+                                <input type="checkbox" class="super_checkbox cb2" value="true" name="img" id="img_check">
+                                <label for="img_check" class="checkbox_label">Изображения</label>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <select name="cache_limit_type" id="chaching_all" class="magic_select">
+                                <option value="notCache">Кэшировать всё, кроме</option>
+                                <option value="cacheOnly">Кешировать только</option>
+                            </select>
+                            <textarea name="not_cached" id="chache_execlude" class="input"></textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="third_step step last_step hidden">
+                <div class="success_text">
+                    <span class="success_text_1">Подождите...</span>
+                    <span class="success_text_2" style="display:none;">Установка успешно завершена!</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="install_navigation global_progress_bar">
+            <div class="left col-xs-6 pd0">
+                <div class="back button" style="display: none;">
+                    Назад                </div>
+            </div>
+            <div class="right col-xs-6 pd0">
+                <div class="next button" id="next_button">
+                    Далее                </div>
+            </div>
+        </div>
+    </form>
+    <footer id="install_footer">
+        <div class="col-xs-6 pd0">
+            <div class="languages_switcher">
+                <div class="current ru"> Русский                </div>
+                <div class="languages_list">
+                    <ul class="list">
+                        <li><a href="/index.php?__dolly_action=set_lang&lang=en">English</a></li>
+                        <li><a href="/index.php?__dolly_action=set_lang&lang=ru">Русский</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-6 pd0">
+            <div class="copyright">
+                <a href="https://dollysites.com/">dollysites.com</a>
+            </div>
+        </div>
+    </footer>
+    </form>
+</div>
+<script type="text/javascript">
+    var NOT_SITE_URL = 'Введите url сайта!';
+</script>
+<script type="text/javascript" src="/dolly_templates/js/jquery-1.12.2.min.js"></script>
+<script type="text/javascript" src="/dolly_templates/js/mssm.js"></script>
+<script type="text/javascript" src="/dolly_templates/js/install_navigation.js"></script>
+<script type="text/javascript" src="/dolly_templates/js/magic_select.js"></script>
+<script type="text/javascript">
+$('#url_site').change(function(){
+	var i_url = $(this).removeClass('_error'), url = $.trim(i_url.val()), i_enc = $('#encoding');
+	i_enc.prop("disabled", true).val('');
+	if(url) ms.jget({url: url}, function(r){
+		i_enc.prop("disabled", !r.encoding).val(r.encoding);
+		if(i_url.val() !== r.url) i_url.val(r.url);
+	}, 'controller.get_encoding', {on_error:function(r){
+		i_url.addClass('_error');
+	}});
+});
+
+    $('#form1').submit(function() {
+
+        return true;
+    })
+
+    $(function(){
+        $('#next_button').on('click', function () {
+
+            return true
+        })
+
+        $('#mysql_settings').hide()
+        $('#notCache').show();
+
+        $('#cache_adapter').change(function() {
+            $('#mysql_settings').hide();
+            $('#notCache').show();
+
+            if ($('#cache_adapter').val() == 'Mysql' || $('#cache_adapter').val() == 'MysqlMysqli') {
+                $('#mysql_settings').show();
+            }
+
+            if ($('#cache_adapter').val() == 'Not') {
+                $('#notCache').hide();
+            }
+        })
+        $('#language').change(function() {
+            document.location.href="/index.php?__dolly_action=set_lang&lang=" + $('#language').val();
+        })
+    });
+</script>
+<script>
+    jQuery(function($) {
+
+        $('.languages_switcher .current').click(function() {
+            $(this).parent().find('.languages_list').slideToggle(300);
+            $(this).parent().toggleClass('open');
+        })
+        $('.magic_select').magicselect();
+        $('input#url').focus(function() {
+            if ($(this).val() == '') {
+                $(this).attr('placeholder', '');
+                $(this).val('http://');
+            }
+        });
+        $('input#url').blur(function() {
+            if ($(this).val() == '' || $(this).val() == 'http://') {
+                $(this).attr('placeholder', 'http://');
+                $(this).val('');
+            }
+        })
+
+        $(document).on('change', 'select#chache', function() {
+            if ($(this).val() == 'Mysql' || $(this).val() == 'MysqlMysqli') {
+                $('.mysql').show();
+                $('.files').hide();
+                $('.chaching_files').show();
+            }
+            if ($(this).val() == 'Sqlite' || $(this).val() == 'Sqlite3') {
+                $('.mysql').hide();
+                $('.files').hide();
+                $('.chaching_files').show();
+            }
+            if ($(this).val() == 'File') {
+                $('.mysql').hide();
+                $('.files').show();
+                $('.chaching_files').show();
+            }
+            if ($(this).val() == 'Not') {
+                $('.chaching_files').hide();
+                $('.mysql').hide();
+                $('.files').hide();
+            }
+        })
+        $('select#chache').val('File');
+        $('select#chache').trigger('change');
+    })
+</script>
+<div id="info_block" style="display: none; top: 20px; right: 20px; width: 550px; height: 75px;background-color: white;border: 2px solid #569fd0;z-index: 9999;position: absolute;color: #569fd0;padding: 15px;font-size: 16px;">Установка завершена. Теперь можно <a href='?__dolly_action=editor'>отредактировать эту страницу</a>, или <a href='/admin.php'>перейти в админку</a></div>
+</body>
+</html>

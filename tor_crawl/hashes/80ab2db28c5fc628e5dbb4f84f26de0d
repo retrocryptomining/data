@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<title>Access Denied</title>
+<style type="text/css">body {margin:0;font-family:verdana,sans-serif;} h1 {margin:0;padding:12px 25px;background-color:#343434;color:#ddd} p {margin:12px 25px;} strong {color:#E0042D;}</style>
+</head>
+<body>
+<h1>This Page Cannot Be Displayed</h1>
+<p>
+Based on your organization's access policies, access to this web site has been blocked because the web category is not allowed.
+</p>
+
+<p>GPC Service Desk: 1-800-238-0428 or https://gpc.service-now.com</p>
+
+
+<p>
+
+</p>
+
+<p>
+If you have questions, please contact
+GPC Service Desk 
+and provide the codes shown below.
+</p>
+
+<div>
+
+
+
+
+</div>
+</div>
+
+<div class="details"><p>
+Reason: BLOCK-WEBCAT<br />
+Notification: WEBCAT
+</p></div>
+
+
+
+</body>
+</html>

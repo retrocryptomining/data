@@ -1,0 +1,32 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+    <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link type="text/css" rel="stylesheet" href="https://stat.flynet.by/bgbilling/css/redmond/jquery-ui-1.8.13.custom.css">
+    <link type="text/css" rel="stylesheet" href="https://stat.flynet.by/bgbilling/style.css">
+    <link type="text/css" rel="stylesheet" href="https://stat.flynet.by/bgbilling/custom.css">
+    <title>Ошибка подключения</title>
+  </head>
+  <body>
+    <div id="all">
+      <div class="header">
+        <div class="logo"></div>
+      </div>
+      <div class="pageTitle">Ошибка подключения</div>
+      <div class="contracts"></div>
+      <div class="line"></div>
+      <div style="margin-left: 20%; line-height: 150%;" class="content">
+        <div id="idDiv">
+          <h2>ОШИБКА: Доступ к данному ресурсу ограничен.</h2>
+		<div style='font-size: 14px;width: 90%; line-height: 150%;'></div>        </div>
+      </div>
+      <div class="empty">&nbsp;</div>
+      <div class="footer">
+        <div class="line"></div>
+        <p>&copy; 2010-2015<a style="color: white;" href="http://www.flynet.by/"> ООО "Флайнет".</a>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

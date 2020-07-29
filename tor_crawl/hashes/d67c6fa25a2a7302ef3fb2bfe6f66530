@@ -1,0 +1,25 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>replace</title>
+<body>
+<script language="JavaScript" type="text/javascript">
+var pageName = '/';
+if (('/' == pageName) || (pageName.indexOf('content.asp') != -1 )
+|| (pageName.indexOf('mirror.asp') != -1)
+|| (pageName.indexOf('insContent.asp') != -1)
+|| (pageName.indexOf('ins2Content.asp') != -1)
+|| (pageName.indexOf('quicksetppp.asp') != -1)
+|| (pageName.indexOf('quicksetwlan.asp') != -1)
+|| (pageName.indexOf('content1.asp') != -1))
+{
+top.location.replace(pageName);
+}
+else
+{
+top.contentfrm.location.replace(pageName);
+}
+</script>
+</head>
+</body>
+</html>

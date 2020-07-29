@@ -1,0 +1,7 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<HTML><HEAD>
+<TITLE>502 Bad Gateway: Host unreachable</TITLE>
+</HEAD><BODY>
+<H1>Bad Gateway: Host unreachable</H1>
+The http server could not be reached by the server proxy.
+</BODY></HTML>

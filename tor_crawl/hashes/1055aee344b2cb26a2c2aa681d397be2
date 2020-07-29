@@ -1,0 +1,11 @@
+
+Fatal error: Uncaught exception 'Doctrine_Connection_Exception' with message 'PDO Connection Error: SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)' in /var/www/oferty-video/library/Doctrine/Connection.php:474
+Stack trace:
+#0 /var/www/oferty-video/library/Doctrine/Connection/Mysql.php(101): Doctrine_Connection->connect()
+#1 /var/www/oferty-video/library/Doctrine/Connection.php(442): Doctrine_Connection_Mysql->connect()
+#2 /var/www/oferty-video/library/Engine/Core/Database.php(18): Doctrine_Connection->getDbh()
+#3 /var/www/oferty-video/library/Engine/Core.php(39): Engine_Core_Database::init()
+#4 /var/www/oferty-video/application/Bootstrap.php(62): Engine_Core::initElement('Database')
+#5 /var/www/oferty-video/library/Zend/Application/Bootstrap/BootstrapAbstract.php(669): Bootstrap->_initDatabase()
+#6 /var/www/oferty-video/library/Zend/Application/Bootstrap/BootstrapAbstract.php(622): Zend_Application_Bootstrap_BootstrapAbstract->_executeResource('database')
+#7 /var/w in /var/www/oferty-video/library/Doctrine/Connection.php on line 474

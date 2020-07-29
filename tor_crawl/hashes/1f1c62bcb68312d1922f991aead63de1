@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>消费导航 积分外包 积分整合 积分联盟 积分抵现消费 微博有奖转发-来客网</title>
+		<meta property="qc:admins" content="1155265647614413526375" />
+		<meta name="google-site-verification" content="jrG3C3WLXw88bpgd2lrojHGACURnFPWHA4v9rMT827w" />
+		<meta name="alexaVerifyID" content="6YEdlp_CQtyj_0xHpAKti_I23TY" />
+		<meta name="Keywords" content="积分商城，积分兑换，积分换礼，来客币，微博有奖转发-大学生，企业白领，免费礼品-调查问卷- 来客网" />
+		<meta name="Description" content="来客网是最具创意的专业商家服务平台，通过向各行各业的商家提供整合营销方案、积分商城以及针对会员提供的积分兑换礼品等时尚生活的全新体验。为广大网民提供丰富的产品使用体验为目的建立的网站，通过填写简单的趣味问题或是调查问卷即可获得来客币，并以此兑换种类繁多的礼品，不花一分钱即可试用最新最时尚的产品。" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta property="qc:admins" content="7051277357614413526375" />
+		<meta property="wb:webmaster" content="181e6443473c2813" />
+		<link rel="shortcut icon" href="http://www.alliker.com/favicon.ico" type="image/vnd.microsoft.icon" />
+		<link rel="icon" href="http://www.alliker.com/favicon.ico" type="image/vnd.microsoft.icon">
+
+		<link rel="stylesheet" media="screen" href="/contents/css/core.css" type="text/css" />
+		<link rel="stylesheet" media="screen" href="/contents/css/new-headerfooter.css" type="text/css" />
+		
+<!--	    <link rel="stylesheet" media="screen" href="http://pda.alliker.com/content/core.css?v=1383622133" type="text/css" />-->
+
+		<link rel="stylesheet" href="/contents/css/christmas.css" type="text/css" />
+		<script type="text/javascript" src="contents/scripts/jquery.js"></script>
+		<script type="text/javascript" src="contents/scripts/jquery.bundle.all.pages.js"></script>
+		<script type="text/javascript" src="http://pda.alliker.com/pda/js/iscroll.js?v=1383622133"></script>
+		<style type="text/css">
+		/*--APP应用列表--*/
+
+#app_scroller
+{
+    width: 230px; height: 270px; border: 0px solid;
+    
+}
+#app_scroller ul
+{
+    float:left;padding:0;
+}
+#app_scroller li
+{
+    list-style:none;display:bltock;float:left;height:100%;padding:0;margin:0;text-align:lef;
+    width: 320px; height: 1b5px;
+    border: 0px solid;
+}
+#app_nav{position:absolute; z-index:2;left:50%;margin-left:-10px;width:80px;height:8px;padding:0;text-align:center;
+
+        display: block;
+ }
+#app_nav #app_pagebar{display:block;height:8px;margin:0px auto;padding:0;}
+#app_nav #app_pagebar li {display:block;float:left;list-style:none;padding:0; margin:0;text-indent:-9999em;width:8px; height:8px;-webkit-border-radius:4px;-moz-border-radius:4px;-o-border-radius:4px;border-radius:4px;background:#ddd;overflow:hidden;margin-right:4px;cursor:pointer;}
+#app_nav #app_pagebar li.active {background:#0B7CC4;}
+#app_nav #app_pagebar li:last-child {margin:0;}
+#app_scroller ul li div {
+    width: 100%;
+
+    /*-webkit-box-pack: justify;*/
+    text-align:center;
+   float:left;
+   display:list-item;
+}
+#app_scroller ul li a {
+    display: list-item;
+    width: 60px;
+    height: 83px;
+    text-decoration:none;
+    float:left;
+     padding:0px 10px 0px 10px;
+}
+
+#app_scroller ul li a span {
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: #333;
+    text-decoration: none;
+    padding:0px;
+    text-shadow: 1px 1px 0 #FFFFFF;
+}
+#app_scroller ul li a img {
+    width: 50px;
+    height: 50px;
+    padding:0px;
+}
+#app_scroller ul li div:first-child {
+    margin-bottom: 0px;
+}
+.lksjimg {
+	left: 40px;
+    position: absolute;
+    top: 40px;
+    width: 140px;    
+    height:166px;
+    border: medium none;
+}
+.lksjtitle {
+	color: #A23F97;
+    font-size: 170%;
+    line-height: 1.1em;
+    margin: 45px 0 20px 190px;
+}
+.lksjcontent {
+	color: #434343;
+    font-size: 120%;
+    line-height: 1.1em;
+    margin: 0 0 4px 190px;
+    max-height: 5.5em;
+    overflow: hidden;
+    position: relative;
+}
+.popMailCheck {
+    display: block;
+    height: 750px;
+    left: 0;
+    min-width: 970px;
+    width: 100%;
+    z-index: 1000;
+}
+.popMailCheck {
+    background: url("/images/sd.jpg") no-repeat scroll center center ;
+}
+.popMailCon {
+    display: block;
+    height: 750px;
+    margin: 0 auto;
+    position: relative;
+    width: 970px;
+}
+.btnCloseM, .btnCloseM:hover {
+    display: block;
+    height: 52px;
+    position: absolute;
+    right: 26px;
+    top: 450px;
+    width: 52px;
+}
+.btnCloseM {
+    background: url("/images/Close.png") no-repeat scroll center center ;
+}a {
+    color: #002244;
+    text-decoration: none;
+}
+
+.btnCheckMail, .btnCheckMail:hover {
+    display: block;
+    height: 50px;
+    position: absolute;
+    right: 185px;
+    top: 450px;
+    width: 210px;
+}
+.btnCheckMail {
+    background: url("/images/letsgo.png") no-repeat scroll 0 0 ;
+}	
+#HQbackArea {
+    display: block;
+    position: fixed;
+}
+#HQbackArea {
+    z-index: 9999;
+}
+.backArea {
+    width: 70px;
+}
+		</style>
+	</head>
+	<body class="christmas-takeover  home windows  msie v10 trident new-layout ">
+				<div id="siteheader">
+			<div id="siteheader-menu">
+				<div class="inner clearfix">
+					<ul class="options">
+												<li class="login first">
+							<a href="http://www.alliker.com/default/login" title="登陆" ><span>登录</span>
+							</a>
+						</li>
+						<li class="register">
+							<a href="http://www.alliker.com/users/register" title="注册"><span>注册</span>
+							</a>
+						</li>
+											<li class="help last">
+							<a href="http://www.alliker.com/kf#a_1" title="常见问题/帮助"><span>常见问题/帮助</span>
+							</a>
+						</li>
+					</ul>
+					<script type="text/javascript">
+					function checkValid(){
+						var tag = $('#tag').val();
+						if(tag.length ==0){
+							alert('请输入商品名称');
+							return false;
+						}else{
+							return true;
+						}
+						
+					}
+					</script>
+					<form id="frmSearchSite" action="/product/list" method="get" onSubmit="return checkValid()">
+						<fieldset>
+							<input id="tag" class="autoclear" name="tag" type="text" value="查询" onClick="this.value='';" />
+						</fieldset>
+					</form>
+					<div class="social-media">
+						<div id="post-btns" class="pw-widget pw-layout-horizontal pw-counter-horizontal" pw:image="/contents/images/log.png">
+							<a class="pw-button-facebook pw-look-native"></a>
+							<a class="pw-button-twitter pw-look-native"></a>
+							<a class="pw-button-pinterest pw-look-native"></a>
+							<a class="pw-button-googleplus pw-look-native"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="surround" class="clearfix new-layout">
+			<div id="header" class="clearfix">
+				<div id="header-inner">
+					<div id="nectarbrand">
+						<a> <img src="/contents/images/log.png" alt="" /></a>
+						<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=1595812138&amp;site=qq&amp;menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:1595812138:41" alt="点击这里给我发消息" title="点击这里给我发消息"></a>
+					    <a style="color: #B92F92;font-size: 2.4em;font-weight: bold">客服热线4000-315-007</a>
+					</div>
+					<div id="primary-navigation">
+						<ul class="nav-left">
+							<li class="home first selected">
+								<a  href="http://www.alliker.com" title="去来客网主页"><span>首页</span>
+								</a>
+							</li>
+							<li class="eshops ">
+								<a  title="来客有礼" href="http://www.alliker.com/gift"><span>来客有礼</span>
+								</a>
+							</li>
+							<li class="collect">
+								<a  href="http://www.alliker.com/kf#a_2" title="了解更多关于积分收集"><span>积分收集</span>
+								</a>
+							</li>
+							<li class="spend">
+								<a  href="http://www.alliker.com/merchat/list" title="了解更多关于积分兑换"><span>积分兑换</span>
+								</a>
+							</li>
+							<li class="account last">
+								<a  href="http://www.alliker.com/users" title="查看我的账户明细"><span>个人中心</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div id="wrapper">
+				<div id="page-body" class="clearfix">
+					<div id="home-modules-top" class="clearfix">
+						<div class="module-left clearfix">
+							<dl id="home-slidedeck">
+								<dt>
+									来客有礼
+								</dt>
+								<dd class="clearfix">
+									<h2 class="hide-accessible">
+										来客有礼
+									</h2>
+									<a href="http://www.alliker.com/gift" title="来客有礼 " ><img src="/contents/images/site/youli_bak.jpg" alt="来客有礼" />
+									</a>
+								</dd>
+								<dt>
+									加入来客网
+								</dt>
+								<dd class="clearfix">
+									<h1 class="hide-accessible">
+									</h1>
+									<a href="http://www.alliker.com/users/register" title="加入来客网" ><img src="/contents/images/site/join.jpg" alt="加入来客网" />
+									</a>
+								</dd>
+								<dt>
+									积分收集
+								</dt>
+								<dd class="clearfix">
+									<h2 class="hide-accessible">
+									</h2>
+									<a href="http://www.alliker.com/kf#a_2" title="积分收集" ><img src="/contents/images/site/jifenshouji.jpg" alt="积分收集" />
+									</a>
+								</dd>
+								<dt>
+									积分兑换
+								</dt>
+								<dd class="clearfix">
+									<h2 class="hide-accessible">
+										Spend your points with our amazing range of rewards
+									</h2>
+									<a href="http://www.alliker.com/merchat/list" title="积分兑换" ><img src="/contents/images/site/jifenduihuan.jpg" alt="积分兑换" />
+									</a>
+								</dd>
+							</dl>
+						</div>
+						<div class="module-right">
+							<div id="app_page" style="width: 230px; height: 270px; border: 0px solid; margin-left:-30px;margin-top:-10px; padding:0px">
+								<div style="background-color: transparent; overflow: hidden; text-align:center; " id="app_wrapper">
+									<div id="app_scroller">
+										<ul >
+											<li>
+												<div >
+					                                <a href="http://315.alliker.com"><img class="" src="http://www.alliker.com/contents/images/app/fw.png"><span>来客防伪</span></a>
+					                                <a href=""><img class="" src="http://www.alliker.com/contents/images/app/hfcz.png"><span>话费充值</span></a>
+					                                <a href="http://wbzf.alliker.com/defaultPage/defaultPage.action"><img class="" src="http://www.alliker.com/contents/images/app/lktg.png"><span>来客推广</span></a>
+					                            </div>
+					                            <div>
+					                                <a href="http://www.alliker.com/mytask/describe"><img class="" src="http://www.alliker.com/contents/images/app/lkrw.png"><span>来客任务</span></a>
+					                                <!--<a href="http://www.alliker.com/fanli"><img class="" src="http://www.alliker.com/contents/images/app/fl.png"><span>来客返利</span></a>
+					                                --><a href="http://www.alliker.com/merchat/list"><img class="" src="http://www.alliker.com/contents/images/app/sj.png"><span>来客商家</span></a>
+<a href="http://www.alliker.com/news"><img  class="" src="http://www.alliker.com/contents/images/app/zx.png"><span>来客资讯</span></a>
+					                            
+</div>
+    											<div>
+					                                <a href="http://www.alliker.com/point/recordlist"><img class="" src="http://www.alliker.com/contents/images/app/lkbcz.png"><span>来客币充值</span></a>
+					                            </div>
+											</li><!--
+					                        <li>
+					                            <div>
+					                                <a href=""><img class="" src="http://www.alliker.com/contents/images/app/lkbcz.png"><span>来客币充值</span></a>
+					                                <a href=""><img  class="" src="http://www.alliker.com/contents/images/app/zx.png"><span>来客资讯</span></a>
+					                            </div>
+					                        </li>
+										--></ul>
+									</div>
+									<div id="app_nav" style="display: none">
+										<ul id="app_pagebar">
+											<li class="active">
+												1
+											</li>
+											<li class="">
+												2
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					  <div id="dvvv" style="overflow: hidden; height: 27px; width: 100%;">
+                                                    <div id="dvvv1">
+                                                        <ul style="padding-left: 0px; margin-top: 0px;">
+                                                            <li style="list-style-type: none;white-space:nowrap">
+<p style ='color:red'>					<!--<a target="_blank"  href='http://www.alliker.com/news-1266.html'>春节放假通知:经公司研究决定：定于1月25日起开始放年假，截止时间为2月7日，2月8日正式上班。年前订单处理截止到1月24日，年假期间所产生的订单，统一到2月8日处理，给您带来不便敬请谅解，祝所有来客们新年快乐、万事如意！来客网 2014年1月17日 &nbsp;&nbsp;&nbsp;&nbsp;春节放假通知:经公司研究决定：定于1月25日起开始放年假，截止时间为2月7日，2月8日正式上班。年前订单处理截止到1月24日，年假期间所产生的订单，统一到2月8日处理，给您带来不便敬请谅解，祝所有来客们新年快乐、万事如意！来客网 2014年1月17日 
+					<!--<a  target="_blank"  href='http://www.alliker.com/news-1267.html'>1.服务器维护通知:
+来客网将于1月18日15时至17时进行网络服务器维护，届时可能会遇到来客网相关页面暂停服务，给大家浏览网站带来不便，敬请谅解。
+有问题可以直接拨打客服电话4006-383-393--></a>
+					</p></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div id="dvvv2">
+                                                    </div>
+                                                </div>
+					
+		<script type="text/javascript">
+             var speded=60
+             dvvv2.innerHTML=dvvv1.innerHTML
+             function Marqpuee(){
+             if(dvvv2.offsetWidth-dvvv.scrollLeft<=0)
+             dvvv.scrollLeft-=dvvv1.offsetWidth
+             else{
+             dvvv.scrollLeft++
+             }
+             }
+             var MyMmar=setInterval(Marqpuee,speded)
+             dvvv.onmouseover=function() {clearInterval(MyMmar)}
+             dvvv.onmouseout=function() {MyMmar=setInterval(Marqpuee,speded)}
+        </script>
+					<div id="home-promo-carousel" class="promo-carousel">
+						<h3 class="fr-med">
+							<strong>热门</strong>活动
+						</h3>
+						<ul class="carousel clearfix">
+							<!-- <li class="link-behaviour external">
+								<a href="http://www.alliker.com/zhongdu.html" target="_blank"><img src="/contents/images/site/zhongdu.jpg" alt="中都百货"  />
+								</a>
+								<h4 class="fr-light">
+									<a href="http://www.alliker.com/zhongdu.html" target="_blank" onClick=""> <strong>消费送来客币</strong> <br>中都百货</a>
+								</h4>
+								<p class="hidden-cta">
+									<span class="text">圣诞节来客有礼</span><span class="cta"><a href="http://www.alliker.com/zhongdu.html" target="_blank" onClick="" class="btn-purple"> 详细内容 </a>
+									</span>
+								</p>
+							</li> -->
+							<li class="link-behaviour external">
+								<a href="#" onClick="" target="_blank"><img src="/contents/images/site/henfen.gif" alt="恒丰银行" />
+								</a>
+								<h4 class="fr-light">
+									<a href="#" onClick="" target="_blank">积分<strong>送贺礼</strong> <br>恒丰银行 </a>
+								</h4>
+								<p class="hidden-cta">
+									<span class="text">客户积分管理</span><span class="cta"><a href="#" onClick="" class="btn-purple" target="_blank"> 详细内容 </a>
+									</span>
+								</p>
+							</li>
+							<li class="link-behaviour ">
+								<a href="http://www.alliker.com/merchat-index-468.html" onClick=""><img src="/contents/images/site/podinn.jpg" alt="布丁酒店" />
+								</a>
+								<h4 class="fr-light">
+									<a href="http://www.alliker.com/merchat-index-468.html" onClick="">积分<strong>送贺礼</strong> <br>布丁酒店 </a>
+								</h4>
+								<p class="hidden-cta">
+									<span class="text">特供礼品任你选</span><span class="cta"><a href="http://www.alliker.com/merchat-index-468.html" onClick="" class="btn-purple"> 详细内容 </a>
+									</span>
+								</p>
+							</li>
+							<li class="link-behaviour external">
+								<a href="#" onClick="" target="_blank"><img src="/contents/images/site/qjjy.jpg" alt="松鹤楼" />
+								</a>
+								<h4 class="fr-light">
+									<a href="#" onClick="" target="_blank">积分<strong>送贺礼</strong> <br>千金净雅防伪积分卡 </a>
+								</h4>
+								<p class="hidden-cta">
+									<span class="text">最高送30000来客币</span><span class="cta"><a href="http://www.alliker.com/merchat-index-505.html" onClick="" class="btn-purple" target="_blank"> 详细内容 </a>
+									</span>
+								</p>
+							</li>
+							<li class="link-behaviour ">
+								<a href="#" onClick=""><img src="/contents/images/site/postal.jpg" alt="邮政储蓄银行" />
+								</a>
+								<h4 class="fr-light">
+									<a href="#" onClick="">积分<strong>送贺礼</strong> <br>邮政储蓄银行 </a>
+								</h4>
+								<p class="hidden-cta">
+									<span class="text">客户积分管理</span><span class="cta"><a href="#" onClick="" class="btn-purple"> 详细内容 </a>
+									</span>
+								</p>
+							</li>
+							<li class="link-behaviour ">
+								<a href="#" onClick=""><img src="/contents/images/site/bym.jpg" alt="贝因美" />
+								</a>
+								<h4 class="fr-light">
+									<a href="#" onClick="">积分<strong>送贺礼</strong> <br>贝因美 </a>
+								</h4>
+								<p class="hidden-cta">
+									<span class="text">圣诞节来客有礼</span><span class="cta"><a href="#" onClick="" class="btn-purple"> 详细内容 </a>
+									</span>
+								</p>
+							</li>
+						</ul>
+						<div class="carousel-arrows clearfix">
+							&nbsp;
+						</div>
+					</div>
+					<div class="clearfix" id="home-modules-eshops">
+						<h3 class="fr-light">最新礼品</h3>
+						<dl class="clearfix">
+							<dt>
+							</dt>
+							<dd class="link-behaviour">
+								<div class="inner">
+									<a href="http://www.alliker.com/gift-6689.html" onClick=""><img src="http://www.alliker.com/files/images/2013-09/3589418577f9e065bfc2487c69a67b71.jpg" alt="红米双待双卡手机" width="92px" height="125px" />
+									</a>
+									<h4 class="fr-light">
+										<a href="http://www.alliker.com/gift-6689.html" onClick="">红米双待双卡手机<br>95,000来客币</a>
+									</h4>
+									<p class="hidden-cta">
+										<span class="text">千元性能神器<br>MTK联发科最强28纳米四核1.5GHz</span><span class="cta"><a href="http://www.alliker.com/gift-6689.html" onClick="" class="btn-violet"> 我要兑换 </a>
+										</span>
+									</p>
+								</div>
+							</dd>
+							<dt>
+							</dt>
+							<dd class="link-behaviour">
+								<div class="inner">
+									<a href="http://www.alliker.com/gift-7234.html" onClick=""><img src="http://www.alliker.com/files/images/2014-08/018ea6070e86c720d6c1f5bdb945e6e9.jpg" alt="相宜本草补水面膜" width="92px" height="125px"/>
+									</a>
+									<h4 class="fr-light">
+										<a href="http://www.alliker.com/gift-7234.html" onClick="">相宜本草补水面膜<br>11,650来客币</a>
+									</h4>
+									<p class="hidden-cta">
+										<span class="text">相宜本草补水面膜</span><span class="cta"><a href="http://www.alliker.com/gift-7234.html" onClick="" class="btn-violet"> 我要兑换 </a>
+										</span>
+									</p>
+								</div>
+							</dd>
+								<dt>
+							</dt>
+							<dd class="link-behaviour">
+								<div class="inner">
+									<a href="http://www.alliker.com/gift-580.html" onClick=""><img src="http://www.alliker.com/files/images/2012-11/e7509f1762473889a5f0d54b242fbca1.jpg" alt="宏碁E1-471G笔记本电脑" width="92px" height="125px"/>
+									</a>
+									<h4 class="fr-light">
+										<a href="http://www.alliker.com/gift-580.html" onClick="">宏碁E1-471G笔记本电脑<br>279,900来客币</a>
+									</h4>
+									<p class="hidden-cta">
+										<span class="text">Acer 宏碁 E1-471G-32322G50Mnks 14.1英寸笔记本(I3 2328 2G 500G 1G)黑色</span><span class="cta"><a href="http://www.alliker.com/gift-580.html" onClick="" class="btn-violet"> 我要兑换 </a>
+										</span>
+									</p>
+								</div>
+							</dd>
+						</dl>
+						<p class="btn clearfix">
+							<a href="http://www.alliker.com/gift" class="btn-purple" onClick="">更多礼品>></a>
+						</p>
+					</div>
+					<div class="clearfix" id="home-modules-promo">
+						<h3 class="fr-light">热门兑换</h3>
+						<dl>
+							<dt>
+							</dt>
+							<dd class="clearfix first">
+								<a  href="http://www.alliker.com/gift-7139.html"> <img src="http://www.alliker.com/files/images/2013-10/6543a4164427e2c3c5627f047966f5a2.jpg" alt="苹果5s（16G）" width="140px" height="166px"/> </a>
+								<h4 class="fr-light purple">
+									<a href="http://www.alliker.com/gift-7139.html">苹果5s（16G）<br><strong>498,000</strong> 来客币</a>
+								</h4>
+								<p>
+									64位架构的芯片、指纹识别传感器、更快更优异的摄像头，以及专门为64位架构而精心打造的操作系统。……
+								</p>
+								<p class="bottom-btn">
+									<a  href="http://www.alliker.com/gift-7139.html" class="btn-violet">我要兑换</a>
+								</p>
+							</dd>
+							<dt>
+							</dt>
+							<dd class="clearfix first">
+								<a  href="http://www.alliker.com/gift-511.html"> <img src="http://www.alliker.com/files/images/2012-08/8cf42f680f76a953f7c95f08e6642153.jpg" alt="飞利浦吸尘器" width="140px" height="166px"/> </a>
+								<h4 class="fr-light purple">
+									<a href="http://www.alliker.com/gift-511.html">飞利浦吸尘器<br><strong>31,800</strong> 来客币</a>
+								</h4>
+								<p>
+									PHILIPS飞利浦FC8188/01有尘袋吸尘器，您的地板清洁好帮手!
+								</p>
+								<p class="bottom-btn">
+									<a  href="http://www.alliker.com/gift-511.html" class="btn-violet">我要兑换</a>
+								</p>
+							</dd>
+							<dt>
+							</dt>
+							<dd class="clearfix first">
+								<a  href="http://www.alliker.com/gift-7187.html"> <img src="http://www.alliker.com/files/images/2013-12/ddd15ceb805282d99d55367f71ee605a.jpg" alt="支付宝50元礼金" width="140px" height="166px"/> </a>
+								<h4 class="fr-light purple">
+									<a href="http://www.alliker.com/gift-7187.html">支付宝50元礼金<br><strong>5,550</strong> 来客币</a>
+								</h4>
+								<p>
+									此券为电子充值券，仅对有支付宝帐号的商家会员进行充值。非商家会员领取后作退货处理。
+								</p>
+								<p class="bottom-btn">
+									<a  href="http://www.alliker.com/gift-7187.html" class="btn-violet">我要兑换</a>
+								</p>
+							</dd>	
+						</dl>
+					</div>
+					<script type="text/javascript" src="/contents/scripts/jquery.bundle.nectarhome.js"></script>
+					
+					
+					<div id="social-media-modules" class="clearfix">
+						<h3 class="fr-light" style="margin-bottom: 0px;padding-bottom: 0px;margin-left: 10px">来客商家</h3>
+						<div id="module-facebook" style="padding: 10px 10px 0 20px;margin-left: -10px;padding: 0 12px 0 0;position: relative;">
+							<a  href="http://www.alliker.com/merchat-index-505.html"> 
+							<img  class ='lksjimg' src="http://www.alliker.com/files/index-qjjy.jpg" alt="千金净雅" /> </a>
+								<h4 class="fr-light purple lksjtitle" >
+									<a href="http://www.alliker.com/merchat-index-505.html">千金净雅</a><br>
+								</h4>
+								<p    class ='lksjcontent'>
+									地址： 湖南省  株洲市
+									主要专注于研发、生产、销售医用级卫生棉品，是国内首家医用级卫生棉品制造商。购买千金净雅日夜装送200来客币，每人可获得一次抽奖机会，奖品300-30000来客币，人人有奖。
+								</p>
+								<p class="bottom-btn">
+									
+								</p>
+						</div>
+						<div id="module-facebook" style="padding: 10px 10px 0 20px;    padding: 0 12px 0 0;
+    position: relative;">
+													<a  href="http://www.alliker.com/merchat-index-509.html"> <img 
+							class = 'lksjimg'
+							src="http://www.alliker.com/files/index-paipailogo1.jpg" alt="健康拍拍"/> </a>
+								<h4 class="fr-light purple lksjtitle" >
+									<a href="http://www.alliker.com/merchat-index-509.html">健康拍拍</a><br>
+								</h4>
+								<p    class = 'lksjcontent'>
+									地址： 浙江省  杭州市<br>
+									本产品可随意拍打全身各部位，感觉舒适畅快，是健身医疗好帮手。也是送朋友、送亲戚、孝敬父母长辈的好礼物！本产品赠送300来客币。
+								</p>
+								<p class="bottom-btn">
+									
+								</p>
+						</div>
+						<div id="module-facebook" style="padding: 10px 10px 0 20px;margin-left: -10px;    padding: 0 12px 0 0;
+    position: relative;">
+													<a  href="http://www.alliker.com/merchat-index-483.html"> 
+													<img 
+							class='lksjimg'
+							src="http://www.alliker.com/files/images/2013-09/f8771bb8436dc13ef9ce5595dc3f8bac.jpg" alt="汉庭酒店集团"  /> </a>
+								<h4 class="fr-light purple lksjtitle" >
+									<a href="http://www.alliker.com/merchat-index-483.html">汉庭酒店集团<br></a>
+								</h4>
+								<p    class ='lksjcontent'>
+									地址： 浙江省  杭州  下城区  体育场路436号<br>
+									汉庭酒店（原汉庭快捷酒店）是华住旗下标准经济酒店，为商旅客人提供便捷的住宿体验。酒店安心的睡眠系统、现代的卫浴系统、便捷的商旅配套和典雅的酒店氛围保障您出门在外也有在家一般的感受。 
+								</p>
+								<p class="bottom-btn">
+									
+								</p>
+						</div>
+						<div id="module-facebook" style="padding: 10px 10px 0 20px;    padding: 0 12px 0 0; position: relative;">
+													<a  href="http://www.alliker.com/merchat-index-485.html"> <img 
+							class='lksjimg'
+							src="http://www.alliker.com/files/images/2013-09/07cd957bbe10455e2237f2f027b4fcde.jpg" alt=" 星庭风尚酒店" /> </a>
+								<h4 class="fr-light purple lksjtitle" >
+									<a href="http://www.alliker.com/merchat-index-485.html"> 星庭风尚酒店<br></a>
+								</h4>
+								<p    class = 'lksjcontent'>
+									地址： 浙江省  杭州  下城区  建国北路星都嘉苑<br>
+									星庭酒店：www.itowns.com      星庭酒店（ITOWNS HOTEL），是一个全球性的酒店连锁服务品牌，同时也是全球著名的酒店运营商和酒店管理服务供应商，由全球多个著名酒店投资基金、企业集团共同投资，总部设在美国纽约州阿蒙克市。 
+								</p>
+								<p class="bottom-btn">
+									
+								</p>
+						</div>
+						<p class="btn clearfix" style="float: right;margin-right: 15px">
+							<a href="http://www.alliker.com/merchat/list" class="btn-purple" onClick="">全部商家>></a>
+						</p>
+					</div>
+			
+				</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<div id="bfooter">
+		<div id="preFooterWrapper">
+			<div id="preFooter" class="clearfix">
+				<div class="preFooterItem">
+					<div class="preFooterItemInner">
+						<h2>
+							<a  href="http://www.alliker.com/gift">来客有礼</a>
+						</h2>
+						<ul>
+							<li>
+								<a href="http://www.alliker.com/gift/6"  title="数码">数码礼品</a>
+							</li>
+							<li>
+								<a href="http://www.alliker.com/gift/8"  title="家电">家电礼品</a>
+							</li>
+							<li>
+								<a href="http://www.alliker.com/gift/4"  title="家居">家居礼品</a>
+							</li>
+							<li>
+								<a href="http://www.alliker.com/gift/5 "  title="配饰">配饰礼品</a>
+							</li>
+							<li>
+								<a href="http://www.alliker.com/gift/3 "  title="旅行">旅行礼品</a>
+							</li>
+							<li>
+								<a href="http://www.alliker.com/gift/13"  title="文体">文体礼品</a>
+							</li>
+							<li>
+								<a href="http://www.alliker.com/gift/17"  title="充值">充值礼品</a>
+							</li>
+							<li>
+								<a href="http://www.alliker.com/gift/18"  title="消费">消费礼品</a>
+							</li>
+							<li>
+								<a href="http://www.alliker.com/gift/20"  title="个护">个护礼品</a>
+							</li>
+							<li>
+								<a href="http://www.alliker.com/gift/68"  title="布丁会员特供">布丁会员特供</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="preFooterItem">
+					<div class="preFooterItemInner">
+						<h2>
+							<a  href="http://www.alliker.com/kf#a_2">积分收集</a>
+						</h2>
+						<ul>
+							<li>
+								<a href="http://wbzf.alliker.com/defaultPage/defaultPage.action"  title="来客推广">来客推广</a>
+							</li>
+							<li>
+								<a href="http://www.alliker.com/fanli"  title="来客返利">来客返利</a>
+							</li>
+							<li>
+								<a href="http://www.alliker.com/mytask/describe"  title="来客任务">来客任务</a>
+							</li>
+							<li>
+								<a href="http://315.alliker.com"  title="防伪查询">防伪查询</a>
+							</li>
+							<li>
+								<a href="http://www.alliker.com/point/recordlist"  title="在线充值">在线充值</a>
+							</li>
+							<li>
+								<a href="#"  title="知识竞赛">知识竞赛</a>
+							</li>
+							<li>
+								<a href="#"  title="网络投票">网络投票</a>
+							</li>
+							<li>
+								<a href="#"  title="商家消费">商家消费</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="preFooterItem">
+					<div class="preFooterItemInner">
+						<h2>
+							<a href="http://www.alliker.com/kf#a_1">常见问题/帮助</a>
+						</h2>
+						<ul>
+							<li>
+								<a href="http://www.alliker.com/users/register"  title="免费注册">免费注册</a>
+							</li>
+							<li>
+								<a href="http://www.alliker.com/xs#a_1"  title="如何获得来客币">如何获得来客币</a>
+							</li>
+							<li>
+								<a href="http://www.alliker.com/xs#a_2"  title="如何兑换礼品">如何兑换礼品</a>
+							</li>
+							<li>
+								<a href="http://www.alliker.com/xs#a_3"  title="来客币使用">来客币使用</a>
+							</li>
+							<li>
+								<a href="http://www.alliker.com/ps"  title="配送方法">配送方法</a>
+							</li>
+							<li>
+								<a href="http://www.alliker.com/kf#a_1"  title="常见问题">常见问题</a>
+							</li>
+							<li>
+								<a href="http://www.alliker.com/kf#a_2"  title="积分政策">积分政策</a>
+							</li>
+							<li>
+								<a href="http://www.alliker.com/kf#a_2"  title="积分政策">积分政策</a>
+							</li>
+							<li>
+								<a href="http://www.alliker.com/lx"  title="联系我们">联系我们</a>
+							</li>
+							<li>
+								<a href="http://www.alliker.com/ts"  title="投诉建议">投诉建议</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="preFooterItem last">
+					<div class="preFooterItemInner">
+						<h2>
+							<a  href="http://www.alliker.com/users">来客中心</a>
+						</h2>
+						<ul>
+							<li>
+								<a href="http://www.alliker.com/default/login"  title="登录">登录</a>
+							</li>
+							<li>
+								<a href="http://www.alliker.com/users/userinfo"  title="个人信息">个人信息</a>
+							</li>
+							<li>
+								<a href="http://extra.alliker.com/alliker/users/news/myaccount.jsp"  title="我的来客币">我的来客币</a>
+							</li>
+							<li>
+								<a href="http://www.alliker.com/letters/list"  title="收件箱">收件箱</a>
+							</li>
+							<li>
+								<a href="http://www.alliker.com/users/mygiftcart"  title="礼品车">礼品车</a>
+							</li>
+							<li>
+								<a href="http://www.alliker.com/users/mygroup"  title="品牌组">品牌组</a>
+							</li>
+							<li>
+								<a href="http://www.alliker.com/users/changepassword"  title="修改密码">修改密码</a>
+							</li>
+							<li>
+								<a href="http://www.alliker.com/users/emailshow"  title="电子邮箱设置">电子邮箱设置</a>
+							</li>
+							<li>
+								<a href="http://www.alliker.com/users/bind"  title="账号绑定">账号绑定</a>
+							</li>
+							<li>
+								<a href="http://www.alliker.com/users/consigneeinfo"  title="收货人信息">收货人信息</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="footer" class="clearfix">
+			<ul>
+		        <li class="first"><a target="_blank" href="http://www.qjwb.com.cn/">钱报网</a></li>
+		        <li><a target="_blank" href="http://xiawang.alliker.com/">十八都江旅游区</a></li>
+		        <li><a target="_blank" href="http://s.click.taobao.com/t_8?e=7HZ5x%2BOzd%2BCXAzh38eIcpLrA2IY%3D&amp;p=mm_16957987_0_0">KISSBABY</a></li>
+		        <li><a target="_blank" href="http://www.podinns.com/YLMember/FenAwardDetail/380.html">布丁酒店</a></li>
+		        <li><a target="_blank" href="http://alliker.taobao.com/">来客淘宝店</a></li>
+		        <li><a target="_blank" href="http://shop73024410.taobao.com/">Meyang</a></li>            
+		        <li><a target="_blank" href="http://www.qjyy.com/">千金药业</a></li>
+		        <li><a target="_blank" href="http://tiedingyinyuan.tmall.com/">铁定姻缘</a></li>
+		        <li><a target="_blank" href="http://zpjkpp.taobao.com/">健康拍拍</a></li>
+		        <li><a target="_blank" href="http://www.szscts.com/default/jf">嵊州市中国旅行社</a></li>
+		        <li><a target="_blank" href="http://www.shanzu365.com/">山族美食</a></li>
+		        <li class="last"><a target="_blank" href="http://bbs.51outdoor.com/news/zixun/">天择户外</a></li>
+			</ul>
+		</div>
+		<p id="copyright">
+			Copyright 2013-2019, 版权所有 ALLIKER.COM 浙ICP备1200112 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;客服热线4000-315-007
+		</p>
+		</div>
+		 	<div style="width:300px;margin:0 auto; padding:20px 0;">
+		 		<a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33010302000097" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"><img src="./beianico.png" style="float:left;"/><p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#939393;">浙公网安备 33010302000097号</p></a>
+		 	</div>
+		 
+		<!--<div>
+			<script type="text/javascript">
+				function closeM(){
+					$('.popMailCheck').css("display","none"); 
+				}
+			</script>
+			<div class="popMailCheck" style="position: fixed; bottom: 0px;"><div class="popMailCon"><a name="close" href="javascript:closeM()" class="btnCloseM"></a><a target="_blank" href="http://www.alliker.com/default/choujiang" class="btnCheckMail"></a></div></div>
+			<div id="HQbackArea" class="backArea" style="bottom: 15px; right: 100px; display: block;"><a href="javascript:void(0)" class="backBtn"></a>
+			</div>
+		</div>-->
+		<script type="text/javascript" src="/contents/scripts/scrolltopcontrol.js"></script>
+		<script type="text/javascript">
+		  	scrolltotop.offset(100,120);
+		  	scrolltotop.init();
+		  	/*
+		    function loaded() {
+		        app_Scroll = new iScroll('app_wrapper', {
+		            snap: true,
+		            momentum: false,
+		            hScrollbar: false,
+		            onScrollEnd: function () {
+		                $("#app_pagebar > li.active").removeClass("active");
+		                $("#app_pagebar > li:nth-child(" + (this.currPageX + 1) + ")").addClass('active');
+		                //setCookie("currPage", this.currPageX);
+		            }
+		        });
+		    }
+		    document.addEventListener('DOMContentLoaded', loaded, false);
+		    document.addEventListener('DOMContentLoaded', function (e) {
+		        document.ondragstart = function () { return false; }
+		        for (i in document.images) document.images[i].ondragstart = function () {
+		            return false;
+		        };
+		    }, false);
+		    */
+		</script>
+		<!--百度统计-->
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F76192027d391339899f1f6fbed984664' type='text/javascript'%3E%3C/script%3E"));
+</script>
+	</body>
+</html>

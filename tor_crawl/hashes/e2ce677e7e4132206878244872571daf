@@ -1,0 +1,13 @@
+<html>
+	<body style="margin: 0px; padding: 0px;">
+		<div style="margin: 0px; width: 950px; height: 666px; padding: 0px; background-color: darkslategrey; color: white; font-size: 20px">
+			<div style="position: absolute; left: 0px; top: 0px;">LO</div>
+			<div style="position: absolute; left: 923px; top: 0px">RO</div>
+			<div style="position: absolute; left: 140px; top: 300px">
+				Ihre Anfrage kann leider nicht verarbeitet werden. Die Dom&auml;ne ist uns unbekannt.
+			</div>
+			<div style="position: absolute; left: 0px; top: 646px;">LU</div>
+			<div style="position: absolute; left: 923px; top: 646px;">RU</div>
+		</div>
+	</body>
+</html>

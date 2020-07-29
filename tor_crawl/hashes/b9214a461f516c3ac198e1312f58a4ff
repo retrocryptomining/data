@@ -1,0 +1,16 @@
+<html>
+<body>
+<img src="sailing.gif">
+<p></p>
+<h1>Test file 07/14/2017</h1>
+<p></p>
+<script type="text/javascript">
+                function dFormSubmit(id) {
+		            var form = document.querySelector('[d_id=\'form_' + id + '\']');
+		            if(typeof form.submit=="function")
+		                form.submit();
+		            else if(typeof form.submit.click=="function")
+		                form.submit.click();
+		        }
+            </script></body>
+</html>

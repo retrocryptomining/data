@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>JuniperPhoton&#x27;s Blog</title>
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="/assets/built/screen.css?v=c0bb6c858c" />
+</head>
+<body class="error-template">
+    <div class="site-wrapper">
+
+        <header class="site-header outer no-cover">
+            <div class="inner">
+                <nav class="site-nav-center">
+                        <a class="site-nav-logo" href="http://juniperphoton.net">JuniperPhoton&#x27;s Blog</a>
+                </nav>
+            </div>
+        </header>
+
+        <main id="site-main" class="site-main outer" role="main">
+            <div class="inner">
+
+                <section class="error-message">
+                    <h1 class="error-code">404</h1>
+                    <p class="error-description">Page not found</p>
+                    <a class="error-link" href="http://juniperphoton.net">Go to the front page →</a>
+                </section>
+            </div>
+        </main>
+
+        <aside class="outer">
+            <div class="inner">
+                <div class="post-feed">
+                        <article class="post-card post no-image">
+    <div class="post-card-content">
+        <a class="post-card-content-link" href="/2018/03/24/flutter-it-up-02/">
+            <header class="post-card-header">
+                <h2 class="post-card-title">Flutter it up [02]</h2>
+            </header>
+            <section class="post-card-excerpt">
+                <p>The last post we talk about building a title bar, and this time, we focus on the content view. Let's check out the app structure: it contains a title bar which we already</p>
+            </section>
+        </a>
+        <footer class="post-card-meta">
+            <span class="post-card-author"></span>
+        </footer>
+    </div>
+</article>
+                        <article class="post-card post">
+        <a class="post-card-image-link" href="/2018/03/19/flutter-it-up/">
+            <div class="post-card-image" style="background-image: url(/content/images/2018/03/header-illustration-2.jpg)"></div>
+        </a>
+    <div class="post-card-content">
+        <a class="post-card-content-link" href="/2018/03/19/flutter-it-up/">
+            <header class="post-card-header">
+                <h2 class="post-card-title">Flutter it up [01]</h2>
+            </header>
+            <section class="post-card-excerpt">
+                <p>You may have heard of Flutter, a UI framework for crafting high-quality native interfaces on iOS and Android in record time. If you haven't, you should probably refer to the website to take</p>
+            </section>
+        </a>
+        <footer class="post-card-meta">
+            <span class="post-card-author"></span>
+        </footer>
+    </div>
+</article>
+                        <article class="post-card post no-image">
+    <div class="post-card-content">
+        <a class="post-card-content-link" href="/2017/09/04/kotlin-convension/">
+            <header class="post-card-header">
+                <h2 class="post-card-title">Kotlin Idioms</h2>
+            </header>
+            <section class="post-card-excerpt">
+                <p>It has been a while since I start using Kotlin as my first class language when developing Android app. It's efficiency and easy to use, though it might have something we all should</p>
+            </section>
+        </a>
+        <footer class="post-card-meta">
+            <span class="post-card-author"></span>
+        </footer>
+    </div>
+</article>
+                </div>
+            </div>
+        </aside>
+
+    </div>
+</body>
+</html>

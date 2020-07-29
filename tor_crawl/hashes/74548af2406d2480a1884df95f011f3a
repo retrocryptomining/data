@@ -1,0 +1,47 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>BLOQUEIO DE SITE</title>
+<style type="text/css">
+body {
+	background-color: #000;
+}
+</style>
+</head>
+
+<body>
+
+<p style="text-align: center;"><img src="/img/timbre.jpg" width="173" height="163"/></p>
+<table width="860" height="455" border="0" align="center" bgcolor="#000000">
+  <tr>
+    <td width="711" height="136"><center style="color: #F00; font-family: Impact, Haettenschweiler, 'Franklin Gothic Bold', 'Arial Black', sans-serif; font-size: 64px;">
+      SITE BLOQUEADO
+    </center></td>
+  </tr>
+  <tr>
+    <td align="center" style="text-align: center; font-size: 16px; font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', serif; color: #FF0;">
+	
+    <p style="text-align: center; font-size: 24px;"><strong>Caro funcionário(a) este site foi bloqueado por motivo de segurança, </strong></p>
+    <p style="text-align: center; font-size: 24px;"><strong>o Grupo Ypiranguinha agradece a sua compreensão.</strong><strong>.</strong></p></td>
+  </tr>
+  <tr>
+    <td align="center"><p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p></td>
+  </tr>
+  <tr>
+    <td align="center"><strong style="color: #FFF">Se você tiver alguma dúvida entre em contato com o suporte de sua rede.</strong></td>
+	
+  </tr>
+  <tr>
+    <td align="center"><strong style="color: #FFF">Ramal - 203.</strong></td>
+	
+  </tr>
+</table>
+<p>&nbsp;</p>
+
+
+</body>
+</html>

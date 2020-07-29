@@ -1,0 +1,253 @@
+<html>
+<head>
+<title></title>
+<style type="text/css">
+BODY {color: #000000; font-family: Verdana, Helvetica, Arial, sans-serif;background-color: #FFFFFF; margin:0px}
+TD {font-size: 11px}
+TD.GRID {border-left:1px solid #ffffff;border-top:1px solid #ffffff; border-right:1px solid #CCCCCC;border-bottom:1px solid #CCCCCC; color: #000000;}
+TD.GRID_NO_LEFT {border-left:0px;border-top:1px solid #ffffff; border-right:1px solid #CCCCCC;border-bottom:1px solid #CCCCCC; color: #000000;}
+TD.GRID_NO_RIGHT {border-left:1px solid#ffffff; border-top:1px solid #ffffff; border-right:0px;border-bottom:1px solid #CCCCCC; color: #000000;}
+.PAGE_HEADER {font-size: 14px;}
+.REMARK {font-size: 9px;}
+.BUTTON {cursor: pointer;}
+.DATA {color: #000000;}
+.PIRELLI_SIDEBAR_TITLE {color: #000000; font-size: 14px; font-weight: bold;}
+.PIRELLI_SIDEBAR_TEXT {color: #000000; font-size: 10px; font-weight: bold;}
+A {color: #00286F;}
+A:link {TEXT-DECORATION: none}
+A:visited {TEXT-DECORATION: none}
+A:hover {TEXT-DECORATION: underline}
+TD.GRID A {color: #00286F;}
+TD.GRID_NO_LEFT A {color: #00286F;}
+TD.GRID_NO_RIGHT A {color: #00286F;}
+TD.DATA A {color: #00286F;}
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<script language="JavaScript" src="/proj.js"></script>
+<script language="JavaScript">
+var wan_mode=0;
+var my_ddns=1;
+var my_wlan_mac=0;
+var my_snmp=0;
+var my_dialup=0;
+var my_printer=0;
+var my_bridge=0;
+var my_8021x=0;
+var my_tiny=0;
+var my_vpn=0;
+var my_upnp=1;
+var my_usb=1;
+var operation_func=6;
+var my_wps=1;
+var feature_func=1;
+var product_code=1033040;
+var my_file_share=1;
+var my_umts=0;
+var vlan_func_enable=1;
+var my_qos=2;
+var my_snmp=1;
+var my_voip=1;
+var my_voip_h323=0;
+var my_voip_sip=1;
+var need_username=1;
+var ipsec_func=0;
+var pptp_func=0;
+var iptv_func=1;
+var static_rt_func=0;
+var PM="ADSL wireless IAD router";
+var BACKUP_LOG_NAME="logfile.bin";
+var BACKUP_CONFIG_NAME="backup.bin";
+var resetButton=0;
+var hasUpgrade=0;
+var ftpcRun=0;
+var bRemoteMgntBySubnet=1;
+var bStatic_Routed_By_VC=1;
+var bDNS_URL_Forwarding=0;
+var bIsAdmin=0;
+var bPPPoE_PT=1;
+var vendor_code=12;
+var proj_code=13;
+var user_login_level=0;
+var VC1_PPPoE=1;
+var hyper_link="<a href='http://www.adbglobal.com' target='_blank'>";
+var hyper_link_login="<a href='/login.stm'>";
+var urlname="www.adbglobal.com";
+var vendor_name="ADB";
+var vendor_name1="Pirelli Corp";
+var company="ADB Broadband";
+var copyRight="";
+var mouseover="'#A6A8BD'";
+var mouseout="'#C6C6D6'";
+var wizardbg="'#A6A8BD'";
+var vendor_no=2;
+var menu_link="<td class=tdm4 bgColor='#A6A8BD' valign='middle'>";
+var helplink="<p class=txt2>From <br> <br> <br> <br> <br><A href='mailto:'></a></p>";
+var helplink1="<p class=txt2>From <br> <br> <br> <br> <br> <br> <br><A href='mailto:'></a></p>";
+var help_hyper_link=hyper_link;
+var help_urlname=urlname;
+var fw_hyper_link="";
+var fw_urlname="your ISP";
+
+var runtime_code_version="1.26S-R-3P (May 22 2012 13:39:37)";
+
+var useridno=1;
+var manual_dial=0;
+
+var lan_ip="192.168.1.254";
+var showtmp;
+var accessLogoGif='';
+var accessLogoDiscus='';
+
+
+if (parent.location.href != window.location.href)
+parent.location.href = window.location.href;
+
+if(manual_dial==1){
+	var tmp='http://'+lan_ip+'/index.stm' ;
+	top.location.href=tmp;
+}
+
+function clearUserDef() {
+window.close();
+}
+</script>
+</head>
+
+<style>
+A {
+font-family : Helvetica, Verdana, Arial, sans-serif;
+font-size : 12px;
+text-decoration : none;
+color : #666666;
+}
+A:HOVER {
+font-family : Helvetica, Verdana, Arial, sans-serif;
+font-size : 12px;
+text-decoration : underline;
+color : #666666;
+}
+A.section {
+font-family : Helvetica, Verdana, Arial, sans-serif;
+font-size : 12px;
+text-decoration : none;
+color : #666666;
+font-weight : bold;
+}
+A:HOVER.section {
+font-family : Helvetica, Verdana, Arial, sans-serif;
+font-size : 12px;
+text-decoration : underline;
+color : #666666;
+font-weight : bold;
+}
+.tdTextr {
+BACKGROUND: #CED3D2; color: #000000;
+font-family: Verdana, Arial, sans-serif; font-size: 12pt;
+text-align: right;
+}
+.tdText {
+BACKGROUND: #CED3D2; color: #000000;
+font-family: Verdana, Arial, sans-serif; font-size: 9pt;
+text-align: left;
+}
+</style>
+
+
+<script language="JavaScript">
+if(vendor_code == 4 || vendor_code == 6 || vendor_code == 12)
+    document.write('<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" scroll="no" onLoad="document.tF.user.focus();">');
+else
+    document.write('<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" scroll="no" onLoad="document.tF.pws.focus();">');
+</script>
+
+<form action="/cgi-bin/login.exe" method="post" name="tF">
+<table width="100%"  border="0" cellspacing="0" cellpadding="0" bgcolor="#CACACA">
+<tr>
+	<td  height="87" valign="middle" width="194"><script language="JavaScript">document.write(hyper_link);</script><img src="/images/logo_adb.png" height="87" border="0"></a></td>
+	<td align="left" bgcolor="#cacaca" height="87" valign="middle" width="100%">
+		<img src="/images/empty.gif" border="0" height="75" width="2">
+	</td>
+	<td align="left" bgcolor="#cacaca" height="87" valign="middle" width="261">
+		<table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tbody>
+		<tr>
+			<td align="left" bgcolor="#cacaca" height="52" valign="middle" width="261">
+				<script type="text/javascript">
+				showtmp=(accessLogoGif.length == 0) ? "": '<img src="/images/'+accessLogoGif+'" border="0" height="52" width="261">';
+				document.write(showtmp);
+				</script>
+			</td>
+		</tr>
+		<tr>
+			<td align="center" bgcolor="#cacaca" height="15" valign="top">
+				<script type="text/javascript">
+				showtmp=(accessLogoDiscus.length==0) ? "": '<b><font color="#ffffff"  face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">'+accessLogoDiscus+'</font></b>';
+				document.write(showtmp);
+				</script>
+			</td>
+		</tr>
+		</tbody>
+		</table>
+	</td>
+</tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" height="80%">
+<tr>
+	<td valign="middle" align="center" height="469">
+		<div align="center"><br><br>
+		<table border="0" cellspacing="1" cellpadding="5">
+		<tr>
+			<td class=tdTextr>
+				<table border="0" cellspacing="0" cellpadding="5">
+				<tr>
+					<td width="100%" height="10" colspan="2" align="center"><font face="Verdana, Arial" size="4" color="#FFFFFF"><b>Login &nbsp;Screen</b></font></td>
+				</tr>
+				<tr>
+					<td width="100%" height="9" colspan="2" align="center">
+					<hr size="1" color="#FFFFFF">
+					</td>
+				</tr>
+				<script language="JavaScript">
+				if(need_username){
+					maxLength=20;
+					if(is_GP_MJ()) maxLength=20;
+					document.write('<tr>');
+					document.write('<td class=tdTextr><b>Username:</b></td>');
+					document.write('<td class=tdText><font size="2"><INPUT type="text" maxLength='+maxLength+' size=15 name=user></font></td>');
+					document.write('</tr>');
+				}
+
+				maxLength=20;
+				if(is_GP_ON()) maxLength=13;
+				if(is_GP_MJ()) maxLength=20;
+				document.write('<tr>');
+				document.write('<td class=tdTextr><b>Password:</b></td>');
+				document.write('<td class=tdText><font size="2"><INPUT type="password" maxLength='+maxLength+' size=15 name=pws></font></td>');
+				document.write('</tr>');
+				</script>
+				<tr nowrap>
+					<td>&nbsp;</td>
+					<td nowrap>
+						<input type="Submit" value="LOGIN">&nbsp;&nbsp;
+						<input type="button" value="CANCEL" onClick=window.close();>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		</table>
+		<br><br>
+		<p align="center">
+		<font color="#FF0000" size ="2" face="Verdana, Arial">Please enter correct password for Administrator Access. Thank you.</font>
+		<br>
+		<font face="Verdana, Arial" size="2" color="#336699">We suggest that you use Internet Explorer 5.5 or above at a minimum of 1024x768 resolution.
+		<br>
+		<script type="text/javascript">if (copyRight.length>0) document.write(copyRight + ' ' + company + '. All rights reserved.<br>');</script></font>
+		<br><font face="Verdana, Arial" size="2" color="#5A5A5A">Firmware version: <script language="JavaScript">document.write(runtime_code_version);</script>
+		</p>
+	</td>
+</tr>
+</table>
+</form>
+</body>
+</html>

@@ -1,0 +1,473 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr-FR" xml:lang="fr-FR">
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="robots" content="noodp,noydir" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/><title>Page non trouvée</title>
+
+		<style type="text/css">
+			.slide-excerpt { width: 50%; }
+			.slide-excerpt { top: 0; }
+			.slide-excerpt { right: 0; }
+			.flexslider { max-width: 950px; max-height: 450px; }
+			.slide-image { max-height: 450px; }
+		</style>
+		<style type="text/css">
+			@media only screen
+			and (min-device-width : 320px)
+			and (max-device-width : 480px) {
+				.slide-excerpt { display: none !important; }
+			}
+		</style> <link rel='dns-prefetch' href='//www.starxpert.fr' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="StarXpert : Intégrateur Alfresco, LibreOffice, OpenOffice.org, Zimbra &raquo; Flux" href="http://feeds.feedburner.com/starxpert/YpIZ" />
+<link rel="alternate" type="application/rss+xml" title="StarXpert : Intégrateur Alfresco, LibreOffice, OpenOffice.org, Zimbra &raquo; Flux des commentaires" href="http://www.starxpert.fr/comments/feed/" />
+<!-- This site uses the Google Analytics by MonsterInsights plugin v7.3.2 - Using Analytics tracking - https://www.monsterinsights.com/ -->
+<script type="text/javascript" data-cfasync="false">
+	var mi_version         = '7.3.2';
+	var mi_track_user      = true;
+	var mi_no_track_reason = '';
+	
+	var disableStr = 'ga-disable-UA-5956038-1';
+
+	/* Function to detect opted out users */
+	function __gaTrackerIsOptedOut() {
+		return document.cookie.indexOf(disableStr + '=true') > -1;
+	}
+
+	/* Disable tracking if the opt-out cookie exists. */
+	if ( __gaTrackerIsOptedOut() ) {
+		window[disableStr] = true;
+	}
+
+	/* Opt-out function */
+	function __gaTrackerOptout() {
+	  document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+	  window[disableStr] = true;
+	}
+	
+	if ( mi_track_user ) {
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','__gaTracker');
+
+		__gaTracker('create', 'UA-5956038-1', 'auto');
+		__gaTracker('set', 'forceSSL', true);
+		__gaTracker('send','pageview','/404.html?page=' + document.location.pathname + document.location.search + '&from=' + document.referrer);
+	} else {
+		console.log( "" );
+		(function() {
+			/* https://developers.google.com/analytics/devguides/collection/analyticsjs/ */
+			var noopfn = function() {
+				return null;
+			};
+			var noopnullfn = function() {
+				return null;
+			};
+			var Tracker = function() {
+				return null;
+			};
+			var p = Tracker.prototype;
+			p.get = noopfn;
+			p.set = noopfn;
+			p.send = noopfn;
+			var __gaTracker = function() {
+				var len = arguments.length;
+				if ( len === 0 ) {
+					return;
+				}
+				var f = arguments[len-1];
+				if ( typeof f !== 'object' || f === null || typeof f.hitCallback !== 'function' ) {
+					console.log( 'Fonction actuellement pas en cours d’exécution __gaTracker(' + arguments[0] + " ....) parce que vous n’êtes pas suivi·e. " + mi_no_track_reason );
+					return;
+				}
+				try {
+					f.hitCallback();
+				} catch (ex) {
+
+				}
+			};
+			__gaTracker.create = function() {
+				return new Tracker();
+			};
+			__gaTracker.getByName = noopnullfn;
+			__gaTracker.getAll = function() {
+				return [];
+			};
+			__gaTracker.remove = noopfn;
+			window['__gaTracker'] = __gaTracker;
+					})();
+		}
+</script>
+<!-- / Google Analytics by MonsterInsights -->
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/www.starxpert.fr\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.8"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='ai1ec_style-css'  href='//www.starxpert.fr/wp-content/plugins/all-in-one-event-calendar/cache/a9ae6868_ai1ec_parsed_css.css?ver=2.5.32' type='text/css' media='all' />
+<link rel='stylesheet' id='agency-theme-css'  href='http://www.starxpert.fr/wp-content/themes/agency/style.css?ver=2.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='st-widget-css'  href='http://www.starxpert.fr/wp-content/plugins/share-this/css/style.css?ver=4.9.8' type='text/css' media='all' />
+<link rel='stylesheet' id='simple-social-icons-font-css'  href='http://www.starxpert.fr/wp-content/plugins/simple-social-icons/css/style.css?ver=3.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='slider_styles-css'  href='http://www.starxpert.fr/wp-content/plugins/genesis-responsive-slider/style.css?ver=0.9.5' type='text/css' media='all' />
+<link rel='stylesheet' id='avhec-widget-css'  href='http://www.starxpert.fr/wp-content/plugins/extended-categories-widget/4.2/css/avh-ec.widget.css?ver=3.10.0-dev.1' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.starxpert.fr/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://www.starxpert.fr/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var monsterinsights_frontend = {"js_events_tracking":"true","is_debug_mode":"false","download_extensions":"doc,exe,js,pdf,ppt,tgz,zip,xls","inbound_paths":"","home_url":"http:\/\/www.starxpert.fr","track_download_as":"event","internal_label":"int","hash_tracking":"false"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.starxpert.fr/wp-content/plugins/google-analytics-for-wordpress/assets/js/frontend.min.js?ver=7.3.2'></script>
+<!--[if lt IE 9]>
+<script type='text/javascript' src='http://www.starxpert.fr/wp-content/themes/genesis/lib/js/html5shiv.min.js?ver=3.7.3'></script>
+<![endif]-->
+<script type='text/javascript' src='http://www.starxpert.fr/wp-content/plugins/simple-social-icons/svgxuse.js?ver=1.1.21'></script>
+<link rel='https://api.w.org/' href='http://www.starxpert.fr/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.starxpert.fr/xmlrpc.php?rsd" />
+<style type="text/css"> .enews .screenread {
+	height: 1px;
+    left: -1000em;
+    overflow: hidden;
+    position: absolute;
+    top: -1000em;
+    width: 1px; } </style><script charset="utf-8" type="text/javascript">var switchTo5x=false;</script><script charset="utf-8" type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script><script type="text/javascript">stLight.options({publisher:'wp.5ab7b05d-914d-4bae-9df4-e595bea84d60'});var st_type='wordpress3.4.2';</script><link rel="icon" href="http://www.starxpert.fr/wp-content/plugins/genesis-favicon-uploader/favicons/favicon.ico" />
+<style type="text/css">#header { background: url(http://www.starxpert.fr/wp-content/uploads/2012/10/logo-starxpert.png) no-repeat !important; }</style>
+<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #FFF; }
+</style>
+</head>
+<body class="error404 custom-background custom-header header-image content-sidebar"><div id="wrap"><div id="header"><div class="wrap"><div id="title-area"><p id="title"><a href="http://www.starxpert.fr/">StarXpert : Intégrateur Alfresco, LibreOffice, OpenOffice.org, Zimbra</a></p><p id="description">Collaboration et dématérialisation open source</p></div><div class="widget-area header-widget-area"><div id="simple-social-icons-2" class="widget simple-social-icons"><div class="widget-wrap"><ul class="alignright"><li class="ssi-linkedin"><a href="https://www.linkedin.com/company/148432?trk=saber_s000001e_1000" ><svg role="img" class="social-linkedin" aria-labelledby="social-linkedin-2"><title id="social-linkedin-2">LinkedIn</title><use xlink:href="http://www.starxpert.fr/wp-content/plugins/simple-social-icons/symbol-defs.svg#social-linkedin"></use></svg></a></li><li class="ssi-twitter"><a href="https://twitter.com/StarXpert" ><svg role="img" class="social-twitter" aria-labelledby="social-twitter-2"><title id="social-twitter-2">Twitter</title><use xlink:href="http://www.starxpert.fr/wp-content/plugins/simple-social-icons/symbol-defs.svg#social-twitter"></use></svg></a></li></ul></div></div>
+<div id="nav_menu-2" class="widget widget_nav_menu"><div class="widget-wrap"><div class="menu-primary-navigation-container"><ul id="menu-primary-navigation" class="menu genesis-nav-menu js-superfish"><li id="menu-item-1237" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1237"><a href="http://www.starxpert.fr/recrutement/"><span itemprop="name">Recrutement</span></a>
+<ul class="sub-menu">
+	<li id="menu-item-1239" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1239"><a href="http://www.starxpert.fr/recrutement/offres-demploi/"><span itemprop="name">Offres d&#8217;emploi</span></a></li>
+	<li id="menu-item-1238" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1238"><a href="http://www.starxpert.fr/recrutement/stages/"><span itemprop="name">Stages 2018</span></a></li>
+</ul>
+</li>
+<li id="menu-item-2208" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2208"><a title="Alfresco, Zimbra, ZimbraBox" href="#"><span itemprop="name">Société</span></a>
+<ul class="sub-menu">
+	<li id="menu-item-1135" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1135"><a href="http://www.starxpert.fr/starxpert/"><span itemprop="name">StarXpert</span></a></li>
+	<li id="menu-item-1064" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1064"><a href="http://www.starxpert.fr/event/"><span itemprop="name">Webinaires et événements</span></a></li>
+	<li id="menu-item-1141" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1141"><a href="http://www.starxpert.fr/presse/"><span itemprop="name">Presse</span></a></li>
+	<li id="menu-item-2212" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2212"><a href="#"><span itemprop="name">Contact</span></a>
+	<ul class="sub-menu">
+		<li id="menu-item-1252" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1252"><a href="http://www.starxpert.fr/contact/adresse-des-bureaux/"><span itemprop="name">Adresse de nos bureaux</span></a></li>
+		<li id="menu-item-1251" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1251"><a href="http://www.starxpert.fr/contact/demande-de-contact/"><span itemprop="name">Demande de contact</span></a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="menu-item-3185" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3185"><a title="Zimbra OwnCloud Box" href="http://www.starxpert.fr/cloud/"><span itemprop="name">Cloud</span></a>
+<ul class="sub-menu">
+	<li id="menu-item-2596" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2596"><a title="Zimbra – Zimbra Box" href="http://www.starxpert.fr/zimbra-heberge-en-mode-cloud/"><span itemprop="name">ZimbraBox</span></a></li>
+	<li id="menu-item-3186" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3186"><a href="http://www.starxpert.fr/cloud/owncloud-box/"><span itemprop="name">ownCloud Box</span></a></li>
+</ul>
+</li>
+<li id="menu-item-2209" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2209"><a href="#"><span itemprop="name">Solutions</span></a>
+<ul class="sub-menu">
+	<li id="menu-item-1147" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1147"><a href="http://www.starxpert.fr/alfresco/"><span itemprop="name">Alfresco</span></a>
+	<ul class="sub-menu">
+		<li id="menu-item-1177" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1177"><a href="http://www.starxpert.fr/alfresco/la-ged-transverse-avec-alfresco/"><span itemprop="name">La Ged Transverse avec Alfresco</span></a></li>
+		<li id="menu-item-1438" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1438"><a href="http://www.starxpert.fr/alfresco/extensions-et-outils-alfresco/"><span itemprop="name">Extensions et modules Alfresco</span></a></li>
+		<li id="menu-item-1153" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1153"><a href="http://www.starxpert.fr/alfresco/presentation-dalfresco/"><span itemprop="name">Présentation d&rsquo;Alfresco</span></a></li>
+		<li id="menu-item-1158" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1158"><a href="http://www.starxpert.fr/alfresco/la-reprise-du-fond-documentaire/"><span itemprop="name">La Reprise du fond documentaire</span></a></li>
+		<li id="menu-item-1167" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1167"><a href="http://www.starxpert.fr/alfresco/les-workflows-alfresco/"><span itemprop="name">Les workflows Activiti</span></a></li>
+		<li id="menu-item-1445" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1445"><a href="http://www.starxpert.fr/alfresco/livres-blancs/"><span itemprop="name">Livres blancs et vidéos</span></a></li>
+		<li id="menu-item-1671" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1671"><a href="http://www.starxpert.fr/temoignages-alfresco/"><span itemprop="name">Témoignages Alfresco</span></a></li>
+	</ul>
+</li>
+	<li id="menu-item-2784" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2784"><a href="http://www.starxpert.fr/bonita/"><span itemprop="name">Activiti</span></a></li>
+	<li id="menu-item-2894" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2894"><a href="http://www.starxpert.fr/ephesoft/"><span itemprop="name">Ephesoft</span></a></li>
+	<li id="menu-item-1216" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1216"><a href="http://www.starxpert.fr/zimbra/"><span itemprop="name">Zimbra</span></a>
+	<ul class="sub-menu">
+		<li id="menu-item-1219" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1219"><a href="http://www.starxpert.fr/zimbra/presentation-de-zimbra/"><span itemprop="name">Présentation de Zimbra</span></a></li>
+		<li id="menu-item-1217" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1217"><a href="http://www.starxpert.fr/zimbra/les-atouts-de-zimbra/"><span itemprop="name">Les atouts de Zimbra</span></a></li>
+		<li id="menu-item-1218" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1218"><a href="http://www.starxpert.fr/zimbra/nouveautes-zimbra-8/"><span itemprop="name">Nouveautés Zimbra 8</span></a></li>
+		<li id="menu-item-1226" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1226"><a href="http://www.starxpert.fr/zimbra/migration-depuis-exchange/"><span itemprop="name">Migrer depuis Exchange</span></a></li>
+		<li id="menu-item-1462" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1462"><a href="http://www.starxpert.fr/zimbra/extensions-les-zimlets/"><span itemprop="name">Extensions : les zimlets</span></a></li>
+		<li id="menu-item-1472" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1472"><a href="http://www.starxpert.fr/zimbra/livres-blancs-et-videos/"><span itemprop="name">Livres blancs et vidéos</span></a></li>
+		<li id="menu-item-1756" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1756"><a href="http://www.starxpert.fr/temoignages-zimbra/"><span itemprop="name">Témoignages Zimbra</span></a></li>
+		<li id="menu-item-1471" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1471"><a href="http://www.starxpert.fr/zimbra/outil-de-migration-smit/"><span itemprop="name">Outil de migration SMIT</span></a></li>
+		<li id="menu-item-1470" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1470"><a href="http://www.starxpert.fr/zimbra/zimbra-forum-france-presentations/"><span itemprop="name">Zimbra Forum France</span></a></li>
+		<li id="menu-item-3168" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3168"><a href="http://www.starxpert.fr/zimbra/zimbra-opensource-vs-network/"><span itemprop="name">Zimbra OpenSource vs Network</span></a></li>
+		<li id="menu-item-1225" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1225"><a href="http://www.starxpert.fr/zimbra/faq-zimbra/"><span itemprop="name">FAQ Zimbra</span></a></li>
+	</ul>
+</li>
+	<li id="menu-item-2183" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2183"><a href="http://www.starxpert.fr/ansible/"><span itemprop="name">Ansible</span></a></li>
+	<li id="menu-item-3321" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3321"><a href="http://www.starxpert.fr/owncloud/"><span itemprop="name">ownCloud</span></a></li>
+	<li id="menu-item-3219" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3219"><a href="http://www.starxpert.fr/lemon-ldap/"><span itemprop="name">LemonLDAP</span></a></li>
+	<li id="menu-item-1186" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1186"><a href="http://www.starxpert.fr/glpi/"><span itemprop="name">GLPI</span></a></li>
+	<li id="menu-item-1185" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1185"><a href="http://www.starxpert.fr/ocs-inventory/"><span itemprop="name">OCS Inventory</span></a></li>
+	<li id="menu-item-1229" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1229"><a href="http://www.starxpert.fr/sympa/"><span itemprop="name">Sympa</span></a></li>
+	<li id="menu-item-2088" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2088"><a href="http://www.starxpert.fr/liferay/"><span itemprop="name">Liferay</span></a></li>
+	<li id="menu-item-2095" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2095"><a href="http://www.starxpert.fr/drupal/"><span itemprop="name">Drupal</span></a></li>
+	<li id="menu-item-1189" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1189"><a href="http://www.starxpert.fr/openoffice-org-libreoffice/"><span itemprop="name">LibreOffice</span></a>
+	<ul class="sub-menu">
+		<li id="menu-item-1197" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1197"><a href="http://www.starxpert.fr/openoffice-org-libreoffice/presentation-dopenoffice-org-libreoffice/"><span itemprop="name">Présentation de LibreOffice</span></a></li>
+		<li id="menu-item-1196" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1196"><a href="http://www.starxpert.fr/openoffice-org-libreoffice/reussir-sa-migration-openoffice-ou-libreoffice/"><span itemprop="name">Réussir sa migration LibreOffice</span></a></li>
+		<li id="menu-item-2858" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2858"><a href="http://www.starxpert.fr/decouvrez-la-difference-de-cout-entre-une-migration-vers-libreoffice-et-vers-ms-office-2010/"><span itemprop="name">Découvrez la différence de coût entre une migration vers LibreOffice et vers MS Office 2010</span></a></li>
+		<li id="menu-item-1457" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1457"><a href="http://www.starxpert.fr/openoffice-org-libreoffice/extensions/"><span itemprop="name">Extensions</span></a></li>
+		<li id="menu-item-1458" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1458"><a href="http://www.starxpert.fr/openoffice-org-libreoffice/outil-de-migration/"><span itemprop="name">Outil de migration</span></a></li>
+		<li id="menu-item-1757" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1757"><a href="http://www.starxpert.fr/temoignages-openoffice-org-libreoffice/"><span itemprop="name">Témoignages OpenOffice / LibreOffice</span></a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="menu-item-922" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-922"><a href="#"><span itemprop="name">Services</span></a>
+<ul class="sub-menu">
+	<li id="menu-item-1289" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1289"><a href="http://www.starxpert.fr/alfresco-2/"><span itemprop="name">Alfresco</span></a>
+	<ul class="sub-menu">
+		<li id="menu-item-1302" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1302"><a href="http://www.starxpert.fr/alfresco-2/conseil-en-infrastructure/"><span itemprop="name">Conseil en infrastructure</span></a></li>
+		<li id="menu-item-1320" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1320"><a href="http://www.starxpert.fr/alfresco-2/audit-de-performances/"><span itemprop="name">Audit de performances</span></a></li>
+		<li id="menu-item-1321" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1321"><a href="http://www.starxpert.fr/alfresco-2/analyse-des-usages/"><span itemprop="name">Analyse des usages</span></a></li>
+		<li id="menu-item-1301" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1301"><a href="http://www.starxpert.fr/alfresco-2/prototype-alfresco/"><span itemprop="name">Prototype Alfresco</span></a></li>
+		<li id="menu-item-1305" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1305"><a href="http://www.starxpert.fr/alfresco-2/migration-des-donnees/"><span itemprop="name">Migration des données dans Alfresco</span></a></li>
+		<li id="menu-item-1308" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1308"><a href="http://www.starxpert.fr/alfresco-2/deploiement/"><span itemprop="name">Déploiement</span></a></li>
+		<li id="menu-item-1319" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1319"><a href="http://www.starxpert.fr/alfresco-2/developpement/"><span itemprop="name">Développement</span></a></li>
+		<li id="menu-item-1318" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1318"><a href="http://www.starxpert.fr/alfresco-2/support/"><span itemprop="name">Support Alfresco</span></a></li>
+	</ul>
+</li>
+	<li id="menu-item-1358" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1358"><a href="http://www.starxpert.fr/vmware-zimbra/"><span itemprop="name">Zimbra</span></a>
+	<ul class="sub-menu">
+		<li id="menu-item-1364" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1364"><a href="http://www.starxpert.fr/vmware-zimbra/architecture-virtualisation-audit/"><span itemprop="name">Architecture, Virtualisation, Audit</span></a></li>
+		<li id="menu-item-1363" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1363"><a href="http://www.starxpert.fr/vmware-zimbra/migration-et-reprise-des-donnees/"><span itemprop="name">Migration vers Zimbra</span></a></li>
+		<li id="menu-item-1362" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1362"><a href="http://www.starxpert.fr/vmware-zimbra/deploiement/"><span itemprop="name">Déploiement</span></a></li>
+		<li id="menu-item-1361" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1361"><a href="http://www.starxpert.fr/vmware-zimbra/conduite-du-changement/"><span itemprop="name">Conduite du changement</span></a></li>
+		<li id="menu-item-1360" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1360"><a href="http://www.starxpert.fr/vmware-zimbra/developpement-et-integration/"><span itemprop="name">Développement</span></a></li>
+		<li id="menu-item-1359" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1359"><a href="http://www.starxpert.fr/vmware-zimbra/support-et-mco/"><span itemprop="name">Support et MCO</span></a></li>
+		<li id="menu-item-1487" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1487"><a href="http://www.starxpert.fr/vmware-zimbra/questions-reponses/"><span itemprop="name">Questions – Réponses</span></a></li>
+	</ul>
+</li>
+	<li id="menu-item-1326" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1326"><a href="http://www.starxpert.fr/ocs-inventory-glpi/"><span itemprop="name">OCS Inventory – GLPI</span></a></li>
+	<li id="menu-item-1342" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1342"><a href="http://www.starxpert.fr/openoffice-org-libreoffice-2/"><span itemprop="name">LibreOffice</span></a>
+	<ul class="sub-menu">
+		<li id="menu-item-1341" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1341"><a href="http://www.starxpert.fr/openoffice-org-libreoffice-2/conseil-et-deploiement-dopenofficelibreoffice/"><span itemprop="name">Conseil et déploiement de LibreOffice</span></a></li>
+		<li id="menu-item-1339" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1339"><a href="http://www.starxpert.fr/openoffice-org-libreoffice-2/developpement-openoffice-org-libreoffice/"><span itemprop="name">Développement LibreOffice</span></a></li>
+		<li id="menu-item-1340" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1340"><a href="http://www.starxpert.fr/openoffice-org-libreoffice-2/support-openoffice-orglibreoffice/"><span itemprop="name">Support LibreOffice</span></a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="menu-item-980" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-980"><a href="#"><span itemprop="name">Formation</span></a>
+<ul class="sub-menu">
+	<li id="menu-item-1418" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1418"><a href="http://www.starxpert.fr/formation-zimbra/"><span itemprop="name">Formations Zimbra</span></a></li>
+	<li id="menu-item-1415" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1415"><a href="http://www.starxpert.fr/formation-alfresco/"><span itemprop="name">Formation Alfresco</span></a></li>
+	<li id="menu-item-1417" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1417"><a href="http://www.starxpert.fr/formation-specialiste-openoffice/"><span itemprop="name">Formation « Spécialiste » LibreOffice</span></a></li>
+	<li id="menu-item-1416" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1416"><a href="http://www.starxpert.fr/formation-utilisateur-openoffice-org-libreoffice/"><span itemprop="name">Formation « Utilisateur » LibreOffice</span></a></li>
+</ul>
+</li>
+<li id="menu-item-1085" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1085"><a href="http://www.starxpert.fr/le-blog-de-starxpert/"><span itemprop="name">Blog</span></a></li>
+</ul></div></div></div>
+</div></div></div><div id="inner"><div class="wrap"><div class="breadcrumb">Vous êtes ici: <a href="http://www.starxpert.fr/"><span>Accueil</span></a> / Introuvable: </div><div id="content-sidebar-wrap"><div id="content" class="hfeed">
+	<div class="post hentry">
+
+		<h1 class="entry-title">Page non trouvée, Erreur 404</h1>
+		<div class="entry-content">
+			<p>La page que vous avez demandé n'existe pas. Nous nous en excusons.
+
+Nous vous conseillons de revenir à l'<a href="http://www.starxpert.fr">accueil</a> puis d'effectuer une nouvelle recherche grâce aux menus.</p>
+
+			
+
+		</div><!-- end .entry-content -->
+
+	</div><!-- end .postclass -->
+
+</div><div id="sidebar" class="sidebar widget-area"><div id="ai1ec_agenda_widget-3" class="widget widget_ai1ec_agenda_widget"><div class="widget-wrap">
+
+	<h4 class="widget-title widgettitle">Evénements à venir</h4>
+
+
+<style>
+<!--
+
+-->
+</style>
+<div class="timely ai1ec-agenda-widget-view ai1ec-clearfix">
+
+			<div>
+													<div class="ai1ec-date
+					">
+					<a class="ai1ec-date-title ai1ec-load-view"
+						href="http&#x3A;&#x2F;&#x2F;www.starxpert.fr&#x2F;event&#x2F;action&#x7E;oneday&#x2F;exact_date&#x7E;20-3-2019&#x2F;">
+						<div class="ai1ec-month">Mar</div>
+						<div class="ai1ec-day">20</div>
+						<div class="ai1ec-weekday">mer</div>
+													<div class="ai1ec-year">2019</div>
+											</a>
+					<div class="ai1ec-date-events">
+																					<div class="ai1ec-event
+									ai1ec-event-id-3566
+									ai1ec-event-instance-id-224
+									ai1ec-allday">
+
+									<a href="http&#x3A;&#x2F;&#x2F;www.starxpert.fr&#x2F;evenement&#x2F;formation-officielle-administrateur-zimbra-8-install-configure-manage-5&#x2F;&#x3F;instance_id&#x3D;224"
+										class="ai1ec-popup-trigger ai1ec-load-event">
+																					<span class="ai1ec-allday-badge">
+												Jour entier
+											</span>
+										
+										<span class="ai1ec-event-title">
+											Formation officielle « Administrat...
+																							<span class="ai1ec-event-location"
+													>@ STARXPERT</span>
+																					</span>
+									</a>
+
+									<div class="ai1ec-popover ai1ec-popup 
+	ai1ec-event-instance-id-224">
+
+		
+	<span class="ai1ec-popup-title">
+		<a href="http&#x3A;&#x2F;&#x2F;www.starxpert.fr&#x2F;evenement&#x2F;formation-officielle-administrateur-zimbra-8-install-configure-manage-5&#x2F;&#x3F;instance_id&#x3D;224"
+		   class="ai1ec-load-event"
+			>Formation officielle « Administrat...</a>
+					<span class="ai1ec-event-location"
+				>@ STARXPERT</span>
+					</span>
+
+	
+	<div class="ai1ec-event-time">
+					Mar 20 – Mar 22 <span class="ai1ec-allday-badge">Jour entier</span>
+			</div>
+
+	
+			<div class="ai1ec-popup-excerpt">StarXpert est heureux de vous annoncer la prochaine formation Administrateur Zimbra à Paris. du 20 au 22 Mars 2019 Seul cours de formation officielle sur Zimbra en France. Session interactive, d’une durée de 3 jours,[...]</div>
+	
+</div>
+
+								</div>
+							 													 						 					</div>
+				</div>
+							<div class="ai1ec-date
+					">
+					<a class="ai1ec-date-title ai1ec-load-view"
+						href="http&#x3A;&#x2F;&#x2F;www.starxpert.fr&#x2F;event&#x2F;action&#x7E;oneday&#x2F;exact_date&#x7E;20-5-2019&#x2F;">
+						<div class="ai1ec-month">Mai</div>
+						<div class="ai1ec-day">20</div>
+						<div class="ai1ec-weekday">lun</div>
+													<div class="ai1ec-year">2019</div>
+											</a>
+					<div class="ai1ec-date-events">
+																					<div class="ai1ec-event
+									ai1ec-event-id-3576
+									ai1ec-event-instance-id-228
+									ai1ec-allday">
+
+									<a href="http&#x3A;&#x2F;&#x2F;www.starxpert.fr&#x2F;evenement&#x2F;formation-zimbra-administrateur&#x2F;&#x3F;instance_id&#x3D;228"
+										class="ai1ec-popup-trigger ai1ec-load-event">
+																					<span class="ai1ec-allday-badge">
+												Jour entier
+											</span>
+										
+										<span class="ai1ec-event-title">
+											Formation Zimbra Administrateur
+																							<span class="ai1ec-event-location"
+													>@ STARXPERT</span>
+																					</span>
+									</a>
+
+									<div class="ai1ec-popover ai1ec-popup 
+	ai1ec-event-instance-id-228">
+
+		
+	<span class="ai1ec-popup-title">
+		<a href="http&#x3A;&#x2F;&#x2F;www.starxpert.fr&#x2F;evenement&#x2F;formation-zimbra-administrateur&#x2F;&#x3F;instance_id&#x3D;228"
+		   class="ai1ec-load-event"
+			>Formation Zimbra Administrateur</a>
+					<span class="ai1ec-event-location"
+				>@ STARXPERT</span>
+					</span>
+
+	
+	<div class="ai1ec-event-time">
+					Mai 20 – Mai 22 <span class="ai1ec-allday-badge">Jour entier</span>
+			</div>
+
+	
+			<div class="ai1ec-popup-excerpt">StarXpert est heureux de vous annoncer la prochaine formation Administrateur Zimbra à Paris. du 20 au 22 mai 2019 Seul cours de formation officielle sur Zimbra en France. Session interactive, d’une durée de 3 jours, comportant[...]</div>
+	
+</div>
+
+								</div>
+							 													 						 					</div>
+				</div>
+							<div class="ai1ec-date
+					">
+					<a class="ai1ec-date-title ai1ec-load-view"
+						href="http&#x3A;&#x2F;&#x2F;www.starxpert.fr&#x2F;event&#x2F;action&#x7E;oneday&#x2F;exact_date&#x7E;12-6-2019&#x2F;">
+						<div class="ai1ec-month">Juin</div>
+						<div class="ai1ec-day">12</div>
+						<div class="ai1ec-weekday">mer</div>
+													<div class="ai1ec-year">2019</div>
+											</a>
+					<div class="ai1ec-date-events">
+																					<div class="ai1ec-event
+									ai1ec-event-id-3579
+									ai1ec-event-instance-id-227
+									ai1ec-allday">
+
+									<a href="http&#x3A;&#x2F;&#x2F;www.starxpert.fr&#x2F;evenement&#x2F;coter-numerique-12-juin-et-13-juin-2019-a-troyes&#x2F;&#x3F;instance_id&#x3D;227"
+										class="ai1ec-popup-trigger ai1ec-load-event">
+																					<span class="ai1ec-allday-badge">
+												Jour entier
+											</span>
+										
+										<span class="ai1ec-event-title">
+											COTER NUMERIQUE : 12 juin et 13 jui...
+																					</span>
+									</a>
+
+									<div class="ai1ec-popover ai1ec-popup 
+	ai1ec-event-instance-id-227">
+
+		
+	<span class="ai1ec-popup-title">
+		<a href="http&#x3A;&#x2F;&#x2F;www.starxpert.fr&#x2F;evenement&#x2F;coter-numerique-12-juin-et-13-juin-2019-a-troyes&#x2F;&#x3F;instance_id&#x3D;227"
+		   class="ai1ec-load-event"
+			>COTER NUMERIQUE : 12 juin et 13 jui...</a>
+					</span>
+
+	
+	<div class="ai1ec-event-time">
+					Juin 12 – Juin 13 <span class="ai1ec-allday-badge">Jour entier</span>
+			</div>
+
+	
+			<div class="ai1ec-popup-excerpt">StarXpert participe au  30ÈME CONGRÈS du COTER NUMERIQUE le 12 juin et 13 juin 2019 à TROYES. Retrouvez-nous sur le stand 21 avec nos partenaires Alfresco, GLPI, Zimbra et participez à notre atelier sur les bonnes pratiques de[...]</div>
+	
+</div>
+
+								</div>
+							 													 						 					</div>
+				</div>
+			 		</div>
+	 
+	 
+</div>
+
+
+
+</div></div>
+</div></div></div></div><div id="footer" class="footer"><div class="wrap"><div class="gototop"><p><a href="#wrap" rel="nofollow">Haut de page</a></p></div><div class="creds"><p><div class="creds"><p>Copyright &copy; 2019 &middot; <a href="http://www.starxpert.fr/mentions-legales/">Mentions légales</a>  &middot; Tel : 01 75 57 84 80 </p></div></p></div></div></div></div><script type='text/javascript'>jQuery(document).ready(function($) {$(".flexslider").flexslider({controlsContainer: "#genesis-responsive-slider",animation: "slide",directionNav: 1,controlNav: 0,animationDuration: 800,slideshowSpeed: 8000    });  });</script><style type="text/css" media="screen"> #simple-social-icons-2 ul li a, #simple-social-icons-2 ul li a:hover, #simple-social-icons-2 ul li a:focus { background-color: #999999 !important; border-radius: 3px; color: #ffffff !important; border: 0px #ffffff solid !important; font-size: 16px; padding: 8px; }  #simple-social-icons-2 ul li a:hover, #simple-social-icons-2 ul li a:focus { background-color: #666666 !important; border-color: #ffffff !important; color: #ffffff !important; }  #simple-social-icons-2 ul li a:focus { outline: 1px dotted #666666 !important; }</style><script type='text/javascript' src='http://www.starxpert.fr/wp-includes/js/hoverIntent.min.js?ver=1.8.1'></script>
+<script type='text/javascript' src='http://www.starxpert.fr/wp-content/themes/genesis/lib/js/menu/superfish.min.js?ver=1.7.5'></script>
+<script type='text/javascript' src='http://www.starxpert.fr/wp-content/themes/genesis/lib/js/menu/superfish.args.min.js?ver=2.6.1'></script>
+<script type='text/javascript' src='http://www.starxpert.fr/wp-content/themes/genesis/lib/js/menu/superfish.compat.min.js?ver=2.6.1'></script>
+<script type='text/javascript' src='http://www.starxpert.fr/wp-content/plugins/genesis-responsive-slider/js/jquery.flexslider.js?ver=0.9.5'></script>
+<script type='text/javascript' src='http://www.starxpert.fr/wp-includes/js/wp-embed.min.js?ver=4.9.8'></script>
+<script type='text/javascript' src='http://www.starxpert.fr/?ai1ec_render_js=common_frontend&#038;is_backend=false&#038;ver=2.5.32'></script>
+</body></html>

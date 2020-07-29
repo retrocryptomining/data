@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title>EtherBanking</title>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="/images/intro/icon-logo.png"/>
+
+    <meta name="description"
+          content="Etherbanking - Change your mind on banking - The Cryptocurrency Revolution.To do so Etherbanking is launching its initial coin offering (Lending) at the  August 2017 to distribute banker tokens on the EBC exchange.">
+    <meta name="author" content="Etherbanking">
+    <meta name="copyright" content="Etherbanking Ltd"/>
+    <meta name="keywords"
+          content="Etherbanking, invest etherbanking, lending etherbanking,EBC invest, EBC lending, pre-ICO, blockchain bank, blockchain banking, ether, eth"/>
+    <meta property="og:title" content="Etherbanking - Change your mind on banking"/>
+    <meta name="twitter:title" content="Etherbanking - Change your mind on banking"/>
+    <meta property="og:description"
+          content="Etherbanking is building a bank for the Blockchain . The lending will start on the 25th August, 2017."/>
+    <meta name="twitter:description"
+          content="Etherbanking is building a bank for the Blockchain . The lending will start on the 25th August, 2017."/>
+    <meta property="og:site_name" content="Etherbanking">
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="https://etherbanking.io/" id="og-url"/>
+    <meta property="og:image" content="https://etherbanking.io/images/banner_face.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1200"/>
+    <meta property="og:image:height" content="630"/>
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:site" content="&#64;etherbanking"/>
+    <meta name="twitter:image" content="https://etherbanking.io/images/banner_tw.png"/>
+    <meta name="twitter:image:width" content="626"/>
+    <meta name="twitter:image:height" content="335"/>
+    <meta name="theme-color" content="#204d6a"/>
+
+    <!-- CSS Plugins -->
+    <link href="/css/intro/bootstrap.min.css" rel="stylesheet"/>
+    <link href="/vendors/aos/css/aos.css" rel="stylesheet"/>
+    <link href="/vendors/fake-loader/css/fake-loader.css" rel="stylesheet"/>
+    <!-- CSS Base -->
+    <link href="/css/intro/layout.css?v=1" rel="stylesheet"/>
+    <!-- Start Alexa Certify Javascript -->
+    <script type="text/javascript">
+        _atrk_opts = {atrk_acct: "N+kKp1IW1d10/9", domain: "etherbanking.io", dynamic: true};
+        (function () {
+            var as = document.createElement('script');
+            as.type = 'text/javascript';
+            as.async = true;
+            as.src = "https://d31qbv1cthcecs.cloudfront.net/atrk.js";
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(as, s);
+        })();
+    </script>
+    <noscript><img src="https://d5nxst8fruw4z.cloudfront.net/atrk.gif?account=N+kKp1IW1d10/9" style="display:none"
+                   height="1" width="1" alt=""/></noscript>
+    <!-- End Alexa Certify Javascript -->
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+        ga('create', 'UA-106382213-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+    
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<div id="fake-loader"></div>
+<div class="container-fluid padding0">
+    <header class="">
+        <div class = "etherbanking">
+            <nav class = "navbar navbar-default">
+                <div class = "container-fluid">
+                    <div class = "navbar-header">
+                        <button type = "button" class = "navbar-toggle collapsed" data-toggle = "collapse" data-target = "#navbar" aria-expanded = "false" aria-controls = "navbar">
+                            <span class = "sr-only">Toggle navigation</span>
+                            <span class = "icon-bar"></span>
+                            <span class = "icon-bar"></span>
+                            <span class = "icon-bar"></span>
+                        </button>
+                        <a class = "navbar-brand" href = "/"><img src = "/images/intro/logo.png" /></a>
+                        <a class = "navbar-brand-logo" href = "/"><img src = "/images/intro/logo_new.png" /></a>
+                    </div>
+                    <div id = "navbar" class = "navbar-collapse collapse">
+                        <ul class = "nav navbar-nav navbar-right">
+                            <li class = "active"><a href = "/">Home</a></li>
+                            <li><a href = "/ico">ICO</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Lending <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="/lending">Lending</a></li>
+                                    <li><a href="/roadmap">Roadmap</a></li>
+                                    <li><a href="/download/whitepaper.pdf" target = "_blank">Whitepaper</a></li>
+                                </ul>
+                            </li>
+                            <li><a href = "https://ebcexchange.io/" target="_blank">Exchange</a></li>
+                            <li><a href = "https://myebcwallet.com/" target="_blank">EBC Wallet</a></li>
+                            <li><a href = "/news">News</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Support <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="/faqs">FAQs</a></li>
+                                    <li><a href="/fees">Fees Policy</a></li>
+                                    <li><a href="/privacy">Privacy Policy</a></li>
+                                    <li><a href="/terms">Terms of Use</a></li>
+                                </ul>
+                            </li>
+                            <li><a onclick="scrollToHash('#contactUs')" href="#">Contact Us</a></li>
+                            <li><a href = "/login">Login</a></li>
+                            <li><a href = "/signup">Signup</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div id="main">
+            <div class = "notFound404">
+        <h2>Not Found</h2>
+        <h1>404</h1>
+        <h3>Page not found</h3>
+        <p>
+            The above error occurred while the Web server was processing your request. <br />
+            Please contact us if you think this is a server error. Thank you!
+        </p>
+    </div>
+
+<style>
+    .notFound404{
+        padding:200px 0;
+        min-height:700px;
+        text-align:center;}
+
+    .notFound404 h1{
+        font-size:120px;
+        color:#3f51b5;}
+
+    .notFound404 h2{
+        font-size:30px;
+        color:gray;
+        text-transform:uppercase;}
+
+    .notFound404 h3{
+        font-size:20px;
+        margin:12px 0;}
+
+    .notFound404 p{
+        color:gray;
+        font-size:15px;}
+</style>
+    </div>
+    <footer>
+        <div id="animate-area">
+            <div class="etherbanking">
+                <div class="logo">
+                    <a href="/"><img class="img-responsive margin0auto" src="/images/intro/logo.png" alt=""/></a>
+                </div>
+                <ul>
+                    <li><a href="https://t.me/etherbankingofficial" target="_blank"><img src="/images/intro/tele.png" alt=""/></a></li>
+                    <li><a href="https://twitter.com/Etherbankingca" target="_blank"><img src="/images/intro/twitter.png" alt=""/></a></li>
+                    <li><a href="https://www.youtube.com/channel/UCdbi8sNe8aHY2nGV2By01HQ" target="_blank"><img src="/images/intro/youtube.png" alt=""/></a></li>
+                    <div class="clr"></div>
+                </ul>
+                <p data-aos="fade-left" data-aos-duration="1000">© 2017 etherbanking.io. All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+</div>
+<script src="/js/intro/jquery.min.js"></script>
+<script src="/js/intro/jquery.cookie.js"></script>
+<script src="/js/intro/bootstrap.min.js"></script>
+<script src="/js/intro/particles.min.js"></script>
+<script src="/vendors/aos/js/aos.js"></script>
+<script src="/vendors/fake-loader/js/fake-loader.js"></script>
+<script src="/plugins/sweetalert/js/sweetalert2.all.min.js"></script>
+<script src="/js/intro/script.js?v=1.0.0.1"></script>
+
+<script type="text/javascript">
+    if(location.pathname != '/lending') {
+        var is_promotion_viewed = $.cookie("is_promotion_viewed");
+
+        //console.log('promotion: ', is_promotion_viewed);
+        if(!is_promotion_viewed || is_promotion_viewed === false) {
+            $.ajax({
+                url: '' + '/promotion/check-status',
+                type: 'get',
+                success: function (response) {
+                    if (response) {
+                        swal({
+                            title: 'Sweet!',
+                            text: 'Etherbanking International Meetup!',
+                            imageUrl: '/images/intro/promotion/promotion-1/promotion.gif',
+                            imageWidth: 460,
+                            imageAlt: 'Etherbanking International Meetup',
+                            confirmButtonText: "Let's View",
+                        }).then(function () {
+                            $.cookie("is_promotion_viewed", true, {path: "/home"});
+                            $.cookie("is_promotion_viewed", true, {path: "/"});
+                            location.href = '' + '/promotion';
+                        }, function () {
+                            //console.log('no view');
+                        });
+                    }
+                    else {
+                        //console.log('no promotion to show');
+                    }
+                }
+            });
+        }
+
+
+    }
+</script>
+
+<style type="text/css">
+    .swal2-modal.swal2-show {
+        padding-top: 0 !important;
+    }
+</style>
+
+    <div class = "bitcoin_talk">
+        <a title = "Bitcoin Talk" target="_blank" href = "https://bitcointalk.org/index.php?topic=2709042.0">Bitcoin Talk</a>
+    </div>
+    <style type = "text/css">
+        .bitcoin_talk{
+            position: fixed;
+            bottom:25px;
+            left:15px;
+        }
+
+        .bitcoin_talk a{
+            font-size: 15px;
+            text-align: center;
+            color: #ffffff;
+            padding: 10px 20px;
+            border-radius: 20px;
+            box-shadow: 0 0 15px #e91e63;
+            background: #e91e63;
+        }
+
+        .bitcoin_talk a:hover{
+            background: #ff4c8a;
+        }
+    </style>
+</body>
+</html>

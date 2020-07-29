@@ -1,0 +1,42 @@
+<title>.:: Welcome to the Web-Based Configurator::.</title>
+<link href="../css/zycss.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="../js/showpath.js" ></script>
+<script type="text/JavaScript" src="../js/baseJS.js" ></script>
+<script type="text/JavaScript" src="../js/common.js" ></script>
+<script type="text/JavaScript">
+
+function doLoad()
+{
+        setTimeout("redirectPage()", 3*1000);
+        return true;
+}
+
+function redirectPage()
+{
+        window.top.location='/login/login.cgi';
+}
+</script>
+<style type="text/css">
+body {
+        background-attachment: fixed;
+        background-image: url(../images/config_bg.gif);
+}
+</style>
+</head>
+<body onLoad="doLoad();">
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<div align="center">
+<div class="login-wrap">
+	<div class="bluetop"><div class="logo"></div></div>
+	<div class="redline"><img src="images/dotspacer.gif" width="1" height="1" /></div>
+	<div class="login-content">
+		<p>&nbsp;</p>
+		<h1>Error!! No such page! You will be redirected to login page.</h1>
+		<p>&nbsp;</p>
+	</div>
+</div>
+</div>
+</body>
+

@@ -1,0 +1,12 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>Embedded Web Server - we're sorry, page you requested can't be found</title><link type="text/css" href="/hp/device/webAccess/css/defaultnew.css" rel="stylesheet" /><link type="text/css" href="/hp/device/webAccess/css/green_theme.css" rel="stylesheet" /><link type="text/css" href="/hp/device/webAccess/css/EWS.css" rel="stylesheet" /><meta http-equiv="Content-type" content="text/html; charset=UTF-8"><script>
+function previousPage() {
+ if (history.length>=2) {
+ if (document.all) // IE
+ history.go(-2);
+ else // others
+ history.back(2);
+ }
+}
+</script></head><script language="JavaScript">
+if (top.frames.length != 0) {top.location = "error.html";};</script><body><center><span class="whiteSpacer">&nbsp;</span><table width="306px" cellspacing="0" cellpadding="7" style="border:7px solid #ccc;"><tr><td align="center" valign="top"><img width="30" height="30" src="/hp/device/webAccess/images/icon_status_major.gif" alt="Error" title="Error"/></td><td align="left"><span><strong>We are very sorry. The page you requested cannot be found</strong>:</span><ul><li><span>If you typed the URL yourself, please make sure that the spelling is correct.</span></li><li><span>Try using your browser's "back" button or the "Go Back" button below to choose a different link on that page.</span></li></ul></td></tr><tr><td align="center" colspan="2"><input class="buttonA" type="button" name="goBack" value="Go Back" title="return to previous page" onClick="javascript:previousPage()"/></td></tr></table><span class="whiteSpacer">&nbsp;</span></center></body></html>

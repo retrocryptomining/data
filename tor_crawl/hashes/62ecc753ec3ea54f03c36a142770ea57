@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <title>Netzen Billing Portal</title>
+
+        <link rel="stylesheet" href="/assets/fonts/lato/lato.css?v=2.15.2"/>
+        <link rel="stylesheet" href="/assets/fonts/ubnt-icon/ubnt-icon.css?v=2.15.2"/>
+        <link rel="stylesheet" href="/dist/error.min.css?v=2.15.2"/>
+                        
+                            <link rel="icon" href="/uploads/customization/favicon_fedcb82d196cb658a48e5ffaee69402a.png">
+        
+        <script type="text/javascript" src="/dist/jquery.min.js?v=2.15.2"></script>
+    </head>
+    <body>
+        <div id="error-page" class="container container--fixed container--centered">
+            <div class="row">
+                <div class="col--xs12">
+                    <div class="row">
+                        <div id="login-description" class="alignCenter">
+                            <h1>    Page not found</h1>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col--xs8 col--xsOffset2">
+                            <div class="wrapper alignCenter">
+                                    <p>
+        The requested page couldn't be located. Check the URL for any spelling errors or <a href="/">return to the homepage</a>.
+    </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            </body>
+</html>

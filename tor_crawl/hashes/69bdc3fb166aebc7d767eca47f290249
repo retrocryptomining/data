@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Pick Up The Prizes</title>
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+<meta name="description" content="Win Fantastic Prizes every month" />
+<meta name="keywords" content="Pick Up The Prizes! Win fantastic prizes every month with Pick Up The Prizes!" />
+<meta charset="utf-8" />
+
+<link rel="stylesheet" href="/css/css.php?css.css&amp;blitzer/blitzer.css&amp;../js/shadowbox/shadowbox.css&amp;" type="text/css" media="all" />
+<!--[if IE 6]><link rel="stylesheet" type="text/css" href="/css/ie6.css"><![endif]-->
+<link href='http://fonts.googleapis.com/css?family=Fredoka+One' rel='stylesheet' type='text/css'>
+
+</head>
+<body >
+<div id="wrapper">
+	<div id="top">&nbsp;
+        <div id="login_link_container">
+            <p>Welcome to Pick Up The Prizes</p>
+            <ul>
+            <li><a href="/login" >Login</a></li>            </ul>
+        </div>
+		<span id="logo"><img src="/img/logo.jpg" alt="Pick Up The Prizes" title="Pick Up The Prizes" height="91"  width="477"/></span>
+		<br class="clear"/>
+        
+        <div id="fb_like_button">
+            <div id="fb-root"></div>
+
+
+    <div class="fb-like" data-href="http://www.facebook.com/pages/Pick-Up-The-Prizes/194464667251315" data-send="true" data-layout="button_count" data-width="450" data-show-faces="false" data-font="arial"></div>
+
+        </div>
+        
+	</div>
+	
+          <img id="three_options" src="/img/top_bar.jpg" alt="" title="" height="106" width="922"/>
+	<div id="prize_draw_container"><br class="clear"/></div>
+
+<br class="clear"/>
+		
+        
+ <table id="winners_table">
+ 	<tr>
+    	<td width="50px">&nbsp;</td>
+        <td width="310px">Mrs Mandy Rowlans - Scunthorpe</td>
+        <td width="390px">Won the £400 Primark vouchers in May 2012</td>
+        <td width="170px"><a href="/winners">See more winners</a></td>
+    </tr>
+ </table>        
+
+        </div>
+<br class="clear"/>
+<ul id="footer_submenu">
+    <li><a href="/prize-draw-rules.html" rel="shadowbox">Prize Draw Rules</a> |</li>
+    <li><a href="/privacy-and-cookies.html" rel="shadowbox">Privacy and Cookies</a></li>
+	
+    
+        <li class="twitter"><a target="_blank" href="http://twitter.com/pickuptheprizes"><img src="/img/twitter.jpg" alt="Follow us on Twitter" title="Follow us on Twitter" /></a></li>
+    <li class="facebook"><a target="_blank" href="http://www.facebook.com/pages/Pick-Up-The-Prizes/194464667251315"><img src="/img/facebook.jpg" alt="Find us on Facebook" title="Find us on Facebook" /></a></li>
+	</ul><br class="clear"/>
+
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1&appId=343366300190";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+<script type="text/javascript"  src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript"  src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js"></script>
+
+
+<script type="text/javascript" >function imageOneFadeOut(){$(".comp_alert").fadeIn(1000, function(){ setTimeout("$('.comp_alert').fadeOut(1000);imageOneFadeIn();",6000); });}
+	function imageOneFadeIn(){$(".comp_alert").fadeIn(1000, function(){ setTimeout("$('.comp_alert').fadeOut(1000);imageOneFadeOut();",6000); });}</script><script type="text/javascript"  src="/js/shadowbox/shadowbox.js"></script>
+<script type="text/javascript" >jQuery(document).ready(function(){ 
+	Shadowbox.init({
+	    language: 'en',
+	    players:  ['html', 'iframe']
+	}); $(".prize_draw h2").hover(
+		function() {
+			area = $(this).attr('id'),
+			$('#cell_'+area+' .white_img').stop().animate({opacity: "0"}, "slow");
+		},
+		function() {
+			$('#cell_'+area+' .white_img').stop().animate({opacity: "1"}, "slow");
+		}
+	);
+		
+	
+   imageOneFadeIn();
+		});</script>
+        		
+        <div id="copyright"> Copyright &copy;2018 DMLS - Digital Marketing Lead Solutions Ltd  </div>
+
+</body>
+</html>

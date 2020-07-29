@@ -1,0 +1,14 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/strict.dtd"><html><head><title>License Violation</title>
+<style>
+body { font-family:helvetica; font-size:11pt; color:#0071BB; margin:30px; padding:0px; }
+h1 { color:#005395; margin:0px 0px 0px 0px; }
+h2 { color:#005395; }
+p { margin:6px 0px 6px 0px;}
+p.footer { font-size:8pt; margin:3px 0px 0px 0px;}
+b { font-weight:550; color:#7F7F7F; }
+</style>
+</head>
+<body><h1>License Violation</h1>
+<div style="margin:12px 0px 12px 0px; padding:12px 0px 12px 0px; min-height:300px; border-top:1px solid #0071BB; border-bottom:1px solid #0071BB;">Too many connected users - try again later</div>
+<p class="footer"><a href="http://www.wingate.com">WinGate</a>&trade; &copy; Qbik New Zealand Limited 1995-2009
+</p></body></html>

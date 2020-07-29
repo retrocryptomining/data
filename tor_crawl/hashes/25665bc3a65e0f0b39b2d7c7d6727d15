@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <meta name="robots" content="noindex, nofollow"/>
+        <meta name="description" content="Поиск врачей и клиник"/>
+    <meta name="author" content="Alexander Deider <arth.inbox@gmail.com>"/>
+    <base href="/"/>
+    <title>4здрав</title>
+    <style>[data-ng-cloak]{display: none;}</style>
+        <link rel="stylesheet" href="/js/modules/controls/ng-tags-inputs/index.css?1803"/>
+        <link rel="stylesheet" href="/css/bootstrap.min.css?1803"/>
+        <link rel="stylesheet" href="/css/redesign.css?1803"/>
+        <link rel="stylesheet" href="/css/normalize.css?1803"/>
+        <link rel="stylesheet" href="/css/ion.rangeSlider.css?1803"/>
+        <link rel="stylesheet" href="/css/ion.rangeSlider.skinFlat.css?1803"/>
+            <script src="/js/jquery/jquery.min.js?1803"></script>
+        <script src="/js/angular/angular.min.js?1803"></script>
+        <script src="/js/angular/angular-route.js?1803"></script>
+        <script src="/js/angular/ui-tree.js?1803"></script>
+        <script src="/js/angular/ui-bootstrap-tpls-0.13.0.js?1803"></script>
+        <script src="/js/angular/mask.js?1803"></script>
+        <script src="/js/bootstrap.min.js?1803"></script>
+        <script src="/js/ion.rangeSlider.js?1803"></script>
+        <script src="//api-maps.yandex.ru/2.1/?load=package.standard,Geolink&lang=ru-RU&?1803"></script>
+        <script src="/js/functions.js?1803"></script>
+        <script src="/js/modules/functions.js?1803"></script>
+        <script src="/js/modules/api.js?1803"></script>
+        <script src="/js/modules/filters.js?1803"></script>
+        <script src="/js/modules/kladr.js?1803"></script>
+        <script src="/js/app.js?1803"></script>
+        <script src="/js/modules/index.js?1803"></script>
+        <script src="/js/modules/pages/index.js?1803"></script>
+        <script src="/js/modules/controls/index.js?1803"></script>
+        <script src="/js/modules/utils/index.js?1803"></script>
+        <script src="/js/modules/utils/geolocate.js?1803"></script>
+        <script src="/js/modules/utils/appoint.js?1803"></script>
+        <script src="/js/modules/utils/question.js?1803"></script>
+        <script src="/js/modules/utils/answer.js?1803"></script>
+        <script src="/js/modules/utils/review.js?1803"></script>
+        <script src="/js/modules/utils/review_moderate.js?1803"></script>
+        <script src="/js/modules/controls/ng-tags-inputs/index.js?1803"></script>
+        <script src="/js/modules/controls/autofill/index.js?1803"></script>
+        <script src="/js/modules/controls/tree/index.js?1803"></script>
+        <script src="/js/modules/controls/rangeSlider/index.js?1803"></script>
+        <script src="/js/modules/controls/header/index.js?1803"></script>
+        <script src="/js/modules/controls/forms/index.js?1803"></script>
+        <script src="/js/modules/controls/popups/index.js?1803"></script>
+        <script src="/js/modules/controls/doc_card/index.js?1803"></script>
+        <script src="/js/modules/controls/rating-block/index.js?1803"></script>
+        <script src="/js/modules/pages/landing/index.js?1803"></script>
+        <script src="/js/modules/pages/geolocation/index.js?1803"></script>
+        <script src="/js/modules/pages/registrator/index.js?1803"></script>
+        <script src="/js/modules/pages/search/index.js?1803"></script>
+        <script src="/js/modules/pages/register/index.js?1803"></script>
+        <script src="/js/modules/pages/moderate/index.js?1803"></script>
+        <script src="/js/modules/pages/admin/index.js?1803"></script>
+        <script src="/js/modules/pages/pubinfo/index.js?1803"></script>
+        <script src="/js/modules/pages/clinic/index.js?1803"></script>
+        <script src="/js/modules/pages/profile/index.js?1803"></script>
+        <script src="/js/modules/pages/about/index.js?1803"></script>
+        <script src="/js/modules/pages/eula/index.js?1803"></script>
+        <script src="/js/modules/pages/searchinclinic/index.js?1803"></script>
+        <script src="/js/modules/pages/widget/index.js?1803"></script>
+    </head>
+<body data-ng-app="app" >
+<div data-ng-controller="AppController as c">
+    <div ng-if="!embedded" data-ng-cloak style="position: fixed; z-index: 5000; bottom: 0; right: 0; /*left: 0;*/" class="noprint">
+        <div class="alert alert-{{msg.type}} alert-dismissable mb0" data-ng-repeat="msg in msgs">
+            <button type="button" class="close" data-dismiss="alert"
+                    data-ng-click="hideMsg(msg)">&times;
+            </button>
+            <div style="white-space: pre;">{{msg.title}}</div>
+        </div>
+    </div>
+    <div ng-if="!embedded" template="/js/modules/controls/header/templates/index.html"></div>
+    <div data-ng-view autoscroll><div class="container">
+  <h3>Зарегистрировано врачей:</h3>
+  <div class="list-group">
+    
+    <a href="/search/spec/97" class="list-group-item">
+      <span class="badge">28</span>
+      <span>Терапевт</span>
+    </a>
+    
+    <a href="/search/spec/113" class="list-group-item">
+      <span class="badge">7</span>
+      <span>Хирург</span>
+    </a>
+    
+    <a href="/search/spec/5" class="list-group-item">
+      <span class="badge">3</span>
+      <span>Акушер</span>
+    </a>
+    
+    <a href="/search/spec/6" class="list-group-item">
+      <span class="badge">2</span>
+      <span>Акушер-гинеколог</span>
+    </a>
+    
+    <a href="/search/spec/25" class="list-group-item">
+      <span class="badge">2</span>
+      <span>Гастроэнтеролог</span>
+    </a>
+    
+    <a href="/search/spec/7" class="list-group-item">
+      <span class="badge">1</span>
+      <span>Аллерголог</span>
+    </a>
+    
+    <a href="/search/spec/11" class="list-group-item">
+      <span class="badge">1</span>
+      <span>Анестезиолог</span>
+    </a>
+    
+    <a href="/search/spec/19" class="list-group-item">
+      <span class="badge">1</span>
+      <span>Венеролог</span>
+    </a>
+    
+    <a href="/search/spec/21" class="list-group-item">
+      <span class="badge">1</span>
+      <span>Вирусолог</span>
+    </a>
+    
+    <a href="/search/spec/3" class="list-group-item">
+      <span class="badge">1</span>
+      <span>Гинеколог</span>
+    </a>
+    
+    <a href="/search/spec/44" class="list-group-item">
+      <span class="badge">1</span>
+      <span>Кардиолог</span>
+    </a>
+    
+    <a href="/search/spec/55" class="list-group-item">
+      <span class="badge">1</span>
+      <span>Нарколог</span>
+    </a>
+    
+    <a href="/search/spec/94" class="list-group-item">
+      <span class="badge">1</span>
+      <span>Стоматолог-терапевт</span>
+    </a>
+    
+    <a href="/search/spec/108" class="list-group-item">
+      <span class="badge">1</span>
+      <span>Физиотерапевт</span>
+    </a>
+    
+    <a href="/search/spec/118" class="list-group-item">
+      <span class="badge">1</span>
+      <span>Хирург-онколог</span>
+    </a>
+    
+  </div>
+
+</div>
+</div>
+</div>
+<noscript>
+    <h4>Отключен Javascript</h4>
+    <p>Для функционирования приложения необходимо включить Javascript в Вашем браузере</p>
+</noscript>
+<div style="padding: 1.5em; margin-top: 2em; text-align: center; background: url(img/bg-wite.gif) repeat 0 0;" ng-if="!embedded">
+    <a href="/about">О проекте</a> |
+    <a href="/eula">Пользовательское соглашение</a> |
+    <a href="mailto:4zdrav@mail.ru">Напишите нам</a>
+</div>
+</body>
+</html>

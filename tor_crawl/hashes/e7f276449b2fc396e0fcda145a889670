@@ -1,0 +1,19 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="pt-br"> 
+<head>
+        <!-- METAS -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+        <link href="include/css/style.css" rel="stylesheet" type="text/css" />
+        <link href="include/css/layout.css" rel="stylesheet" type="text/css" />
+        <link href="include/css/home.css" rel="stylesheet" type="text/css" />
+        <link href="include/css/pages.css" rel="stylesheet" type="text/css" />
+        <!-- TITLE -->
+        <title>OI VELOX</title>
+        <!-- FAVICON -->
+        <link rel="shortcut icon" href="http://192.168.1.1/favicon.ico" type="image/x-icon" />
+        <link rel="icon" href="http://192.168.1.1/favicon.gif" type="image/gif" />
+    </head>
+    <body onload='window.open("http://192.168.1.1/wizardoi", "_top" )'>
+    </body>
+</html>

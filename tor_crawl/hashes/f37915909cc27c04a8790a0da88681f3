@@ -1,0 +1,10 @@
+<html>
+  <head>
+    <title>407 Authentication error</title>
+  </head>
+  <body>
+    <h1>407 Authentication error</h1>
+    <p>Please check your authentication settings.</p>
+    <p>You can authenticate either by IP white listing or by username + password.</p>
+  </body>
+</html>

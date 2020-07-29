@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>ERROR: The requested URL could not be retrieved</title>
+		<style type-"text/css">
+			* {
+				font-family: verdana, sans-serif;
+			}
+			body {
+				margin: 15px;
+			}
+			#content {
+				font-size: 12px;
+			}
+			h1, h2 {
+				margin: 5px;
+			}
+			h1 {
+				font-size: 21px;
+			}
+			h2 {
+				font-size: 18px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="title">
+			<h1>Error</h1>
+			<h2>The requested URL could not be retrieved</h2>
+		</div>
+		<hr>
+		<div id="content">
+			<strong>Error: Access to the web site failed</strong>
+			<p><strong>Why you are seeing this:</strong><br>
+			The web filter could not display the requested site.
+			</p>
+			<p><strong>Possible reasons could be:</strong><br>
+			<ul>
+				<li>The web site denied you access, or the web filter received no reply from the site.</li>
+				<li>Internet connectivity issues might be preventing the website from
+				sending or receiving traffic.</li>
+			</ul>
+			</p>
+			<p><strong>If this problem persists, please ask your administrator to:</strong><br>
+			<ul>
+				<li>Check access to the specific site - the HTTP error code is 504: Gateway Timeout.</li>
+			</ul>
+			</p>
+		</div>
+		<hr>
+	</body>
+</html> 

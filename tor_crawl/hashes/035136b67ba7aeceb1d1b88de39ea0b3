@@ -1,0 +1,39 @@
+<!DOCTYPE html><html lang="en">
+    <head>
+        <meta charset="utf-8">
+<title>Odeyo Api</title><meta name="viewport" content="width=device-width, initial-scale=1.0"><link href="/zf-apigility/css/bootstrap.min.css" media="screen" rel="stylesheet" type="text/css">
+<link href="/zf-apigility/css/main.min.css" media="screen" rel="stylesheet" type="text/css">
+<link href="/img/favicon.png" rel="icon" type="image/png"><script type="text/javascript" src="/zf-apigility/js/jquery.min.js"></script>
+<script type="text/javascript" src="/zf-apigility/js/bootstrap.min.js"></script>    </head>
+    <body>
+        <div class="container">
+            <h1>A 404 error occurred</h1>
+<h2>Page not found.</h2>
+
+
+
+<p>The requested URL could not be matched by routing.</p>
+
+
+
+
+
+<h3>No Exception available</h3>
+
+
+        </div>
+        <footer>
+            <hr>
+            <div class="container center-block">
+              <div class="row">
+                <div class="col-sm-6"><p class="pull-left">
+                   
+                </p></div>
+                <div class="col-sm-6"><p class="pull-right">
+                    
+                </p></div>
+              </div>
+            </div>
+        </footer>
+            </body>
+</html>

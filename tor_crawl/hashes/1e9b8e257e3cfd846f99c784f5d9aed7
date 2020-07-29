@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+	<link rel="pingback" href="http://www.imageurlbuilder.com/xmlrpc.php">
+	<title>Page not found &#8211; BulkImageUploader</title>
+<meta name='robots' content='noindex,follow' />
+<link rel='dns-prefetch' href='//www.imageurlbuilder.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="BulkImageUploader &raquo; Feed" href="http://www.imageurlbuilder.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="BulkImageUploader &raquo; Comments Feed" href="http://www.imageurlbuilder.com/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/www.imageurlbuilder.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.0.3"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='wp-block-library-css'  href='http://www.imageurlbuilder.com/wp-includes/css/dist/block-library/style.min.css?ver=5.0.3' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='http://www.imageurlbuilder.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='woocommerce-layout-css'  href='http://www.imageurlbuilder.com/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css?ver=3.5.4' type='text/css' media='all' />
+<link rel='stylesheet' id='woocommerce-smallscreen-css'  href='http://www.imageurlbuilder.com/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css?ver=3.5.4' type='text/css' media='only screen and (max-width: 768px)' />
+<link rel='stylesheet' id='woocommerce-general-css'  href='http://www.imageurlbuilder.com/wp-content/plugins/woocommerce/assets/css/woocommerce.css?ver=3.5.4' type='text/css' media='all' />
+<style id='woocommerce-inline-inline-css' type='text/css'>
+.woocommerce form .form-row .required { visibility: visible; }
+</style>
+<link rel='stylesheet' id='vw-themes-in-font-css'  href='//fonts.googleapis.com/css?family=PT+Sans%3A300%2C400%2C600%2C700%2C800%2C900%7CRoboto%3A100%2C100i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C700%2C700i%2C900%2C900i%26subset%3Dcyrillic%2Ccyrillic-ext%2Cgreek%2Cgreek-ext%2Clatin-ext%2Cvietnamese%7CRoboto+Condensed%3A400%2C700%7COpen+Sans%7COverpass%7CMontserrat%3A300%2C400%2C600%2C700%2C800%2C900%7CPlayball%3A300%2C400%2C600%2C700%2C800%2C900%7CAlegreya%3A300%2C400%2C600%2C700%2C800%2C900%7CJulius+Sans+One%7CArsenal%7CSlabo%7CLato%7COverpass+Mono%7CSource+Sans+Pro%7CRaleway%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7CMerriweather%7CRubik%7CLora%7CUbuntu%7CCabin%7CArimo%7CPlayfair+Display%7CQuicksand%7CPadauk%7CMuli%7CInconsolata%7CBitter%7CPacifico%7CIndie+Flower%7CVT323%7CDosis%7CFrank+Ruhl+Libre%7CFjalla+One%7COxygen%7CArvo%7CNoto+Serif%7CLobster%7CCrimson+Text%7CYanone+Kaffeesatz%7CAnton%7CLibre+Baskerville%7CBree+Serif%7CGloria+Hallelujah%7CJosefin+Sans%3A100%2C100i%2C300%2C300i%2C400%2C400i%2C600%2C600i%2C700%2C700i%26amp%3Bsubset%3Dlatin-ext%2Cvietnamese%7CAbril+Fatface%7CVarela+Round%7CVampiro+One%7CShadows+Into+Light%7CCuprum%7CRokkitt%7CVollkorn%7CFrancois+One%7COrbitron%7CPatua+One%7CAcme%7CSatisfy%7CJosefin+Slab%7CQuattrocento+Sans%7CArchitects+Daughter%7CRusso+One%7CMonda%7CRighteous%7CLobster+Two%7CHammersmith+One%7CCourgette%7CPermanent+Marker%7CCherry+Swash%7CCormorant+Garamond%7CPoiret+One%7CBenchNine%7CEconomica%7CHandlee%7CCardo%7CAlfa+Slab+One%7CAveria+Serif+Libre%7CCookie%7CChewy%7CGreat+Vibes%7CComing+Soon%7CPhilosopher%7CDays+One%7CKanit%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%26subset%3Dlatin-ext%2Cthai%2Cvietnamese%7CShrikhand%7CTangerine%7CIM+Fell+English+SC%7CBoogaloo%7CBangers%7CFredoka+One%7CBad+Script%7CVolkhov%7CShadows+Into+Light+Two%7CMarck+Script%7CSacramento%7CPoppins%7CPT+Serif&#038;ver=5.0.3' type='text/css' media='all' />
+<link rel='stylesheet' id='bootstrap-style-css'  href='http://www.imageurlbuilder.com/wp-content/themes/vw-themes-in/assets/css/bootstrap.min.css?ver=5.0.3' type='text/css' media='all' />
+<link rel='stylesheet' id='vw-themes-in-basic-style-css'  href='http://www.imageurlbuilder.com/wp-content/themes/vw-themes-in/style.css?ver=5.0.3' type='text/css' media='all' />
+<style id='vw-themes-in-basic-style-inline-css' type='text/css'>
+html body{}a.theme_orange_button, section h3::after, .search-box span, .home.page-template #masthead.scrolled, #masthead, .main-navigation .menu > ul > li.highlight, .features-box:hover .features-box-icon, .owl-dot, .team_inner .box .icon li a:hover, .ps_video i, .date_div, #latest_post button.owl-dot.active, .form_outer, #team_single .about-socialbox i, .socialbox a, #footer input[type="submit"], #footer h3:after, .social_widget a:hover, a.page-numbers, span.page-numbers.current, .bradcrumbs a:hover, #sidebar input[type="submit"], .main_title h1:after, .woocommerce button.button.alt, .woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt, .woocommerce span.onsale {
+				background-color: #b8d3e6;
+			}input[type="submit"], .serach_inner form.search-form, .owl-dot, #plans_pricing .price-heading-box, .discover-btn, #latest_post button.owl-dot.active, .testimonial_shortcodes .testimonial_box, .testimonial_shortcodes .textimonial-img img, .footer-top-col, a.page-numbers, span.page-numbers.current, .navigation span.page-numbers.current, .woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover, .woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover, a.theme_orange_button:hover, a.theme_orange_button {
+				border-color: #b8d3e6;
+		}input[type="submit"], body a, a.theme_white_button, a.theme_button:hover, a.theme_orange_button:hover, .serach_outer i, .about_box .icon_about i, .features-box-icon i, #testimonials blockquote:before, #testimonials blockquote:after, .latest_post_text i, .discover-btn a:hover, .record-box-icon i, .contact-email i, .contact-address i, .contact-phone i, #footer h3, span.credit_link a, .woocommerce div.product p.price, .woocommerce div.product span.price, .woocommerce ul.products li.product .price {
+				color: #b8d3e6;
+		}@media screen and (max-width:767px) {.home.page-template #masthead{background-color: #b8d3e6;}}.main-navigation a:hover, .main-navigation .current_page_item > a, .main-navigation .current-menu-item > a, .main-navigation .current_page_ancestor > a, .about_box i, .about_box:hover i, .read_more, .main-navigation a:hover {
+				color: #52565b;
+		}.price-box2 .price-heading-box, .date_div, .form_outer{
+				background-color: ;
+				background: -o-linear-gradient(right, , #b8d3e6);
+				background: -moz-linear-gradient(right, , #b8d3e6);
+				background: -webkit-linear-gradient(left, , #b8d3e6);
+			}@media screen and (max-width:767px) {}@media screen and (min-width:720px) {}@media screen and (max-width:1024px) {}
+</style>
+<link rel='stylesheet' id='animation-wow-css'  href='http://www.imageurlbuilder.com/wp-content/themes/vw-themes-in/assets/css/animation.css?ver=5.0.3' type='text/css' media='all' />
+<link rel='stylesheet' id='custom-animation-css'  href='http://www.imageurlbuilder.com/wp-content/themes/vw-themes-in/assets/css/custom-animation.css?ver=5.0.3' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css'  href='http://www.imageurlbuilder.com/wp-content/themes/vw-themes-in/assets/css/fontawesome-all.min.css?ver=5.0.3' type='text/css' media='all' />
+<link rel='stylesheet' id='effect-css'  href='http://www.imageurlbuilder.com/wp-content/themes/vw-themes-in/assets/css/effect.css?ver=5.0.3' type='text/css' media='all' />
+<link rel='stylesheet' id='owl-carousel-style-css'  href='http://www.imageurlbuilder.com/wp-content/themes/vw-themes-in/assets/css/owl.carousel.css?ver=5.0.3' type='text/css' media='all' />
+<!--[if IE]>
+<link rel='stylesheet' id='vw-themes-in-ie-css'  href='http://www.imageurlbuilder.com/wp-content/themes/vw-themes-in/assets/css/ie.css?ver=5.0.3' type='text/css' media='all' />
+<![endif]-->
+<script type='text/javascript' src='http://www.imageurlbuilder.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://www.imageurlbuilder.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<link rel='https://api.w.org/' href='http://www.imageurlbuilder.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.imageurlbuilder.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.imageurlbuilder.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.0.3" />
+<meta name="generator" content="WooCommerce 3.5.4" />
+				<style>
+					 
+					.login-txt {
+						margin: 4px 0 0 4px;
+					}
+
+					#logo-link {
+								margin: 8px 3px;
+							   }
+							   
+					.form-row.form-row-first.login-checkout {
+						float: none;
+						text-align: center;
+						width: 100%;
+					}	
+
+					.phoenixx_promt_msg{
+						border-left-color: #46b450;
+						background: #fff none repeat scroll 0 0;
+						border-left: 4px solid #46b450;
+						box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+						margin: 5px 0px 2px;
+						padding: 1px 12px;
+					}
+						
+				</style>
+				
+				<div id="fb-root"></div>
+				
+	<script>
+
+	
+	window.fbAsyncInit = function() {
+
+		FB.init({
+
+		  appId      : '', // Set YOUR APP ID
+
+		  status     : true, // check login status
+
+		  cookie     : true, // enable cookies to allow the server to access the session
+
+		  xfbml      : true  // parse XFBML
+
+		});
+		
+		FB.getLoginStatus( function(response) {
+			
+			console.log(response);
+			
+		}, true);
+
+	};
+
+
+	function facebook_login(){
+
+	   FB.login(function(response) {
+
+			if (response.authResponse) 
+			{
+
+				  getUserInfo();
+
+			} 
+			else 
+			{
+				
+				   console.log('User cancelled login or did not fully authorize.');
+
+			 }
+			 
+		  },{auth_type: 'rerequest',scope: 'email,user_photos,user_videos'});
+
+	}
+
+	function getUserInfo() {
+
+	  FB.api('/me?fields=email,first_name,last_name,name', function(response) {
+		
+		response.email=jQuery.trim(response.email);
+
+			if(response.email!='')
+			{
+				
+				var str=response.name;
+
+				str +="*"+response.email;
+
+				str += "*" + "face";
+
+				var data = {
+
+					'action': 'psl_data_retrive',
+
+					'data': btoa(str)  // We pass php values differently!
+
+				};
+			}
+			else
+			{
+				
+				alert("NO Email is provided");
+				
+			}
+
+			// We can also pass the url value separately from ajaxurl for front end AJAX implementations
+
+			jQuery.post('http://www.imageurlbuilder.com/wp-admin/admin-ajax.php', data, function(response,status) {
+
+				if(response=='success')
+				{
+					
+					fb_login=					
+											
+							window.location.href = "http://www.imageurlbuilder.com/my-account";
+						
+											
+					
+				}
+
+			});
+
+		});
+
+	}
+
+	function getPhoto(){
+
+		FB.api('/me/picture?type=normal', function(response) {
+
+		  var str="<br/><b>Pic</b> : <img src='"+response.data.url+"'/>";
+
+		  document.getElementById("status").innerHTML+=str;
+
+		});
+
+	}
+
+	  // Load the SDK asynchronously
+
+	(function(d){
+
+	 var js, id = 'facebook-jssdk', ref = d.getElementsByTagName('script')[0];
+
+	 if (d.getElementById(id)) {return;}
+
+	 js = d.createElement('script'); js.id = id; js.async = true;
+
+	 js.src = "//connect.facebook.net/en_US/all.js";
+
+	 ref.parentNode.insertBefore(js, ref);
+
+	}(document));
+
+	</script>
+
+	<div id="profile"></div>
+
+	<script src="https://apis.google.com/js/client:plusone.js" type="text/javascript"></script>
+
+	<script src="https://apis.google.com/js/platform.js?onload=onLoadCallback" async defer></script>
+
+	<script type="text/javascript">
+
+	 	function google_login() 
+	{
+		
+		var myParams = {
+		
+			'clientid' : '896112636364-8egvevu6pc0u9a8usp45dk077l5am8fr.apps.googleusercontent.com',
+		
+			'cookiepolicy' : 'single_host_origin',
+		
+			'callback' : 'loginCallback',
+		
+			'approvalprompt':'force',
+		
+			'scope' : 'https://www.googleapis.com/auth/plus.login https://www.googleapis.com/auth/plus.profile.emails.read'
+		
+		  };
+		
+		  gapi.auth.signIn(myParams);
+		
+	}
+		
+	function loginCallback(result)
+	{
+
+		if(result['status']['signed_in'])
+		{
+
+			var request = gapi.client.plus.people.get(
+			{
+
+				'userId': 'me'
+
+			});
+
+			request.execute(function (resp)
+			{
+
+					if(resp['emails'])
+					{
+
+						for(i = 0; i < resp['emails'].length; i++)
+						{
+
+							if(resp['emails'][i]['type'] == 'account')
+							{
+
+							   var  email = resp['emails'][i]['value'];
+								email=jQuery.trim(email);
+
+							}
+
+						}
+
+					}
+
+				var user_name=resp['displayName'];
+				
+				if(email!='' && user_name!=''){
+					
+					var str =  resp['displayName'];
+
+					str += "*" + email;
+					
+					str += "*" + "gplus";
+
+					//document.getElementById("profile").innerHTML = str;
+
+					var data = {
+
+						'action': 'psl_data_retrive',
+
+						'data': btoa(str) // We pass php values differently!
+
+					};
+					
+				}else{
+					alert("NO Email is provided");
+				}
+
+					// We can also pass the url value separately from ajaxurl for front end AJAX implementations
+
+				 jQuery.post('http://www.imageurlbuilder.com/wp-admin/admin-ajax.php', data, function(response) {
+
+					if(response=='success'){
+
+												
+							window.location.href = "http://www.imageurlbuilder.com/my-account";
+						
+						
+					}
+
+				}); 
+
+			});
+
+		}
+
+	}
+		
+	function onLoadCallback()
+	{
+
+		gapi.client.setApiKey('AIzaSyAElkLtb1sTgjH7b6VSPhBm0Ni5dmMtAGI');
+
+		gapi.client.load('plus', 'v1',function(){});
+
+	}
+		
+	(function() {
+
+		   var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+
+		   po.src = 'https://apis.google.com/js/client.js?onload=onLoadCallback';
+
+		   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+
+	})();
+		
+	</script>
+				<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+			<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+			<style type="text/css">
+		</style>
+			<style type="text/css" id="wp-custom-css">
+			.demoiframe iframe#iframe {
+    width: 100%;
+    height: 100vh;
+}
+.woocs_auto_switcher{
+	height: auto !important;
+}		</style>
+	        <script type="text/javascript">
+            var woocs_is_mobile = 0;
+            var woocs_special_ajax_mode = 0;
+            var woocs_drop_down_view = "ddslick";
+            var woocs_current_currency = {"name":"INR","rate":1,"symbol":"&#x20a8;","position":"left_space","is_etalon":1,"hide_cents":1,"decimals":2,"description":"Indian Rupees","flag":"http:\/\/vwthemes.in\/wp-content\/plugins\/woocommerce-currency-switcher\/img\/no_flag.png"};
+            var woocs_default_currency = {"name":"INR","rate":1,"symbol":"&#x20a8;","position":"left_space","is_etalon":1,"hide_cents":1,"decimals":2,"description":"Indian Rupees","flag":"http:\/\/vwthemes.in\/wp-content\/plugins\/woocommerce-currency-switcher\/img\/no_flag.png"};
+            var woocs_array_of_get = '{}';
+        
+            woocs_array_no_cents = '["JPY","TWD"]';
+
+            var woocs_ajaxurl = "http://www.imageurlbuilder.com/wp-admin/admin-ajax.php";
+            var woocs_lang_loading = "loading";
+            var woocs_shop_is_cached =0;
+        </script>
+        </head>
+<body class="error404 wp-custom-logo woocommerce-no-js currency-inr">
+  <header id="masthead" class="site-header">
+    <div id="header">
+            <div class="container">
+  <div class="row bg-media">
+    <div class="col-lg-2 col-md-8 col-sm-8 col-5">
+      <div class="logo text-left">
+        <a href="http://www.imageurlbuilder.com/" class="custom-logo-link" rel="home" itemprop="url"><img width="240" height="60" src="http://www.imageurlbuilder.com/wp-content/uploads/2019/02/cropped-imageurlbuilder-1.png" class="custom-logo" alt="BulkImageUploader" itemprop="logo" /></a>      </div>
+    </div>
+    <div class="col-lg-9 col-md-2 col-sm-2 col-1">
+      <div class="menubar m-0 mt-md-0">
+  <div class="container right_menu">
+    <div class="innermenubox ">
+      <div class="toggle-nav mobile-menu">
+        <span onclick="openNav()"><i class="fas fa-bars"></i></span>
+      </div>
+      <div id="mySidenav" class="nav sidenav">
+        <nav id="site-navigation" class="main-navigation">
+          <a href="javascript:void(0)" class="closebtn mobile-menu" onclick="closeNav()"><i class="fas fa-times"></i></a>
+          <div class="menu clearfix"><ul id="menu-main-menu" class="clearfix mobile_nav"><li id="menu-item-245" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-245"><a href="http://www.imageurlbuilder.com/">Home</a></li>
+<li id="menu-item-362" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-362"><a href="http://www.imageurlbuilder.com/my-account/">Login</a></li>
+<li id="menu-item-408" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-408"><a href="http://www.imageurlbuilder.com/faqs/">FAQs</a></li>
+<li id="menu-item-409" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-409"><a href="http://www.imageurlbuilder.com/features-2/">Features</a></li>
+<li id="menu-item-410" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-410"><a href="http://www.imageurlbuilder.com/plans-2/">Plans</a></li>
+<li id="menu-item-424" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-424"><a href="#">Upgrade Plans</a></li>
+<li id="menu-item-411" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-411"><a href="http://www.imageurlbuilder.com/how-to-use/">How to use?</a></li>
+<li id="menu-item-412" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-412"><a href="http://www.imageurlbuilder.com/contact/">Contact Us</a></li>
+</ul></div>        </nav><!-- #site-navigation -->
+      </div>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</div>    </div>
+    <div class="cart_main col-lg-1 col-md-2 col-sm-1 col-2 pl-0">
+      <div class="cart">
+                <a href="http://www.imageurlbuilder.com/cart/" id="cart-form" id="cart-form" target="_blank" class="userBtn"><i class="fas fa-cart-arrow-down"></i><span class="cart-no">0</span>
+        </a>
+      </div>  
+    </div>
+  </div>
+</div>    </div>
+    <div class="clearfix"></div>
+
+  </header><div class="title-box">
+	<div class="container">
+		<h1></h1>	
+	</div>
+</div>
+<div class="content_page">
+	<div class="container">
+		<div class="page-content">
+				<h3><span class="heading3">404 Not Found</span></h3>
+				<p class="text-404">Looks like you have taken a wrong turn &hellip; Don&#039;t worry &hellip; it happens to the best of us.</p>  
+				<div class="read-moresec">
+					<div><a href="http://www.imageurlbuilder.com" class="button hvr-sweep-to-right">
+					Back to Home Page</a></div>
+					</div>			
+			<div class="clearfix"></div>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+</div>
+	<div class="clearfix"></div>
+	<div class="outer-footer">
+		<div id="footer" style="">
+	<div id="footer_box" class="darkbox">
+		<div class="container footer-cols">
+						<div class="row">
+				<div class="footer_hide">
+									</div>
+				<div class="footer_hide">
+									</div>
+				<div class="footer_hide">
+									</div>
+				<div class="footer_hide">
+									</div>
+			</div>
+		</div><!-- .container -->
+	</div><!-- #footer_box -->
+</div>		<div class="copyright" style="">
+	<div class="container">
+		<div class="row main_sociobox">
+			<div class="col-sm-12">
+				<p>imageurlbuilder.com 2019 | All Rights Reserved.<span class="credit_link"> Design &amp; Developed by<a href=https://www.vwthemes.com/ target='_blank'> VW Themes</a></span></p>
+			</div>
+		</div>
+	</div>
+</div>	</div>
+	<style>
+    .woocs_auto_switcher {
+        top: 50px;
+    } 
+    .woocs_auto_switcher li a {
+        background:#222222;
+    }
+    .woocs_auto_switcher li a.woocs_curr_curr {
+        background:#0171e1;
+    }
+    .woocs_auto_switcher li  a:hover {
+        background:#0171e1;
+    }
+    .woocs_auto_switcher li  a span {
+        background:#0171e1;
+    }
+    .woocs_auto_switcher.left li span:after {
+        border-right: 10px solid #0171e1;
+    }
+    .woocs_auto_switcher.right li a span:after {
+        border-left: 10px solid #0171e1;
+    }
+</style>
+
+<ul class='woocs_auto_switcher left' data-view="classic_blocks">
+      
+        <li>
+            <a data-currency="INR" class="  woocs_curr_curr woocs_auto_switcher_link" href="#">INR&nbsp;&#x20a8; 
+                <span><div style="display: table;">Indian Rupees</div></span>
+            </a> 
+        </li>
+  
+        <li>
+            <a data-currency="USD" class="   woocs_auto_switcher_link" href="#">USD&nbsp;&#36; 
+                <span><div style="display: table;">USA dollar</div></span>
+            </a> 
+        </li>
+
+</ul>
+	<script type="text/javascript">
+		var c = document.body.className;
+		c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+		document.body.className = c;
+	</script>
+	<link rel='stylesheet' id='woocs-auto-switcher-css'  href='http://www.imageurlbuilder.com/wp-content/plugins/woocommerce-currency-switcher/css/auto_switcher/classic_blocks.css?ver=5.0.3' type='text/css' media='all' />
+<link rel='stylesheet' id='woocommerce-currency-switcher-css'  href='http://www.imageurlbuilder.com/wp-content/plugins/woocommerce-currency-switcher/css/front.css?ver=5.0.3' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.imageurlbuilder.com/wp-content/plugins/social-login-lite-for-woocommerce/js/checkout.js?ver=5.0.3'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"http:\/\/www.imageurlbuilder.com\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.imageurlbuilder.com/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.1.1'></script>
+<script type='text/javascript' src='http://www.imageurlbuilder.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.70'></script>
+<script type='text/javascript' src='http://www.imageurlbuilder.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.imageurlbuilder.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=3.5.4'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wc_cart_fragments_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","cart_hash_key":"wc_cart_hash_471fb10937c34fb39884db9f7cd6584e","fragment_name":"wc_fragments_471fb10937c34fb39884db9f7cd6584e"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.imageurlbuilder.com/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=3.5.4'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var xlwuev = {"plugin_version":"3.2.0"};
+var xlwuev_settings = "{\"wuev-email-template\":{\"xlwuev_verification_method\":\"1\",\"xlwuev_verification_type\":\"1\",\"xlwuev_email_subject\":\"Account Verification ({{xlwuev_display_name}})\",\"xlwuev_email_heading\":\"Please Verify Your Email Account ({{xlwuev_display_name}})\",\"xlwuev_email_body\":\"Please Verify your Email Account by clicking on the following link. {{wcemailverificationcode}}\",\"xlwuev_email_header\":\"u00a0rn<table style=\"width: 700px; margin: auto; text-align: center; border: 1px solid #eee; font-family: sans-serif;\">rn<thead>rn<tr>rn<td style=\"color: white; font-size: 33px; background: #1266ae; text-align: center; padding: 26px 0px;\">Demo Store Email Verification<\/td>rn<\/tr>rn<\/thead>rn<tbody>rn<tr>rn<td style=\"padding: 22px; font-size: 19px;\">Please Verify your email Account<\/td>rn<\/tr>rn<tr>rn<td style=\"padding: 0 22px 10px 22px; font-size: 19px;\">{{wcemailverificationcode}}<\/td>rn<\/tr>rn<\/tbody>rn<tfoot>rn<tr>rn<td style=\"color: #000; padding: 15px; background: #e4e4e4;\">{{sitename}}<\/td>rn<\/tr>rn<\/tfoot>rn<\/table>rnu00a0\"},\"wuev-messages\":{\"xlwuev_email_success_message\":\"Your Email is verified!\",\"xlwuev_email_registration_message\":\"We sent you a verification email. Check and verify your account. {{xlwuev_resend_link}}\",\"xlwuev_email_resend_confirmation\":\"Resend Confirmation Email\",\"xlwuev_email_verification_already_done\":\"Your Email is already verified\",\"xlwuev_email_new_verification_link\":\"A new verification link is sent. Check email. {{xlwuev_resend_link}}\",\"xlwuev_email_new_verification_link_text\":\"Click here to verify\"},\"wuev-general-settings\":{\"xlwuev_restrict_user\":\"2\",\"xlwuev_verification_page\":\"1\",\"xlwuev_verification_page_id\":\"165\",\"xlwuev_verification_error_page\":\"1\",\"xlwuev_verification_error_page_id\":\"165\",\"xlwuev_email_error_message_not_verified_outside\":\"You need to verify your account before login. {{xlwuev_resend_link}}\",\"xlwuev_email_error_message_not_verified_inside\":\"You need to verify your account. {{xlwuev_resend_link}}\",\"xlwuev_automatic_user_login\":\"2\"}}";
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.imageurlbuilder.com/wp-content/plugins/woo-confirmation-email/assets/js/woo-confirmation-email-admin.js?ver=3.2.0'></script>
+<script type='text/javascript' src='http://www.imageurlbuilder.com/wp-content/themes/vw-themes-in/assets/js/tether.js?ver=5.0.3'></script>
+<script type='text/javascript' src='http://www.imageurlbuilder.com/wp-content/themes/vw-themes-in/assets/js/bootstrap.min.js?ver=5.0.3'></script>
+<script type='text/javascript' src='http://www.imageurlbuilder.com/wp-content/themes/vw-themes-in/assets/js/jquery.superfish.js?ver=5.0.3'></script>
+<script type='text/javascript' src='http://www.imageurlbuilder.com/wp-content/themes/vw-themes-in/assets/js/owl.carousel.js?ver=5.0.3'></script>
+<script type='text/javascript' src='http://www.imageurlbuilder.com/wp-content/themes/vw-themes-in/assets/js/SmoothScroll.js?ver=5.0.3'></script>
+<script type='text/javascript' src='http://www.imageurlbuilder.com/wp-content/themes/vw-themes-in/assets/js/jquery-progressbar.js?ver=5.0.3'></script>
+<script type='text/javascript' src='http://www.imageurlbuilder.com/wp-content/themes/vw-themes-in/assets/js/custom.js?ver=5.0.3'></script>
+<script type='text/javascript' src='http://www.imageurlbuilder.com/wp-includes/js/wp-embed.min.js?ver=5.0.3'></script>
+<script type='text/javascript' src='http://www.imageurlbuilder.com/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.imageurlbuilder.com/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.imageurlbuilder.com/wp-includes/js/jquery/ui/mouse.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.imageurlbuilder.com/wp-includes/js/jquery/ui/slider.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.imageurlbuilder.com/wp-content/plugins/woocommerce/assets/js/jquery-ui-touch-punch/jquery-ui-touch-punch.min.js?ver=3.5.4'></script>
+<script type='text/javascript' src='http://www.imageurlbuilder.com/wp-content/plugins/woocommerce-currency-switcher/js/price-slider_33.js?ver=5.0.3'></script>
+<script type='text/javascript' src='http://www.imageurlbuilder.com/wp-content/plugins/woocommerce-currency-switcher/js/jquery.ddslick.min.js?ver=5.0.3'></script>
+<script type='text/javascript' src='http://www.imageurlbuilder.com/wp-content/plugins/woocommerce-currency-switcher/js/front.js?ver=5.0.3'></script>
+	</body>
+</html>

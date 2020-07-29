@@ -1,0 +1,18 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>404</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui">
+	<link rel="stylesheet" href="https://js.j-cc.cn/css/cdndefaultcommon.css">
+</head>
+<body style="background-color:#d7e2f6">
+<div id="not_found" class="common_bg">
+	<div>
+		<a href="javascript:void(0)" onclick="javascript: location.reload(true);" class="refresh">刷新</a>
+		<a class="back_index" href="/index.html">返回首页</a>
+	</div>
+</div>
+</body>
+</html>

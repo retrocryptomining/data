@@ -1,0 +1,16 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="textml;charset=GB2312" />
+		<style>body{background-color:#FFFFFF}</style> 
+		<title>非法阻断</title>
+		<script language="javascript" type="text/javascript">
+         window.onload = function () { 
+           document.getElementById("mainFrame").src= "http://114.115.192.242:9080/error.html";
+            }
+		</script>   
+	</head>
+	<body>
+	
+		<iframe style="width:100%; height:100%;" id="mainFrame" src="" frameborder="0" scrolling="no"/>
+	</body>
+</html>

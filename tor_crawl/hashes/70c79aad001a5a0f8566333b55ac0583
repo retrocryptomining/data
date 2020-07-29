@@ -1,0 +1,48 @@
+﻿
+				<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Macroscop</title>
+				<style type="text/css">
+				   .main-block  
+				   {
+   						width: 470;   		
+						margin-left:auto;
+						margin-right:auto;
+						border: 1px solid #000000;
+				   }
+				   .links-and-info  
+				   {    	
+   						height: 160;	   		
+						margin-left:auto;
+						margin-right:auto;		
+						border: 0px solid #0000ff;	
+						background: #fff5dc;		
+				   }
+				   .links  
+				   {   
+   						margin-top: 20;   		
+	 					float: left;
+						width: 30%;					
+				   }
+				   .info  
+				   {       	
+   						float: left;
+						width: 70%;		
+						margin-top: 30;		
+				   }   
+				  </style> 
+				  </head>
+				<body>
+				<div class="main-block" >		
+					<div class="mcheader"   >
+						<img src="web/header.png" height="90"  width="100%" alt="Macroscop"/>
+					</div>
+					<div  class="links-and-info" >	
+						<div class="links" align="center"><a href="web/index.html?lang=ru">
+												<button ><img  src="web/macroscop.png"/></button>
+												<p style="margin-top: 0.3em;">Web-Клиент Macroscop</p></a>
+
+						</div>
+						<div class="info" ><span>Unknown request</span></div>		
+					</div>	
+				 </div>
+				</body></html>
+			

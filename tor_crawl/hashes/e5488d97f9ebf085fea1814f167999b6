@@ -1,0 +1,1 @@
+Error in exception handler: The stream or file "/var/www/app.glamourtoyou.com/public_html/app/storage/logs/20180112.log" could not be opened: failed to open stream: Permission denied in /var/www/app.glamourtoyou.com/public_html/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:84

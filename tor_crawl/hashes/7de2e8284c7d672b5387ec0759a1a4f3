@@ -1,0 +1,53 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta http-equiv="Window-target" content="_top">
+<meta http-equiv="REFRESH" content="5;url=javascript:top.window.location.replace('login.php')">
+<title>Session timeout</title>
+<script type="text/javascript">
+<!--
+function getCookie(c_name)
+{
+	if (top.document.cookie.length)
+	{
+		c_start = top.document.cookie.indexOf(c_name + "=");
+		if (c_start!=-1)
+		{
+			c_start = c_start + c_name.length+1;
+			c_end = top.document.cookie.indexOf(";", c_start);
+			if (c_end==-1) c_end = top.document.cookie.length;
+				return unescape(top.document.cookie.substring(c_start, c_end));
+		}
+	}
+	return null;
+}
+function countDown (sec) {
+	if (sec < 0) {
+		top.window.location.replace("login.php");
+		return;
+	}
+	document.getElementById("count").innerHTML = sec+" second"+(sec>1?"s":"");
+	setTimeout("countDown("+sec+"-1)", 1000);
+}
+function autologin(){
+	var flag = getCookie('AutoLogin');
+	if(flag){	
+		top.window.location.replace("/");
+	}
+}
+-->
+</script>
+</head>
+
+<body onload="autologin();countDown(5)">
+<center>
+<br/>
+<h1 style="color:#242642;font-family:Tahoma">
+<p>Session timeout.</p>
+<p>Please click <a href="javascript:top.window.location.replace('login.php')">here</a> or auto redirect after <span id="count"></span>.</p>
+</h1>
+<!---->
+
+</body>
+</html>

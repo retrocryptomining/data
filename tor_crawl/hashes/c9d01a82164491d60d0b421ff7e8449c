@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr" dir="ltr"> 
+<head> 
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link href='https://appscol.univ-paris8.fr/i/up8.css' rel='stylesheet' type='text/css' media='all' />
+        <link href="https://appscol.univ-paris8.fr/i/fav/favicon.png" rel="icon" type="image/png" />
+        <link href="https://appscol.univ-paris8.fr/i/fav/apple-touch-icon-iphone.png" rel="apple-touch-icon-precomposed" /> 
+        <link href="https://appscol.univ-paris8.fr/i/fav/apple-touch-icon-ipad.png" rel="apple-touch-icon-precomposed" sizes="72x72" /> 
+        <link href="https://appscol.univ-paris8.fr/i/fav/apple-touch-icon-iphone4.png" rel="apple-touch-icon-precomposed" sizes="114x114" />
+        <link href="https://appscol.univ-paris8.fr/i/fav/apple-touch-icon-ipad3.png" rel="apple-touch-icon-precomposed" sizes="144x144" />
+
+	<meta name="author" content="greg" />
+	<meta http-equiv="Cache-Control" content="no-cache" />
+	<meta http-equiv="Pragma" content="no-cache" />
+	<meta http-equiv="Expires" content="0" />
+	<title>Université Paris 8 - maintenance</title>
+	<link rel="stylesheet" href="../devu/images/style.css?date=today" type="text/css" media="screen"/>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/script.js?da"></script>
+</head> 
+<body> 
+	<div id='pageUP8'>
+                <div id='headerUP8'>
+                        <div id='bannerUP8'>
+                                <div id='bannerUP8Top'><div id='bannerUP8TopLeft'></div><div id='bannerUP8TopRight'> <span class='Gris'></span></div></div>
+                                <!--div id='bannerUP8Bottom'>
+                                        <div id='bannerUP8BottomLeft'><div class='cache'></div></div>
+                                        <div id='bannerUP8BottomRight' style="text-align:right"><span class='Gris'>Année universitaire 2016-2017 &nbsp; </span> &nbsp; </div>
+                                </div-->
+                        </div>
+                </div>
+
+
+
+	<br /><br /><br />	
+	<img src="images/p8les3bandes.png" alt="Paris 8" border="0" style="position:absolute;top:-10px;right:10px"></a>
+
+	<div class="message">
+		<div align="center">	
+		<h3>Interruption de service</h3>
+		<b>En raison d'une opération de maintenance,<br/>
+		l'application est momentanément indisponible<br />
+		<br />Merci de réessayer ultérieurement</b><br/> 
+		</div>
+	</div>
+
+	<br/>	
+	<center><b style="font-size:10px">DSI &middot; Universit&eacute; Paris 8</b></center>
+	<center><b style="font-size:10px"><?php print remote_addr($_SERVER['REMOTE_ADDR'])."@".$_SERVER['SERVER_NAME']."<br/>DSI &middot; Universit&eacute; Paris 8 Vincennes, Saint-Denis</b></center>
+
+
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(["trackPageView"]);
+  _paq.push(["enableLinkTracking"]);
+
+  (function() {
+    var u=(("https:" == document.location.protocol) ? "https" : "http") + "://apps.univ-paris8.fr/piwik/";
+    _paq.push(["setTrackerUrl", u+"piwik.php"]);
+    _paq.push(["setSiteId", "1"]);
+    var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+    g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript>
+<img src="https://appsscol.univ-paris8.fr/piwik/piwik.php?idsite=1&amp;rec=1" style="border:0" alt="" />
+</noscript>
+<!-- End Piwik Code -->
+
+</body>
+</html>

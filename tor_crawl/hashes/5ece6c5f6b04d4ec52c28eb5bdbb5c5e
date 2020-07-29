@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" >
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Error</title>
+<script type="text/javascript">
+	function doCheck() {
+		document.getElementById('error:doError').click();
+	};
+</script>
+</head>
+<body onload="doCheck()">
+<form id="error" name="error" method="post" action="/default.xhtml;jsessionid=988B47E963F7C863E0E420C9D7FEE9DF" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="error" value="error" />
+<table>
+<tbody>
+<tr>
+<td>
+		Service is unavailable.</td>
+</tr>
+<tr>
+<td><input id="error:doError" type="submit" name="error:doError" value="&#1053;&#1072;&#1079;&#1072;&#1076;" style="display: none" /></td>
+</tr>
+</tbody>
+</table>
+<input type="hidden" name="javax.faces.ViewState" id="javax.faces.ViewState" value="j_id1" autocomplete="off" />
+</form>
+</body>
+</html>

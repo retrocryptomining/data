@@ -1,0 +1,67 @@
+<!--
+ eLMS
+
+Note: All the intellectual property rights of the source code is with DICDL.
+It can't be altered or modified without prior approval from DICDL.
+@author Amit
+@version 1.0
+@since 12-June-2017
+ --><html xmlns="http://www.w3.org/1999/xhtml"><head id="j_idt3"><link type="text/css" rel="stylesheet" href="/javax.faces.resource/theme.css.xhtml?ln=primefaces-glass-x" /><link type="text/css" rel="stylesheet" href="/javax.faces.resource/font-awesome.css.xhtml;jsessionid=682723A4B5CF5D0BEEE219373D67541F?ln=css" /><script type="text/javascript" src="/javax.faces.resource/jquery/jquery.js.xhtml;jsessionid=682723A4B5CF5D0BEEE219373D67541F?ln=primefaces&amp;v=6.0"></script><script type="text/javascript" src="/javax.faces.resource/jquery/jquery-plugins.js.xhtml;jsessionid=682723A4B5CF5D0BEEE219373D67541F?ln=primefaces&amp;v=6.0"></script><script type="text/javascript" src="/javax.faces.resource/core.js.xhtml;jsessionid=682723A4B5CF5D0BEEE219373D67541F?ln=primefaces&amp;v=6.0"></script><script type="text/javascript" src="/javax.faces.resource/primefaces-extensions.js.xhtml;jsessionid=682723A4B5CF5D0BEEE219373D67541F?ln=primefaces-extensions&amp;v=6.0.0"></script><link type="text/css" rel="stylesheet" href="/javax.faces.resource/layout/layout.css.xhtml;jsessionid=682723A4B5CF5D0BEEE219373D67541F?ln=primefaces-extensions&amp;v=6.0.0" /><script type="text/javascript" src="/javax.faces.resource/layout/layout.js.xhtml;jsessionid=682723A4B5CF5D0BEEE219373D67541F?ln=primefaces-extensions&amp;v=6.0.0"></script><link type="text/css" rel="stylesheet" href="/javax.faces.resource/components.css.xhtml;jsessionid=682723A4B5CF5D0BEEE219373D67541F?ln=primefaces&amp;v=6.0" /><script type="text/javascript" src="/javax.faces.resource/components.js.xhtml;jsessionid=682723A4B5CF5D0BEEE219373D67541F?ln=primefaces&amp;v=6.0"></script><script type="text/javascript">if(window.PrimeFaces){PrimeFaces.settings.locale='en';}</script>
+	<title>DHOLERA</title>
+	<style type="text/css">
+iframe::-webkit-scrollbar {
+	display: none;
+}
+
+.ui-layout-north {
+	z-index: 20 !important;
+	overflow: visible !important;
+}
+
+.ui-layout-south {
+	z-index: 50 !important;
+	overflow: visible !important;
+	background-color: #ff0000;
+}
+
+.ui-layout-north .ui-layout-unit-content {
+	overflow: visible !important;
+}
+
+#photoreel {
+	overflow-x: scroll;
+	overflow-y: hidden;
+}
+</style></head><body><script id="page_s" type="text/javascript">$(function() {PrimeFaces.cw('ExtLayout', 'widget_page',{id:'page',widgetVar:'widget_page',forTarget:'body',clientState:false,serverState:false,options:{"center":{"spacing_open":6,"spacing_closed":6,"resizable":false,"size":"50%"}}},true);});</script><div id="MainContent" class="ui-layout-center ui-widget-content ui-corner-all pe-layout-pane-content" data-combinedposition="center">
+			<div class="sidebar-no-animations">
+				<!-- Main Container -->
+				<div id="main-container">
+					<header id="header" class="navbar navbar-default navbar-fixed-top">
+						<div class="col-md-12">
+							<!-- Brand -->
+							<a href="/home" class="Padd8 brandlogo"> <img src="/image/logo/logo.png" />
+							</a>
+							<!-- END Brand -->
+						</div>
+						<div class="clearfix"></div>
+
+					</header>
+					<div class="clearfix"></div>
+<form id="errorFrm" name="errorFrm" method="post" action="/page/frwk/error.xhtml;jsessionid=682723A4B5CF5D0BEEE219373D67541F" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="errorFrm" value="errorFrm" />
+
+
+						<div align="left"><div id="errorFrm:j_idt10" class="ui-panel ui-widget ui-widget-content ui-corner-all text-warning" data-widget="widget_errorFrm_j_idt10"><div id="errorFrm:j_idt10_header" class="ui-panel-titlebar ui-widget-header ui-helper-clearfix ui-corner-all"><span class="ui-panel-title">Error Page :</span></div><div id="errorFrm:j_idt10_content" class="ui-panel-content ui-widget-content">
+								<h1 style="color: red">System error occurred : Please contact system administrator.</h1>
+								<div align="right">
+									<H1>
+										<a href="/home" class="Padd8 brandlogo"><span id="errorFrm:lnkHome">Home</span></a>
+									</H1>
+								</div><label id="errorFrm:j_idt13" class="ui-outputlabel ui-widget" style="color:red">Requested resource not found.</label>
+								<br />
+								<br /><fieldset id="errorFrm:j_idt15" class="ui-fieldset ui-widget ui-widget-content ui-corner-all ui-hidden-container" data-widget="widget_errorFrm_j_idt15"><legend class="ui-fieldset-legend ui-corner-all ui-state-default">Error Message :</legend><div class="ui-fieldset-content"><label id="errorFrm:j_idt16" class="ui-outputlabel ui-widget" style="color:black"></label></div></fieldset><script id="errorFrm:j_idt15_s" type="text/javascript">PrimeFaces.cw("Fieldset","widget_errorFrm_j_idt15",{id:"errorFrm:j_idt15"});</script></div></div><script id="errorFrm:j_idt10_s" type="text/javascript">PrimeFaces.cw("Panel","widget_errorFrm_j_idt10",{id:"errorFrm:j_idt10"});</script>
+						</div><input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:0" value="-3197126734150967017:-7709953105897743910" autocomplete="off" />
+</form>
+				</div>
+			</div></div></body>
+</html>

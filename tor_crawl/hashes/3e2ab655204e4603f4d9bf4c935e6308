@@ -1,0 +1,86 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+<link rel="icon" href="favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" /> 
+<link href="js/autosuggest.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="cgi-bin/jscript.cgi?c=lang"></script>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/cookie.js"></script>
+<script type="text/javascript" src="js/xml.js"></script>
+<script type="text/javascript" src="js/autosuggest.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+</head>
+<body style="margin:0px 0px 0px 0px;">
+<table width="100%" height="100%" border="0">
+	<tr>
+		<td align="center" valign="middle">
+			<table width="1024" height="768" border="0" style="background-image:url(loginback.jpg); border-collapse:collapse;">
+				<tr>
+					<td style="height:85px;">&nbsp;</td>
+				</tr>
+				<tr>
+					<td style="height:128px;padding-left:100px; padding-right:100px;">
+						<span lxc_lang="index_1" style="font-size:24px;float:left;">Network video client</span>
+					</td>
+				</tr>
+				<tr>
+					<td style="height:436px;">
+						<table width="100%" border="0">
+							<tr>
+								<td style="width:517px;">&nbsp;
+								</td>
+								<td align="center">
+									<table width="354" height="353" border="0">
+										<tr>
+											<td colspan="2">&nbsp;
+											</td>
+										</tr>
+										<tr>
+											<td style="padding-left:20px;">
+												<span lxc_lang="index_Username">Username:</span>
+											</td>
+											<td>
+												<input type="text" id="dvr_usr" value="admin" size="20" style="width:150px;"
+													onfocus="show_suggest()" onDblClick="show_suggest()" />
+											</td>
+										</tr>
+										<tr>
+											<td style="padding-left:20px;">
+												<span lxc_lang="index_Password">Password:</span>
+											</td>
+											<td>
+												<input type="password" id="dvr_pwd" value="" size="20" style="width:150px;" />
+											</td>
+										</tr>
+										<tr>
+											<td>&nbsp;</td>
+											<td><input type="checkbox" id="dvr_remember" name="dvr_remember" checked="checked" /><span lxc_lang="index_Remember_me">Remember me</span></td>
+										</tr>
+										<tr>
+											<td>&nbsp;</td>
+											<td>
+												<input type="button" onClick="login_chk_usr_pwd();" value= "Login" lxc_lang="index_Login">
+											</td>
+										</tr>
+										<tr>
+											<td colspan="2" style="padding-left:10px;padding-right:10px;">
+												<span lxc_lang="index_2" style="color:#000000"></span>
+											</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td style="">&nbsp;</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+</body>
+</html>

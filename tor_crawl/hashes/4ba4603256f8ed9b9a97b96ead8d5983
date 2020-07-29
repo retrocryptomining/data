@@ -1,0 +1,45 @@
+Html Webpack Plugin:
+<pre>
+  Error: Child compilation failed:
+  Module build failed (from ./node_modules/html-webpack-plugin/lib/loader.js):
+  Error: ENOENT: no such file or directory, open '/data/meta/public/index.html':  Error: ENOENT: no such file or directory, open '/data/meta/public/index.html'
+  
+  - compiler.js:153 childCompiler.runAsChild
+    [meta]/[html-webpack-plugin]/lib/compiler.js:153:18
+  
+  - Compiler.js:296 compile
+    [meta]/[webpack]/lib/Compiler.js:296:11
+  
+  - Compiler.js:553 hooks.afterCompile.callAsync.err
+    [meta]/[webpack]/lib/Compiler.js:553:14
+  
+  
+  - Hook.js:154 AsyncSeriesHook.lazyCompileHook
+    [meta]/[webpack]/[tapable]/lib/Hook.js:154:20
+  
+  - Compiler.js:550 compilation.seal.err
+    [meta]/[webpack]/lib/Compiler.js:550:30
+  
+  
+  - Hook.js:154 AsyncSeriesHook.lazyCompileHook
+    [meta]/[webpack]/[tapable]/lib/Hook.js:154:20
+  
+  - Compilation.js:1295 hooks.optimizeAssets.callAsync.err
+    [meta]/[webpack]/lib/Compilation.js:1295:35
+  
+  
+  - Hook.js:154 AsyncSeriesHook.lazyCompileHook
+    [meta]/[webpack]/[tapable]/lib/Hook.js:154:20
+  
+  - Compilation.js:1286 hooks.optimizeChunkAssets.callAsync.err
+    [meta]/[webpack]/lib/Compilation.js:1286:32
+  
+  
+  - Hook.js:154 AsyncSeriesHook.lazyCompileHook
+    [meta]/[webpack]/[tapable]/lib/Hook.js:154:20
+  
+  - Compilation.js:1281 hooks.additionalAssets.callAsync.err
+    [meta]/[webpack]/lib/Compilation.js:1281:36
+  
+  
+</pre><script src="/static/js/bundle.js"></script><script src="/static/js/0.chunk.js"></script><script src="/static/js/main.chunk.js"></script><script src="/main.c7921a88b9431d20dd65.hot-update.js"></script>

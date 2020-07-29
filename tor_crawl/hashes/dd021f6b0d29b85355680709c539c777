@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'>
+<html xmlns='http://www.w3.org/1999/xhtml'>
+<head>
+<meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+<title>ccproxy故障检测页 - powered by nat123</title>
+<style type='text/css'>
+.container{width:860px; height:500px;position:absolute;  margin-left:-430px; margin-top:-250px; top:50%;left:50%;padding:0px;font-size:14px; background:url(http://images.nat123.com/temple/images/bg.jpg); color:#414040; line-height:24px; font-family:'微软雅黑';}
+.main{ width:680px; height:320px; border:1px solid #eba25e; margin:60px auto 0;padding-left:40px; }
+.red{ color:#dd8002;}
+.main h2{ font-size:22px; text-align:center; padding-top:12px;}
+.main p a{ color:#333366;}
+.main .case { text-align:center;}
+.footer{ width:780px; _margin-top:20px;}
+.footer .logo_box{ width:780px; height:27px; }
+.footer h2{color:#dd8002; text-align:right;font-size:20px;}
+.footer .logo_box img{ margin-left:30px; border:none\9; float:right;height:40px; }
+</style>
+</head>
+
+<body>
+<div class='container'>
+    <div class='main'>
+    	<h2>温馨提示：<span class='red'>ccproxy暂时无法访问</span></h2>
+    	<p>可能原因一：你的应用没有返回任何数据并主动断开了连接</p>
+    	<p>可能原因二：您的端口映射配置不正确。</p>
+    	<p>可能原因三：您的web或应用服务发生异常。</p>
+        <p>本页面为默认提示页面，如网站或应用存在以上问题请及时进行处理。</p>
+        <p>如需修改配置请登陆<a href='http://www.nat123.com/UsersLogin.jsp' target='_blank'>nat123登陆页</a> 
+；如有疑问登录<a href='http://www.natbbs.com/' target='_blank'>nat123论坛</a> ；</p>
+       
+        <p>感谢你使用nat123服务！</p>
+    </div>
+     <div class='footer'>
+    	<h2>nat123旗下网站</h2>
+        <div class='logo_box'>
+            <a href='http://www.nat123.com/'><img src='http://images.nat123.com/Content/logogw.gif' /></a>
+            <a href='http://www.natbbs.com/'><img src='http://images.nat123.com/Content/logobbs.gif' /></a>
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="http://www.johnlu.cn/xmlrpc.php">
+<title>未找到页面 &#8211; 一粒麦子</title>
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="一粒麦子 &raquo; Feed" href="http://www.johnlu.cn/feed" />
+<link rel="alternate" type="application/rss+xml" title="一粒麦子 &raquo; 评论Feed" href="http://www.johnlu.cn/comments/feed" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/www.johnlu.cn\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.8.2"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,56826,8203,55356,56819),0,0),c=j.toDataURL(),b!==c&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55358,56794,8205,9794,65039),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55358,56794,8203,9794,65039),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='ez-icomoon-css'  href='http://www.johnlu.cn/wp-content/plugins/easy-table-of-contents/vendor/icomoon/style.min.css?ver=1.2' type='text/css' media='all' />
+<link rel='stylesheet' id='ez-toc-css'  href='http://www.johnlu.cn/wp-content/plugins/easy-table-of-contents/assets/css/screen.min.css?ver=1.2' type='text/css' media='all' />
+<style id='ez-toc-inline-css' type='text/css'>
+div#ez-toc-container ul li {font-size: 95%;}
+</style>
+<link rel='stylesheet' id='wpfront-scroll-top-css'  href='http://www.johnlu.cn/wp-content/plugins/wpfront-scroll-top/css/wpfront-scroll-top.min.css?ver=1.5' type='text/css' media='all' />
+<link rel='stylesheet' id='front-css-yuzo_related_post-css'  href='http://www.johnlu.cn/wp-content/plugins/yuzo-related-post/assets/css/style.css?ver=5.12.70' type='text/css' media='all' />
+<link rel='stylesheet' id='lb-autosave-off_css_main-css'  href='http://www.johnlu.cn/wp-content/plugins/auto-save-off/assets/css/main.css' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css'  href='http://www.johnlu.cn/wp-content/themes/awaken/css/font-awesome.min.css?ver=4.4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='bootstrap.css-css'  href='http://www.johnlu.cn/wp-content/themes/awaken/css/bootstrap.min.css?ver=all' type='text/css' media='all' />
+<link rel='stylesheet' id='awaken-style-css'  href='http://www.johnlu.cn/wp-content/themes/awaken/style.css?ver=4.8.2' type='text/css' media='all' />
+<link rel='stylesheet' id='awaken-fonts-css'  href='//fonts.googleapis.com/css?family=Ubuntu%3A400%2C500%7CSource+Sans+Pro%3A400%2C600%2C700%2C400italic%7CRoboto+Condensed%3A400italic%2C700%2C400&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='add-flex-css-css'  href='http://www.johnlu.cn/wp-content/themes/awaken/css/flexslider.css?ver=4.8.2' type='text/css' media='screen' />
+<script type='text/javascript' src='http://www.johnlu.cn/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://www.johnlu.cn/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='http://www.johnlu.cn/wp-content/plugins/wpfront-scroll-top/js/wpfront-scroll-top.min.js?ver=1.5'></script>
+<script type='text/javascript' src='http://www.johnlu.cn/wp-content/themes/awaken/js/scripts.js?ver=4.8.2'></script>
+<!--[if lt IE 9]>
+<script type='text/javascript' src='http://www.johnlu.cn/wp-content/themes/awaken/js/respond.min.js?ver=4.8.2'></script>
+<![endif]-->
+<!--[if lt IE 9]>
+<script type='text/javascript' src='http://www.johnlu.cn/wp-content/themes/awaken/js/html5shiv.js?ver=4.8.2'></script>
+<![endif]-->
+<link rel='https://api.w.org/' href='http://www.johnlu.cn/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.johnlu.cn/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.johnlu.cn/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.8.2" />
+<script type="text/javascript">
+(function(url){
+	if(/(?:Chrome\/26\.0\.1410\.63 Safari\/537\.31|WordfenceTestMonBot)/.test(navigator.userAgent)){ return; }
+	var addEvent = function(evt, handler) {
+		if (window.addEventListener) {
+			document.addEventListener(evt, handler, false);
+		} else if (window.attachEvent) {
+			document.attachEvent('on' + evt, handler);
+		}
+	};
+	var removeEvent = function(evt, handler) {
+		if (window.removeEventListener) {
+			document.removeEventListener(evt, handler, false);
+		} else if (window.detachEvent) {
+			document.detachEvent('on' + evt, handler);
+		}
+	};
+	var evts = 'contextmenu dblclick drag dragend dragenter dragleave dragover dragstart drop keydown keypress keyup mousedown mousemove mouseout mouseover mouseup mousewheel scroll'.split(' ');
+	var logHuman = function() {
+		var wfscr = document.createElement('script');
+		wfscr.type = 'text/javascript';
+		wfscr.async = true;
+		wfscr.src = url + '&r=' + Math.random();
+		(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(wfscr);
+		for (var i = 0; i < evts.length; i++) {
+			removeEvent(evts[i], logHuman);
+		}
+	};
+	for (var i = 0; i < evts.length; i++) {
+		addEvent(evts[i], logHuman);
+	}
+})('//www.johnlu.cn/?wordfence_logHuman=1&hid=B7A6309D595CDC4FCC768A6C9FAF1D19');
+</script><style></style></head>
+
+<body class="error404 group-blog">
+<div id="page" class="hfeed site">
+	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+	<header id="masthead" class="site-header" role="banner">
+		
+		
+		<div class="top-nav">
+			<div class="container">
+				<div class="row">
+										<div class="col-xs-12 col-sm-6 col-md-8 ">
+													<nav id="top-navigation" class="top-navigation" role="navigation">
+								<div class="menu-%e8%81%94%e7%b3%bb%e6%88%91%e4%bb%ac-container"><ul id="menu-%e8%81%94%e7%b3%bb%e6%88%91%e4%bb%ac" class="menu"><li id="menu-item-268" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-268"><a href="http://www.johnlu.cn/">首页</a></li>
+<li id="menu-item-259" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-259"><a href="http://www.johnlu.cn/category/gospel">福音真道</a></li>
+<li id="menu-item-260" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-260"><a href="http://www.johnlu.cn/category/family">婚姻家庭</a></li>
+<li id="menu-item-261" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-261"><a href="http://www.johnlu.cn/category/life-growth">生命成长</a></li>
+<li id="menu-item-262" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-262"><a href="http://www.johnlu.cn/category/reformed">归正专栏</a></li>
+<li id="menu-item-263" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-263"><a href="http://www.johnlu.cn/category/sermons">证道视频</a></li>
+<li id="menu-item-264" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-264"><a href="http://www.johnlu.cn/category/church">教会资源</a>
+<ul  class="sub-menu">
+	<li id="menu-item-269" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-269"><a href="http://www.johnlu.cn/category/church/%e4%bf%a1%e4%bb%b0%e5%91%8a%e7%99%bd">信仰告白</a></li>
+</ul>
+</li>
+</ul></div>							</nav><!-- #site-navigation -->	
+							<a href="#" class="navbutton" id="top-nav-button">Top Menu</a>
+							<div class="responsive-topnav"></div>
+									
+					</div><!-- col-xs-12 col-sm-6 col-md-8 -->
+					<div class="col-xs-12 col-sm-6 col-md-4">
+											</div><!-- col-xs-12 col-sm-6 col-md-4 -->
+				</div><!-- row -->
+			</div><!-- .container -->
+		</div>
+	
+	<div class="site-branding">
+		<div class="container">
+			<div class="site-brand-container">
+										<div class="site-title-text">
+							<h1 class="site-title"><a href="http://www.johnlu.cn/" rel="home">一粒麦子</a></h1>
+							<h2 class="site-description">扎根基督    服待教会</h2>
+						</div>
+							</div><!-- .site-brand-container -->
+						
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="awaken-navigation-container">
+			<nav id="site-navigation" class="main-navigation cl-effect-10" role="navigation">
+				<div class="menu-%e8%81%94%e7%b3%bb%e6%88%91%e4%bb%ac-container"><ul id="menu-%e8%81%94%e7%b3%bb%e6%88%91%e4%bb%ac-1" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-268"><a href="http://www.johnlu.cn/">首页</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-259"><a href="http://www.johnlu.cn/category/gospel">福音真道</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-260"><a href="http://www.johnlu.cn/category/family">婚姻家庭</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-261"><a href="http://www.johnlu.cn/category/life-growth">生命成长</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-262"><a href="http://www.johnlu.cn/category/reformed">归正专栏</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-263"><a href="http://www.johnlu.cn/category/sermons">证道视频</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-264"><a href="http://www.johnlu.cn/category/church">教会资源</a>
+<ul  class="sub-menu">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-269"><a href="http://www.johnlu.cn/category/church/%e4%bf%a1%e4%bb%b0%e5%91%8a%e7%99%bd">信仰告白</a></li>
+</ul>
+</li>
+</ul></div>			</nav><!-- #site-navigation -->
+			<a href="#" class="navbutton" id="main-nav-button">Main Menu</a>
+			<div class="responsive-mainnav"></div>
+
+							<div class="awaken-search-button-icon"></div>
+				<div class="awaken-search-box-container">
+					<div class="awaken-search-box">
+						<form action="http://www.johnlu.cn/" id="awaken-search-form" method="get">
+							<input type="text" value="" name="s" id="s" />
+							<input type="submit" value="Search" />
+						</form>
+					</div><!-- th-search-box -->
+				</div><!-- .th-search-box-container -->
+			
+		</div><!-- .awaken-navigation-container-->
+	</div><!-- .container -->
+	</header><!-- #masthead -->
+
+	<div id="content" class="site-content">
+		<div class="container">
+
+	<div class="row">
+		<div class="col-xs-12 col-sm-12 col-md-8 ">
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main" role="main">
+
+			<section class="error-404 not-found">
+				<header class="page-header">
+					<h1 class="page-title">Oops! That page can&rsquo;t be found.</h1>
+				</header><!-- .page-header -->
+
+				<div class="page-content">
+					<p>It looks like nothing was found at this location. Maybe try one of the links below or a search?</p>
+
+					<form role="search" method="get" class="search-form" action="http://www.johnlu.cn/">
+				<label>
+					<span class="screen-reader-text">搜索：</span>
+					<input type="search" class="search-field" placeholder="搜索&hellip;" value="" name="s" />
+				</label>
+				<input type="submit" class="search-submit" value="搜索" />
+			</form>
+				</div><!-- .page-content -->
+			</section><!-- .error-404 -->
+
+		</main><!-- #main -->
+	</div><!-- #primary -->
+	</div><!-- bootstrap cols -->
+	<div class="col-xs-12 col-sm-6 col-md-4">
+		
+<div id="secondary" class="main-widget-area" role="complementary">
+	<aside id="media_video-2" class="widget widget_media_video"><div class="widget-title-container"><h2 class="widget-title">证道：要注意控制我们的舌头</h2></div><div style="width:100%;" class="wp-video"><!--[if lt IE 9]><script>document.createElement('video');</script><![endif]-->
+<video class="wp-video-shortcode" id="video-0-1" preload="metadata" controls="controls"><source type="video/mp4" src="http://dddd-1251471700.costj.myqcloud.com/TamingtheTongue.mp4?_=1" /><source type="video/mp4" src="http://dddd-1251471700.costj.myqcloud.com/TamingtheTongue.mp4?_=1" /><a href="http://dddd-1251471700.costj.myqcloud.com/TamingtheTongue.mp4">http://dddd-1251471700.costj.myqcloud.com/TamingtheTongue.mp4</a></video></div></aside><aside id="media_video-3" class="widget widget_media_video"><div class="widget-title-container"><h2 class="widget-title">从圣经找答案系列——认识神的意思</h2></div><div style="width:100%;" class="wp-video"><video class="wp-video-shortcode" id="video-0-2" preload="metadata" controls="controls"><source type="video/mp4" src="http://dddd-1251471700.costj.myqcloud.com/Know%20the%20meaning%20of%20God.mp4?_=2" /><source type="video/mp4" src="http://dddd-1251471700.costj.myqcloud.com/Know%20the%20meaning%20of%20God.mp4?_=2" /><a href="http://dddd-1251471700.costj.myqcloud.com/Know%20the%20meaning%20of%20God.mp4">http://dddd-1251471700.costj.myqcloud.com/Know%20the%20meaning%20of%20God.mp4</a></video></div></aside><aside id="awaken_tabbed_widget-3" class="widget widget_awaken_tabbed_widget">
+<ul class="nav nav-tabs" id="awt-widget">
+	<li><a href="#awaken-popular" role="tab" data-toggle="tab">阅读排行</a></li>
+	<li><a href="#awaken-comments" role="tab" data-toggle="tab">近期评论</a></li>
+	<li><a href="#awaken-tags" role="tab" data-toggle="tab">标签</a></li>
+</ul>
+
+<div class="tab-content">
+	<div class="tab-pane fade active in" id="awaken-popular">
+						<div class="ams-post">
+					<div class="ams-thumb">
+													<a href="http://www.johnlu.cn/114.html" title="基督为罪人成为贫穷"><img width="120" height="85" src="http://www.johnlu.cn/wp-content/uploads/2017/10/maxresdefaulta-120x85.jpg" class="attachment-small-thumb size-small-thumb wp-post-image" alt="" title="基督为罪人成为贫穷" /></a>
+											</div>
+					<div class="ams-details">
+						<h3 class="ams-title"><a href="http://www.johnlu.cn/114.html" rel="bookmark">基督为罪人成为贫穷</a></h3>						<p class="ams-meta">十月 9, 2017</p>
+					</div>
+				</div>
+							<div class="ams-post">
+					<div class="ams-thumb">
+													<a href="http://www.johnlu.cn/252.html" title="      改革宗浸信会的信仰特征"><img width="120" height="85" src="http://www.johnlu.cn/wp-content/uploads/2017/10/cross-66700_960_720-e1507688979632-120x85.jpg" class="attachment-small-thumb size-small-thumb wp-post-image" alt="" title="      改革宗浸信会的信仰特征" /></a>
+											</div>
+					<div class="ams-details">
+						<h3 class="ams-title"><a href="http://www.johnlu.cn/252.html" rel="bookmark">      改革宗浸信会的信仰特征</a></h3>						<p class="ams-meta">十月 11, 2017</p>
+					</div>
+				</div>
+							<div class="ams-post">
+					<div class="ams-thumb">
+													<a href="http://www.johnlu.cn/90.html" title="生命的主"><img width="120" height="85" src="http://www.johnlu.cn/wp-content/uploads/2017/10/maxresdefaulta-120x85.jpg" class="attachment-small-thumb size-small-thumb wp-post-image" alt="" title="生命的主" /></a>
+											</div>
+					<div class="ams-details">
+						<h3 class="ams-title"><a href="http://www.johnlu.cn/90.html" rel="bookmark">生命的主</a></h3>						<p class="ams-meta">十月 9, 2017</p>
+					</div>
+				</div>
+							<div class="ams-post">
+					<div class="ams-thumb">
+													<a href="http://www.johnlu.cn/92.html" title="人的软弱与神的大能"><img width="120" height="85" src="http://www.johnlu.cn/wp-content/uploads/2017/10/Bible-120x85.jpg" class="attachment-small-thumb size-small-thumb wp-post-image" alt="" title="人的软弱与神的大能" /></a>
+											</div>
+					<div class="ams-details">
+						<h3 class="ams-title"><a href="http://www.johnlu.cn/92.html" rel="bookmark">人的软弱与神的大能</a></h3>						<p class="ams-meta">十月 9, 2017</p>
+					</div>
+				</div>
+							<div class="ams-post">
+					<div class="ams-thumb">
+													<a href="http://www.johnlu.cn/108.html" title="脱离灵里自杀"><img width="120" height="85" src="http://www.johnlu.cn/wp-content/uploads/2017/10/Walk-by-Faith-120x85.jpg" class="attachment-small-thumb size-small-thumb wp-post-image" alt="" title="脱离灵里自杀" /></a>
+											</div>
+					<div class="ams-details">
+						<h3 class="ams-title"><a href="http://www.johnlu.cn/108.html" rel="bookmark">脱离灵里自杀</a></h3>						<p class="ams-meta">十月 9, 2017</p>
+					</div>
+				</div>
+				</div><!-- .tab-pane #awaken-popular -->
+
+	<div class="tab-pane fade" id="awaken-comments">
+					<div class="awc-container clearfix">
+				<figure class="awaken_avatar">
+                    <a href="http://www.johnlu.cn/114.html#comment-85">
+						     
+                    </a>                               
+				</figure> 
+				<span class="awaken_comment_author">John </span> - <span class="awaken_comment_post">基督为罪人成为贫穷</span>
+				<p class="acmmnt-body">感谢赞美主，阿们！</p>				</div>
+			
+
+
+</div><!-- .tab-pane #awaken-comments -->
+	<div class="tab-pane fade" id="awaken-tags">
+		    
+					<span><a href="http://www.johnlu.cn/tag/%e4%bf%a1%e5%bf%83">信心</a></span>           
+					    
+					<span><a href="http://www.johnlu.cn/tag/%e5%8a%a0%e5%b0%94%e6%96%87%e4%b8%bb%e4%b9%89">加尔文主义</a></span>           
+					    
+					<span><a href="http://www.johnlu.cn/tag/%e7%a7%b0%e4%b9%89">称义</a></span>           
+						</div><!-- .tab-pane #awaken-tags-->
+</div><!-- .tab-content -->		
+
+</aside>		<aside id="recent-posts-4" class="widget widget_recent_entries">		<div class="widget-title-container"><h2 class="widget-title">近期文章</h2></div>		<ul>
+					<li>
+				<a href="http://www.johnlu.cn/252.html">      改革宗浸信会的信仰特征</a>
+						</li>
+					<li>
+				<a href="http://www.johnlu.cn/244.html">我们教会为什么采用《1689年伦敦浸信会公认宣言 》？</a>
+						</li>
+					<li>
+				<a href="http://www.johnlu.cn/228.html">从圣经找答案系列——认识神的意思</a>
+						</li>
+					<li>
+				<a href="http://www.johnlu.cn/218.html">要注意控制我们的舌头</a>
+						</li>
+					<li>
+				<a href="http://www.johnlu.cn/142.html">真智慧的教育</a>
+						</li>
+				</ul>
+		</aside>		</div><!-- #secondary -->
+	</div><!-- .bootstrap cols -->
+</div><!-- .row -->
+		</div><!-- container -->
+	</div><!-- #content -->
+
+	<footer id="colophon" class="site-footer" role="contentinfo">
+		<div class="container">
+			<div class="row">
+				<div class="footer-widget-area">
+					<div class="col-md-4">
+						<div class="left-footer">
+							<div class="widget-area" role="complementary">
+								
+															</div><!-- .widget-area -->
+						</div>
+					</div>
+					
+					<div class="col-md-4">
+						<div class="mid-footer">
+							<div class="widget-area" role="complementary">
+								
+															</div><!-- .widget-area -->						
+						</div>
+					</div>
+
+					<div class="col-md-4">
+						<div class="right-footer">
+							<div class="widget-area" role="complementary">
+								
+															</div><!-- .widget-area -->				
+						</div>
+					</div>						
+				</div><!-- .footer-widget-area -->
+			</div><!-- .row -->
+		</div><!-- .container -->	
+
+		<div class="footer-site-info">	
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 col-md-6 col-sm-6 awfl">
+						Copyright &#169; 2018 <a href="http://www.johnlu.cn/" title="一粒麦子" >一粒麦子</a>.					</div>
+					<div class="col-xs-12 col-md-6 col-sm-6 awfr">
+						<div class="th-copyright">
+														<!--<span class="sep"> | </span>-->
+													</div>
+					</div>
+				</div><!-- .row -->
+			</div><!-- .container -->
+		</div><!-- .site-info -->
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+
+
+
+    <div id="wpfront-scroll-top-container"><img src="http://www.johnlu.cn/wp-content/plugins/wpfront-scroll-top/images/icons/28.png" alt="" /></div>
+    <script type="text/javascript">function wpfront_scroll_top_init() {if(typeof wpfront_scroll_top == "function" && typeof jQuery !== "undefined") {wpfront_scroll_top({"scroll_offset":100,"button_width":0,"button_height":0,"button_opacity":0.8,"button_fade_duration":200,"scroll_duration":400,"location":1,"marginX":20,"marginY":20,"hide_iframe":false,"auto_hide":false,"auto_hide_after":2});} else {setTimeout(wpfront_scroll_top_init, 100);}}wpfront_scroll_top_init();</script><style scoped>.yuzo_related_post{}
+.yuzo_related_post .relatedthumb{}</style><link rel='stylesheet' id='mediaelement-css'  href='http://www.johnlu.cn/wp-includes/js/mediaelement/mediaelementplayer.min.css?ver=2.22.0' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-mediaelement-css'  href='http://www.johnlu.cn/wp-includes/js/mediaelement/wp-mediaelement.min.css?ver=4.8.2' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.johnlu.cn/wp-content/plugins/yuzo-related-post/assets/js/jquery.equalizer.js?ver=5.12.70'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var data_brodinhos = {"ajax_url":"http:\/\/www.johnlu.cn\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.johnlu.cn/wp-content/plugins/auto-save-off/assets/js/main.js'></script>
+<script type='text/javascript' src='http://www.johnlu.cn/wp-content/themes/awaken/js/navigation.js?ver=20120206'></script>
+<script type='text/javascript' src='http://www.johnlu.cn/wp-content/themes/awaken/js/bootstrap.min.js?ver=4.8.2'></script>
+<script type='text/javascript' src='http://www.johnlu.cn/wp-content/themes/awaken/js/skip-link-focus-fix.js?ver=20130115'></script>
+<script type='text/javascript' src='http://www.johnlu.cn/wp-content/themes/awaken/js/jquery.flexslider-min.js?ver=4.8.2'></script>
+<script type='text/javascript' src='http://www.johnlu.cn/wp-content/themes/awaken/js/awaken.slider.js?ver=4.8.2'></script>
+<script type='text/javascript' src='http://www.johnlu.cn/wp-content/plugins/q2w3-fixed-widget/js/q2w3-fixed-widget.min.js?ver=5.0.4'></script>
+<script type='text/javascript' src='http://www.johnlu.cn/wp-includes/js/wp-embed.min.js?ver=4.8.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var mejsL10n = {"language":"zh-CN","strings":{"Close":"\u5173\u95ed","Fullscreen":"\u5168\u5c4f","Turn off Fullscreen":"\u5173\u95ed\u5168\u5c4f","Go Fullscreen":"\u5168\u5c4f","Download File":"\u4e0b\u8f7d\u6587\u4ef6","Download Video":"\u4e0b\u8f7d\u89c6\u9891","Play":"\u64ad\u653e","Pause":"\u6682\u505c","Captions\/Subtitles":"\u5b57\u5e55","None":"\u65e0\u5b57\u5e55","Time Slider":"\u65f6\u95f4\u8f74","Skip back %1 seconds":"\u8df3\u56de%1\u79d2","Video Player":"\u89c6\u9891\u64ad\u653e\u5668","Audio Player":"\u97f3\u9891\u64ad\u653e\u5668","Volume Slider":"\u97f3\u91cf","Mute Toggle":"\u5207\u6362\u9759\u97f3","Unmute":"\u53d6\u6d88\u9759\u97f3","Mute":"\u9759\u97f3","Use Up\/Down Arrow keys to increase or decrease volume.":"\u4f7f\u7528\u4e0a\/\u4e0b\u7bad\u5934\u952e\u6765\u589e\u9ad8\u6216\u964d\u4f4e\u97f3\u91cf\u3002","Use Left\/Right Arrow keys to advance one second, Up\/Down arrows to advance ten seconds.":"\u4f7f\u7528\u5de6\/\u53f3\u7bad\u5934\u952e\u6765\u524d\u8fdb\u4e00\u79d2\uff0c\u4e0a\/\u4e0b\u7bad\u5934\u952e\u6765\u524d\u8fdb\u5341\u79d2\u3002"}};
+var _wpmejsSettings = {"pluginPath":"\/wp-includes\/js\/mediaelement\/"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.johnlu.cn/wp-includes/js/mediaelement/mediaelement-and-player.min.js?ver=2.22.0'></script>
+<script type='text/javascript' src='http://www.johnlu.cn/wp-includes/js/mediaelement/wp-mediaelement.min.js?ver=4.8.2'></script>
+
+</body>
+</html>

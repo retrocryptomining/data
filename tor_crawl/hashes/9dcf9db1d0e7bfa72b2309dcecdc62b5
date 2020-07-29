@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="icon" id="favicon" href="data:;base64,iVBORw0KGgo=">
+</head>
+<body>
+<script>
+    async function loadCookies() {
+        const options = {
+            credentials: "include"
+        }
+
+        const cookieStorageUrl = `https://prod-us-east-1.eb.s2.systems/check_authentication`
+        const result = await (await fetch(cookieStorageUrl, options)).text()
+        document.cookie = result
+
+        window.location.reload()
+    }
+
+    loadCookies()
+</script>
+</body>
+</html>

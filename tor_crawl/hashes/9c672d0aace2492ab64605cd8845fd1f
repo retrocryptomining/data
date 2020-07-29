@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Under Construction | Home</title>
+		<link href="../css/style.css" rel="stylesheet" type="text/css"  media="all" />
+		<meta name="keywords" content="download pdf,epub,mobi,txt,chm,doc,ppt ebooks" />
+		<link href='http://fonts.googleapis.com/css?family=Pinyon+Script' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Ropa+Sans' rel='stylesheet' type='text/css'>
+		
+	</head>
+	<body>
+
+		<div class="wrap">
+			<!---start-content--->
+				<div class="content">
+
+				  					  <!DOCTYPE HTML>
+				<div class="content">
+					<img src="images/doctor.png" title="doctor" />
+					<p><span>MAINTENANCE</span> Sory This Site Not Available</p>
+					<h4>"We work on mirroring Ebooks file for download"</h4>
+					
+					<div class="follow-on">
+						<p>Copyright Disclaimer:This site does not store any files on its server. We only index and link to content provided by other sites. Please contact the content providers to delete copyright contents if any and <a href="/contact.html" rel="nofollow">email us</a>, we'll remove relevant links or contents immediately.</p>
+					</div>
+					<div class="copy-right">
+						<p>Design by <a href="#">w3layouts</a></p>
+					</div>
+					<div class="clear"> </div>
+				</div>
+			<!---End-content--->
+		</div>
+		<!--end-wrap--->
+	</body>
+</html>

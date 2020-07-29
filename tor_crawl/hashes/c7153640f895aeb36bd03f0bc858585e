@@ -1,0 +1,42 @@
+<HTML><HEAD>
+<TITLE>ICAP Error</TITLE>
+</HEAD>
+<BODY>
+<FONT face="Helvetica">
+<big><strong></strong></big><BR>
+</FONT>
+<blockquote>
+<TABLE border=0 cellPadding=1 width="80%">
+<TR><TD>
+<FONT face="Helvetica">
+<big>ICAP Error (icap_error)</big>
+<BR>
+<BR>
+</FONT>
+</TD></TR>
+<TR><TD>
+<FONT face="Helvetica">
+An error occurred while performing an ICAP operation: Server unavailable: No ICAP server is available to process request.
+</FONT>
+</TD></TR>
+<TR><TD>
+<FONT face="Helvetica">
+There could be a network problem, the ICAP service may be misconfigured, or the ICAP server may have reported an error.
+</FONT>
+</TD></TR>
+<TR><TD>
+<BR>
+<FONT face="Helvetica">
+Transaction ID: 2466178328377966-0000000004e24a42-000000005c1fbbc3
+</FONT>
+</TD></TR>
+<TR><TD>
+<FONT face="Helvetica" SIZE=2>
+<BR>
+For assistance, contact your network support team.
+</FONT>
+</TD></TR>
+</TABLE>
+</blockquote>
+</FONT>
+</BODY></HTML>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head id="j_idt2"><link type="text/css" rel="stylesheet" href="/javax.faces.resource/theme.css.jsf?ln=primefaces-aristo" /><link type="text/css" rel="stylesheet" href="/javax.faces.resource/morris.css.jsf;jsessionid=c3349dc541f6e286b2265f018a24?ln=plugins/morris" /><link type="text/css" rel="stylesheet" href="/javax.faces.resource/bootstrap.min.css.jsf;jsessionid=c3349dc541f6e286b2265f018a24?ln=css" /><link type="text/css" rel="stylesheet" href="/javax.faces.resource/icons.css.jsf;jsessionid=c3349dc541f6e286b2265f018a24?ln=css" /><link type="text/css" rel="stylesheet" href="/javax.faces.resource/style.css.jsf;jsessionid=c3349dc541f6e286b2265f018a24?ln=css" /><script type="text/javascript">if(window.PrimeFaces){PrimeFaces.settings.locale='pt_BR';PrimeFaces.settings.projectStage='Development';}</script>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui" />
+        <title>Integração VRE</title>
+        <meta content="Admin Dashboard" name="description" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+        <link rel="shortcut icon" href="/javax.faces.resource/images/brasao.ico.jsf;jsessionid=c3349dc541f6e286b2265f018a24" /></head><body>
+<form id="j_idt9" name="j_idt9" method="post" action="/pages-404.jsf;jsessionid=c3349dc541f6e286b2265f018a24" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="j_idt9" value="j_idt9" />
+
+            <!-- Begin page -->
+            <div class="accountbg"></div>
+            <div class="wrapper-page">
+                <div class="ex-page-content text-center">
+                    <h1 class="text-white">Erro 404!</h1>
+                    <h2 class="text-white">Desculpe, página não encontrada...</h2><br /><script type="text/javascript" src="/javax.faces.resource/jsf.js.jsf;jsessionid=c3349dc541f6e286b2265f018a24?ln=javax.faces&amp;stage=Development"></script><a href="#" onclick="mojarra.jsfcljs(document.getElementById('j_idt9'),{'j_idt9:j_idt11':'j_idt9:j_idt11'},'');return false" class="btn btn-info waves-effect waves-light">Voltar para o início</a>
+
+                </div>
+            </div><input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:0" value="-8197742434929314973:-2172491243653510268" autocomplete="off" />
+</form>
+
+
+        <!-- jQuery  --><script type="text/javascript" src="/javax.faces.resource/jquery.min.js.jsf;jsessionid=c3349dc541f6e286b2265f018a24?ln=js"></script><script type="text/javascript" src="/javax.faces.resource/bootstrap.min.js.jsf;jsessionid=c3349dc541f6e286b2265f018a24?ln=js"></script><script type="text/javascript" src="/javax.faces.resource/modernizr.min.js.jsf;jsessionid=c3349dc541f6e286b2265f018a24?ln=js"></script><script type="text/javascript" src="/javax.faces.resource/detect.js.jsf;jsessionid=c3349dc541f6e286b2265f018a24?ln=js"></script><script type="text/javascript" src="/javax.faces.resource/fastclick.js.jsf;jsessionid=c3349dc541f6e286b2265f018a24?ln=js"></script><script type="text/javascript" src="/javax.faces.resource/jquery.slimscroll.js.jsf;jsessionid=c3349dc541f6e286b2265f018a24?ln=js"></script><script type="text/javascript" src="/javax.faces.resource/jquery.blockUI.js.jsf;jsessionid=c3349dc541f6e286b2265f018a24?ln=js"></script><script type="text/javascript" src="/javax.faces.resource/waves.js.jsf;jsessionid=c3349dc541f6e286b2265f018a24?ln=js"></script><script type="text/javascript" src="/javax.faces.resource/wow.min.js.jsf;jsessionid=c3349dc541f6e286b2265f018a24?ln=js"></script><script type="text/javascript" src="/javax.faces.resource/jquery.nicescroll.js.jsf;jsessionid=c3349dc541f6e286b2265f018a24?ln=js"></script><script type="text/javascript" src="/javax.faces.resource/jquery.scrollTo.min.js.jsf;jsessionid=c3349dc541f6e286b2265f018a24?ln=js"></script>
+
+
+
+        <!--Morris Chart--><script type="text/javascript" src="/javax.faces.resource/morris.min.js.jsf;jsessionid=c3349dc541f6e286b2265f018a24?ln=plugins/morris"></script><script type="text/javascript" src="/javax.faces.resource/raphael-min.js.jsf;jsessionid=c3349dc541f6e286b2265f018a24?ln=plugins/raphael"></script><script type="text/javascript" src="/javax.faces.resource/dashborad.js.jsf;jsessionid=c3349dc541f6e286b2265f018a24?ln=pages"></script><script type="text/javascript" src="/javax.faces.resource/app.js.jsf;jsessionid=c3349dc541f6e286b2265f018a24?ln=js"></script></body>
+</html>

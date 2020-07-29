@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-WF7HJ9N');</script>
+    <!-- End Google Tag Manager -->
+    <meta charset="utf-8">
+    <title>404 Error Page | Fox Render Farm</title>
+    <meta name="description" content="404 Error Page">
+<meta name="keywords" content="404 Error Page">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Le styles -->
+    <link href="/css/help-layout.css?v=201901241452" media="screen" rel="stylesheet" type="text/css">
+<link href="/css/style.css?v=2019032001" media="screen" rel="stylesheet" type="text/css">
+<link href="/css/font-awesome.min.css" media="screen" rel="stylesheet" type="text/css">
+<link href="/img/common/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
+    <!-- Scripts -->
+    <!--[if lt IE 9]><script type="text/javascript" src="/js/html5shiv.min.js"></script><![endif]-->
+<!--[if lt IE 9]><script type="text/javascript" src="/js/respond.min.js"></script><![endif]-->
+<script type="text/javascript" src="/js/jquery.min.js"></script>
+<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/js/responseweb.js"></script>
+<script type="text/javascript" src="/js/public.js"></script>    <meta name="google-site-verification" content="9VPYSe_bKaBt7ZUdjNVkJ2vf3tTyuE1BH2pbcOrD6hA" />
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@foxrenderfarm">
+    <meta name="twitter:creator" content="@foxrenderfarm">
+    <meta name="twitter:image" content="http://www.foxrenderfarm.com/img/index/fox_info.jpg">
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WF7HJ9N" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header row">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/"><img src="/img/common/foxrenderfarm-logo.png" alt="FoxRenderfarm"/></a>
+        </div>
+        <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right navbar-switch">
+                <!-- <li><a href="https://www2.foxrenderfarm.com/customerLogin.action?" class="register">Sign In</a></li>
+                <li class="divider"></li>
+                <li><a href="https://www2.foxrenderfarm.com/register.action" class="register">Register</a></li> -->
+                <li><a href="https://task.foxrenderfarm.com/account?customerLogin.action" class="register">Sign In</a></li>
+                <li class="divider"></li>
+                <li><a href="https://task.foxrenderfarm.com/account?register.action" class="register">Register</a></li>
+                <li class="dropdown switch-language">
+                    <a href="#" class="dropdown-toggle english">English</a>
+                  <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu" id="languageNav">
+                      <script>
+                          $(document).ready(function() {
+                              languageNav("english");
+                          });
+                      </script>
+
+                </ul>
+                </li>
+            </ul>
+            <ul id="navbar-main" class="nav navbar-nav navbar-right navbar-main">
+                <li ><a href="/">Home</a></li>
+                <li ><a href="/cloud-rendering.html">Cloud Rendering</a></li>
+                <li ><a href="/pricing.html">Pricing</a></li>
+                <li ><a href="/client-works.html">Customers</a></li>
+                <li ><a href="/about.html">Company</a></li>
+                <li ><a href="/news/main">News</a></li>
+                <li ><a href="/support/index">Support</a></li>
+            </ul>
+        </div><!--/.nav-collapse -->
+    </div>
+</nav>
+<div class="content">
+    <div id="error-page">
+    <div class="container">
+        <h1>Page Not Found</h1>
+        <h2>The FOX is out of the farm!</h2>
+        <p>Back to the <a href="/">homepage</a> OR enjoy the <a href="/client-works.html">works rendered by FoxRenderfarm!</a></p>
+    </div>
+
+</div></div> <!-- /container -->
+<!--网站左侧联系方式-英文：skype email phone-->
+<div class="banner-contact">
+    <ul class="contact-icon">
+        <li>
+            <a href="skype:foxrenderfarm?call" class="icon-skype" title="Click to connect with online service"></a>
+        </li>
+        <li>
+            <a href="mailto:service@foxrenderfarm.com" class="icon-email" title="service@foxrenderfarm.com"></a>
+        </li>
+        <li>
+            <a href="tel:+8617727984762" class="icon-phone" title="tel:+8617727984762"></a>
+        </li>
+        <li class="to-top"></li>
+    </ul>
+</div>
+<!--手机版本的注册登录-->
+<div class="phonelogin">
+    <div class="row">
+        <div class="col-md-6 col-xs-6 col-sm-6" style="padding: 0px">
+            <a class="phoneregister" href="https://task.foxrenderfarm.com/account?register.action" target="_blank">Register</a>
+        </div>
+        <div class="col-md-6 col-xs-6 col-sm-6" style="padding: 0px">
+          <a class="phonecontact" href="mailto:service@foxrenderfarm.com?subject=Fox Renderfarm Inquiry"  target="_blank">Contact Us</a>
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="logo">
+                <a href="/"><img src="/img/common/foxrenderfarm-logo-1.png" alt="foxrenderfarm" /></a>
+                <p>Powerful Render Farm Service</p>
+            </div>
+            <div class="company">
+                <p class="title">Company</p>
+                <a href="/about.html">About Fox Renderfarm</a>
+                <a href="/cloud-rendering.html">Cloud Rendering</a>
+                <a href="/free-render-farm.html">GoCloud Program</a>
+                <a href="/share/index">Render Farm Blog</a>
+                <a href="/client-works.html">Render Farm Customer</a>
+                <a href="/partner.html">Render Farm Partners</a>
+                <a href="/download.html">Download</a>
+                <a href="/term-of-service.html">Terms of Service</a>
+                <a href="/cgts-india.html">CG Tech summbit</a>
+            </div>
+            <div class="contact">
+                <p class="title">Connect with Us</p>
+                <ul>
+                    <li class="skype"><a href="skype:foxrenderfarm?call" target="_blank">Skype</a></li>
+                    <li class="facebook"><a href="https://www.facebook.com/foxrender/" target="_blank">Facebook</a></li>
+                    <li class="twitter"><a href="https://twitter.com/foxrenderfarm" target="_blank">Twitter</a></li>
+                    <li class="google"><a href="https://plus.google.com/100776137219553048237" target="_blank">Google+</a></li>
+                    <li class="youtube"><a href="https://www.youtube.com/channel/UCc_B8E0FCvaUg1XO7zLRW1g" target="_blank">YouTube</a></li>
+                    <li class="linkedin"><a href="https://www.linkedin.com/company/foxrenderfarm/" target="_blank">Linkedin</a></li>
+                </ul>
+            </div>
+            <div class="business-consulting">
+                <p class="title">Business Consulting</p>
+                <p>Media Contact: Rachel Chen</p>
+                <p>Email: rachel@foxrenderfarm.com</p>
+                <p>Global Agent Contact: Gordon Shaw</p>
+                <p>Email: gordon@foxrenderfarm.com</p>
+            </div>
+            <div class="newsletter">
+                <!-- Begin MailChimp Signup Form -->
+<!--                <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">-->
+                <style type="text/css">
+                    #mc_embed_signup{background:#f6f7fa; clear:left; font:14px Helvetica,Arial,sans-serif; }
+                    #mc_embed_signup h2{font-size: 16px;font-weight:normal;}
+                    #mc_embed_signup label{font-size: 14px;font-weight: normal;}
+                    #mc_embed_signup .email{margin-top: 21px; margin-bottom: 11px;}
+                    #mc_embed_signup #mc-embedded-subscribe{background-color: #fb6b4a; border-radius: 20px; padding: 6px 38px;height: auto; line-height: inherit;color:white;}
+                    #mc_embed_signup #mc-embedded-subscribe:hover{background-color: #e36327;}
+                    /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+                       We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+                </style>
+                <div id="mc_embed_signup">
+                    <form action="//foxrenderfarm.us16.list-manage.com/subscribe/post?u=8e6c5316453b1142ad1cc7aa9&amp;id=277fec41ff" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                        <div id="mc_embed_signup_scroll">
+                            <p class="title">Newsletter</p>
+                            <div class="mc-field-group">
+                                <label for="mce-EMAIL">Subscribe with us for the latest news and events.</label>
+                                <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                            </div>
+                            <div id="mce-responses" class="clear">
+                                <div class="response" id="mce-error-response" style="display:none"></div>
+                                <div class="response" id="mce-success-response" style="display:none"></div>
+                            </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_8e6c5316453b1142ad1cc7aa9_277fec41ff" tabindex="-1" value="" placeholder="Email:"></div>
+                            <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                        </div>
+                    </form>
+                </div>
+
+                <!--End mc_embed_signup-->
+            </div>
+<!--            <div class="btn-group dropup" style="margin-left: 15%;display: none" id="btnlanguage">-->
+<!--                <button class="btn btn-mini dropdown-toggle" data-toggle="dropdown" style="padding: 0px">language</button>-->
+<!--                <button class="btn btn-mini dropdown-toggle" data-toggle="dropdown" style="padding: 0px">-->
+<!--                    <span class="caret"></span>-->
+<!--                </button>-->
+<!--                <ul class="dropdown-menu">-->
+<!--                    <li><a href="#" class="dropdown-toggle english">English</a></li>-->
+<!--                    <li><a href="--><!--" class="japanese">日本語</a></li>-->
+<!--  <li>  <a href="--><!--" class="spanish" style="margin-left: -5px">España</a></li>-->
+<!-- <li><a href="--><!--" class="portugal">Português</a></li>-->
+<!--     <li><a href="--><!--" class="deutsch">Deutsch</a></li>-->
+<!--                </ul>-->
+<!--            </div>-->
+        </div>
+
+
+<!---->
+<!--                    <ul class="nav navbar-nav navbar-right navbar-switch" id="bottomnav">-->
+<!--                        <li class="dropdown switch-language">-->
+<!--                            <a href="#" class="dropdown-toggle english">English</a>-->
+<!--                            <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">-->
+<!--                                <li>-->
+<!---->
+<!--                                    <a href="--><!--" class="japanese">日本語</a>-->
+<!--                                </li>-->
+<!--                                <li>-->
+<!--                                    <a href="--><!--" class="spanish" style="margin-left: -5px">España</a>-->
+<!--                                </li>-->
+<!--                                <li>-->
+<!--                                    <a href="--><!--" class="portugal">Português</a>-->
+<!--                                </li>-->
+<!--                            </ul>-->
+<!--                        </li>-->
+<!--                    </ul>-->
+
+
+        <div class="copyright">
+            <p>Copyright © 2019 FoxRenderfarm.com Powered By Shenzhen Rayvision Technology Co., Ltd. <a target="_blank" href="http://www.miitbeian.gov.cn">粤ICP备12028569号-1</a></p>
+        </div>
+    </div>
+    <div id="bottom_tips">
+        <div class="text">
+            <p>We use cookies and other technologies on this website to enhance your user experience.</p>
+            <p>By clicking any link on this page you are giving your consent to our Cookies Policy and Privacy Policy.</p>
+        </div>
+        <div class="btns">
+            <a id="lernmore" target="_blank" href=" http://www.foxrenderfarm.com/privacy.html">Learn more</a>
+            <a id="agree" style="cursor:pointer;">OK, I agree</a>
+        </div>
+<!--        http://www.foxrenderfarm.com-->
+    </div>
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-52094851-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+    <!-- Hotjar Tracking Code for www.foxrenderfarm.com -->
+    <script>
+        (function(h,o,t,j,a,r){
+            h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+            h._hjSettings={hjid:749043,hjsv:6};
+            a=o.getElementsByTagName('head')[0];
+            r=o.createElement('script');r.async=1;
+            r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+    </script>
+    <script>
+
+        function setCookie(name,value,iDay){
+            var oDate = new Date();
+            oDate.setDate(oDate.getDate()+iDay);
+            document.cookie = name+'='+value+';expires='+oDate;
+        }
+        function getCookie(name){
+            var arr = document.cookie.split('; ');
+            for (var i = 0; i < arr.length; i++) {
+                var arr2 = arr[i].split('=');
+                if(arr2[0] == name){
+                    return arr2[1];
+                }
+            }
+            return '';
+        }
+        window.onload = function ( ) {
+
+            var bottomTips = document.getElementById('bottom_tips');
+            var allreadyView = getCookie('allreadyView');
+            // console.log(allreadyView.length);
+            if(allreadyView.length > 0){
+                bottomTips.style.display = 'none';
+            }else{
+                bottomTips.style.height = 'auto';
+                setCookie('allreadyView','allreadyView',365);
+            }
+            document.getElementById('agree').onclick = function (ev) {
+                bottomTips.style.height = '0';
+            };
+        }
+    </script>
+    <script>
+        function setCookie(name,value) {
+            var Days = 7;
+            var exp = new Date();
+            exp.setTime(exp.getTime() + Days*24*60*60*1000);
+            document.cookie = name + "="+ value + ";expires=" + exp.toGMTString()+";path=/;domain="+getRootHost();
+        }
+
+        function getRootHost(){
+            var host=document.domain;
+            if(host.indexOf("foxrenderfarm.com")>0){
+                return ".foxrenderfarm.com";
+            }else if(host.indexOf("renderbus.com")>0){
+                return ".renderbus.com";
+            }
+        }
+
+        function setRefferToCookie(){
+            var ref = '';
+            if (document.referrer.length > 0) {
+                ref = document.referrer;
+            }
+            try {
+                if (ref.length == 0 && window.location.href.length > 0) {
+                    ref = window.location.href;
+                }
+            } catch (e) {}
+            var reg = /.*(renderbus\.com|foxrenderfarm\.com|rayvision\.com).*/;
+            var isSelfSite = reg.test(ref);
+            if(isSelfSite && ref!=''){
+                setCookie('rayvision_agent_reffer',encodeURIComponent(ref));
+            }
+            var comefromReg = /.*\.(com|cn).*(?=\/.*)/
+            if(ref.match(comefromReg)) {
+                var result = ref.match(comefromReg)[0]
+                setCookie('comefrom', result);
+            }
+        }
+
+        setRefferToCookie();
+    </script>
+</footer>
+<script type="text/javascript" src="/js/page/languagenav.js"></script>
+<script type="text/javascript" src="/js/layer/layer.js"></script></body>
+</html>

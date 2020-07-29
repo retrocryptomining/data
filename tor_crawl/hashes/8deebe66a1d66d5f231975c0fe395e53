@@ -1,0 +1,90 @@
+<html>
+<head>
+<title>Web Acces Denied</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body bgcolor="#E8F3F4" link="#339999" vlink="#33CCCC" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td>&nbsp;</td>
+    <td width="640" height="480" align="left" valign="top" nowrap bgcolor="#E8F3F4"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td bgcolor="#339999">&nbsp;</td>
+        </tr>
+        <tr>
+          <td bgcolor="#339999">&nbsp;</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td height="349" bgcolor="#CCCCCC"> 
+            <table width="100%" border="0" cellspacing="5" cellpadding="0">
+              <tr>
+                <td> 
+                  <table width="100%" border="0" cellspacing="1" cellpadding="0">
+                    <tr> 
+                      <td width="15%" rowspan="2" align="center" valign="top" bgcolor="#CC3300"><strong><font color="#FFFFFF" size="+7" face="Verdana, Arial, Helvetica, sans-serif">X</font></strong></td>
+                      <td width="85%" align="center" valign="middle" bgcolor="#666666"><font color="#FFFFFF" size="+3" face="Verdana, Arial, Helvetica, sans-serif"><strong>WEB 
+                        ACCESS DENIED</strong></font></td>
+                    </tr>
+                    <tr> 
+                      <td align="center" valign="middle" bgcolor="#666666"><font color="#FFFFFF" size="+1" face="Verdana, Arial, Helvetica, sans-serif"><strong>REQUESTED 
+                        URL COULD NOT BE RETRIEVED</strong></font></td>
+                    </tr>
+                  </table></td>
+              </tr>
+              <tr>
+                <td bgcolor="#F2F2F2">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr> 
+                      <td width="6%" rowspan="6" align="center">&nbsp;</td>
+                      <td width="88%" align="center">&nbsp;</td>
+                      <td width="6%" colspan="3" rowspan="6" align="center">&nbsp;</td>
+                    </tr>
+                    <tr> 
+                      <td align="center"><font face="Arial, Helvetica, sans-serif"><font size="+1" face="Arial, Helvetica, sans-serif"><strong>The 
+                        Web Access Control Configuration prevents the URL requested 
+                        by you to be retrieved at this time, contact your network 
+                        administrator if you feel this is incorrect.</strong></font></font></td>
+                    </tr>
+                    <tr> 
+                      <td>&nbsp;</td>
+                    </tr>
+                    <tr> 
+                      <td><font size="-1" face="Verdana, Arial, Helvetica, sans-serif"><br>
+                        You are seeing this error because the page you attempted 
+                        to access contains, or is labelled as containing, material 
+                        that has been deemed inappropriate or is not related with 
+                        your job activities.</font>
+                        <p></p></td>
+                    </tr>
+                    <tr> 
+                      <td align="center" valign="middle">&nbsp;</td>
+                    </tr>
+                    <tr> 
+                      <td align="center" valign="middle"><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><br>
+                        Use the browser's back button to go to the previous page.<br>
+                        <br>
+                        </font></td>
+                    </tr>
+                  </table></td>
+              </tr>
+            </table></td>
+        </tr>
+        <tr>
+          <td height="35">&nbsp;</td>
+        </tr>
+        <tr>
+          <td height="40" align="right" valign="middle" bgcolor="#339999"><font color="#FFFFFF" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Powered 
+            by Kypus&#8482; Sever Appliance</strong></font></td>
+        </tr>
+      </table>
+    </td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+</body>
+</html>

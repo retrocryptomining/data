@@ -1,0 +1,64 @@
+<html>
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="/resources/images/favicon.png">
+<style>
+@font-face {
+  font-family: 'Jockey One';
+  font-weight: 400;
+  font-style: normal;
+  src: url('/resources/fonts/Jockey-One-regular/Jockey-One-regular.eot');
+  src: url('/resources/fonts/Jockey-One-regular/Jockey-One-regular.eot?#iefix') format('embedded-opentype'),
+       local('Jockey One'),
+       local('Jockey-One-regular'),
+       url('/resources/fonts/Jockey-One-regular/Jockey-One-regular.woff2') format('woff2'),
+       url('/resources/fonts/Jockey-One-regular/Jockey-One-regular.woff') format('woff'),
+       url('/resources/fonts/Jockey-One-regular/Jockey-One-regular.ttf') format('truetype'),
+       url('/resources/fonts/Jockey-One-regular/Jockey-One-regular.svg#JockeyOne') format('svg');
+}
+@font-face {
+  font-family: 'Molengo';
+  font-weight: 400;
+  font-style: normal;
+  src: url('/resources/fonts/Molengo-regular/Molengo-regular.eot');
+  src: url('/resources/fonts/Molengo-regular/Molengo-regular.eot?#iefix') format('embedded-opentype'),
+       local('Molengo'),
+       local('Molengo-regular'),
+       url('/resources/fonts/Molengo-regular/Molengo-regular.woff2') format('woff2'),
+       url('/resources/fonts/Molengo-regular/Molengo-regular.woff') format('woff'),
+       url('/resources/fonts/Molengo-regular/Molengo-regular.ttf') format('truetype'),
+       url('/resources/fonts/Molengo-regular/Molengo-regular.svg#Molengo') format('svg');
+}
+</style>
+
+
+<script src="/resources/js/jquery-1.11.3.min.js"></script>
+<script src="/resources/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="/resources/css/bootstrap.min.css" />
+<link rel="stylesheet" href="/resources/css/style-gral.css" />
+<link rel="stylesheet" href="/resources/css/style-cookies.css" />
+<link rel="stylesheet" href="/resources/css/style-product.css" />
+<link rel="stylesheet" href="/resources/css/header.css" />
+	<link rel="stylesheet" href="/resources/css/style-error.css" />
+	<title>?Aib?!</title>
+</head>
+<body>
+	<div class="error">
+		<div class="error-code m-b-10 m-t-20">
+			404 <i class="fa fa-warning"></i>
+		</div>
+		<h3 class="font-bold">?Aib?!</h3>
+
+		<div class="error-desc">
+			Parece que la p?gina que buscas no est? por aqu?. No te preocupes. Nuestro elefante dice que todo volver? a estar bien.
+			<div>
+				<a class=" login-detail-panel-button btn"
+					href="/web/menu/cart"> <i class="fa fa-arrow-left"></i>
+					Volver al principio
+				</a>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

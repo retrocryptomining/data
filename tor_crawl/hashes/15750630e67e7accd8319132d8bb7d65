@@ -1,0 +1,9 @@
+<head>
+<title>Error response</title>
+</head>
+<body>
+<h1>Error response</h1>
+<p>Error code 504.
+<p>Message: Gateway Timeout.
+<p>Error code explanation: 504 = The gateway server did not receive a timely response.
+</body>

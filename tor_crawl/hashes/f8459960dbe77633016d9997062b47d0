@@ -1,0 +1,143 @@
+<!doctype html>
+<html>
+<head>
+  <style>
+    html,
+    body {
+      font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+      position: relative;
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-smooth: auto;
+      min-height: 400px;
+      font-size: 14px;
+    }
+    #header {
+      background: #dde0e2;
+      padding: 15px;
+      box-sizing: border-box;
+      position: relative;
+    }
+    #footer {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      background: #6d7d8d;
+      padding: 15px;
+      text-align: right;
+      font-size: 12px;
+      color: #fff;
+      box-sizing: border-box;
+    }
+    .center {
+      max-width: 800px;
+      margin: 0 auto;
+      position: relative;
+    }
+    #content {
+      position: absolute;
+      top: 75px;
+      bottom: 75px;
+      left: 0;
+      right: 0;
+      min-height: 200px;
+      padding: 15px;
+    }
+    #ibLogo {
+      height: 45px;
+      background-repeat: no-repeat;
+      background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MjMgMTM1LjciPgogIDxzdHlsZT4KICAgIC5zdDB7ZmlsbDojMDEwMTAxO30gLnN0MXtmaWxsOiM1OTg2M0M7fQogIDwvc3R5bGU+CiAgPHBhdGggY2xhc3M9InN0MCIgZD0iTTI1LjQgMzguMUgwYzAtMTEuNiAxMi4yLTIyLjYgMjUuNC0yMi42djIyLjZ6Ii8+CiAgPHBhdGggY2xhc3M9InN0MSIgZD0iTTI1MC45IDI1Ljl2MjUuNmM5LjIgNi4yIDE1LjEgMTYuMSAxNS4xIDI3LjMgMCAxOC44LTE2LjggMzQtMzcuNiAzNC0yMC43IDAtMzcuNi0xNS4yLTM3LjYtMzQgMC0xMS4yIDYtMjEuMSAxNS4yLTI3LjNWMjUuOWMtMjIuMyA4LjQtMzggMjguOS0zOCA1Mi45IDAgMzEuNSAyNyA1NyA2MC40IDU3IDMzLjMgMCA2MC40LTI1LjUgNjAuNC01NyAwLTI0LTE1LjctNDQuNS0zNy45LTUyLjl6Ii8+CiAgPHBhdGggY2xhc3M9InN0MCIgZD0iTTk4LjUgMjEuOGMtMTQuOCAwLTMwLjMgNi41LTM3LjMgMTRWMGgtMjN2NzguN2MwIDM0LjQgMjQuMiA1NyA2MC40IDU3IDMzLjMgMCA2MC40LTI1LjUgNjAuNC01N3MtMjcuMi01Ni45LTYwLjUtNTYuOXptMCA5MWMtMjAuNyAwLTM3LjYtMTUuMi0zNy42LTM0IDAtMjAuNiAxNi44LTM0IDM3LjYtMzQgMjAuNyAwIDM3LjYgMTUuMiAzNy42IDM0cy0xNi45IDM0LTM3LjYgMzR6Ii8+CiAgPHBhdGggY2xhc3M9InN0MSIgZD0iTTIyOC41IDE5LjVjLTQgMC03LjkuMy0xMS43Ljl2NjMuM2gyMy4zVjIwLjRjLTMuNy0uNi03LjYtLjktMTEuNi0uOSIvPgogIDxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0zNTguNyAxMTEuMWgtNjF2MjIuNWg2My44YzEzLjUgMCAzMS40LTYuNyAzMS40LTI5LjIgMC0yMC41LTEzLjQtMjctMjIuNy0zMC0xMy43LTQuMy0zMC41LTkuNi00MC4zLTEyLjgtMy44LTEuMi03LjUtMi42LTcuNS03LjUgMC02LjIgNi4zLTYuNyAxMS4zLTYuN2g1M1YyNC45aC01NS41Yy0xNi43IDAtMzMuOCA3LjktMzMuOCAyOS4zIDAgMjEuMiAxMy41IDI2LjMgMjQuMSAyOS43IDE0LjIgNC41IDI1LjQgOC4xIDM5LjEgMTIuNSAzLjUgMS4xIDcuMyAzLjEgNy4zIDcuNCAwIDYuNS02LjQgNy4zLTkuMiA3LjNtMTA2LjEgMGgtNjF2MjIuNWg2My44YzEzLjUgMCAzMS40LTYuNyAzMS40LTI5LjIgMC0yMC41LTEzLjQtMjctMjIuNy0zMC0xMy43LTQuMy0zMC41LTkuNi00MC4zLTEyLjgtMy44LTEuMi03LjUtMi42LTcuNS03LjUgMC02LjIgNi4zLTYuNyAxMS4zLTYuN2g1M1YyNC45aC01NS41Yy0xNi43IDAtMzMuOCA3LjktMzMuOCAyOS4zIDAgMjEuMiAxMy41IDI2LjMgMjQuMSAyOS43IDE0LjEgNC41IDI1LjQgOC4xIDM5LjEgMTIuNSAzLjUgMS4xIDcuMyAzLjEgNy4zIDcuNCAwIDYuNS02LjMgNy4zLTkuMiA3LjNtLTQzOS40LTYySDBWMTEwYzAgMTEuNiAxMi4yIDIyLjYgMjUuNCAyMi42VjQ5LjF6bTQ3NS0xMi45YzAtMiAuNS0zLjkgMS41LTUuNiAxLTEuOCAyLjQtMy4xIDQuMS00LjEgMS44LTEgMy42LTEuNSA1LjctMS41IDIgMCAzLjkuNSA1LjYgMS41IDEuOCAxIDMuMSAyLjQgNC4xIDQuMSAxIDEuOCAxLjUgMy42IDEuNSA1LjcgMCAyLS41IDMuOC0xLjUgNS42LTEgMS43LTIuMyAzLjEtNC4xIDQuMi0xLjggMS0zLjcgMS42LTUuOCAxLjYtMi4xIDAtNC0uNS01LjctMS42LTEuOC0xLTMuMS0yLjQtNC4xLTQuMi0uOC0xLjktMS4zLTMuNy0xLjMtNS43em0xLjYgMGMwIDEuNy40IDMuNCAxLjMgNC45LjkgMS41IDIuMSAyLjcgMy42IDMuNiAxLjUuOSAzLjEgMS4zIDQuOCAxLjMgMS43IDAgMy40LS40IDQuOC0xLjMgMS41LS45IDIuNy0yIDMuNi0zLjUuOS0xLjUgMS4zLTMuMSAxLjMtNC45IDAtMS43LS40LTMuNC0xLjMtNC44LS45LTEuNS0yLTIuNy0zLjUtMy42LTEuNS0uOS0zLjEtMS4zLTQuOS0xLjMtMS43IDAtMy40LjQtNC44IDEuMy0xLjUuOS0yLjcgMi0zLjYgMy41LS44IDEuNC0xLjMgMy0xLjMgNC44em0xNC4zLTIuOGMwIC44LS4yIDEuNS0uNiAyLjEtLjQuNi0xIDEuMS0xLjggMS40bDMuNiA1LjlINTE1bC0zLjEtNS4zaC0ydjUuM2gtMi4yVjI5LjVoMy45YzEuNyAwIDIuOS4zIDMuNyAxIC42LjYgMSAxLjYgMSAyLjl6bS02LjUgMi4zaDEuNmMuOCAwIDEuNC0uMiAxLjktLjYuNS0uNC43LS45LjctMS42IDAtLjgtLjItMS4zLS42LTEuNi0uNC0uMy0xLjEtLjUtMi0uNWgtMS42djQuM3oiLz4KPC9zdmc+");
+    }
+    .error-content {
+      position: relative;
+      max-width: 500px;
+      margin: 60px auto 0 auto;
+      padding: 15px;
+      border:1px solid #dadada;
+      border-radius: 5px;
+    }
+    .error-img {
+      background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxODIiIGhlaWdodD0iMTYwLjgiPjxzdHlsZT4uc3Qwe2ZpbGw6I2FhYX08L3N0eWxlPjxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik05OS40IDk4LjdsMi42LTQ3LjRIODBsMi42IDQ3LjR6Ii8+PHBhdGggY2xhc3M9InN0MCIgZD0iTTE4MC41IDEyMC40TDExNC4zIDZjLTIuMS0zLjctNi02LTEwLjMtNkg3OGMtNC4zIDAtOC4yIDIuMy0xMC4zIDZMMS42IDEyMC41Yy0yLjEgMy43LTIuMSA4LjMgMCAxMmwxMyAyMi4zYzIuMSAzLjcgNiA2IDEwLjMgNmgxMzIuNGM0LjMgMCA4LjItMi4zIDEwLjMtNmwxMi45LTIyLjRjMi4xLTMuNyAyLjEtOC4zIDAtMTJ6bS0yOC45IDE4LjhIMzAuNEwyMyAxMjYuNSA4My42IDIxLjdoMTQuOUwxNTkgMTI2LjVsLTcuNCAxMi43eiIvPjxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik05MiAxMDYuMmgtMmMtNS4yIDAtOS41IDQuMy05LjUgOS41di42YzAgNS4yIDQuMyA5LjUgOS41IDkuNWgyYzUuMiAwIDkuNS00LjMgOS41LTkuNXYtLjZjLS4xLTUuMi00LjMtOS41LTkuNS05LjV6Ii8+PC9zdmc+");
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+      width: 100px;
+      height: 100px;
+      position: absolute;
+    }
+    .error-copy {
+      min-height: 100px;
+      position: relative;
+      padding-left: 120px;
+    }
+    h2 {
+      margin: 0;
+      color: #23537D;
+      font-size: 24px;
+    }
+    h3 {
+      margin: 10px 0 0 0;
+      font-size:18px;
+    }
+    .error-copy .error {
+      color: #ff0000;
+    }
+    p {
+      margin: 10px 0 0 0;
+    }
+    ul {
+      list-style: square outside none;
+      margin: 10px 0;
+      padding: 0;
+    }
+    li {
+      margin-left: 15px;
+    }
+    hr {
+      display: block;
+      height: 1px;
+      border: 0;
+      border-top: 1px solid #ccc;
+      margin: 1em 0;
+      padding: 0; 
+    }
+    h4 {
+      margin: 3px 0;
+      font-size: 15px;
+      color: #23537D;
+    }
+  </style>
+  <link rel="shortcut icon" type="image/x-icon" href="data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAABMLAAATCwAAAAAAAAAAAAAAAAAAAAAAADyFWAA8hVgAPIVYBTyFWCo8hVhQPIVYYDyFWGA8hVhQPIVYKjyFWAU8hVgAPIVYAAAAAAAAAAAAAAAAADyFWAA8hVgCPIVYMDyFWJE8hVjOPIVY8DyFWP88hVj/PIVY8DyFWM48hViRPIVYMDyFWAI8hVgAAAAAADyFWAA8hVgFPIVYXjyFWNk8hVj/PIVY/zyFWP88hVj/PIVY/zyFWP88hVj/PIVY/zyFWNk8hVhePIVYBTyFWAA8hVgCPIVYWDyFWOc8hVj/PIVY/zyFWPc8hVjZPIVYtjyFWLY8hVjZPIVY9zyFWP88hVj/PIVY5zyFWFg8hVgCPIVYMDyFWNA8hVj/PIVY/zyFWNU8hVhoPIVYGzyFWA48hVgOPIVYGzyFWGg8hVjVPIVY/zyFWP88hVjQPIVYMDyFWIc8hVj9PIVY/zyFWNs8hVhAPIVYADyFWAA8hVgAPIVYADyFWAA8hVgAPIVYQDyFWNs8hVj/PIVY/TyFWIc8hVjSPIVY/zyFWPw8hVh1PIVYATyFWAA8hVgAPIVYADyFWAA8hVgAPIVYADyFWAE8hVh1PIVY/DyFWP88hVjSPIVY+TyFWP88hVjoPIVYPjyFWAA8hVgCPIVYRTyFWIQ8hViEPIVYSTyFWAM8hVgAPIVYPjyFWOg8hVj/PIVY+TyFWPw8hVj/PIVY3zyFWDY8hVgAPIVYAzyFWIQ8hVj+PIVY/jyFWI08hVgFPIVYADyFWDY8hVjfPIVY/zyFWPw8hVjjPIVY/zyFWPY8hVhWPIVYADyFWAM8hViFPIVY/zyFWP88hViOPIVYBTyFWAA8hVhWPIVY9jyFWP88hVjjPIVYpDyFWP88hVj/PIVYtjyFWBo8hVgCPIVYhTyFWP88hVj/PIVYjjyFWAQ8hVgaPIVYtzyFWP88hVj/PIVYozyFWE48hVjpPIVY/zyFWPo8hViYPIVYFzyFWIQ8hVj/PIVY/zyFWI08hVgZPIVYmDyFWPo8hVj/PIVY6TyFWE48hVgJPIVYhTyFWPo8hVj/PIVY2jyFWDM8hViCPIVY/zyFWP88hViLPIVYNTyFWNo8hVj/PIVY+jyFWIU8hVgJPIVYADyFWBQ8hViYPIVY+DyFWN08hVg1PIVYgjyFWP88hVj/PIVYizyFWDc8hVjdPIVY+DyFWJg8hVgUPIVYAAAAAAA8hVgAPIVYDzyFWG08hVinPIVYLzyFWII8hVj/PIVY/zyFWIs8hVgxPIVYpzyFWG08hVgPPIVYAAAAAAAAAAAAPIVYADyFWAA8hVgBPIVYHDyFWBA8hVh+PIVY/jyFWP48hViHPIVYETyFWBw8hVgBPIVYADyFWAAAAAAA8A8AAMADAACAAQAAAAAAAAAAAAADwAAAB+AAAAgQAAAIEAAACBAAAAAAAAAAAAAAAAAAAIABAADAAwAA4AcAAA==">
+  <title>Access Denied</title>
+</head>
+<body>
+  <div id="header">
+    <div class="center">
+      <div id="ibLogo"></div>
+    </div>
+  </div>
+  <div id="content">
+    <div class="center">
+      <div class="error-content">
+        <div class="error-img"></div>
+        <div class="error-copy">
+          <h2>Access Denied</h2>
+          <h3 class="error">Authentication Required</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div id="footer">
+    <div class="center">&copy; 2004 - <span id="year"></span> iboss, Inc. All rights reserved. All trademarks and registered trademarks on this website are the property of their respective owners.</div>
+  </div>
+  <script>
+    document.getElementById('year').innerHTML = new Date().getFullYear();
+  </script>
+</body>
+</html>
+<!-- (iboss/3.5.27) -->

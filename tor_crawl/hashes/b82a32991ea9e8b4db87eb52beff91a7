@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="br">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>[FLYWEB TELECOM] - BrbOS</title>
+    <link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/x-icon"/>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="/common/assets/vendor/boot/4.1.3/css/bootstrap.min.css" />
+    <link type="text/css" media="screen" rel="stylesheet" href="/common/assets/css/login.css">
+    <link type="text/css" media="screen" rel="stylesheet" href="/common/assets/css/icons.css" />
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script type="text/javascript" src="/common/assets/lib/jquery-2.0.3.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script type="text/javascript" src="/common/assets/vendor/popper.min.js"></script>
+    <script type="text/javascript" src="/common/assets/vendor/boot/4.1.3/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/common/assets/js/brb.js"></script>
+
+    <script type="text/javascript">
+
+      BrByte.init({
+        time_init: '2019-02-21 17:36:05',
+        lang_name: 'br'
+      });
+
+      jQuery(document).ready(function () {
+
+        if (BrByte.urlParts[1] === 's') {
+          jQuery("input:radio[name=interface][value=1]").prop("checked", true).trigger("click");
+        } else {
+          jQuery("input:radio[name=interface][value=0]").prop("checked", true).trigger("click");
+        }
+
+        if (BrByte.cfg.lang_name === 'en') {
+          jQuery("input:radio[name=lang][value=0]").prop("checked", true).trigger("click");
+        } else if (BrByte.cfg.lang_name === 'br') {
+          jQuery("input:radio[name=lang][value=1]").prop("checked", true).trigger("click");
+        } else if (BrByte.cfg.lang_name === 'es') {
+          jQuery("input:radio[name=lang][value=2]").prop("checked", true).trigger("click");
+        } else {
+          jQuery("input:radio[name=lang][value=1]").prop("checked", true).trigger("click");
+        }
+
+        jQuery("#login-form").submit(function (e) {
+          var postData = jQuery(this).serializeArray();
+          var formURL = jQuery(this).attr("action");
+          var formParams = [];
+          jQuery.each(postData, function (i, input) {
+            formParams[input.name] = input.value;
+          });
+
+          jQuery.ajax({
+            url: formURL,
+            type: "POST",
+            data: postData,
+            success: function (json, textStatus, jqXHR) {
+              if (json.success) {
+                window.location = (formParams.interface === '1' ? window.location.href : '/');
+              } else {
+                jQuery('.login-info').html('<p class="red">' + json.message + '</p>');
+              }
+            },
+            error: function (jqXHR, textStatus, errorThrown) {
+              jQuery('.login-info').html('<p class="red">Application Failure</p>');
+            }
+          });
+
+          e.preventDefault();
+
+          return false;
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="login-container">
+        <div class="login-header">
+          <img class="img-responsive logo-system" src="/assets/img/logo-250.png" alt="BrByte" />
+        </div>
+        <div class="login-wrap">
+          <div class="login-info"></div>
+          <form id="login-form" name="form_login" class="form-vertical" method="post" enctype="application/x-www-form-urlencoded" action="/login">
+            <div class="form-group login-input">
+              <i class="icon16 icon-app-acl-client overlay">&nbsp;</i>
+              <input class="form-control text-input" type="text" name="username" id="username" placeholder="Username">
+            </div>
+            <div class="form-group login-input">
+              <i class="icon16 icon-app-lock overlay">&nbsp;</i>
+              <input class="form-control text-input" type="password" name="password" id="password" placeholder="Password">
+            </div>
+            <div class="form-group col-8 offset-2">
+              <div class="btn-group input-group mb-3" data-toggle="buttons">
+                <label class="btn btn-outline-secondary col-4" for="lang_0">
+                  <input id="lang_0" type="radio" name="lang" value="0" checked="" style="display: none;" />
+                  <i class="icon16 icon-flag-en">&nbsp;</i>
+                </label>
+                <label class="btn btn-outline-secondary col-4" for="lang_1">
+                  <input id="lang_1" type="radio" name="lang" value="1" style="display: none;" /> 
+                  <i class="icon16 icon-flag-br">&nbsp;</i>
+                </label>
+                <label class="btn btn-outline-secondary col-4" for="lang_2">
+                  <input id="lang_2" type="radio" name="lang" value="2" style="display: none;" /> 
+                  <i class="icon16 icon-flag-es">&nbsp;</i>
+                </label>
+              </div>
+            </div>
+            <div class="form-group col-8 offset-2">
+              <div class="btn-group input-group mb-3" data-toggle="buttons">
+                <label class="btn btn-outline-secondary col-6" for="interface_0">
+                  <input id="interface_0" type="radio" name="interface" value="0" checked="checked" style="display: none;" />Desktop
+                </label>
+                <label class="btn btn-outline-secondary col-6" for="interface_1">
+                  <input id="interface_1" type="radio" name="interface" value="1" style="display: none;" /> 
+                  Simple
+                </label>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-block btn-outline-secondary">Login</button>
+          </form>
+        </div>
+      </div>
+      <div class="text-center login-extra">
+        <span><a href="https://brbos.brbyte.com" target="_blank" class="text-dark">BrbOS</a></span>
+        <span> 1.0 - Build 109 | </span>
+        <span><a href="https://brbyte.com" target="_blank" class="text-dark">BrByte</a></span>
+        <span> - </span>
+        <span>&copy; 2006 - 2019</span>
+      </div>
+    </div>
+  </body>
+</html>

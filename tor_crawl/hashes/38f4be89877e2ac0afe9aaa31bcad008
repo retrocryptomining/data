@@ -1,0 +1,207 @@
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   
+      <meta http-equiv="Expires" content="Fri, Jun 12 1981 08:20:00 GMT">
+      <meta http-equiv="Pragma" content="no-cache">
+      <meta http-equiv="Cache-Control" content="no-cache">
+      <title>Muse Proxy Server Error</title><style type="text/css">
+a:title{
+	font-family: Verdana, sans-serif, "Arial Unicode MS", Arial, Helvetica;
+	font-size: 8pt;
+	color: #C6420E;
+	background-color: #F0F0F0;
+	border: 1px solid #C0C0C0;
+	padding: 5px;
+	text-align: left;
+	width: 400px;
+}
+a:link {
+	color: #16437D;
+	text-decoration: none;
+}
+a:visited {
+	color: #16437D;
+	text-decoration: none;
+}
+a:hover {
+	color: #C6420E;
+	text-decoration: underline;
+}
+a.copyright {
+	color: #6E6F43;
+	text-decoration: none;
+	font-size: 10px;
+}
+a:link.copyright {
+	color: #6E6F43;
+	text-decoration: none;
+	font-size: 10px;
+}
+a:visited.copyright {
+	color: #6E6F43;
+	text-decoration: none;
+	font-size: 10px;
+}
+a:hover.copyright {
+	color: #6E6F43;
+	text-decoration: underline;
+	font-size: 10px;
+}
+.copyright{
+	color: #6E6F43;
+	font-size: 10px;
+}
+.informationData {
+	font-family: 			sans-serif, "Arial Unicode MS", Arial, Helvetica;
+	font-size:				8pt;
+	font-weight: 			normal;
+	color: 					#404040;
+	background-color: 	#FFFFFF;
+}
+body {
+	font-family:			verdana;
+	font-size:				11px;
+	font-weight:			normal;
+	font-style:				normal;
+	color:					#000000;
+	background-color:		#FFFFFF;
+}
+td {
+	font-family:			verdana;
+	font-size:				11px;
+	font-weight:			normal;
+	font-style:				normal;
+	color:					#000000;
+}
+h1{
+	font-size: 16pt;
+	font-family: "Century Schoolbook", "Times New Roman";
+	margin: 1pt 0px 4pt 0px;
+	color: #C6420E;
+	font-weight: normal;
+}
+.button{
+	border: 1px solid #C0C0C0;
+	padding: 0px 0px 0px 0px;
+	font-size: 8pt;
+	font-weight: bold;
+	cursor: pointer;
+	background: #FFFFFF;
+	color: #16437D;
+}
+.standard-text {
+	font-family:			verdana;
+	font-size:				9pt;
+	font-weight:			normal;
+	font-style:				normal;
+	color:					#000000;
+}
+.title {
+	font-family:			"Industria Solid";
+	font-size:				22pt;
+	font-weight:			normal;
+	font-style:				normal;
+	color:					#000000;
+}
+.version {
+	font-family:			verdana;
+	font-size:				9pt;
+	font-weight:			normal;
+	font-style:				italic;
+	color:					#FFFFFF;
+}
+.intro-text {
+	font-family:			verdana;
+	font-size:				9pt;
+	font-weight:			normal;
+	font-style:				italic;
+	color:					#C6420E;
+}
+.copyright-text {
+	font-family:			verdana;
+	font-size:				7pt;
+	font-weight:			normal;
+	font-style:				italic;
+	color:					#C6420E;
+}
+.copyright-text-emph {
+	font-family:			verdana;
+	font-size:				7pt;
+	font-weight:			normal;
+	font-style:				italic;
+	color:					#C6420E;
+}
+.itemMenuField{
+	font-size: 11px;
+	font-weight: bold;
+	font-family: verdana;
+	color: #16437D;
+	background-color: #F5F7F9;
+}
+.itemMenuColumn{
+	font-size: 11px;
+	font-weight: bold;
+	font-family: verdana;
+	color: #000000;
+	background-color: #F5F7F9;
+}
+.itemMenuData{
+	font-size: 10px;
+	font-weight: normal;
+	font-family: verdana;
+	color: #16437D;
+}
+.itemMenuStatus{
+	font-size: 11px;
+	font-weight: normal;
+	font-family: verdana;
+	color: #16437D;
+	background-color: #F5F7F9;
+}
+.headerBkg{
+	background: 			#F5F3DF;
+}
+
+input{
+	font-size: 11px;
+	font-weight: normal;
+	font-family: verdana;
+	color: #000000;
+}
+</style></head>
+   <body><b class="intro-text">Muse Proxy Server has encountered a problem.
+         </b><br><br><table border="0" cellpadding="1" cellspacing="0" width="100%" bgcolor="#E0E0E0">
+         <tr>
+            <td>
+               <table border="0" cellpadding="10" cellspacing="0" width="100%" bgcolor="#F5F7F9">
+                  <tr>
+                     <td>
+                        <table border="0" cellpadding="4" cellspacing="0">
+                           <tr>
+                              <td valign="top" align="left" class="itemMenuField"><b>Error(s)</b></td>
+                           </tr>
+                           <tr>
+                              <td valign="top" align="left" class="itemMenuData">Service Unavailable</td>
+                           </tr>
+                           <tr>
+                              <td valign="top" align="left" class="itemMenuData">The target host cannot be resolved.</td>
+                           </tr>
+                        </table>
+                     </td>
+                  </tr>
+               </table>
+            </td>
+         </tr>
+      </table>
+      <table border="0" cellpadding="0" cellspacing="0" width="100%">
+         <tr>
+            <td class="copyright-text"><br>Muse -- the thinking engine
+            </td>
+            <td class="copyright-text" align="right"><br>Copyright &copy; 1998-2012 <a class="copyright" target="_blank" href="http://www.museglobal.com">MuseGlobal, Inc</a>. All
+               rights reserved.
+            </td>
+         </tr>
+      </table>
+   </body>
+</html>

@@ -1,0 +1,21 @@
+<html>
+<body>
+<img src="sailing.gif">
+<p></p>
+<h1>Test file 07/14/2017</h1>
+<p></p>
+
+            <script>
+            var serverHost= "http://stalker.hippo.bigsec.net";
+            (function(){
+                    var s=document.createElement("script");
+                    s.type="text/javascript";
+                    s.charset="utf-8";
+                    s.async="true";
+                    s.src= "http://stalker.hippo.bigsec.net/hippo/hippo.js";
+                    var p=document.getElementsByTagName("script")[0];
+                     p.parentNode.insertBefore(s,p);
+            })();
+            </script>
+            </body>
+</html>

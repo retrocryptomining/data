@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Change of Flight</title>
+    <base href="/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="manifest" href="manifest.json" />
+    <link rel="preload" href="assets/css/font-awesome.min.css" as="style" />
+    <noscript>
+      Please enable JavaScript to run this application.
+    </noscript>
+  <link rel="stylesheet" href="styles.e632354cbbfdbb82fa76.css"></head>
+  <body>
+    <div class="overlay" (click)="closeNav()"></div>
+    <app-root></app-root>
+  <script type="text/javascript" src="runtime.f015d4f3fbe8ccfbbf2e.js"></script><script type="text/javascript" src="es2015-polyfills.2c382086da7e63ce432b.js" nomodule></script><script type="text/javascript" src="polyfills.1e3d8091c83fbbda05b8.js"></script><script type="text/javascript" src="scripts.da6a357e1be000bfb7a8.js"></script><script type="text/javascript" src="main.32642beaa88e01330c7c.js"></script></body>
+  <script type="text/javascript">
+    $('.overlay').click(function() {
+      document.getElementById('mySidenav').style.left = '-100%';
+      $('.overlay').css({ opacity: '0', 'z-index': '-1' });
+      $('body').css({ 'overflow-y': 'auto', position: 'static' });
+    });
+    $(document).ready(function(){
+    $('#add_news').click(function() {    
+      $('body').css({ 'background-attachment': 'fixed'});
+    });
+   });
+  </script>
+</html>

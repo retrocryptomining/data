@@ -1,0 +1,17 @@
+<html>
+<body><div style="width:100%;left:0;right:0;position:fixed; top: 0; margin:auto;z-index:100;" id="float_div_box_fixed">
+    <table style="text-align:center;border:1px solid red;margin:0 auto;background-color:white;padding:1px;box-shadow: 0px 0px 1px 2px #888888;">
+        <tr>
+            <td>Pop HerePop HerePop HerePop HerePop HerePop HerePop HerePop Here&#20013;&#25991;&nbsp;&nbsp;
+			<a style="cursor:pointer;color:blue;padding: 2px 2px 2px 2px;" onclick="document.getElementById('float_div_box_fixed').style='Display:None;'">&#x5173;&#x95ED;X</a>
+            </td>
+        </tr>
+    </table> 
+</div> 
+
+<img src="sailing.gif">
+<p></p>
+<h1>Test file 07/14/2017</h1>
+<p></p>
+</body>
+</html>

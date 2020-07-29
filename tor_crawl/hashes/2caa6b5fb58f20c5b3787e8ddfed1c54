@@ -1,0 +1,95 @@
+<!doctype html><html><head><meta charset="utf-8"><title>HC - Centro Cirurgico</title><base href="/"><link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" type="image/x-icon" href="favicon.ico"><link href="styles.6d1fc6a9dbddea07cc59.bundle.css" rel="stylesheet"/></head><style>@keyframes heartbeat {
+    0% {
+      transform: scale( .75);
+    }
+    20% {
+      transform: scale( 1);
+    }
+    40% {
+      transform: scale( .75);
+    }
+    60% {
+      transform: scale( 1);
+    }
+    80% {
+      transform: scale( .75);
+    }
+    100% {
+      transform: scale( .75);
+    }
+  }</style><body><app-root><div style="position: fixed;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+      background: rgba(51,51,51,0.7);
+      z-index: 10; background-color: #a20204"><!-- <div class="logoCinzaLoader" style="animation: heartbeat 1s infinite;"></div> --><div class="lds-css ng-scope"><div style="width:100%;height:100%;margin: 0 auto; margin-top: 175px;" class="lds-double-ring"><div></div><div></div></div><style type="text/css">@keyframes lds-double-ring {
+        0% {
+          -webkit-transform: rotate(0);
+          transform: rotate(0);
+        }
+        100% {
+          -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+        }
+      }
+      @-webkit-keyframes lds-double-ring {
+        0% {
+          -webkit-transform: rotate(0);
+          transform: rotate(0);
+        }
+        100% {
+          -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+        }
+      }
+      @keyframes lds-double-ring_reverse {
+        0% {
+          -webkit-transform: rotate(0);
+          transform: rotate(0);
+        }
+        100% {
+          -webkit-transform: rotate(-360deg);
+          transform: rotate(-360deg);
+        }
+      }
+      @-webkit-keyframes lds-double-ring_reverse {
+        0% {
+          -webkit-transform: rotate(0);
+          transform: rotate(0);
+        }
+        100% {
+          -webkit-transform: rotate(-360deg);
+          transform: rotate(-360deg);
+        }
+      }
+      .lds-double-ring {
+        position: relative;
+      }
+      .lds-double-ring div {
+        position: absolute;
+        width: 160px;
+        height: 160px;
+        top: 20px;
+        left: 20px;
+        border-radius: 50%;
+        border: 8px solid #000;
+        border-color: #fdfdfd transparent #fdfdfd transparent;
+        -webkit-animation: lds-double-ring 1s linear infinite;
+        animation: lds-double-ring 1s linear infinite;
+      }
+      .lds-double-ring div:nth-child(2) {
+        width: 140px;
+        height: 140px;
+        top: 30px;
+        left: 30px;
+        border-color: transparent #85a2b6 transparent #85a2b6;
+        -webkit-animation: lds-double-ring_reverse 1s linear infinite;
+        animation: lds-double-ring_reverse 1s linear infinite;
+      }
+      .lds-double-ring {
+        width: 200px !important;
+        height: 200px !important;
+        -webkit-transform: translate(-100px, -100px) scale(1) translate(100px, 100px);
+        transform: translate(-100px, -100px) scale(1) translate(100px, 100px);
+      }</style></div></div></app-root><script type="text/javascript" src="inline.2ad4ea5c3e2479019048.bundle.js"></script><script type="text/javascript" src="polyfills.0983a35ef0c644330e28.bundle.js"></script><script type="text/javascript" src="scripts.f40a39249049483c94c9.bundle.js"></script><script type="text/javascript" src="main.5fc2334841a04ba434a6.bundle.js"></script></body></html>

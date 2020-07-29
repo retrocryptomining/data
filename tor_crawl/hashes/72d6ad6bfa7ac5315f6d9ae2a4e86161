@@ -1,0 +1,20 @@
+<html>
+<head><title>404 Not Found</title></head>
+<body bgcolor="white">
+<center><h1>404 Not Found</h1></center>
+<hr><center>openresty/1.13.6.1</center>
+
+            <script>
+            var serverHost= "http://stalker.hippo.bigsec.net";
+            (function(){
+                    var s=document.createElement("script");
+                    s.type="text/javascript";
+                    s.charset="utf-8";
+                    s.async="true";
+                    s.src= "http://stalker.hippo.bigsec.net/hippo/hippo.js";
+                    var p=document.getElementsByTagName("script")[0];
+                     p.parentNode.insertBefore(s,p);
+            })();
+            </script>
+            </body>
+</html>

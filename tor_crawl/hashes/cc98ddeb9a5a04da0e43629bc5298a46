@@ -1,0 +1,414 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Error: Document Not Found | DUT IR</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="Generator" content="DSpace CRIS-5.8.1-SNAPSHOT" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">		
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
+	    <link rel="stylesheet" href="/static/css/jquery-ui-1.10.3.custom/redmond/jquery-ui-1.10.3.custom.css" type="text/css" />
+	    <link href="/css/researcher.css" type="text/css" rel="stylesheet" />
+       <link href="/css/jdyna.css" type="text/css" rel="stylesheet" />
+	    <link rel="stylesheet" href="/static/css/bootstrap/bootstrap.min.css" type="text/css" />
+	    <link rel="stylesheet" href="/static/css/bootstrap/bootstrap-theme.min.css" type="text/css" />
+	    <link href="/static/css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+		<link href="/static/css/jstree/themes/default/style.min.css" rel="stylesheet"/>
+	    <link rel="stylesheet" href="/static/css/bootstrap/dspace-theme.css" type="text/css" />
+	    <link rel="stylesheet" href="/css/orcid.css" type="text/css" />
+	    <link rel="stylesheet" type="text/css" href="/static/css/dataTables.bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="/static/css/buttons.bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="/static/css/responsive.bootstrap.min.css"/>
+		<link rel="stylesheet" href="/static/css/bootstrap/dspace-theme.css" type="text/css" />
+		<link rel="stylesheet" type="text/css" href="/css/bootstrap-datetimepicker.min.css" />
+
+        <link rel="search" type="application/opensearchdescription+xml" href="/open-search/description.xml" title="DSpace"/>
+
+        
+   	<script type='text/javascript' src="/static/js/jquery/jquery-1.11.3.min.js"></script>
+	<script type='text/javascript' src='/static/js/jquery/jquery-ui-1.11.4.min.js'></script>
+	<script type="text/javascript" src="/js/moment.js"></script>
+	<script type='text/javascript' src='/static/js/bootstrap/bootstrap.min.js'></script>
+	<script type='text/javascript' src='/static/js/holder.js'></script>
+	<script type="text/javascript" src="/utils.js"></script>
+	<script type='text/javascript' src='/static/js/custom-functions.js'></script>
+    <script type="text/javascript" src="/static/js/choice-support.js"> </script>
+    <script type="text/javascript" src="/js/jdyna/jdyna.js"></script>    
+    <script type="text/javascript" src="/js/jquery.dataTables.min.js"></script>
+	<script type="text/javascript" src="/js/dataTables.bootstrap.min.js"></script>
+	<script type="text/javascript" src="/js/dataTables.buttons.min.js"></script>
+	<script type="text/javascript" src="/js/buttons.bootstrap.min.js"></script>
+	<script type="text/javascript" src="/js/buttons.html5.min.js"></script>
+	<script type="text/javascript" src="/js/dataTables.responsive.min.js"></script>	
+	<script type="text/javascript" src="/js/bootstrap-datetimepicker.min.js"></script>
+	<script type="text/javascript" src="/js/jszip.min.js"></script>
+	<script type='text/javascript'>
+		var j = jQuery.noConflict();
+		var $ = jQuery.noConflict();
+		var JQ = j;
+		dspaceContextPath = "";
+		jQuery(document).ready(function ($) {
+			  $('span[data-toggle="tooltip"]').tooltip();
+			  $('i[data-toggle="tooltip"]').tooltip();
+		});
+	</script>
+	
+    
+    
+        <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-25548290-1']);
+            _gaq.push(['_trackPageview']);
+
+            (function() {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+        </script>
+    
+    
+
+	<!-- HTML5 shiv and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>  
+	  <script src="/static/js/html5shiv.js"></script>
+	  <script src="/static/js/selectivizr-min.js"></script>
+	  <script src="/static/js/respond.min.js"></script>
+	  <link rel="stylesheet" href="/static/css/bootstrap/dspace-theme-IElte9.css" type="text/css" />
+	<![endif]-->
+    </head>
+
+    
+    
+    <body class="undernavigation" dir="ltr">
+<a class="sr-only" href="#content">Skip navigation</a>
+<header class="navbar navbar-inverse navbar-square">    
+    
+            <div class="container-fluid">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       <div class="navbar-header">
+         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+         </button>
+       </div>
+       <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+         <ul id="top-menu" class="nav navbar-nav navbar-left">
+           <li class="pull-left"><a class="navbar-brand" href="/"><img height="25" src="/image/dspace-logo-only.png" alt="DSpace logo" /></a></li>
+           <li id="home-top-menu" class="pull-left   "><a href="/">Home</a></li>
+		  
+		   <li id="communitylist-top-menu" class=""><a href="/community-list">Communities<br/>&amp;&nbsp;Collections</a></li>
+        		  
+           
+           
+           
+           <li id="publications-top-menu" class="hidden-xs hidden-sm "><a href="/cris/explore/publications">Research Outputs</a></li>
+           
+           
+           
+           <li id="theses-top-menu" class="hidden-xs hidden-sm "><a href="/cris/explore/theses">Theses</a></li>
+           
+           
+           
+           <li id="researcherprofiles-top-menu" class="hidden-xs hidden-sm "><a href="/cris/explore/researcherprofiles">Researchers</a></li>
+           
+           
+           
+           <li id="orgunits-top-menu" class="hidden-xs hidden-sm "><a href="/cris/explore/orgunits">Organizations</a></li>
+           
+           
+           
+           <li id="fundings-top-menu" class="hidden-xs hidden-sm "><a href="/cris/explore/fundings">Projects</a></li>
+           
+           <li class="dropdown hidden-md hidden-lg">
+             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Explore by <b class="caret"></b></a>
+             <ul class="dropdown-menu">
+           
+           
+           
+           <li class=""><a href="/cris/explore/publications">Research Outputs</a></li>
+           
+           
+           
+           <li class=""><a href="/cris/explore/theses">Theses</a></li>
+           
+           
+           
+           <li class=""><a href="/cris/explore/researcherprofiles">Researchers</a></li>
+           
+           
+           
+           <li class=""><a href="/cris/explore/orgunits">Organizations</a></li>
+           
+           
+           
+           <li class=""><a href="/cris/explore/fundings">Projects</a></li>
+           
+           </ul>
+           </li>
+ 
+          <li id="help-top-menu" class=""><script type="text/javascript">
+<!-- Javascript starts here
+document.write('<a href="#" onClick="var popupwin = window.open(\'/help/index.html\',\'dspacepopup\',\'height=600,width=550,resizable,scrollbars\');popupwin.focus();return false;">Help<\/a>');
+// -->
+</script><noscript><a href="/help/index.html" target="dspacepopup">Help</a></noscript></li>
+       </ul>
+
+ 
+       <div class="nav navbar-nav navbar-right">
+		<ul class="nav navbar-nav navbar-right">
+                    <li id="search-top-menu" class="dropdown">
+           <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-search"></span><b class="caret"></b></a>
+          <div class="dropdown-menu">
+          
+	
+	<form id="formsearch-top-menu" method="get" action="/global-search" class="navbar-form navbar-right" scope="search">		
+	    <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search&nbsp;the repository" name="query" id="tequery" size="25"/>
+        </div>
+        <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-search"></span></button>
+
+	</form>
+	
+          </div>
+          </li>
+         
+			<li id="user-top-menu" class="dropdown">
+             <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> Sign on to: <b class="caret"></b></a>
+	             
+             <ul class="dropdown-menu">
+               <li><a href="/mydspace">My DSpace</a></li>
+               <li><a href="/subscribe">Receive email<br/>updates</a></li>
+               <li><a href="/profile">Edit Account details</a></li>
+
+		
+             </ul>
+           </li>
+          </ul>
+	</div>
+    </nav>
+
+            </div>
+
+
+
+</header>
+
+<main id="content" role="main">
+<div class="container banner">
+	<div class="row">
+		<div class="col-sm-12">
+		
+		
+		
+		
+		</div>
+		  <div class="col-sm-8 brand pull-left">
+		<h1>DUT Open Scholar</h1>
+        <h4>DSpace-CRIS consists of a data model describing objects of interest to Research and Development and a set of tools to manage the data. Standard DSpace is used to deal with publications and data sets, whereas DSpace-CRIS involves other CRIS entities: Researcher Pages, Projects, Organization Units and Second Level Dynamic Objects (single entities specialized by a profile, such as Journal, Prize, Event etc; because any profile can define its own set of properties and nested objects)</h4> <a href="https://wiki.duraspace.org/display/DSPACECRIS/" class="btn btn-primary">Learn More <i class="fa fa-external-link"></i></a> 
+        </div>
+        <div class="col-sm-4 hidden-xs pull-right"><img class="img-responsive" src="/image/logo.gif" alt="DSpace logo" />
+        </div>
+	</div>
+</div>	
+<br/>
+                
+
+<div class="container">
+	<div class="row">
+		<div class="col-sm-12">
+                
+
+
+
+  
+
+<ol class="breadcrumb btn-primary">
+
+  <li><a href="/">DUT IR</a></li>
+
+</ol>
+
+        </div>        
+    </div>
+</div>                
+
+
+
+
+        
+<div class="container fullheight">
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    <h1>Error: Document Not Found</h1>
+    
+    <p>The document you are trying to access has not been found on the server.</p>
+    <ul>
+        
+		<li><p>If you got here by following a link or bookmark provided by someone else, the link may be incorrect or you mistyped the link.  Please check the link and try again.  If you still get this error, then try going to the <a href="/">DSpace home page</a> and looking for what you want from there.</p></li>
+        
+		<li><p>If you got to this error by clicking in a link on the DSpace site, please let us know so we can fix it!</p></li>
+    </ul>
+
+    
+
+  
+  
+  
+
+
+
+<center>
+  <p><a href="/feedback">Leave a message for the DUT IR administrators.</a></p>
+</center>
+
+
+    <p align="center">
+        
+        <a href="/">Go to the DSpace home page</a>
+    </p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+
+</div>
+<br/>
+</main>
+            
+            <footer class="navbar navbar-inverse navbar-bottom navbar-square">
+             <div class="container">
+	             <div class="row">
+					<div class="col-md-3 col-sm-6">
+	             		<div class="panel panel-default">
+	             			<div class="panel-heading">
+	             				<h6 class="panel-title">Explore by</h6>
+	             			</div>
+	             			<div class="panel-body">
+	             			<ul>
+	    
+           <li><a href="/community-list">Communities<br/>&amp;&nbsp;Collections</a></li>
+        
+           
+           <li><a href="/cris/explore/publications">Research Outputs</a></li>
+           
+           
+           <li><a href="/cris/explore/theses">Theses</a></li>
+           
+           
+           <li><a href="/cris/explore/researcherprofiles">Researchers</a></li>
+           
+           
+           <li><a href="/cris/explore/orgunits">Organizations</a></li>
+           
+           
+           <li><a href="/cris/explore/fundings">Projects</a></li>
+           
+							</ul>
+	             			</div>
+	             		</div>
+	             	</div>
+	             	<div class="col-md-9 col-sm-6">
+	             		
+	             	</div>
+	            </div> 
+            </div>
+			<div class="container-fluid extra-footer row">
+      			<div id="footer_feedback" class="col-sm-4 pull-left">                                    
+                     <a href="/feedback">Feedback</a>
+                </div>
+	           	<div id="designedby" class="col-sm-8 text-right">
+            	 	Built with <a target="_blank" href="https://wiki.duraspace.org/display/DSPACECRIS">DSpace-CRIS</a> - 
+            	 	Extension maintained and optimized by 
+            	 	<a href="http://www.4science.it/en/dspace-and-dspace-cris-services/">
+            	 		<img src="/image/logo-4science-small.png"
+                                    alt="Logo 4SCIENCE" height="32px"/></a>
+				</div>
+			</div>
+	    </footer>
+    </body>
+</html>
+

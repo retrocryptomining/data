@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Fizetési emlékeztető</title>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+
+<link rel="stylesheet" type="text/css" href="http://193.138.125.2:11888/theme/css/style.css">  </head>
+  <body>
+  <div id="background">
+  <div id="header-background">	</div>
+    <div id="wrapper">
+      <div id="main">
+        <div id="header">
+  <div id="logo">
+    <a href="http://giganet.hu/"><img src="http://193.138.125.2:11888//theme/images/logo.png" alt="Giganet"></a>
+  </div>
+  <div id="green_number">
+    <p style="color:#3e3e3e;">Ingyenesen hívható, zöld számunk:</p><p style="color:#8cca30; float:left; font-weight:bold;">+36 80 512 000</p>
+  </div>
+</div>        <div id="warning">
+  <img id="exclamation" src="http://193.138.125.2:11888/theme/images/exclamation.png" alt="!">
+  <h1>Tisztelt Előfizetőnk!</h1>
+  <p style="font-weight:bold;">
+    Nyilvántartásunk szerint Önnek díj-tartozása van.
+  </p>
+  <p style="margin-top:0%; font-size:15px;">
+    További információkért lépjen kapcsolatba ügyfélszolgálatunkkal:</p><br />
+    <table>
+  <tr>
+    <td><b>Telefon:</b></td>
+    <td>+36 42 512-000</td>		
+  </tr>
+  <tr>
+    <td><b>Email:</b></td>
+    <td>info@giganet.hu</td>		
+  </tr>
+  <tr>
+    <td><b>Cím:</b></td>
+    <td>Nyíregyháza, Vasvári Pál u. 1</td>		
+  </tr>
+</table>
+	<br />
+    <b>Személyes ügyfélszolgálat nyitvatartása:</b><table>
+  <tr>
+    <td><b>Hétfő-Péntek:</b></td>
+    <td>8:00 - 18:00</td>		
+  </tr>
+  <tr>
+    <td><b>Szombat:</b></td>
+    <td>8:00 - 14:00</td>		
+  </tr>
+</table>
+
+
+  </ul>
+</div>        <div id="content">
+  <div id="agreed">
+	  <p>&nbsp;</p>
+	  <p style="font-size:16px; padding:10px; background:#ffae03; text-align:center; line-height:20px"><b>Jelenleg a szolgáltatása korlátozva van.</b><br /> Kérjük a tartozás befizetését. Ellenkező esetben a szolgáltatás kikapcsolásra kerül.<br />A visszakapcsolási díj: <b>4.000,- Ft.</b></p>
+  </div>
+  
+  <div id="gombos">
+    <p>
+      <img id="gombos-img" src="http://193.138.125.2:11888//theme/images/tovabb.png"/><a class="button2" href="http://193.138.125.2:11888/index2.php">Tovább</a>
+    </p>
+  </div>
+</div>      </div>
+    </div>
+	</div>
+  </body>
+</html>

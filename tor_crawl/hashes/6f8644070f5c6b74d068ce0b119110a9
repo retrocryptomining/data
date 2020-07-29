@@ -1,0 +1,9 @@
+<html>
+            <head>
+                <title>502 Bad Gateway</title>
+            </head>
+            <body>
+            <h1>502 Bad Gateway</h1>
+            <p>Socks5ProtocolException(&quot;SOCKS5 mode failure: SocksError(&#x27;Invalid SOCKS version. Expected 0x05, got 0x47&#x27;,)&quot;,)</p>
+            </body>
+        </html>

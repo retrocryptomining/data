@@ -1,0 +1,234 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<!--
+
+08cms
+315aigou
+315aigou
+400电话办理选号系统
+51shop
+74cms
+AiFreePhp
+AlegroCart
+AlstraSoft
+appkan-ec
+aspcms
+AwMall多用户微信商城系统
+B2Bbuilder
+B2S商城系统
+BEES
+beescms
+BIWEB
+BuyCard数字卡销售系统
+C3CRM
+C-Dealer进销存管理系统
+citySHOP
+CmsEasy
+CubeCart
+CuuMall免费开源网上商城系统
+DBShop电子商务网店系统
+dedecms
+destoon
+Discuz
+Discuz!
+Discuz!
+Dosarepay
+DShop商城系统
+DXE-shop网店系统
+EASYSHOP网上商店系统
+EasyTalk
+ECgroupon_V3.0
+ECMall
+ecshop
+emlog
+EmpireCMS
+ESPCMS
+ET_deliver发货单查询系统
+EZ
+e创
+fcms
+FoosunCMS
+Freeway
+hinksaas
+hishop
+jdmail
+Jeecms
+Joomla
+jumbotcms
+KnifeCMS
+Media多用户商城系统
+mlecms
+msql销售登记备份
+netgather
+nitc
+Npoint
+OpenCart
+OTCMS
+Pageadmin
+php168
+phpcms
+phpok
+phpshop
+phpweb
+PHP房产程序[BBWPS]
+pims订单管理系统
+PinPHP
+qianbocms
+qibosoft
+sdcms
+shopex
+siteengine
+SiteEngine
+SongCMS
+taocms
+thinksaas
+v5shop
+wordpress
+XpShop
+xycms
+Z-Blog
+zcncms
+zmcms
+爱图谱社会化视觉购物系统
+比翼IStore商城系统PHP版
+博越在线订餐系统
+草原游戏卡销售系统
+多奥淘宝客程序API
+多多淘宝客
+发发通b2b电子商务系统
+凡客系统
+风讯网站内容管理系统
+积客B2SCMS商城系统
+吉鑫网络商店
+记事狗
+家饰网上商城系统
+金星session购物车实例
+品牌空间(brand)
+齐博B2B电子商务系统
+齐博分类信息系统
+微普外卖点餐系统
+寻梦社区
+宜乐创意礼品店系统
+怡动FLASH个人网站
+中易广告联盟v7.0
+MetInfo
+Apache
+tomcat
+tomcat
+strust2
+
+-->
+    <head>
+        <title>Test Page for the Nginx HTTP Server on Fedora</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <style type="text/css">
+            /*<![CDATA[*/
+            body {
+                background-color: #fff;
+                color: #000;
+                font-size: 0.9em;
+                font-family: sans-serif,helvetica;
+                margin: 0;
+                padding: 0;
+            }
+            :link {
+                color: #c00;
+            }
+            :visited {
+                color: #c00;
+            }
+            a:hover {
+                color: #f50;
+            }
+            h1 {
+                text-align: center;
+                margin: 0;
+                padding: 0.6em 2em 0.4em;
+                background-color: #294172;
+                color: #fff;
+                font-weight: normal;
+                font-size: 1.75em;
+                border-bottom: 2px solid #000;
+            }
+            h1 strong {
+                font-weight: bold;
+                font-size: 1.5em;
+            }
+            h2 {
+                text-align: center;
+                background-color: #3C6EB4;
+                font-size: 1.1em;
+                font-weight: bold;
+                color: #fff;
+                margin: 0;
+                padding: 0.5em;
+                border-bottom: 2px solid #294172;
+            }
+            hr {
+                display: none;
+            }
+            .content {
+                padding: 1em 5em;
+            }
+            .alert {
+                border: 2px solid #000;
+            }
+
+            img {
+                border: 2px solid #fff;
+                padding: 2px;
+                margin: 2px;
+            }
+            a:hover img {
+                border: 2px solid #294172;
+            }
+            .logos {
+                margin: 1em;
+                text-align: center;
+            }
+            /*]]>*/
+        </style>
+    </head>
+
+    <body>
+        <h1>Welcome to <strong>nginx</strong> on Fedora!</h1>
+
+        <div class="content">
+            <p>This page is used to test the proper operation of the
+            <strong>nginx</strong> HTTP server after it has been
+            installed. If you can read this page, it means that the
+            web server installed at this site is working
+            properly.</p>
+
+            <div class="alert">
+                <h2>Website Administrator</h2>
+                <div class="content">
+                    <p>This is the default <tt>index.html</tt> page that
+                    is distributed with <strong>nginx</strong> on
+                    Fedora.  It is located in
+                    <tt>/usr/share/nginx/html</tt>.</p>
+
+                    <p>You should now put your content in a location of
+                    your choice and edit the <tt>root</tt> configuration
+                    directive in the <strong>nginx</strong>
+                    configuration file
+                    <tt>/etc/nginx/nginx.conf</tt>.</p>
+
+                </div>
+            </div>
+
+            <div class="logos">
+                <a href="http://nginx.net/"><img
+                    src="nginx-logo.png" 
+                    alt="[ Powered by nginx ]"
+                    width="121" height="32" /></a>
+
+                <a href="http://fedoraproject.org/"><img 
+                    src="poweredby.png" 
+                    alt="[ Powered by Fedora ]" 
+                    width="88" height="31" /></a>
+            </div>
+        </div>
+    </body>
+</html>

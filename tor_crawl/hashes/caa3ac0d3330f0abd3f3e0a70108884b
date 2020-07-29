@@ -1,0 +1,4 @@
+
+Warning: require(../../apps/app_omg/config/constants.php): failed to open stream: No such file or directory in /home/omg/public_html/omgphils/system_2.1.4/core/CodeIgniter.php on line 64
+
+Fatal error: require(): Failed opening required '../../apps/app_omg/config/constants.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/omg/public_html/omgphils/system_2.1.4/core/CodeIgniter.php on line 64

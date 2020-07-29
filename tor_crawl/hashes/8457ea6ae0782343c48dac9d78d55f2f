@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Карта</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<link rel="shortcut icon" href="./css/images/favicon.ico" type="image/x-icon">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">    
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
+    <!--[if lte IE 8]><link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.ie.css" /><![endif]-->
+    <link rel="stylesheet" href="./css/leaflet-sidebar.css" />
+    <link rel="stylesheet" href="./css/leaflet.draw.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/font-awesome.min.css" />
+    <link rel="stylesheet" href="./css/easy-button.css" />
+
+    <link rel="stylesheet" href="./css/jquery-ui.min.css">    
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.15/css/jquery.dataTables.min.css"/>
+    <link rel="stylesheet" href="./css/bootstrap-slider.min.css">
+    <link rel="stylesheet" href="./css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="./css/Leaflet.Coordinates.css">
+    <link rel="stylesheet" href="./css/bootstrap-datetimepicker.min.css">
+    <link rel="stylesheet" href="./css/Control.MiniMap.min.css">
+    <style>
+        #tableControl{
+            width: 420px;
+            border-radius: 5px;
+            background: transparent;
+            border: none;
+        }
+
+        #tableControl .ui-tabs-panel{
+            background-color: white;
+            border-radius: 5px;
+        }
+        #tableControl .ui-widget-header { 
+            background: transparent; 
+            border: none; 
+            border-bottom: 1px solid #c0c0c0; 
+            -moz-border-radius: 0px; 
+            -webkit-border-radius: 0px; 
+            border-radius: 0px; 
+        } 
+
+        .tableControl {
+            text-align: left;
+            line-height: 18px;
+            color: #555;
+
+            padding: 6px 8px;
+            font: 14px/16px Arial, Helvetica, sans-serif;
+            background: white;
+            width: 475px;
+            height: 100%;
+            padding-left: 0;
+            margin-left: 0;
+        }
+        .tab-content {
+            padding: 10px;
+        }
+        .my-label {
+            position: absolute;
+            width:1000px;
+            font-size:20px;
+        }
+        div.uiElement.label{
+            display: block;
+            padding: .2em .6em .3em;
+            font-size: 100%;
+            font-weight: normal;
+            line-height: 1;
+            color: black;
+            text-align: left;
+            white-space: nowrap;
+            vertical-align: baseline;
+            border-radius: .25em;
+        }
+        .graticule-label-vert, .graticule-label-horiz{
+            font-size: 12px;
+            font-style: italic;
+            color: #333;
+            margin-left: 4px !important;
+            margin-top: -16px !important;
+            width: 85px !important;
+            text-shadow: -2px 0 #FFFFFF, 0 2px #FFFFFF, 2px 0 #FFFFFF, 0 -2px #FFFFFF;
+        }
+        .graticule-label-vert {
+            -ms-transform: rotate(-20deg);
+            -webkit-transform: rotate(-20deg);
+            transform: rotate(-20deg);
+        }
+        .btn.outline {
+            background: none;
+            padding: 12px 22px;
+        }
+        .btn-primary {
+            background-color: #0098A5;
+            border: 2px solid #E9E9E9;
+        }
+        html,body,.container {
+            height:100%;
+        }
+        .container {
+            display: table;
+            width: 100%;
+            margin-top: -115px;
+            padding: 80px 0 60px 0;
+            box-sizing: border-box;
+        }
+        .row {
+            height: 100%;
+            display: table-row;
+        }
+        .row .no-float {
+          display: table-cell;
+          float: none;
+        }
+        .header {
+            width: 100%;
+            margin: 0 4px 0 0;
+            /*padding-top: 10px;*/
+            min-height: 100px;
+            height: auto !important;
+            font: 14px/21px ProximaNova,Arial;
+        }
+        .footer {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            /*height: 60px;*/
+            padding-top: 0;
+            border-top: 0;
+        }
+       .footer > .container {
+          padding: 0 15px 0 15px;
+          margin: 0;
+        }
+        .filter {
+            padding-left: 15px;
+            /* padding-top: 5px; */
+            /* padding-bottom: 5px; */
+            /* margin-top: 5px; */
+            margin-bottom: 5px;
+            text-align: left;
+        }
+        .header-tagline {
+            font-weight: normal;
+            color: black;
+        }
+        .header__logo{
+            padding-left: 15px;
+            padding-top: 5px;
+        }
+        .footer__content{
+            border-top: none;
+        }
+        .blockCenter{
+            border-top: 5px solid #ec1c36;
+            /*max-width: 1200px;*/
+        }
+        .text-right{
+            padding-right: 15px;
+        }
+        .header-tagline {
+            padding-left: 30px;
+        }
+        #modal{
+            position: absolute;
+            top: 10px;
+            bottom: 10px;
+            left: 10px;
+            overflow-y: initial !important
+        }
+        /*.modal-dialog {
+            position: absolute;
+            top: 10px;
+            bottom: 10px;
+            left: 10px;
+            overflow-y: initial !important
+        }*/
+        .modal-backdrop {
+            background-color: transparent;
+        }
+        .modal-body{
+          height: 450px;
+          overflow-y: auto;
+        }
+        #preloader {
+            position: fixed;
+            left: 0;
+            top: 0;
+            z-index: 2000;
+            width: 100%;
+            height: 100%;
+            overflow: visible;
+            background-color: rgba(255, 255, 255, 0.50);
+            /*background: #333 url('./css/images/loading.gif') no-repeat center center;*/
+        }
+		.glyphicon{
+            cursor: pointer;
+        }
+        /*#editPolygon, #coordinateBttn{
+            height: 150px;
+            width: 150px;
+        }*/
+        .legend{
+            background-color: white;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        #infoBody{
+            height: 200px;
+            overflow-y: auto;
+        }
+        #windowInfo > div > div{
+            width: 450px;
+        }
+        #coordinatForm > div > div{
+            width: 350px;
+        }
+        #coordinatForm div.form-group.inline, #coordinatForm div.form-horizontal.form-group{
+            margin-right: 0;
+            margin-left: 0;
+        }
+        #coordinatForm div.form-group input{
+            padding: 3px 6px;
+        }
+        #coordinatForm div.form-group{
+            margin-bottom: 0;
+        }
+        .regionSelect{
+            background-color: white;
+            border-radius: 5px;
+            padding: 10px;
+            height: 52px;
+        }
+        #statusBar{
+            position: absolute;
+            width: 100%;
+            height: 20px;
+            background-color: white;
+            border: 1px solid #ec1c36;
+            text-align: center;
+        }
+        .leaflet-editing-icon{
+            text-align: center;
+        }
+        #legend{
+            width: 230px;
+            padding: 0;
+        }
+        #legend>h3{
+            text-align: center;
+        }
+        .ui-accordion .ui-accordion-content{
+            padding: 2px;
+        }
+        #legend > div > div{
+            margin-bottom:5px;
+        }
+        #legend > div > div > text{
+            font-size: small;
+        }
+        #legend > div > div > span{
+            height: 15px;
+            width: 20px;
+            float: left;
+            margin-right: 10px;
+        }
+        .legend_6{
+            background-color: rgba(160, 39, 39, 0.2);
+        }
+        .legend_5{
+            background-color: #ff1626;
+        }
+        .legend_4{
+            background-color: #7766ff;
+        }
+        .legend_3{
+            background-color: #00ff0c;
+        }
+        .legend_2{
+            background-color: #eeff3d;
+        }
+        .legend_1{
+            background-color: #cccccc;
+        }
+        .coodrOut{
+            background-color: white;
+            padding: 5px;
+            border-radius: 5px;
+            display: none;
+        }
+        button#editPolygon, button#coordinateBttn{
+            border: none;
+            height: 65px;
+            border-radius: 0;
+        }
+        button#editPolygon:hover, button#coordinateBttn:hover{
+            background: red;
+            color: white;
+        }
+        #ui-id-3{
+            margin: 0;
+        }
+        .ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover{
+            border: 1px solid;
+            background: red;
+            font-weight: normal;
+        }
+        *,*:after,*:before {
+            box-sizing: border-box;
+        }
+        .wrapper-dropdown-2 {
+            position: relative;
+            width: 155px;
+            padding-right: 5px;
+            padding-left: 5px;
+            margin: 0 auto;
+            cursor: pointer;
+            height: 65px;
+            text-align: center;
+            vertical-align: baseline;
+            padding-top: 22px;
+        }
+        .wrapper-dropdown-2:hover{
+            background-color: red;
+            color: white;
+        }
+        .wrapper-dropdown-2 .dropdown {
+            position: absolute;
+            left: -20px;
+            top: 65px;
+            right: 0px;
+            margin-left: 20px;
+            background: white;
+            transition: all 0.3s ease-out;
+            list-style: none;
+            opacity: 0;
+            pointer-events: none;
+            z-index: 500;
+        }
+        .wrapper-dropdown-2 .dropdown li {
+            display: block;
+            text-decoration: none;
+            font-family: initial;
+            color: #333;
+            padding: 5px;
+            transition: all 0.3s ease-out;
+        }
+        .wrapper-dropdown-2 .dropdown li:hover {
+            color: white;
+            background-color: red;
+        }
+        .wrapper-dropdown-2.active:after {
+            border-width: 0 6px 6px 6px;
+        }
+         
+        .wrapper-dropdown-2.active .dropdown {
+            opacity: 1;
+            pointer-events: auto;
+        }
+        #myContent > tbody > tr > td, #allContent > tbody > tr > td {
+            padding-left: 0;
+            padding-right: 0;
+            padding-top: 4px;
+            padding-bottom: 4px;
+            text-align: center;
+        }
+        #myContent > tbody > tr> td:nth-child(3), #allContent > tbody > tr > td:nth-child(3) {
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="header-table">
+            <div class="header-table__cell header__logo table-cell__w185">
+                <!-- <a href="http://www.fondvostok.ru/"> -->
+                    <!--[if gte IE 9]><!-->
+                        <!-- <img src="./css/images/logo.svg" alt="" width="270" height="99"> -->
+                        <img src="./css/images/logo.svg" alt="" height="50">
+                    <!--<![endif]-->
+                    <!--[if lte IE 8]>
+                        <img src="./css/images/logo.png" alt="" width="228" height="99"  />
+                    <![endif]-->
+                <!-- </a> -->
+            </div>
+            <!-- <div class="header-table__cell header__content">
+                <div class="header-tagline">Акватории морей дальневосточного рыбохозяйственного бассейна</div>
+            </div> -->
+            <div class="header-table__cell table-cell__w400">
+                
+                <form class="form-inline">
+                    <div class="form-group">
+                        <button type="button" title=">Нарисовать участок на карте" id="editPolygon" class="btn btn-default .btn-md">Нарисовать участок</button>
+                    </div>
+                    <div class="form-group">
+                        <button title="Создать участок по координатам" type="button" id="coordinateBttn" class="btn btn-default">Координаты участка</button>
+                    </div>
+                    <div id="dd" class="form-group wrapper-dropdown-2"><span>Приморский край</span>
+                      <ul class="dropdown">
+                        <li><i value="130.24637727915,41.8937450197286,139.433129768957,48.8611535137331"></i>Приморский край</li>
+                        <li><i value="130.176981748307,46.3052345650258,147.642195622052,62.8556107956407"></i>Хабаровский край</li>
+                        <li><i value="141.421511569184,43.5395539904473,157.47601024027,54.9820826603904"></i>Сахалинская область</li>
+                        <li><i value="143.556455197902,58.5260841507865,163.822771159368,66.3624029102518"></i>Магаданская область</li>
+                        <li><i value="152.487572558023,50.7302424845111,175.142375474339,65.2338301305836"></i>Камчатский край</li>
+                      </ul>
+                    </div>
+                </form>
+            </div>
+            <div class="header-table__cell table-cell__w50 text-right">
+                <div class="header__authorization">
+                    <span class="header__authorization_enter" id="login">Вход</span>
+                    <span class="header__authorization_enter" id="logout" style="display: none;">Выход</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div id="map" class="col-md-12 no-float"></div>
+            <div id="preloader"></div>
+        </div>
+        <div id="statusBar">
+            <span>Для создания участка нажмите "Нарисовать участок"</span>
+        </div>
+    </div>
+    
+    <div class="footer col-md-12 no-float">
+        <div class="blockCenter">
+            <div class="footer__content">
+                <!-- копирайт -->
+                <div class="copy-block">
+                    <div class="copy">
+                        <a href="http://i.rts-tender.ru" target="_blank">
+                            <span class="footerCopy">РТС</span>
+                        </a>
+                    </div>
+                    <div class="copy">
+                        <a href="http://ugi.ru" target="_blank">
+                            <span class="footerCopy">Уралгеоинформ</span>
+                        </a>
+                    </div>
+                    <div class="copy">
+                        <a href="./help/index.html" target="_blank">
+                            <span class="footerCopy">Справка</span>
+                        </a>
+                    </div>
+                    <div class="social">
+                        <ul>
+                            <li><a href="https://www.facebook.com/RTS.tender" target="_blank"><span class="social-icon social-icon1">facebook</span></a></li>
+                            <li><a href="https://vk.com/rtstender" target="_blank"><span class="social-icon social-icon3">vkontakte</span></a></li>
+                            <li><a href="http://www.youtube.com/channel/UCvA114k2xebV4FaaEQaQg1A" target="_blank"><span class="social-icon social-icon7">youtube</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <span style="color: white; font-size: 12px;">Картографические данные представлены по материалам федерального казенного учреждения "280 Центральное картографическое производство Военно-Морского Флота"</span>
+        </div>
+    </div>
+    <!-- Modal -->
+    <div id="modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" data-keyboard="false" data-backdrop="static" data-backdrop="false">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 id="info" class="modal-title">Информация по участку</h4>
+          </div>
+          <div id="modalBody" class="modal-body">
+          </div>
+          <div class="modal-footer">
+            <!-- <button type="button" class="btn btn-info" id="infoButton" style="position: absolute;left: 15px;">Извещение об аукционе</button> -->
+            <!-- <button type="button" class="btn btn-secondary" id="sendButton" >Подать заявку на торги</button> -->
+            <!--<button type="button" class="btn btn-success" disabled=true id="print">Печать</button>-->
+            <button type="button" class="btn btn-info" id="saveDraft">Сохранить черновик</button>
+            <button type="button" class="btn btn-primary" id="sendClientId">Отправить</button>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal" id="cancelBtn">Отмена</button>
+            <button type="button" class="btn btn-warning" data-dismiss="modal" id="deleteBtn">Удалить участок</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="windowInfo" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Информация</h4>
+          </div>
+          <div id="infoBody" class="modal-body">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal" >Ок</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="sandInfo" tabindex="-1" role="dialog" data-keyboard="false" aria-hidden="true">
+      <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">Информация</h4>
+          </div>
+          <div style="height: 200px; overflow-y: auto;" class="modal-body">
+            Заявка передана на площадку торгов по предоставлению рыбоводных участков в пользование. Заявку необходимо подтвердить в течение 10 минут.
+          </div>
+          <div class="modal-footer">
+                <button id="goTourl" type="button" class="btn btn-secondary" data-dismiss="modal" data-url="http://aquavostok.ru" >Ок</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- coordinat form -->
+    <div class="modal fade" id="coordinatForm" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Создание участка по координатам</h4>
+                </div>
+                <div style="height: auto; overflow-y: auto;" class="modal-body">
+                    <form id="coords" class="form-horizontal" data-toggle="validator" role="form">
+                        <fieldset>
+                            <div class="form-group">
+                                <p class="control-label help-block col-md-12">Заполните поля с координатами точек</p>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-md-6 control-label" for="textinput">1 точка</label>
+                                <div class="form-group inline">
+                                    <label class="col-md-2 control-label" for="textinput">X</label>
+                                    <div class="col-md-3">
+                                        <input name="textinput" type="number" placeholder="&deg;" class="form-control input-sm" id="x1deg" required min="-179" max="179" step="1" >
+                                    </div>
+                                    <div class="col-md-3">
+                                        <input name="textinput" type="number" placeholder="&prime;" class="form-control input-md" id="x1min" required min="0" max="60" step="1">
+                                    </div>
+                                    <div class="col-md-3">
+                                        <input name="textinput" type="number" placeholder="&Prime;" class="form-control input-md" id="x1sec" required min="0" max="60" step="1">
+                                    </div>
+                                </div>
+                                <div class="form-group inline">
+                                    <label class="col-md-2 control-label" for="textinput">Y</label>
+                                    <div class="col-md-3">
+                                        <input name="textinput" type="number" placeholder="&deg;" class="form-control input-sm" id="y1deg" required min="-89" max="89" step="1">
+                                    </div>
+                                    <div class="col-md-3">
+                                        <input name="textinput" type="number" placeholder="&prime;" class="form-control input-md" id="y1min" required min="0" max="60" step="1">
+                                    </div>
+                                    <div class="col-md-3">
+                                        <input name="textinput" type="number" placeholder="&Prime;" class="form-control input-md" id="y1sec" required min="0" max="60" step="1">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-md-6 control-label" for="textinput">2 точка</label>
+                                <div class="form-group inline">
+                                    <label class="col-md-2 control-label" for="textinput">X</label>
+                                    <div class="col-md-3">
+                                        <input name="textinput" type="number" placeholder="&deg;" class="form-control input-sm" id="x2deg" required min="-179" max="179" step="1">
+                                    </div>
+                                    <div class="col-md-3">
+                                        <input name="textinput" type="number" placeholder="&prime;" class="form-control input-md" id="x2min" required min="0" max="60" step="1">
+                                    </div>
+                                    <div class="col-md-3">
+                                        <input name="textinput" type="number" placeholder="&Prime;" class="form-control input-md" id="x2sec" required min="0" max="60" step="1">
+                                    </div>
+                                </div>
+                                <div class="form-group inline">
+                                    <label class="col-md-2 control-label" for="textinput">Y</label>
+                                    <div class="col-md-3">
+                                        <input name="textinput" type="number" placeholder="&deg;" class="form-control input-sm" id="y2deg" required min="-89" max="89" step="1">
+                                    </div>
+                                    <div class="col-md-3">
+                                        <input name="textinput" type="number" placeholder="&prime;" class="form-control input-md" id="y2min" required min="0" max="60" step="1">
+                                    </div>
+                                    <div class="col-md-3">
+                                        <input name="textinput" type="number" placeholder="&Prime;" class="form-control input-md" id="y2sec" required min="0" max="60" step="1">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-md-6 control-label" for="textinput">3 точка</label>
+                                <div class="form-group inline">
+                                    <label class="col-md-2 control-label" for="textinput">X</label>
+                                    <div class="col-md-3">
+                                        <input name="textinput" type="number" placeholder="&deg;" class="form-control input-sm" id="x3deg" required min="-179" max="179" step="1">
+                                    </div>
+                                    <div class="col-md-3">
+                                        <input name="textinput" type="number" placeholder="&prime;" class="form-control input-md" id="x3min" required min="0" max="60" step="1">
+                                    </div>
+                                    <div class="col-md-3">
+                                        <input name="textinput" type="number" placeholder="&Prime;" class="form-control input-md" id="x3sec" required min="0" max="60" step="1">
+                                    </div>
+                                </div>
+                                <div class="form-group inline">
+                                    <label class="col-md-2 control-label" for="textinput">Y</label>
+                                    <div class="col-md-3">
+                                        <input name="textinput" type="number" placeholder="&deg;" class="form-control input-sm" id="y3deg" required min="-89" max="89" step="1">
+                                    </div>
+                                    <div class="col-md-3">
+                                        <input name="textinput" type="number" placeholder="&prime;" class="form-control input-md" id="y3min" required min="0" max="60" step="1">
+                                    </div>
+                                    <div class="col-md-3">
+                                        <input name="textinput" type="number" placeholder="&Prime;" class="form-control input-md" id="y3sec" required min="0" max="60" step="1">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-md-6 control-label" for="textinput">4 точка</label>
+                                <div class="form-group inline">
+                                    <label class="col-md-2 control-label" for="textinput">X</label>
+                                    <div class="col-md-3">
+                                        <input name="textinput" type="number" placeholder="&deg;" class="form-control input-sm" id="x4deg" required min="-179" max="179" step="1">
+                                    </div>
+                                    <div class="col-md-3">
+                                        <input name="textinput" type="number" placeholder="&prime;" class="form-control input-md" id="x4min" required min="0" max="60" step="1">
+                                    </div>
+                                    <div class="col-md-3">
+                                        <input name="textinput" type="number" placeholder="&Prime;" class="form-control input-md" id="x4sec" required min="0" max="60" step="1">
+                                    </div>
+                                </div>
+                                <div class="form-group inline">
+                                    <label class="col-md-2 control-label" for="textinput">Y</label>
+                                    <div class="col-md-3">
+                                        <input name="textinput" type="number" placeholder="&deg;" class="form-control input-sm" id="y4deg" required min="-89" max="89" step="1">
+                                    </div>
+                                    <div class="col-md-3">
+                                        <input name="textinput" type="number" placeholder="&prime;" class="form-control input-md" id="y4min" required min="0" max="60" step="1">
+                                    </div>
+                                    <div class="col-md-3">
+                                        <input name="textinput" type="number" placeholder="&Prime;" class="form-control input-md" id="y4sec" required min="0" max="60" step="1">
+                                    </div>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button id="coordinateCreate" type="button" class="btn btn-secondary">Создать участок</button>
+                </div>
+            </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
+    <script src="./js/leaflet.wms.js"></script>
+    <script src="./js/leaflet.draw-src.js"></script>
+
+    <script src="./js/leaflet-image.js"></script>
+    <script src="./js/spin.min.js"></script>
+    <script src="./js/leaflet.spin.min.js"></script>
+    <script src="./js/easy-button.js"></script>
+
+    <script src="./js/betterWMS.js"></script>
+    <script src="./js/config.js"></script>
+    <script src="https://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"></script>
+    <script src="./js/jquery-ui.min.js"></script>
+    <script src="./js/jquery.scrollTo.min.js"></script>
+    <script src="./js/moment.js"></script>
+    <script src="./js/transition.js"></script>
+    <script src="./js/collapse.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/bootstrap-datetimepicker.min.js"></script>
+    
+    <script src="./js/bootstrap-slider.min.js"></script>
+    <script src="./js/bootstrap-select.min.js"></script>
+    <script src="./js/Leaflet.Coordinates.min.js"></script>
+    <script src="./js/L.Graticule.js"></script>
+    <script src="./js/Control.MiniMap.min.js"></script>
+    <script src="./js/validator.min.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+</html>

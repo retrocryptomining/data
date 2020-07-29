@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Helpy Digital Signage</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="token" content=""/>
+        <link rel="shortcut icon" href="/theme/default/img/favicon.ico" />
+
+        <link href="/theme/default/libraries/bootstrap/css/bootstrap.min.css?1.8.3" rel="stylesheet" media="screen">
+        <link href="/theme/default/libraries/font-awesome/css/font-awesome.min.css?1.8.3" rel="stylesheet">
+        <link href="/theme/default/libraries/bootstrap-select/css/bootstrap-select.css?1.8.3" rel="stylesheet">
+        <link href="/theme/default/libraries/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css?1.8.3" rel="stylesheet">
+        <link href="/theme/default/libraries/jquery-timepicker/jquery.timepicker.css?1.8.3" rel="stylesheet">
+        <link href="/theme/default/libraries/bootstrap-slider-master/bootstrap-slider.min.css?1.8.3" rel="stylesheet">
+        <link href="/theme/default/libraries/bootstrap-colorpicker/css/bootstrap-colorpicker.min.css?1.8.3" rel="stylesheet">
+        <link href="/theme/default/libraries/bootstrap-ekko-lightbox/ekko-lightbox.min.css?1.8.3" rel="stylesheet">
+        <link href="/theme/default/libraries/bootstrap-switch/bootstrap-switch.min.css?1.8.3" rel="stylesheet">
+        <link href="/theme/default/libraries/bootstrap-tagsinput-master/bootstrap-tagsinput.css?1.8.3" rel="stylesheet">
+        <link href="/theme/default/libraries/calendar/css/calendar.css?1.8.3" rel="stylesheet">
+        <link href="/theme/default/libraries/morrisjs/morris.css?1.8.3" rel="stylesheet">
+        <link href="/theme/default/libraries/datatables/dataTables.bootstrap.css?1.8.3" rel="stylesheet">
+        <link href="/theme/default/libraries/datatables/buttons.dataTables.min.css?1.8.3" rel="stylesheet">
+        <link href="/theme/default/libraries/jquery/jquery-ui/css/ui-lightness/jquery-ui-1.10.2.custom.min.css?1.8.3" rel="stylesheet">
+        <link href="/theme/default/libraries/jquery-file-upload/css/jquery.fileupload.css?1.8.3" rel="stylesheet">
+        <link href="/theme/default/libraries/jquery-file-upload/css/jquery.fileupload-ui.css?1.8.3" rel="stylesheet">
+        <link href="/theme/default/libraries/toastr/toastr.min.css" rel="stylesheet">
+        <link href="/theme/default/css/dashboard.css?1.8.3" rel="stylesheet" media="screen">
+        <link href="/theme/default/css/timeline.css?1.8.3" rel="stylesheet" media="screen">
+        <link href="/theme/default/css/xibo.css?1.8.3" rel="stylesheet" media="screen">
+        <link href="/theme/default/css/calendar.css?1.8.3" rel="stylesheet" media="screen">
+        <link href="/theme/default/css/override.css?1.8.3" rel="stylesheet" media="screen">
+        <link href="/library/fontcss" rel="stylesheet">
+        <!-- Copyright 2006-2017 Daniel Garner. Part of the Xibo Open Source Digital Signage Solution. Released under the AGPLv3 or later. -->
+        <!-- Please be sure you read this before removing the Source/About links from your theme: http://bit.ly/agplv3 -->
+            </head>
+    <body>
+            <div id="page-wrapper" class="active">
+        <div class="collapse navbar-collapse" id="navbar-collapse-1">
+            <div id="sidebar-wrapper">
+                <ul class="sidebar">
+                    <li class="sidebar-main"><a href="/">Dashboard</a></li>
+                </ul>
+
+                <div class="sidebar-footer" style="display:none;">
+                    <div class="col-sm-6">
+                        <a class="XiboFormButton" href="/about" title="About the CMS">About</a>
+                    </div>
+                    <div class="col-sm-6">
+                        <a href="http://www.xibo.org.uk/manual/" target="_blank" title="Open the Manual in a new Window">Manual</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="content-wrapper">
+            <div class="page-content">
+                <div class="row header">
+                    <div class="col-sm-12">
+                        <div class="meta pull-left">
+                            <div class="page"><img class="xibo-logo" src="/theme/default/img/xibologo.png"></div>
+                        </div>
+                        <div class="user pull-right">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                                                
+    <div class="widget">
+        <div class="widget-title">Page not found</div>
+        <div class="widget-body">
+            <div class="row">
+                <div class="col-md-12">
+                    <p>Sorry we could not find that page. Please check your URL or press back in your browser</p>
+                    Page not found
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                                            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <script src="/theme/default/libraries/jquery/jquery-1.11.1.min.js?1.8.3"></script>
+        <script src="/theme/default/libraries/jquery/jquery.validate.min.js?1.8.3"></script>
+        <script src="/theme/default/libraries/jquery/additional-methods.min.js?1.8.3"></script>
+        <script src="/theme/default/libraries/bootstrap/js/bootstrap.min.js?1.8.3"></script>
+        <script src="/theme/default/libraries/bootstrap/js/bootbox.min.js?1.8.3"></script>
+        <script src="/theme/default/libraries/bootstrap-switch/bootstrap-switch.min.js?1.8.3"></script>
+
+                <script src="/theme/default/libraries/datatables/jquery.dataTables.min.js?1.8.3"></script>
+        <script src="/theme/default/libraries/datatables/dataTables.bootstrap.js?1.8.3"></script>
+        <script src="/theme/default/libraries/datatables/dataTables.buttons.min.js?1.8.3"></script>
+        <script src="/theme/default/libraries/datatables/buttons.colVis.min.js?1.8.3"></script>
+        <script src="/theme/default/libraries/datatables/buttons.print.min.js?1.8.3"></script>
+        <script src="/theme/default/libraries/datatables/buttons.html5.js?1.8.3"></script>
+        <script src="/theme/default/libraries/datatables/buttons.flash.min.js?1.8.3"></script>
+
+        <script src="/theme/default/libraries/jquery/jquery-ui/jquery-ui-1.10.2.custom.min.js?1.8.3"></script>
+        <script src="/theme/default/libraries/bootstrap-colorpicker/js/bootstrap-colorpicker.min.js?1.8.3"></script>
+        <script src="/theme/default/libraries/bootstrap-select/js/bootstrap-select.min.js?1.8.3"></script>
+        <script src="/theme/default/libraries/bootstrap-ekko-lightbox/ekko-lightbox.min.js?1.8.3"></script>
+        <script src="/theme/default/libraries/underscore/underscore-min.js?1.8.3"></script>
+        <script src="/theme/default/libraries/jstimezonedetect/jstz.min.js?1.8.3"></script>
+        <script src="/theme/default/libraries/ckeditor/ckeditor.js?1.8.3"></script>
+        <script src="/theme/default/libraries/bootstrap/js/bootstrap-ckeditor-fix.js?1.8.3"></script>
+        <script src="/theme/default/libraries/jquery-file-upload/js/tmpl.min.js?1.8.3"></script>
+        <script src="/theme/default/libraries/jquery-load-image/load-image.all.min.js?1.8.3"></script>
+        <script src="/theme/default/libraries/jquery-file-upload/js/jquery.iframe-transport.js?1.8.3"></script>
+        <script src="/theme/default/libraries/jquery-file-upload/js/jquery.fileupload.js?1.8.3"></script>
+        <script src="/theme/default/libraries/jquery-file-upload/js/jquery.fileupload-process.js?1.8.3"></script>
+        <script src="/theme/default/libraries/jquery-file-upload/js/jquery.fileupload-resize.js?1.8.3"></script>
+        <script src="/theme/default/libraries/jquery-file-upload/js/jquery.fileupload-validate.js?1.8.3"></script>
+        <script src="/theme/default/libraries/jquery-file-upload/js/jquery.fileupload-ui.js?1.8.3"></script>
+        <script src="/theme/default/libraries/jquery-file-upload/js/jquery.fileupload-image.js?1.8.3"></script>
+        <script src="/theme/default/libraries/jquery-file-upload/js/jquery.fileupload-video.js?1.8.3"></script>
+        <script src="/theme/default/libraries/jquery-file-upload/js/jquery.fileupload-audio.js?1.8.3"></script>
+        <script src="/theme/default/libraries/jquery-message-queuing/jquery.ba-jqmq.min.js?1.8.3"></script>
+        <script src="/theme/default/libraries/jquery-throttle-debounce/jquery.ba-throttle-debounce.min.js?1.8.3"></script>
+        <script src="/theme/default/libraries/toastr/toastr.min.js?1.8.3"></script>
+        <script src="/theme/default/libraries/date-time-format.js?1.8.3"></script>
+        <script src="/theme/default/libraries/momentjs/moment.js?1.8.3"></script>
+        <script src="/theme/default/libraries/momentjs/moment-timezone.js?1.8.3"></script>
+        <script src="/theme/default/libraries/morrisjs/raphael.min.js?1.8.3"></script>
+        <script src="/theme/default/libraries/morrisjs/morris.min.js?1.8.3"></script>
+        <script src="/theme/default/libraries/chartjs/Chart.min.js?1.8.3"></script>
+
+        <script src="/theme/default/libraries/colors/colors.min.js?1.8.3"></script>
+        <script src="/theme/default/js/xibo-cms.js?1.8.3"></script>
+        <script src="/theme/default/js/xibo-forms.js?1.8.3"></script>
+        <script src="/theme/default/js/xibo-preview-timeline.js?1.8.3"></script>
+        <script src="/theme/default/js/xibo-calendar.js?1.8.3"></script>
+        <script src="/theme/default/js/xibo-datasets.js?1.8.3"></script>
+        <script src="/theme/default/libraries/handlebars/handlebars-v3.0.0.js?1.8.3"></script>
+        <script src="/theme/default/libraries/jquery-serialize-object/jquery.serialize-object.min.js?1.8.3"></script>
+        <script src="/theme/default/libraries/bootstrap-tagsinput-master/bootstrap-tagsinput.min.js?1.8.3"></script>
+        <script src="/theme/default/libraries/jquery-timepicker/jquery.timepicker.min.js?1.8.3"></script>
+        <script src="/theme/default/libraries/bootstrap-slider-master/bootstrap-slider.min.js?1.8.3"></script>
+
+                            <script src="/theme/default/libraries/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js?1.8.3"></script>
+            <script src="/theme/default/libraries/calendar/js/calendar.js?1.8.3"></script>
+            <script src="/theme/default/libraries/calendar/js/language/en_GB.js?1.8.3"></script>
+        
+        
+        <script type="text/javascript">
+            var translations = {};
+            // Translations we want always available
+                        translations.withselected = "With\x20Selected";
+            translations.selectAll = "Select\x20All";
+            translations.multiselect = "Multiple\x20Items\x20Selected";
+            translations.multiselectNoItemsMessage = "Sorry,\x20no\x20items\x20have\x20been\x20selected.";
+            translations.multiselectMessage = "Caution,\x20you\x20have\x20selected\x20\x251\x20items.\x20Clicking\x20save\x20will\x20run\x20the\x20\x252\x20transaction\x20on\x20all\x20these\x20items.";
+            translations.save = "Save";
+            translations.cancel = "Cancel";
+            translations.close = "Close";
+            translations.success = "Success";
+            translations.failure = "Failure";
+            translations.enterText = "Enter\x20text...";
+            translations.statusPending = "Status\x20Pending";
+            translations.duplicate = "Duplicate";
+            translations.spacesWarning = "Warning\x20\x2D\x20starts\x20with\x20or\x20ends\x20with\x20a\x20space,\x20or\x20contains\x20double\x20spaces";
+            
+            var language = "en-GB";
+            var timezone = "Europe/Rome";
+            var dateFormat = "d-m-Y H:i";
+            var jsDateFormat = "DD-MM-YYYY HH:mm";
+            var timeFormat = "H:i";
+            var jsTimeFormat = "HH:mm";
+            var systemDateFormat = "YYYY-MM-DD HH:mm:ss";
+            var systemTimeFormat = "HH:mm:ss";
+            var bootstrapDateFormat = "dd-mm-yyyy hh:ii";
+            var bootstrapDateFormatDateOnly = "dd-mm-yyyy";
+            var calendarType = "Gregorian";
+            var clockUrl = "/clock";
+            var calendarLanguage = "en-GB";
+            var pingUrl = "/login/ping";
+
+                        var dataTablesLanguage = {
+                "decimal":        "",
+                "emptyTable":     "No\x20data\x20available\x20in\x20table",
+                "info":           "Showing\x20_START_\x20to\x20_END_\x20of\x20_TOTAL_\x20entries",
+                "infoEmpty":      "Showing\x200\x20to\x200\x20of\x200\x20entries",
+                "infoFiltered":   "\x28filtered\x20from\x20_MAX_\x20total\x20entries\x29",
+                "infoPostFix":    "",
+                "thousands":      ",",
+                "lengthMenu":     "Show\x20_MENU_\x20entries",
+                "loadingRecords": "Loading...",
+                "processing":     "Processing...",
+                "search":         "Search\x3A",
+                "zeroRecords":    "No\x20matching\x20records\x20found",
+                "paginate": {
+                    "first":      "First",
+                    "last":       "Last",
+                    "next":       "Next",
+                    "previous":   "Previous"
+                },
+                "aria": {
+                    "sortAscending":  "\x3A\x20activate\x20to\x20sort\x20column\x20ascending",
+                    "sortDescending": "\x3A\x20activate\x20to\x20sort\x20column\x20descending"
+                }
+            };
+            
+            moment.locale("en-GB");
+
+            $(function() {
+                var csrf_token = $('meta[name="token"]').attr('content');
+                $.ajaxSetup({
+                    headers: {
+                        'X-XSRF-TOKEN': csrf_token
+                    }
+                });
+            });
+
+            toastr.options.positionClass = "toast-bottom-right";
+
+            // CKEditor default config
+            var CKEDITOR_DEFAULT_CONFIG = {
+                contentsCss: [ CKEDITOR.getUrl('contents.css'), "/library/fontcss" ],
+                font_names: 'Aileron Heavy Regular/aileron heavy regular;Aileron Regular/aileron regular;Dancing Script Regular/dancing script regular;Linear Regular/linear regular;Railway Regular/railway regular;' + CKEDITOR.config.font_names,
+                imageDownloadUrl: "/library/download/:id?preview=1"
+            }
+
+        </script>
+
+                    </body>
+</html>

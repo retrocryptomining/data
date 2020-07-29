@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>
+<html lang="en" ng-app="core" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>
+<html lang="en" ng-app="core" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>
+<html lang="en" ng-app="core" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en" ng-app="core" class="no-js"> <!--<![endif]-->
+<head>
+    <base href="/">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>IDB</title>
+    <meta name="version" content="0.1"/>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700|Open+Sans:300400,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/select2/3.4.5/select2.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css"
+        integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
+        crossorigin=""/>
+
+    <!-- bower:css -->
+    <link rel="stylesheet" href="bower_components/angular-datepicker.css">
+    <link rel="stylesheet" href="bower_components/angular-gridster.css">
+    <link rel="stylesheet" href="bower_components/angular-ui-notification.css">
+    <link rel="stylesheet" href="bower_components/bootstrap.min.css">
+    <link rel="stylesheet" href="bower_components/daterangepicker.css">
+    <link rel="stylesheet" href="bower_components/jquery.mCustomScrollbar.css">
+    <link rel="stylesheet" href="bower_components/ngDialog-theme-default.css">
+    <link rel="stylesheet" href="bower_components/ngDialog.css">
+    <link rel="stylesheet" href="bower_components/rzslider.css">
+    <link rel="stylesheet" href="bower_components/select.css">
+    <!-- endinject -->
+    <!-- inject:css -->
+    <link rel="stylesheet" href="main.css">
+    <!-- endinject -->
+</head>
+<body>
+<!--[if lt IE 7]>
+<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
+    your browser</a> to improve your experience.</p>
+<![endif]-->
+<div id="ui-view" class="idb__w-all" ui-view>
+    <div class="preloader-cl _index">
+        <div class="sk-circle">
+            <div class="sk-circle1 sk-child"></div>
+            <div class="sk-circle2 sk-child"></div>
+            <div class="sk-circle3 sk-child"></div>
+            <div class="sk-circle4 sk-child"></div>
+            <div class="sk-circle5 sk-child"></div>
+            <div class="sk-circle6 sk-child"></div>
+            <div class="sk-circle7 sk-child"></div>
+            <div class="sk-circle8 sk-child"></div>
+            <div class="sk-circle9 sk-child"></div>
+            <div class="sk-circle10 sk-child"></div>
+            <div class="sk-circle11 sk-child"></div>
+            <div class="sk-circle12 sk-child"></div>
+        </div>
+    </div>
+</div>
+<script src="https://d3js.org/topojson.v2.min.js"></script>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"
+    integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+    crossorigin="anonymous">
+</script>
+<script src="https://unpkg.com/leaflet@1.3.1/dist/leaflet.js"
+    integrity="sha512-/Nsx9X4HebavoBvEBuyp3I7od5tA0UzAxs+j83KgC8PU0kgB4XiK4Lfe4y4cgBtaRJQEIFCW+oC506aPT2L1zw=="
+    crossorigin="">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/4.3.7/papaparse.js" 
+    integrity="sha256-QvijOmxLUGxTuoxamQikzFRUJ5hFoDOG71tl2M+LULw=" 
+    crossorigin="anonymous">
+</script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+    integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+    crossorigin="anonymous">
+</script>
+<!-- bower:js -->
+<script src="bower_components/angular.js"></script>
+<script src="bower_components/moment.js"></script>
+<script src="bower_components/handlebars.js"></script>
+<script src="bower_components/bootstrap.js"></script>
+<script src="bower_components/Chart.js"></script>
+<script src="bower_components/lodash.js"></script>
+<script src="bower_components/angular-animate.js"></script>
+<script src="bower_components/angular-bowser.js"></script>
+<script src="bower_components/angular-chrono.js"></script>
+<script src="bower_components/angular-datepicker.js"></script>
+<script src="bower_components/angular-google-analytics.min.js"></script>
+<script src="bower_components/angular-gridster.js"></script>
+<script src="bower_components/angular-sanitize.js"></script>
+<script src="bower_components/angular-screenshot.min.js"></script>
+<script src="bower_components/angular-timer.js"></script>
+<script src="bower_components/angular-translate.js"></script>
+<script src="bower_components/angular-ui-notification.js"></script>
+<script src="bower_components/angular-ui-router.js"></script>
+<script src="bower_components/chartjs-plugin-datalabels.js"></script>
+<script src="bower_components/d3.js"></script>
+<script src="bower_components/daterangepicker.js"></script>
+<script src="bower_components/detect-element-resize.js"></script>
+<script src="bower_components/download.js"></script>
+<script src="bower_components/humanize-duration.js"></script>
+<script src="bower_components/jquery.mCustomScrollbar.js"></script>
+<script src="bower_components/jquery.mousewheel.js"></script>
+<script src="bower_components/ngDialog.js"></script>
+<script src="bower_components/ngIpAddress.js"></script>
+<script src="bower_components/ngStorage.js"></script>
+<script src="bower_components/rzslider.js"></script>
+<script src="bower_components/scrollbars.min.js"></script>
+<script src="bower_components/select.js"></script>
+<script src="bower_components/smart-table.js"></script>
+<script src="bower_components/ui-bootstrap-tpls.js"></script>
+<!-- endinject -->
+
+<!-- inject:js -->
+<script src="js/components/dashboard/dashboard.module.js"></script>
+<script src="js/components/dashboard/charts/dossier/table/table.component.js"></script>
+<script src="js/components/dashboard/charts/dossier/key-value/key-value.component.js"></script>
+<script src="js/components/dashboard/charts/dossier/chart/chart.component.js"></script>
+<script src="js/components/dashboard/widget/layout/layout.component.js"></script>
+<script src="js/components/dashboard/widget/layer/layer.component.js"></script>
+<script src="js/components/dashboard/widget/filter/filter.component.js"></script>
+<script src="js/components/dashboard/filters/range-slider/range-slider.component.js"></script>
+<script src="js/components/dashboard/filters/range/range.component.js"></script>
+<script src="js/components/dashboard/filters/like/like.component.js"></script>
+<script src="js/components/dashboard/filters/equal/equal.component.js"></script>
+<script src="js/components/dashboard/filters/daterange/daterange.component.js"></script>
+<script src="js/components/dashboard/charts/table/table.component.js"></script>
+<script src="js/components/dashboard/charts/progress/progress.component.js"></script>
+<script src="js/components/dashboard/charts/pie/pie.component.js"></script>
+<script src="js/components/dashboard/charts/map/map.component.js"></script>
+<script src="js/components/dashboard/charts/dossier/dossier.component.js"></script>
+<script src="js/components/dashboard/charts/chart-canvas/chart-canvas.component.js"></script>
+<script src="js/components/dashboard/charts/bar/bar.component.js"></script>
+<script src="js/components/common/common.module.js"></script>
+<script src="js/components/common/table/pagination/pagination.component.js"></script>
+<script src="js/components/common/table/column/column.component.js"></script>
+<script src="js/components/common/dialog/choose-action-board/choose-action-board.js"></script>
+<script src="js/components/common/col/participant/participant.component.js"></script>
+<script src="js/components/common/col/order/order.component.js"></script>
+<script src="js/components/common/col/good/good.component.js"></script>
+<script src="js/components/upload/upload.module.js"></script>
+<script src="js/components/upload/manual/manual.component.js"></script>
+<script src="js/components/upload/main/main.component.js"></script>
+<script src="js/components/upload/external/external.component.js"></script>
+<script src="js/components/upload/common/common.component.js"></script>
+<script src="js/components/servers/servers.module.js"></script>
+<script src="js/components/servers/main/main.component.js"></script>
+<script src="js/components/reports/reports.module.js"></script>
+<script src="js/components/reports/showcase-picker/showcase-picker.component.js"></script>
+<script src="js/components/reports/query/query.component.js"></script>
+<script src="js/components/reports/private-reports/private-reports.component.js"></script>
+<script src="js/components/reports/private-report-editor/private-report-editor.component.js"></script>
+<script src="js/components/reports/private-report-browser/private-report-browser.component.js"></script>
+<script src="js/components/reports/nested-entity-picker/nested-entity-picker.component.js"></script>
+<script src="js/components/reports/nested-entity-checklist/nested-entity-checklist.component.js"></script>
+<script src="js/components/reports/main/main.component.js"></script>
+<script src="js/components/reports/formula-editor/formula-editor.component.js"></script>
+<script src="js/components/reports/expression-picker/expression-picker.component.js"></script>
+<script src="js/components/reports/download-modal/download-modal.component.js"></script>
+<script src="js/components/reports/common-reports/common-reports.component.js"></script>
+<script src="js/components/reports/common-report-browser/common-report-browser.component.js"></script>
+<script src="js/components/reports/column-editor/column-editor.component.js"></script>
+<script src="js/components/reports/browser/browser.component.js"></script>
+<script src="js/components/reference-data/reference-data.module.js"></script>
+<script src="js/components/reference-data/structure/structure.component.js"></script>
+<script src="js/components/reference-data/main/main.component.js"></script>
+<script src="js/components/reference-data/editor/editor.component.js"></script>
+<script src="js/components/reference-data/common/common.component.js"></script>
+<script src="js/components/public-apis/public-apis.module.js"></script>
+<script src="js/components/public-apis/version-editor/version-editor.component.js"></script>
+<script src="js/components/public-apis/main/main.component.js"></script>
+<script src="js/components/public-apis/editor/editor.component.js"></script>
+<script src="js/components/public-apis/api-list/api-list.component.js"></script>
+<script src="js/components/public-apis/api-editor/api-editor.component.js"></script>
+<script src="js/components/dashboard/wizard-new/wizard-new.component.js"></script>
+<script src="js/components/dashboard/wizard/wizard.component.js"></script>
+<script src="js/components/dashboard/widget-list/widget-list.component.js"></script>
+<script src="js/components/dashboard/widget/widget.component.js"></script>
+<script src="js/components/dashboard/main/main.component.js"></script>
+<script src="js/components/dashboard/layers/visual-step.component.js"></script>
+<script src="js/components/dashboard/layers/view-step.component.js"></script>
+<script src="js/components/dashboard/layers/tables-step.component.js"></script>
+<script src="js/components/dashboard/layers/stepper.component.js"></script>
+<script src="js/components/dashboard/layers/final-step.component.js"></script>
+<script src="js/components/dashboard/layers/filters-step.component.js"></script>
+<script src="js/components/dashboard/layers/base-step.component.js"></script>
+<script src="js/components/dashboard/details/details.component.js"></script>
+<script src="js/components/dashboard/desktop/desktop.component.js"></script>
+<script src="js/components/dashboard/board/board.component.js"></script>
+<script src="js/components/control/control.module.js"></script>
+<script src="js/components/control/result/result.component.js"></script>
+<script src="js/components/control/modal/modal.component.js"></script>
+<script src="js/components/control/main/main.component.js"></script>
+<script src="js/components/control/cards/cards.component.js"></script>
+<script src="js/components/constructor/constructor.module.js"></script>
+<script src="js/components/constructor/main/main.component.js"></script>
+<script src="js/components/common/tootip/tootip.directive.js"></script>
+<script src="js/components/common/tabs/tabs.component.js"></script>
+<script src="js/components/common/table/table.component.js"></script>
+<script src="js/components/common/showcase-fields/showcase-fields.js"></script>
+<script src="js/components/common/row-edit/row-edit.component.js"></script>
+<script src="js/components/common/right_panel/right_panel.component.js"></script>
+<script src="js/components/common/progressbar/progressbar.component.js"></script>
+<script src="js/components/common/grid_new/grid_new.component.js"></script>
+<script src="js/components/common/grid/grid.component.js"></script>
+<script src="app.js"></script>
+<script src="js/components/common/file-input/file-input.component.js"></script>
+<script src="js/components/common/edit-boards/edit-boards.component.js"></script>
+<script src="js/components/common/dropdown-menu/dropdown.component.js"></script>
+<script src="js/components/common/dropdown/dropdown.directive.js"></script>
+<script src="js/components/common/dialog/dialog.directive.js"></script>
+<script src="js/components/common/col/col.component.js"></script>
+<script src="js/components/common/choose-showcase/choose-showcase.component.js"></script>
+<script src="js/components/common/chart-donut/chart-donut.directive.js"></script>
+<script src="js/components/common/chart/chart.directive.js"></script>
+<script src="js/components/common/breadcrumbs/breadcrumbs.component.js"></script>
+<script src="js/components/common/add-layer/add-layer.component.js"></script>
+<script src="js/components/common/add-board/column.component.js"></script>
+<script src="js/components/common/add-board/add-board.component.js"></script>
+<script src="js/components/auth/auth.module.js"></script>
+<script src="js/components/auth/login/login.component.js"></script>
+<script src="js/components/account/account.module.js"></script>
+<script src="js/components/account/profile/profile.component.js"></script>
+<script src="js/components/account/my-boards/my-boards.component.js"></script>
+<script src="js/components/account/desktop-list/desktop-list.component.js"></script>
+<script src="js/components/account/desktop-create/desktop-create.component.js"></script>
+<script src="js/components/starter/starter.module.js"></script>
+<script src="js/components/starter/starter.component.js"></script>
+<script src="js/components/layout/side.component.js"></script>
+<script src="js/components/layout/layout.component.js"></script>
+<script src="js/components/layout/layout-auth.component.js"></script>
+<script src="js/components/layout/header.component.js"></script>
+<script src="js/components/layout/footer.component.js"></script>
+<script src="vendor/ace/ace.js"></script>
+<script src="js/services/wizard.visual-step.service.js"></script>
+<script src="js/services/wizard.service.js"></script>
+<script src="js/services/window-helper.service.js"></script>
+<script src="js/services/wigdet.service.js"></script>
+<script src="js/services/vnd-data.service.js"></script>
+<script src="js/services/user-event.service.js"></script>
+<script src="js/services/storage.service.js"></script>
+<script src="js/services/showcase.service.js"></script>
+<script src="js/services/showcase-data.service.js"></script>
+<script src="js/services/resources.service.js"></script>
+<script src="js/services/report.service.js"></script>
+<script src="js/services/reference-data.service.js"></script>
+<script src="js/services/public-apis.service.js"></script>
+<script src="js/services/notification.service.js"></script>
+<script src="js/services/navigation.service.js"></script>
+<script src="js/services/map.service.js"></script>
+<script src="js/services/grid.service.js"></script>
+<script src="js/services/dialog.service.js"></script>
+<script src="js/services/desktop.service.js"></script>
+<script src="js/services/data-converter.service.js"></script>
+<script src="js/services/control.service.js"></script>
+<script src="js/services/compile.service.js"></script>
+<script src="js/services/charts-table.service.js"></script>
+<script src="js/services/chart-canvas.service.js"></script>
+<script src="js/services/capture.service.js"></script>
+<script src="js/services/breadcrumbs.service.js"></script>
+<script src="js/services/auth.service.js"></script>
+<script src="js/services/api.service.js"></script>
+<script src="js/misc/Observable.js"></script>
+<script src="js/misc/IdbEventStream.js"></script>
+<script src="js/directives/stepper.directive.js"></script>
+<script src="js/directives/step.directive.js"></script>
+<script src="js/directives/side-panel.directive.js"></script>
+<script src="js/directives/ng-file-model.js"></script>
+<script src="js/constants/wizard.constant.js"></script>
+<script src="js/constants/window-size.constant.js"></script>
+<script src="js/constants/visual-step-config.constant.js"></script>
+<script src="js/constants/scrollbars.constant.js"></script>
+<script src="js/constants/property-data-tables.constant.js"></script>
+<script src="js/constants/mock-widget.constant.js"></script>
+<script src="js/constants/mock-charts.constant.js"></script>
+<script src="js/constants/map.constant.js"></script>
+<script src="js/constants/main-menu.constant.js"></script>
+<script src="js/constants/layout.constant.js"></script>
+<script src="js/constants/language.constant.js"></script>
+<script src="js/constants/grid.constant.js"></script>
+<script src="js/constants/feature.flags.constant.js"></script>
+<script src="js/constants/dossier.constant.js"></script>
+<script src="js/constants/config.constant.js"></script>
+<script src="js/constants/colors.constant.js"></script>
+<script src="vendor/html2canvas.js"></script>
+<script src="js/app.run.js"></script>
+<script src="js/app.route.js"></script>
+<!-- endinject -->
+
+<!-- template:js -->
+<script src="templates/templates.module.js"></script>
+<!-- endinject -->
+
+<!-- translates:js -->
+<script src="js/constants/translate.constant.js"></script>
+<!-- endinject -->
+
+</body>
+</html>

@@ -1,0 +1,61 @@
+<html>
+<head>
+<title>Internet > Payment Reminder </title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="expires" content="-1">
+<style type="text/css">
+<!--
+textarea,input,select {
+	background-color: #FDFBFB;
+	border: 1px #BBBBBB solid;
+	padding: 2px;
+	margin: 1px;
+	font-size: 14px;
+	color: #808080;
+}
+
+body{
+	color: #737373;
+	font-size: 12px;
+	font-family: verdana;
+	background-image: url(webproxy/bluehoriz.jpg);
+}
+
+a, a:link, a:visited, a:active { color: #AAAAAA; text-decoration: none; font-size: 12px; }
+a:hover { border-bottom: 1px dotted #c1c1c1; color: #AAAAAA; }
+img {border: none;}
+td { font-size: 12px; color: #7A7A7A; }
+.style1 {
+	color: #FF0000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-decoration: blink;
+}
+.style3 {color: #FF0000}
+.style4 {color: #0000FF}
+.style5 {color: #00FFCC; }
+.style6 {color: #CCFF00; }
+
+-->
+</style>
+
+</head>
+<body onLoad="">
+<table width="100%" height="100%">
+<tr>
+	<td align="center" valign="middle"><h1 class="style1">Payment Reminder !!</h1>
+	<br>
+	<h1 class="style4">Message from LahoreOnline </h1>
+	<h2><br>
+	    <h2>
+	    <span class="style3">Your internet service Has Been temporary Closed </span></h2>
+            <h2>
+            <span class="style3">Please Submit your Pending Dues to Continue our Services</span></h2>
+	<h3><span class="style4">OR</span><br>
+	  </h3>
+	<h1 class="style4">Contact:-0313-4629077 , 042-36271122</h1>
+	<h2 class="style5">Thank's</h2></td>
+</tr>
+</table>
+</body>
+</html>

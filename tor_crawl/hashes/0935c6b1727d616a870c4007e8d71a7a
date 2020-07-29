@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Ważna informacja dla Użytkowników</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/styles.css" rel="stylesheet">
+
+  </head>
+  <body>
+
+    <div class="container-fluid">
+	<div class="text-center fill">
+	<div class="container">
+	<div id="contact-form">
+	<h8>
+	Wiadomość administracyjna
+	</h8>
+	<span class="line"></span>
+<p class="intro">
+<font color="black">
+<br />
+<b>Warning</b>:  Cannot modify header information - headers already sent by (output started at /var/www/wiad/strona.inc.php:24) in <b>/var/www/lms/lib/Session.class.php</b> on line <b>160</b><br />
+<b><font color="blue"> System Płatności easynet.pl</font></b><br><br>Wiadomość została wygenerowana automatycznie w dniu 2019/05/03.<br><br>Informujemy, że na Państwa koncie odnotowano saldo w wysokości: <b><font color="red"> -76.00 zł.</font><br>Prosimy o sprawdzenie zgodności salda i uregulowanie płatności.</b><br><br>Na konto bankowe:<br><b>86 1020 1592 0000 2102 0170 5193</b><br><br>Szczegóły wszystkich transakcji znajdą Państwo pod adresem:<br><a href=https://10.200.0.2/userpanel/><br>http://userpanel.pl</a><br><b>ID oraz PIN znajdują się w umowie lub  na fakturze.</b><br><br><b><font color="blue"><br>Jeśli dokonali Państwo wpłaty w ostatnich kilku dniach prosimy zignorować tę wiadomość,<br>środki mogą być jeszcze nie zaksięgowane.</font><br><font color="red">Przypominamy również iż brak wpłaty spowoduje ograniczenie dostępu do internetu z końcem bieżącego miesiąca.</font></b>		<div class='row text-center'>
+		<FORM action="http://10.200.0.2:82/index.php" method="POST">
+		<INPUT type="hidden" name="dalej" value="dalej">
+		<INPUT type="submit" name="ok" id="button" value="Powrót do INTERNETU">
+		</FORM>
+		</div>
+
+</font>
+	</p>
+
+		<div class='footer'>
+		<div class='footerContent'>
+		<p>
+		<span style="color:#FFAB28">	Kontakt z administratorem sieci  </span></p>
+		<p>
+		tel:<span style="color:#FFAB28">  (23) 682 12 76</span></p>
+		<p>
+		e-mail: <span style="color:#FFAB28">biuro@easynet.pl</span></p>
+		</div></div></div></div></div>  </div>  </div>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+
+	</body>
+</html>

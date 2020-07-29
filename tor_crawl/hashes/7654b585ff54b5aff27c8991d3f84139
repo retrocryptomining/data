@@ -1,0 +1,6 @@
+<HTML><HEAD><TITLE>400 Bad Request</TITLE></HEAD>
+<BODY BGCOLOR="#cc9999"><H4>400 Bad Request</H4>
+Bad filename.
+<HR>
+<ADDRESS><A HREF="http://www.acme.com/software/micro_httpd/">micro_httpd</A></ADDRESS>
+</BODY></HTML>

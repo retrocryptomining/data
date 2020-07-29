@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<title>Przepraszamy: Trwają prace konserwacyjne.</title>
+<link href="http://web1.wp.mil.pl/css/style.css" rel="stylesheet" type="text/css">
+<link href="http://web1.wp.mil.pl/img/favicon.ico" rel="icon" type="image/x-icon"/>
+</link></meta></head>
+<body>
+<div id="content">
+<div id="heading">
+<div id="eagle">
+</div>
+<div id="msg">
+<h1>Przepraszamy</h1>
+<h2>Aktualnie trwają prace konserwacyjne.</h2>
+<p>Zapraszamy wkrótce.</p>
+</div>
+</div>
+</div>
+</body>
+</html>
+

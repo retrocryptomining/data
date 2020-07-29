@@ -1,0 +1,17 @@
+HTTP/1.1 403 Forbidden
+Content-Length: 4
+Connection: keep-alive
+Content-Type: text/html;charset=utf-8
+Date: Wed, 02 Oct 2019 13:05:09 GMT
+Mime-Version: 1.0
+Server: squid/3.5.23
+Via: 1.1 s_wx1301 (squid/3.5.23)
+X-Cache: MISS from s_wx1301
+X-Proxer-Domain-Pattern: **
+X-Proxer-Primary-Proxy: http://admin:TDB5pMGhG6S5@196.196.149.14:12345
+X-Proxer-Proxy: http://admin:TDB5pMGhG6S5@196.196.149.14:12345
+X-Proxer-Request-Duration-In-Milliseconds: 107.5
+X-Proxer-Secondary-Proxy: http://admin:TDB5pMGhG6S5@196.196.149.14:12345
+X-Squid-Error: ERR_ACCESS_DENIED 0
+
+403

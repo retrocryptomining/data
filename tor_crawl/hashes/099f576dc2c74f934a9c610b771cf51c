@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<noscript>
+	<meta http-equiv="refresh" content="5" id="refresh" />
+	</noscript>
+	<style type="text/css">
+		html{overflow-y: hidden;overflow-x: hidden;}
+		html, body, div, iframe {margin:0; padding:0; height:100%;}
+		iframe {display:block; width:100%; border:none;}
+	</style>
+</head>
+	<body>
+		<div>
+			<iframe id="frame" width="100%" height="100%" src="//block.inetvl.ru/"></iframe>
+		</div>
+	</body>
+	<script type="text/javascript">
+	var img_name = '/202cb962ac59075b964b07152d234b7070935368a1efb10e377.png';
+	var checker = new Image();
+	checker.onerror = function() {
+		location.reload();
+	};
+	setInterval(function() {checker.src = img_name;}, 4 * 1000);
+	</script>
+</html>

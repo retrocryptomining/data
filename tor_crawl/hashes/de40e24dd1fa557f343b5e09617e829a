@@ -1,0 +1,23 @@
+<html><body><font size="5" color="#FF0000"><br><b>Access denied due to Proxy+'s Security settings!</b></font><hr>
+<b>Description:</b> Access through interface which is on insecure interfaces list detected. Request aborted.
+<br><b>Interface/Client IP address:</b> 31.47.196.243
+<hr><font size="2"><font color="#FF0000">Proxy</font><font color="#0000FF">+</font> 3.00 (Build #232), Date: Tue, 19 Mar 2019 02:15:04 GMT</font>
+
+<br><br>
+<!--
+<hr>MS IE 5.X replaces error messages when the message is too short!<br>
+Note: If you see this text it is due to MS IE bug with HTTPS error responses.<br>
+<br>
+The message has to be larger than 512 bytes...<br>
+<br>
+**************************************************************<br>
+**************************************************************<br>
+**************************************************************<br>
+**************************************************************<br>
+**************************************************************<br>
+**************************************************************<br>
+**************************************************************<br>
+**************************************************************<br>
+
+-->
+</body></html>

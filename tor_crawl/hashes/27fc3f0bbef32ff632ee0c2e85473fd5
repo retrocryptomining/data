@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>禁止访问</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style>
+	body {
+		background-color:#efefef;
+	}
+	h1 {
+		color: #fff;
+		background-color: #585353;
+		padding-left:20px;
+		padding-top:6px;
+		padding-bottom:6px;
+	}
+	.outer {
+		background-color:#fff;
+		padding:6px 0 6px 20px;
+		margin-left:20px;
+	}
+	.warning {
+		font-weight:bolder;
+		font-size:20px;
+		color:red;
+	}
+	.expl {
+		font-weight:bold;
+	}
+</style>
+</head>
+<body>
+	<h1>服务器错误</h1>
+	<div class="outer">
+		<p class="warning">403 - 禁止访问：访问被拒绝。</p>
+		<p class="expl">您无权使用所提供的凭据查看此目录或页面。</p>
+	</div>
+</body>
+</html>

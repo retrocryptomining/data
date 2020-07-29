@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=7, IE=9">
+<title>机构首页</title>
+<style>
+body{ background:#f9f9f9;}
+.errorMain{ width:1000px; height:322px; margin:100px auto; background:url(res/otc/css/theme/images/404bg.png) no-repeat center;}
+.errorBox{ width:406px; height:200px; margin:0px auto; padding:88px 20px 0px 20px;}	
+.center{ text-align:center; margin:0px auto;}
+</style>
+</head>
+
+<body>
+<!--头部开始-->
+
+<!--头部结束-->
+<!--主体开始-->
+<div class="errorMain">
+	<div class="errorBox">
+    	<div class="center">
+        	<p>很抱歉地告诉您,您访问的页面不存在!</p>
+            <!--<div style="text-align:right;">请联系管理员: <a href="##">admin@apexsoft.com.cn</a></div>-->
+        </div>
+    </div>
+</div>
+<!--主体结束-->
+<!--底部开始-->
+<!--底部结束-->
+</body>
+</html>

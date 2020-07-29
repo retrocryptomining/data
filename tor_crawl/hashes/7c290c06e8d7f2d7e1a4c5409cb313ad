@@ -1,0 +1,602 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" >
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+
+<title> :: 웨딩프라이스 블로그 ::   </title>
+    <link rel="stylesheet" href="/css/master.css">
+	<script language="JavaScript" src="/dok/jquery-1.9.0.min.js"></script>
+	<LINK rel="stylesheet" href="/dok/jqui/css/smoothness/jquery-ui-1.10.3.custom.css">
+	<SCRIPT type="text/javascript" src="/dok/jqui/js/jquery-ui-1.10.3.custom.js"></script>
+	<SCRIPT type="text/javascript" src="/dok/jqui/i18n/jquery.ui.datepicker-ko.js"></script>
+
+
+	<script language="JavaScript" src="/dok/dok.js"></script>
+	<link rel="stylesheet" href="/dok/boxslide/jquery.bxslider2.css" type="text/css" />
+    <SCRIPT type="text/javascript" src="/dok/boxslide/jquery.bxslider.js"></SCRIPT>
+	<style>	
+       .bx-wrapper, .bx-viewport, .bx-wrapper img {height: 500px !important;}
+	</style>
+
+</head>
+
+
+<body>
+
+<div style="width:100%;text-align:center;height:27px;background:url(/img/n/blogTopBg.png)">
+	<table cellpadding="0" cellspacnig="0" border="0px" width="100%" align="center">
+		<tr>
+			<td width="100%" align="left">
+				<div style="margin-top:2px"><img src="/img/topLeft2.jpg" usemap="#topleft2.jpg" alt=""></div>
+			</td>
+			
+<map name="topleft2.jpg">
+    <area shape="rect" coords="5,1,85,16" href="javascript:void(0)" onclick="window.external.AddFavorite('http://wdprice.rrp.kr', '웨딩프라이스')" target="" alt="" />
+    <area shape="rect" coords="98,0,119,19" href="javascript:void(0)"  onclick="twitter()" alt="" />
+    <area shape="rect" coords="123,0,143,18" href="javascript:void(0)" onclick="facebook()" alt="" />
+
+</map>
+
+<script>	
+    //window.open(url,"blog","location=no,directories=no,status=no,menubar=no," +
+                //"scrollbars=yes,resizable=yes,copyhistory=no,toolbar=no,width=930,height=800")
+    function twitter(){
+
+        window.open('https://twitter.com/home?status=http://wedding-price.com','',"location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=yes,copyhistory=no,toolbar=no,width=400,height=300");     
+    	//<a href="https://twitter.com/home?status=http://wedding-price.com/">Share on Twitter</a>
+    }
+
+
+	function facebook(){
+
+		//$.winOpen({ url: 'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent("http://wedding-price.com"), height: 400, width: 300 });
+
+		window.open('https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent("http://wedding-price.com"),'',"location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=yes,copyhistory=no,toolbar=no,width=400,height=300"); 
+	}
+
+
+
+
+	$(document).ready(function(){
+		$( "#bulRegDay" ).datepicker({changeYear: true,changeMonth: true});
+    });
+
+
+
+</script>
+
+			   
+
+						
+			</td>
+		</tr>
+	</table>
+</div>
+
+
+<table width="800" border="0" cellspacing="0" cellpadding="0" align="center">
+	<tr>
+		<td style="width:900px;height:90px;background:url(/img/n/blogTop.png)" align="right" valign="bottom">
+			<div style="font-size:11px;margin-bottom:34px;margin-right:40px">
+                <img src="/img/home.gif" alt="" style="vertical-align:middle;"> <a href="/" target="_blank">홈</a> > 업체블로그
+            </div>
+		</td>
+	</tr>
+	<tr>
+		<td valign="top" height="500px" align="center" style="background:url(/img/n/reportBg.png)">
+			
+			<div><a href="http://wedding-price.com" target="_blank"><img src="/img/n/reportTitle.png" alt="" border="0"></a></div>
+			<!-- 사진 업체 타이틀  -->
+			<div style="padding-top:12px">
+				<table width="793px" cellpadding="0" cellspacing="0">
+					<tr><td style="line-height:4px"><img src="/img/n/reportBoxTop.png"/></td></tr>
+					<tr>
+						<td heigth="100px" valign="top" style="background:url(/img/n/reportBoxBg.png)">
+							
+							<table width="785px" border="0" cellspacing="0" cellpadding="0" align="center">
+								<tr bgcolor="#ffffff">
+									<td bgcolor="#ffffff" align="center" width="140px" style="padding:5px;border-right:1px solid #bac5da">
+										<img src="" width="110px" height="83px" id="upLogo"/>
+									</td>
+									<td  bgcolor="#ffffff" align="left"  style="padding:5px 5px 5px 20px;border-right:1px solid #bac5da">
+										<div style="font-size:18px;line-height:20px;color:#336699;font-weight:bold;"> </div>
+										<div style="padding-top:5px"></div>
+									</td>
+									<td width="140px">&nbsp;
+																				
+									</td>
+								</tr>
+							</table>
+
+						</td>
+					</tr>
+					<tr><td style="line-height:3px"><img src="/img/n/reportBoxBottom.png"/></td></tr>
+				</table>
+			</div>
+
+
+			<div style="padding-top:20px">
+				<table width="793px" border="0" cellspacing="0" cellpadding="0" align="center">
+					<tr>
+						<td width="77px"><a href="javascript:void(0)" onclick="blogView(1)"><img id="blogBt1" src="/img/n/repB2_on.png" alt=""></a></td>
+						<td width="77px"><a href="javascript:void(0)" onclick="blogView(2)"><img id="blogBt2" src="/img/new/nBlog1.png" alt=""></a></td>
+						<td width="77px"><a href="javascript:void(0)" onclick="blogView(3)"><img id="blogBt3" src="/img/n/repB3.png" alt=""></a></td>
+						<td width="77px" id="blogBtTd4" style="display:none" ><a href="javascript:void(0)" onclick="blogView(4)"><img id="blogBt4" src="/img/new/nBlog2.png" alt=""></a></td>
+						
+
+						<td align="right"><a href="javascript:void(0)" onclick="window.print();"><img src="/img/n/reportPrint.png" alt=""></a></td>
+					</tr>
+					<tr><td colspan="4" height="1px" bgcolor="#cecece"></td></tr>
+				</table>
+			</div>
+
+
+			<script>
+			    function blogView(t){
+			    	if(t == "1"){
+
+			    		$("#blogInfoF").show();
+			    		$("#blogHuki").hide();
+			    		$("#photoAr").hide();
+			    		$("#eventAr").hide();
+
+			    		$("#blogBt1").attr("src","/img/n/repB2_on.png"); 
+			    		$("#blogBt2").attr("src","/img/new/nBlog1.png");
+			    		$("#blogBt3").attr("src","/img/n/repB3.png");
+			    		$("#blogBt4").attr("src","/img/new/nBlog2.png");
+
+			    	}else if( t==2 ){
+
+			    		$("#blogInfoF").hide();
+			    		$("#blogHuki").hide();
+			    		$("#photoAr").show();
+			    		$("#eventAr").hide();
+
+			    		$("#blogBt1").attr("src","/img/n/repB2.png"); 
+			    		$("#blogBt2").attr("src","/img/new/nBlog1_on.png");
+			    		$("#blogBt3").attr("src","/img/n/repB3.png");
+			    		$("#blogBt4").attr("src","/img/new/nBlog2.png");
+
+			    		//$('.bxslider').unbind();
+			    		//$('.bxslider').bxSlider({
+						//	pagerCustom: '#bx-pager'
+						//});
+                        
+
+                    }else if( t==3 ){
+
+			    		$("#blogInfoF").hide();
+			    		$("#blogHuki").show();
+			    		$("#photoAr").hide();
+			    		$("#eventAr").hide();
+
+			    		$("#blogBt1").attr("src","/img/n/repB2.png"); 
+			    		$("#blogBt2").attr("src","/img/new/nBlog1.png");
+			    		$("#blogBt3").attr("src","/img/n/repB3_on.png");
+			    		$("#blogBt4").attr("src","/img/new/nBlog2.png");
+
+                        //blogList(494);
+
+			    	}else if( t==4 ){
+
+			    		$("#blogInfoF").hide();
+			    		$("#blogHuki").hide();
+			    		$("#photoAr").hide();
+			    		$("#eventAr").show();
+
+			    		$("#blogBt1").attr("src","/img/n/repB2.png"); 
+			    		$("#blogBt2").attr("src","/img/new/nBlog1.png");
+			    		$("#blogBt3").attr("src","/img/n/repB3.png");
+			    		$("#blogBt4").attr("src","/img/new/nBlog2_on.png");
+
+                        
+
+			    	}
+			    }	
+			</script>
+
+			
+
+			
+
+			
+
+
+
+            <div id="blogInfoF">	
+	            
+				<!-- 업체정보  -->
+				<div style="padding-top:20px">
+					<table width="793px" border="0" cellspacing="0" cellpadding="0" align="center">
+						<tr><td colspan="6" height="2px" bgcolor="#d2d4d3"></td></tr>
+						<tr>
+							<td height="30px" height align="center" bgcolor="#edf5f7" width="12%" style="color:#698293;font-weight:bold">업체명</td>
+							<td  align="left" bgcolor="#ffffff" width="21%" style="padding:5px"> </td>
+							<td  align="center" bgcolor="#edf5f7" width="12%" style="color:#698293;font-weight:bold">품목</td>
+							<td  align="left" bgcolor="#ffffff" width="15%">&nbsp; </td>
+							<td  align="center" bgcolor="#edf5f7" width="12%" style="color:#698293;font-weight:bold">영업시간</td>
+							<td  align="left" bgcolor="#ffffff" width="28%">&nbsp; </td>
+						</tr>
+						<tr><td colspan="6" height="1px" bgcolor="#d2d4d3"></td></tr>
+						<tr>
+							<td height="30px"  align="center" bgcolor="#edf5f7" style="color:#698293;font-weight:bold">휴무일</td>
+							<td  align="left" bgcolor="#ffffff">&nbsp; </td>
+							<td  align="center" bgcolor="#edf5f7" style="color:#698293;font-weight:bold">전화번호</td>
+							<td  align="left" bgcolor="#ffffff">&nbsp; </td>
+							<td  align="center" bgcolor="#edf5f7" style="color:#698293;font-weight:bold">예약</td>
+							<td  align="left" bgcolor="#ffffff">&nbsp; 필수</td>
+						</tr>
+						<tr><td colspan="6" height="1px" bgcolor="#d2d4d3"></td></tr>
+						<tr>
+							<td height="30px"  align="center" bgcolor="#edf5f7" style="color:#698293;font-weight:bold">사업자번호</td>
+							<td  align="left" bgcolor="#ffffff" colspan="3">&nbsp; </td>
+							<td  align="center" bgcolor="#edf5f7" style="color:#698293;font-weight:bold">대표자명</td>
+							<td  align="left" bgcolor="#ffffff" >
+							&nbsp; 							    							</td>
+						</tr>
+						<tr><td colspan="6" height="1px" bgcolor="#d2d4d3"></td></tr>
+						<tr>
+							<td height="30px"  align="center" bgcolor="#edf5f7" style="color:#698293;font-weight:bold">주소</td>
+							<td  align="left" bgcolor="#ffffff" colspan="5">&nbsp;   </td>
+						</tr>
+						<tr><td colspan="6" height="1px" bgcolor="#d2d4d3"></td></tr>
+					</table>
+				</div>
+
+
+
+				<form name="dokForm" method="post" action="/content/applyOk.html" target="dokFrame">
+				<input type="hidden" name="upcheIdx" value="494">
+				<input type="hidden" name="appType" id="appType" value="3">	
+				<div style="width:100%;text-align:center;padding-top:20px">
+	            	<table border="0" cellpadding="0" cellspacing="0" style="width:721px;height:175px;background:url(/img/smsTxt.png)" align="center">
+	            		<tr>
+	            			<td style="width:721px;height:165px;margin-bottom:10px" valign="bottom" align="right">
+	            				<table border="0" cellpadding="0" cellspacing="0">
+	            					<tr>
+	            						<td align="left" width="146px"><input type="radio" name="smTxt" id="" value="1" checked>1번선택</td>
+	            						<td align="left" width="140px"><input type="radio" name="smTxt" id="" value="2">2번선택</td>
+	            						<td align="left" width="140px"><input type="radio" name="smTxt" id="" value="3">3번선택</td>
+	            						<td align="left" width="90px"><input type="radio" name="smTxt" id="" value="4">4번선택</td>
+	            					</tr>
+	            				</table>
+	             			</td> 
+	            		</tr>
+	            		<tr>
+	            			<td height="10px"></td>
+	            		</tr>
+	            	</table>
+	            </div>
+	            </form>
+
+
+				<!-- 신청버튼 -->
+				<div style="padding-top:20px">
+					<table width="793px" border="0" cellspacing="0" cellpadding="0" align="center">
+						<tr>
+							<td align="center" bgcolor="#ffffff">
+								<a href="javascript:void(0)" onclick="document.dokForm.submit()"><img src="/img/repBt1_2.png"></a> 
+							</td>
+						</tr>
+					</table>
+				</div>
+
+
+
+
+				<div style="padding-top:15px">
+					<table width="773px" border="0" cellspacing="0" cellpadding="0" align="center" style="border:1px solid #cecece">
+						<tr>
+							<td align="left" style="padding:10px">
+								
+								
+								<div style="background-color:#efefef;width:753px;padding:10px;color:#000000">
+									<div>* 본 서비스는 상기 업체의 책임하에 운영되고있으며, 게시 정보에 대한 관리책임도 업체에게 있습니다.</div>
+									<div>(주) 하나웨딩네트웍스는 등록내용에 대하여 일체의 책임을 지지 않습니다.</div>
+									<div>서비스 이용시 발생하는 분쟁에 대한 조정기관 : 전자거래분쟁 조정위원회, 한국소비자보호원</div>
+								</div>
+											
+	 
+	 			            </td>
+						</tr>
+					</table>
+				</div>
+				<div style="padding-top:15px">
+					<table width="793px" border="0" cellspacing="0" cellpadding="0" align="center">
+						<tr>
+							<td align="right"><a href="javascript:void(0)" onclick="window.print();"><img src="/img/n/reportPrint.png" alt=""></a></td>
+						</tr>
+					</table>
+				</div>
+			</div>
+
+
+			<div id="photoAr">
+				<div style="padding-top:20px;width:780px;">
+					
+					
+
+					
+
+					<div>
+						<ul class="bxslider">
+													</ul>
+					</div>
+
+					<div style="line-height:10px">&nbsp;</div>
+					<div id="bx-pager" style="text-align:left;padding-left:10px">
+					    					</div>
+
+					
+					
+				</div>
+			</div>
+
+
+			<div id="blogHuki" style="display:inline;padding-top:30px">
+				<div style="padding-top:20px;text-align:center">
+					<table width="793px" border="0" cellspacing="0" cellpadding="0" align="center" >
+						<tr>
+							<td height="25"  align="left"><img src="/img/n/repAr.png" alt=""> <b>이용후기</b></td>
+						</tr>
+						<tr>
+							<td bgcolor="#ffffff" align="center" style="border:1px solid #cecece;padding:10px">
+								<form name="bulForm" id="bulForm" action="blogDatOk.html" method="post" target="dokFrame">
+								<input type="hidden" name="comIdx" value="494">
+								<table border="0" cellspacing="0" cellpadding="0" bgcolor="#efefef" width="760px" style="border:1px solid #cecece">
+									<tr>
+										<td style="padding:10px 10px 0px 10px" align="left">
+											
+											    평점 : 
+											    <select name="grade" id="grade">
+													<option value="5">★★★★★</option>
+													<option value="4">★★★★</option>
+													<option value="3">★★★</option>
+													<option value="2">★★</option>
+													<option value="1">★</option>
+												</select>
+												&nbsp; &nbsp; 
+												이름 : <input type="text" name="name" class="input_100" id="eventName" value="">
+												&nbsp; &nbsp; 
+												비밀번호 : <input type="password" name="pass" class="input_100" id="eventPass">
+												
+											
+										</td>
+									</tr>
+									<tr>
+										<td style="padding:10px">
+											<div style="float:left">
+												<textarea name="memo" id="memo" style="width:620px;height:60px"></textarea>
+											</div>
+											<div style="float:left;padding:10px">
+												<button style="width:60px;height:60px;font-weight:bold" onclick="document.bulForm.submit();">
+													등 록
+												</button>
+											</div>
+										</td>
+									</tr>
+								</table>
+								</form>
+								<div>
+																		<table cellpadding="0" cellspacing="0" border="0" width="760px">
+		
+										<tr><td height="10px" colspan="2"></td></tr>
+																			</table>
+									<div style="padding:10px;text-align:center">
+									    										
+									</div>
+								</div>
+
+								<script>
+									function datBulDel(idx){
+								    	var pass = $("#pass_"+ idx).val();
+								    	if( pass == "" ){
+								    		alert("비밀번호를 입력해야 합니다.");
+								    		$("#pass_"+ idx).focus();
+								    		return;
+								    	}else{
+								    		$.post( "/blogDatDel.html",{idx:idx ,pass:pass},function(data){       
+										        
+										        if(data != "1"){
+										        	alert("비밀번호가 일치하지 않습니다.");
+										        }else{
+										        	alert("삭제 되었습니다.");
+										        	document.location.href="?huki=1&idx=494";
+										        }
+
+											}, "html");
+								    	}
+								    }
+								</script>
+
+
+							</td>
+						</tr>
+					</table>
+					
+					<div id="blogListField" style="padding:0px 0px 0px 0px;text-align:center"></div>                   
+				</div>
+			</div>
+
+
+			<div id="eventAr" style="display:none">
+				<div style="padding-top:20px;text-align:center">
+						
+					<div style="padding:20px"></div>
+					<div style="padding:20px;text-align:center;width:100%">
+						<a href="javascript:void(0)" onclick="openBlogInq()"><img src="/img/new/blogBtOpen.png" alt=""></a>
+					</div>
+					<!--a href="/content/expoView.html?cat=1&term=1&idx=" target="_blank"><div style="padding:20px"></div></a-->      
+				</div>
+			</div>
+
+
+			
+
+
+
+		</td>
+	</tr>
+    <tr><td valign="top" ><img src="/img/n/reportBootom.png"/></td></tr>
+</table>
+
+<script>
+	$(document).ready(function(){
+
+		$('.bxslider').unbind();
+		$('.bxslider').bxSlider({
+			pagerCustom: '#bx-pager'
+		});
+
+		//blogList(494);
+		
+	});
+
+
+	function openBlogInq(){
+		$( "#quickBlogPop" ).dialog( "open" );
+	}
+
+
+</script>
+
+
+
+
+
+<script>	
+    $(document).ready(function(){
+
+		$( ".quickDay" ).datepicker({changeYear: true,changeMonth: true,showOn: "button",buttonImage: "/img/schedule_btn.png",buttonImageOnly: true,buttonText: "Select date"});
+
+        
+        $('#quickBlogPop').parents(".ui-dialog").find(".ui-dialog-titlebar").remove(); 
+		$('#quickBlogPop').css("overflow", "hidden");
+		$("#quickBlogPop").dialog({ autoOpen:false,width:772,height:648,title:"",modal:false});             
+
+       
+
+        $("#nayoB").unbind();
+        $("#nayoB").click(function(){
+        	$( "#quickBlogPop" ).dialog( "close" );
+        });
+	});
+
+	
+
+</script>
+
+<div id="quickBlogPop" style="display:none">
+    <div style="width:772px;height:648px;background:url(/img/new/qBg.png);position:relative">
+        <div style="position:absolute;top:20px;left:690px;cursor:pointer" id="nayoB"><img src="/img/new/close.png" alt=""></div>
+		<div style="width:100%;padding:150px 0px 0px 50px">
+			<form action="/quickOk.html" target="dokFrame" method="post" name="quickForm">
+			<input type="hidden" name="expoIdx" value="">
+			<table cellpadding="0" cellspacing="0" width="680px" border="0">
+				<!--
+				<tr>
+					<td width="140px"><img src="/img/new/qB1.png" alt=""></td>
+					<td align="left" style="padding:3px 0px 3px 0px">
+													<div style="width:92px;float:left;font-weight:"><input type="checkbox" name="cat[]" checked  value="7">웨딩홀</div>
+														<div style="width:92px;float:left;font-weight:"><input type="checkbox" name="cat[]" checked  value="2">스드메</div>
+														<div style="width:92px;float:left;font-weight:"><input type="checkbox" name="cat[]" checked  value="9">예물</div>
+														<div style="width:92px;float:left;font-weight:"><input type="checkbox" name="cat[]" checked  value="10">한복</div>
+														<div style="width:92px;float:left;font-weight:"><input type="checkbox" name="cat[]" checked  value="11">폐백/이바지</div>
+														<div style="width:92px;float:left;font-weight:"><input type="checkbox" name="cat[]" checked  value="12">침구</div>
+														<div style="width:92px;float:left;font-weight:"><input type="checkbox" name="cat[]" checked  value="13">그릇</div>
+														<div style="width:92px;float:left;font-weight:"><input type="checkbox" name="cat[]" checked  value="14">가구</div>
+														<div style="width:92px;float:left;font-weight:"><input type="checkbox" name="cat[]" checked  value="15">예복</div>
+														<div style="width:92px;float:left;font-weight:"><input type="checkbox" name="cat[]" checked  value="16">웨딩카</div>
+														<div style="width:92px;float:left;font-weight:"><input type="checkbox" name="cat[]" checked  value="8">허니문</div>
+														<div style="width:92px;float:left;font-weight:"><input type="checkbox" name="cat[]" checked  value="17">사회/축가</div>
+														<div style="width:92px;float:left;font-weight:"><input type="checkbox" name="cat[]" checked  value="23">가전</div>
+														<div style="width:92px;float:left;font-weight:"><input type="checkbox" name="cat[]" checked  value="18">재무상담</div>
+												</td>
+				</tr>
+				<tr><td height="1" bgcolor="#cecece" colspan="2"></td></tr>
+				-->
+				<tr>
+					<td width="140px"><img src="/img/new/qB2.png" alt=""></td>
+					<td align="left" style="padding:3px 0px 3px 0px"><input type="text" name="name" id="" class="input_200"></td>
+				</tr>
+				<tr><td height="1" bgcolor="#cecece" colspan="2"></td></tr>
+				<tr>
+					<td width="140px"><img src="/img/new/qB3.png" alt=""></td>
+					<td align="left" style="padding:3px 0px 3px 0px"><input type="text" name="phone" id="" class="input_200"></td>
+				</tr>
+				<tr><td height="1" bgcolor="#cecece" colspan="2"></td></tr>
+				<tr>
+					<td width="140px"><img src="/img/new/qB4.png" alt=""></td>
+					<td align="left" style="padding:3px 0px 3px 0px"><input type="text" name="day" class="quickDay" readonly="true" class="input_100"></td>
+				</tr>
+				<tr><td height="1" bgcolor="#cecece" colspan="2"></td></tr>
+				<tr>
+					<td width="140px"><img src="/img/new/qB5.png" alt=""></td>
+					<td align="left" style="padding:3px 0px 3px 0px">
+					    <div style="float:left;">
+							<select name="qar1" id="qar1" onchange="findSubAreaQ(this.value,'');">
+																	<option  value="1" selected  > 서울시</option>
+																	<option  value="2"  > 경기도</option>
+																	<option  value="3"  > 인천시</option>
+																	<option  value="4"  > 부산시</option>
+																	<option  value="5"  > 대전시</option>
+																	<option  value="6"  > 대구시</option>
+																	<option  value="7"  > 광주시</option>
+																	<option  value="8"  > 울산시</option>
+																	<option  value="9"  > 제주시</option>
+																	<option  value="10"  > 세종시</option>
+																	<option  value="11"  > 강원도</option>
+																	<option  value="12"  > 경상남도</option>
+																	<option  value="13"  > 경상북도</option>
+																	<option  value="14"  > 충청남도</option>
+																	<option  value="15"  > 충청북도</option>
+																	<option  value="16"  > 전라남도</option>
+																	<option  value="17"  > 전라북도</option>
+															</select> 
+						</div>
+						<div style="float:left;padding-left:5px;">
+						    <div id="qar2F" name="qar2F">
+						        <select name="qar2" id="qar2">
+								    
+								</select> 
+						    </div>
+						</div>
+					</td>
+				</tr>
+				<tr><td height="1" bgcolor="#cecece" colspan="2"></td></tr>
+				<tr>
+					<td width="140px" ><img src="/img/new/qB6.png" alt=""></td>
+					<td align="left" style="padding:3px 0px 3px 0px">
+						<textarea name="memo" id="" style="width:90%;height:80px"></textarea>
+					</td>
+				</tr>
+				<tr><td height="1" bgcolor="#cecece" colspan="2"></td></tr>
+				<tr>
+					<td align="left" colspan="2" style="padding:10px 0px 10px 0px">
+						<input type="checkbox" name="ag1" value="1" id="ag1">이용약관 동의 <img onclick="agreeOpen()" style="cursor:pointer" src="/img/new/qView.png" alt="">
+						&nbsp;&nbsp;
+						<input type="checkbox" name="ag2" value="1" id="ag2">개인정보취급방침 동의 <img onclick="agreeOpen()" style="cursor:pointer" src="/img/new/qView.png" alt="">
+						&nbsp;&nbsp;		
+						<input type="checkbox" name="" id="" onclick="qSch(this)">모두동의 
+					</td>
+				</tr>
+				<tr><td height="1" bgcolor="#cecece" colspan="2"></td></tr>				
+				<tr>
+					<td align="center" colspan="2" style="padding:20px 0px 10px 0px">
+						<a href="javascript:;" onclick="document.quickForm.submit()"><img src="/img/new/qButton.png" alt=""></a>
+					</td>
+				</tr>
+			</table>
+			</form>
+		</div>
+    </div>
+</div>
+<div style="width:100%;text-align:center"><img src="/img/blogFooter.png" alt=""></div>
+
+
+<iframe src="" name="dokFrame" style="width:0px;height:0px" frameborder="0"></iframe>
+</body>
+</html>

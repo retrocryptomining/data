@@ -1,0 +1,9 @@
+<html>
+            <head>
+                <title>502 Bad Gateway</title>
+            </head>
+            <body>
+            <h1>502 Bad Gateway</h1>
+            <p>ProtocolException(&#x27;Server connection to (\&#x27;51.15.13.157\&#x27;, 2967) failed: Error connecting to &quot;51.15.13.157&quot;: [Errno 111] Connection refused&#x27;,)</p>
+            </body>
+        </html>

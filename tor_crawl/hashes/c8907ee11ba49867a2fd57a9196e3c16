@@ -1,0 +1,53 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+		<title>ACCESS MESSAGE</title>
+	</head>
+	<body>
+		<table width="100%" height='100%' border="0">
+			<tr>
+				<td colspan='3' width='100%' height='130' align="center" background="http://172.20.0.100:81/images/background.gif">
+			<tr>
+				<td width='10%'>
+				<td align='center' bgcolor='#CC000000' width='80%'>
+					<font face="verdana, arial, sans serif" color="#FFFFFF" size="5">
+						<b>A C C E S S &nbsp;&nbsp; D E N I E D</b>
+					</font>
+				<td width='10%'>
+
+			
+				<tr>
+					<td colspan='3' align='center'>
+						<font face="verdana, arial, sans serif" color="#CC000000" size="1">
+							<b>[movies]</b>
+						</font>
+			
+
+			<tr>
+				<td colspan='3' align="center">
+					<font face="verdana, arial, sans serif" color="#000000" size="4">
+						<b>Access to the requested page has been denied</b>
+					</font>
+					<font face="verdana,arial,sans serif" color="#000000" size="2">
+						
+							<p>URL: <a href="api-global.netflix.com:443">api-global.netflix.com:443</a>
+						
+
+						
+
+						<br><p>Please contact the Network Administrator if you think there has been an error
+					</font>
+
+			<tr>
+				<td colspan='3' height='60%' valign="bottom" align="right">
+					<font face="verdana,arial,sans serif" color="#656565" size="1">
+						Web Filtering by
+					</font>
+					<a href="http://www.ipfire.org" target="_blank">
+						<font face="verdana,arial,sans serif" color="#656565" size="1"><b>IPFire</b></font>
+					</a>
+
+		</table>
+	</body>
+</html>

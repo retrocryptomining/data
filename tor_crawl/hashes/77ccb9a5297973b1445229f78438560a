@@ -1,0 +1,56 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Access Denied</title>
+    <link href="http://passthrough.fw-notify.net/static/default.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="http://passthrough.fw-notify.net/static/default.js"></script>
+  </head>
+  <body onload="checkResize();">
+    <div id="emsg_large"></div>
+    <div id="page">
+      <div id="header">
+        <div><img src="http://passthrough.fw-notify.net/static/topbar_left.png" width="6" height="72" border="0" /></div>
+        <div id="company_logo"><img src="http://passthrough.fw-notify.net/static/logo.png" border="0" /></div>
+        <div id="company_text"><h1 class="orange">UTM 9   http://www.sophos.com</h1></div>
+        <div><img src="http://passthrough.fw-notify.net/static/topbar_right.png" width="6" height="72" border="0" /></div>
+      </div>
+      <br class="clearer" />
+
+      <div id="content">
+        <img src="http://passthrough.fw-notify.net/static/warning.png" border="0" align="left" />
+        <h1 class="orange">Access Denied</h1>
+
+        <div class="line">
+          <div class="label">While trying to retrieve the URL:</div>
+          <div class="desc">
+            Authentication Failed
+          </div>
+        </div>
+
+        <div class="line">
+          <div class="label">Access is denied due to the following condition:</div>
+          <div class="desc">
+            The URL you have requested is blocked by Surf Protection. If you think this is wrong, please contact your administrator.
+          </div>
+        </div>
+
+        <div class="line">
+          <div class="label">Your cache administrator is:</div>
+          <div class="desc">
+            support@3imedia.de
+          </div>
+        </div>
+        <br class="clearer" />
+      </div> <!-- END: div#content -->
+      <br class="clearer" />
+
+      <div id="footer">
+        <div><a href="http://www.sophos.com" target="_blank" title="Sophos"><img src="http://passthrough.fw-notify.net/static/footer_left.png" width="136" height="33" border="0" /></a></div>
+        <div class="orange" id="copyright">Powered by UTM Web Protection</div>
+        <div><img src="http://passthrough.fw-notify.net/static/footer_right.png" width="6" height="33" border="0" /></div>
+      </div> <!-- END: div#footer -->
+
+    </div> <!-- END: div#page -->
+  </body>
+</html>

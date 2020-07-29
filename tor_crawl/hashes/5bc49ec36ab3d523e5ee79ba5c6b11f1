@@ -1,0 +1,135 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- saved from url=(0039)http://www.eicar.org/download/eicar.com -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru-ru" lang="ru-ru" dir="ltr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<title>The port is reserved</title>
+	<style type="text/css">
+		tr, div, a, table, img, body, html, ul, head, tbody, p, li, title, td {
+			margin: 0;
+			padding: 0;
+			border: 0;
+			font-size: 100%;
+			font: inherit;
+			vertical-align: baseline;
+		}
+		body {
+			line-height: 1;
+		}
+		ul {
+			list-style: none;
+		}
+		table {
+			border-collapse: collapse;
+			border-spacing: 0;
+		}
+		table tr td {
+			padding-bottom: 5px;
+            color: #555;
+		}
+		#headerLine {
+			height: 54px;
+			background-color: #61ab00;
+			width: 100%;
+			position: absolute;
+			top: 0px;
+			left: 0px;
+		}
+		.align_center:after {
+			content: '';
+			display: block;
+			clear: both;
+		}
+		#wrap {
+			position: relative;
+			width: 100%;
+			top: 0px;
+			left: 0px;
+		}
+		#wrapper {
+			margin: 0 auto;
+			max-width: 601px;
+			width: expression(document.body.clientWidth > 601? "601px": "auto" );
+			text-align: left;
+		}
+		#header-logo {
+			width: 193px;
+			height: 53px;
+			top: 10px;
+			position: relative;
+		}
+		#text-box {
+			margin-top: 27px;
+			position: relative;
+			overflow: hidden;
+		}
+		ul#title li {
+			float: left;
+			margin: 0px;
+			padding: 0px;
+		}
+		#right-text-block {
+			overflow: hidden;
+			vertical-align: top;
+		}
+		.title-header {
+			font: bold 16px Arial;
+			color: #000;
+		}
+
+		#title-detail {
+			margin-top: 8px;
+			font: normal 12px Arial;
+			color: #000;
+		}
+		#title-detail .detail {
+			padding-right: 16px;
+		}
+		#text-box #explain-text-block {
+			margin-top: 18px;
+			font: normal 12px Arial;
+			color: #000;
+			position: relative;
+		}
+		#explain-text-block p {
+			margin: 10px 0px;
+			font: normal 12px Arial;
+		}
+		a {
+			color: #336699;
+		}
+		a:visited {
+			color: #663399;
+		}
+		a:hover {
+			color: #224466;
+		}
+
+	</style>
+</head>
+<body>
+	<div id="headerLine">&nbsp;</div>
+	<div id="wrap">
+		<div id="wrapper">
+			<div id="header-logo"><img src="./SpIDer Gate_files/drwebav-logo.gif" alt=""></div>
+			<div id="text-box">
+				<ul>
+					<li id="right-text-block">
+						<div class="title-header">The port is reserved</div>
+						<div id="title-detail">
+							<table><tbody>
+							<tr><td class="detail">Date:</td><td class="desc">Mon Sep 24 16:02:05 2018
+</td></tr>
+							</tbody></table>
+						</div>
+					</li>
+				</ul>
+				<div id="explain-text-block">
+					<p>This port is reserved by Dr.Web update mirror settings. <a href="http://download.geo.drweb.com/pub/drweb/windows/8.0/doc/wks/en/main_update.htm">Details...</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+</body></html><br>

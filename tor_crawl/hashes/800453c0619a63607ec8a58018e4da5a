@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="refresh" content="0;url=http://staging.beonboard.com" />
+
+        <title>Redirecting to http://staging.beonboard.com</title>
+    </head>
+    <body>
+        Redirecting to <a href="http://staging.beonboard.com">http://staging.beonboard.com</a>.
+    </body>
+</html>

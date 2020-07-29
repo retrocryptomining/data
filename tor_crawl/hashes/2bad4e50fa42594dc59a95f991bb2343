@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Panel Komunikacyjny</title>
+    <meta http-equiv="Expires" content="0" />
+    <meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate" />
+    <meta http-equiv="Cache-Control" content="post-check=0, pre-check=0" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <link href="/css/bootstrap.min.css" media="screen" rel="stylesheet" type="text/css" >
+    <link href="/css/roboto.css" media="screen" rel="stylesheet" type="text/css" >
+    <link href="/css/style.css" media="screen" rel="stylesheet" type="text/css" >
+    <script type="text/javascript" src="/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        var base_url = '/';
+        var redirect_url = 'http://www.wadowicenet.pl/';
+        var confirmLoginPass = false;
+        var confirmSleep = 180;
+    </script>
+    <script type="text/javascript" src="/js/script.js"></script>
+</head>
+
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+            <a class="navbar-brand" href="#">Panel Komunikacyjny</a>
+        </div>
+
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="#home">START</a></li>
+                <li class="hidden-sm"><a href="#contact">Dane kontaktowe</a></li>
+                <li class="hidden-sm"><a href="#contact">Godziny pracy</a></li>
+            </ul>
+        </div>
+
+    </div>
+</nav>
+
+<header id="home" class="header">
+    <div class="container">
+                <h1>Informacja</h1>
+
+<p><span>Przypominamy, iż upłynął termin płatności.</span></p>
+
+<p><span>Komunikat wyświetla się automatycznie co 1 godzinę.</span> W przypadku braku wpłaty do 25 dni od dnia wystawienia Faktury, system automatycznie obniży transfer. Ponadto po upływie 3 okres&oacute;w rozliczeniowych konto zostanie zablokowane.<br />
+Przypominamy o możliwości sprawdzenia aktualnego stanu płatności oraz historii transakcji&nbsp;za pomocą <a class="external" href="" title="Panel Użytkownika">Panelu Użytkownika</a> dostępnego pod adresem: http://ebok.wad.pl<br />
+<strong>Prosimy o potwierdzenie otrzymania niniejszej informacji poprzez kliknięcie poniższego guzika</strong>.<br />
+Po kliknięciu przycisku &quot;<strong>Potwierdzam Przeczytanie</strong>&quot; system automatycznie usunie komunikat. Prosimy o zamknięcie aktywnego okna przeglądarki i ponowne zalogowanie się. W przypadku gdy komunikat nadal będzie się pojawiał - prosimy wyłączyć terminal dostępowy z prądu na 2-3 minuty i ponownie włączyć.</p>
+
+                
+        <button style="display: block;width: 100%" id="Confirm" class="button button-green" href="#" title="Potwierdzam" data-loading-text="Trwa przetwarzanie, proszę czekać...">Potwierdzam zapoznanie się z informacją</button>
+        
+        <p><strong style="color: red">UWAGA!</strong> Jeśli po potwierdzeniu komunikat nadal będzie wyświetlany, prosimy o odłączenie urządzenia/routera od prądu na 10 minut i ponowne podłączenie zasilania.</p>
+        
+        
+        
+    </div>
+</header>
+<section class="companyInfoBox">
+    <div class="container">
+                    </div>
+</section>
+
+<section id="contact" class="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <h2>Dane kontaktowe</h2>
+                <h4>Biuro Obsługi Klienta - Adres</h4>
+                <p>
+                    al. Matki Bożej Fatimskiej 39<br />
+                    34-100 Wadowice                </p>
+
+                <h4>Kontakt telefoniczny</h4>
+                <p>
+                    <strong>tel.:</strong> 33 823 29 40<br/>
+                    <strong>tel.:</strong> Array<br/>
+                    <strong>kom.:</strong> Array<br/>
+                    <strong>kom.:</strong> Array<br/>
+                </p>
+
+                <h4>Serwis Sieci</h4>
+                <p>
+                    <strong>tel.:</strong> 33 823 29 40<br/>
+                    <strong>tel.:</strong> <br/>
+                </p>
+
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <h2>Godziny pracy</h2>
+                <p>Pracownicy Biura Obsługi Klienta są do Państwa dyspozycji od poniedziałku do piątku w godzinach <strong>9:00 - 18:00</strong> w soboty <strong>9:00 - 13:00</strong></p>
+
+<p>Z pracownikami działu Serwisu Sieci można się skontaktować od poniedziałku do piątku w godzinach <strong>9:00 - 18:00</strong> w soboty&nbsp;<strong>9:00 - 13:00</strong></p>
+
+<p>&nbsp;</p>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <h2>Informacja</h2>
+                            </div>
+
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container">
+        <div class="row copyright">
+            <div class="col-md-8">Wszelkie prawa zastrzeżone <a href="http://www.wadowicenet.pl/" target="_blank" title="WADOWICENET">WADOWICENET</a> 2019</div>
+            <div class="col-md-4 net47">Strona wygenerowana przy pomocy: <a href="http://net47.pl/" target="_blank" title="System do zarządzania sieciami komputerowymi NET47">NET47&trade;</a></div>
+        </div>
+    </div>
+</footer>
+
+</body>
+
+</html>

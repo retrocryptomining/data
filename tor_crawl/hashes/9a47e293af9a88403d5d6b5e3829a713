@@ -1,0 +1,8 @@
+<HTML><HEAD><META http-equiv='Pragma' content='no-cache'><META http-equiv='Cache-Control' content='no-cache'><TITLE> 401 Authorization</TITLE>
+<script language=javascript type=text/javascript>
+function cancelevent()
+{
+	location.href='/unauth.cgi';
+}
+</script>
+</HEAD><BODY onload=cancelevent()></BODY></HTML>

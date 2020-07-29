@@ -1,0 +1,32 @@
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>lid_25793</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body content-type="text/plain; charset=UTF-8">
+<span id="redir_msg" style="display: none"><p>Redirecting you to lid_25793.</p></span><script x-barracuda="1" language="JavaScript">
+if (0) {
+  document.write('<div style="border: 1px dotted red; padding: 2px; font-family: sans; font-size: 12px; color: black; background-color: white">This portion of the requested page has been blocked.<br /><a target="_top" href="http://172.27.72.27/cgi-mod/spyportal.cgi?_bcsp=1&amp;_bceq=U2FsdGVkX18FMsBJ9l8EQIVourDsD4VafXQ2pJr-UX-QASi48jSkvuu-l_yufngpzL3-E0kpnxPbdvW9RhWJ1kkoEsPl4E6tmKdljLwHrid_IT-6OSagCpMLrL6g7Z19XVC8IQmllHOyebD0ehTqtGcTWU-f1F1j8Lht9IBhewpNTFW2DmEQ_nUxvCB565dCMBG5OiacPUu_kerHjzNamkr7Iew93GlOivcF2AjNymMzYVVeJIIAcqHcMirYOF6mMho2kQsJfnZilgkN1AhfaBfCzsYomIIsaJnqJtKa34niMJJ2191cRhmS-4UyFuWNMjjeOJHL5s0BBzzb7Gvn2_D-CkicG90gQkEleNvl4eS9__KsYZcw3uO12Q2ilJpzh_rH0RQuxdeyXfHCLhIc7ollTh3yOZD0Rq8BqpRFfM0yeouMZv6VKj0vqHxHyZ4hHIcc-c9cTxp40F5F1phJabEgk2HpQP3wXKg_BLvlFF57m2ZeK4W0Z-57TkwDmVZ7krfyjhsxREZgE-CBF3T_AcMXzwiDiUVxecdKetpnVR3WWy3YwdrkaWOojKIxy-g0">Click here for details.</a></div>');
+} else {
+  if (!0) {
+    var toploc;
+    try { toploc = top.document.location }
+    catch (err) { toploc = err };
+    if ((toploc == document.location)) {
+      document.getElementById('redir_msg').style.display = 'inline';
+      if (location.replace) {
+        location.replace('http://172.27.72.27/cgi-mod/spyportal.cgi?_bcsp=1&_bceq=U2FsdGVkX18FMsBJ9l8EQIVourDsD4VafXQ2pJr-UX-QASi48jSkvuu-l_yufngpzL3-E0kpnxPbdvW9RhWJ1kkoEsPl4E6tmKdljLwHrid_IT-6OSagCpMLrL6g7Z19XVC8IQmllHOyebD0ehTqtGcTWU-f1F1j8Lht9IBhewpNTFW2DmEQ_nUxvCB565dCMBG5OiacPUu_kerHjzNamkr7Iew93GlOivcF2AjNymMzYVVeJIIAcqHcMirYOF6mMho2kQsJfnZilgkN1AhfaBfCzsYomIIsaJnqJtKa34niMJJ2191cRhmS-4UyFuWNMjjeOJHL5s0BBzzb7Gvn2_D-CkicG90gQkEleNvl4eS9__KsYZcw3uO12Q2ilJpzh_rH0RQuxdeyXfHCLhIc7ollTh3yOZD0Rq8BqpRFfM0yeouMZv6VKj0vqHxHyZ4hHIcc-c9cTxp40F5F1phJabEgk2HpQP3wXKg_BLvlFF57m2ZeK4W0Z-57TkwDmVZ7krfyjhsxREZgE-CBF3T_AcMXzwiDiUVxecdKetpnVR3WWy3YwdrkaWOojKIxy-g0');
+      } else {
+        document.location = 'http://172.27.72.27/cgi-mod/spyportal.cgi?_bcsp=1&_bceq=U2FsdGVkX18FMsBJ9l8EQIVourDsD4VafXQ2pJr-UX-QASi48jSkvuu-l_yufngpzL3-E0kpnxPbdvW9RhWJ1kkoEsPl4E6tmKdljLwHrid_IT-6OSagCpMLrL6g7Z19XVC8IQmllHOyebD0ehTqtGcTWU-f1F1j8Lht9IBhewpNTFW2DmEQ_nUxvCB565dCMBG5OiacPUu_kerHjzNamkr7Iew93GlOivcF2AjNymMzYVVeJIIAcqHcMirYOF6mMho2kQsJfnZilgkN1AhfaBfCzsYomIIsaJnqJtKa34niMJJ2191cRhmS-4UyFuWNMjjeOJHL5s0BBzzb7Gvn2_D-CkicG90gQkEleNvl4eS9__KsYZcw3uO12Q2ilJpzh_rH0RQuxdeyXfHCLhIc7ollTh3yOZD0Rq8BqpRFfM0yeouMZv6VKj0vqHxHyZ4hHIcc-c9cTxp40F5F1phJabEgk2HpQP3wXKg_BLvlFF57m2ZeK4W0Z-57TkwDmVZ7krfyjhsxREZgE-CBF3T_AcMXzwiDiUVxecdKetpnVR3WWy3YwdrkaWOojKIxy-g0';
+      }
+    } else {
+      document.write('<div style="border: 1px dotted red; padding: 2px; font-family: sans; font-size: 12px; color: black; background-color: white">This portion of the requested page has been blocked.<br /><a target="_top" href="http://172.27.72.27/cgi-mod/spyportal.cgi?_bcsp=1&amp;_bceq=U2FsdGVkX18FMsBJ9l8EQIVourDsD4VafXQ2pJr-UX-QASi48jSkvuu-l_yufngpzL3-E0kpnxPbdvW9RhWJ1kkoEsPl4E6tmKdljLwHrid_IT-6OSagCpMLrL6g7Z19XVC8IQmllHOyebD0ehTqtGcTWU-f1F1j8Lht9IBhewpNTFW2DmEQ_nUxvCB565dCMBG5OiacPUu_kerHjzNamkr7Iew93GlOivcF2AjNymMzYVVeJIIAcqHcMirYOF6mMho2kQsJfnZilgkN1AhfaBfCzsYomIIsaJnqJtKa34niMJJ2191cRhmS-4UyFuWNMjjeOJHL5s0BBzzb7Gvn2_D-CkicG90gQkEleNvl4eS9__KsYZcw3uO12Q2ilJpzh_rH0RQuxdeyXfHCLhIc7ollTh3yOZD0Rq8BqpRFfM0yeouMZv6VKj0vqHxHyZ4hHIcc-c9cTxp40F5F1phJabEgk2HpQP3wXKg_BLvlFF57m2ZeK4W0Z-57TkwDmVZ7krfyjhsxREZgE-CBF3T_AcMXzwiDiUVxecdKetpnVR3WWy3YwdrkaWOojKIxy-g0">Click here for details.</a></div>');
+    }
+  }
+}
+</script><noscript><p>JavaScript has been disabled in your browser.</p> <p><a href="http://172.27.72.27/cgi-mod/spyportal.cgi?_bcsp=1&amp;_bceq=U2FsdGVkX18FMsBJ9l8EQIVourDsD4VafXQ2pJr-UX-QASi48jSkvuu-l_yufngpzL3-E0kpnxPbdvW9RhWJ1kkoEsPl4E6tmKdljLwHrid_IT-6OSagCpMLrL6g7Z19XVC8IQmllHOyebD0ehTqtGcTWU-f1F1j8Lht9IBhewpNTFW2DmEQ_nUxvCB565dCMBG5OiacPUu_kerHjzNamkr7Iew93GlOivcF2AjNymMzYVVeJIIAcqHcMirYOF6mMho2kQsJfnZilgkN1AhfaBfCzsYomIIsaJnqJtKa34niMJJ2191cRhmS-4UyFuWNMjjeOJHL5s0BBzzb7Gvn2_D-CkicG90gQkEleNvl4eS9__KsYZcw3uO12Q2ilJpzh_rH0RQuxdeyXfHCLhIc7ollTh3yOZD0Rq8BqpRFfM0yeouMZv6VKj0vqHxHyZ4hHIcc-c9cTxp40F5F1phJabEgk2HpQP3wXKg_BLvlFF57m2ZeK4W0Z-57TkwDmVZ7krfyjhsxREZgE-CBF3T_AcMXzwiDiUVxecdKetpnVR3WWy3YwdrkaWOojKIxy-g0">Proceed to detail/login page</a></p></noscript>
+</body>
+</html>

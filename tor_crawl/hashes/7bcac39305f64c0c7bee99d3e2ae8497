@@ -1,0 +1,318 @@
+
+<!DOCTYPE html>
+<html lang="hu-HU">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta name="csrf-param" content="_csrf">
+    <meta name="csrf-token" content="ZS5PY2hINDEqFglUDxl9YgxafBsHPXUIJAMMGV8SbnIifyQFDz5zWQ==">
+	<title>Not Found (#404)</title>
+	<link href="/assets/8431e7fa/themes/smoothness/jquery-ui.css" rel="stylesheet">
+<link href="/assets/2de62b59/css/bootstrap.css" rel="stylesheet">
+<link href="/themes/smartadmin18/css/smartadmin-production-plugins.min.css" rel="stylesheet">
+<link href="/themes/smartadmin18/css/smartadmin-production.min.css" rel="stylesheet">
+<link href="/themes/smartadmin18/css/smartadmin-skins.min.css" rel="stylesheet">
+<link href="/themes/smartadmin18/css/font-awesome.min.css" rel="stylesheet">
+<link href="/themes/smartadmin18/css/sa_evista.css" rel="stylesheet">
+<link href="/css/site.css" rel="stylesheet">
+<link href="/assets/c36e5f91/css/kv-widgets.css" rel="stylesheet">
+<link href="/assets/3a8f4d9d/css/typeahead.css" rel="stylesheet">
+<link href="/assets/3a8f4d9d/css/typeahead-kv.css" rel="stylesheet">
+<script type="text/javascript">var typeahead_7864e59a = {"highlight":true};
+</script>
+	<!-- FAVICONS -->
+	<link rel="shortcut icon" href="/themes/smartadmin18/img/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="/themes/smartadmin18/img/favicon.ico" type="image/x-icon">
+	<!-- GOOGLE FONT -->
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,300,400,700">
+	
+		<!-- Specifying a Webpage Icon for Web Clip 
+		 Ref: https://developer.apple.com/library/ios/documentation/AppleApplications/Reference/SafariWebContent/ConfiguringWebApplications/ConfiguringWebApplications.html -->
+	<link rel="apple-touch-icon" href="/themes/smartadmin18/img/splash/sptouch-icon-iphone.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/themes/smartadmin18/img/splash/touch-icon-ipad.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/themes/smartadmin18/img/splash/touch-icon-iphone-retina.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/themes/smartadmin18/img/splash/touch-icon-ipad-retina.png">
+	
+	<!-- iOS web-app metas : hides Safari UI Components and Changes Status Bar Appearance -->
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	
+	<!-- Startup image for web apps -->
+	<link rel="apple-touch-startup-image" href="/themes/smartadmin18/img/splash/ipad-landscape.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape)">
+	<link rel="apple-touch-startup-image" href="/themes/smartadmin18/img/splash/ipad-portrait.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait)">
+	<link rel="apple-touch-startup-image" href="/themes/smartadmin18/img/splash/iphone.png" media="screen and (max-device-width: 320px)">
+	<script src="/themes/smartadmin18/js/global_js.js"></script>
+</head>
+<body class="fixed-navigation fixed-header fixed-ribbon fixed-page-footer smart-style-0">
+    <div id="notification" style="display: none;">
+  <span class="dismiss"><a title="dismiss this notification">x</a></span>
+</div>
+    
+    <!-- HEADER -->
+        <!-- END HEADER -->
+    
+    <!-- Left panel : Navigation area -->
+    
+<!-- Note: This width of the aside area can be adjusted through LESS variables -->
+<aside id="left-panel">
+<div id="logo-group">
+
+		<!-- PLACE YOUR LOGO HERE -->
+		<span id="logo"> <img src="/themes/smartadmin18/img/optiwella_sarga_sm.png" alt="Optiwella"> </span>
+		<!-- END LOGO PLACEHOLDER -->
+	</div>
+	<!-- User info -->
+	<div class="login-info">
+		<span> <!-- User image size is adjusted inside CSS, it should stay as it -->
+
+			<a href="javascript:void(0);" id="show-shortcut" data-action="toggleShortcut">
+				<img src="/themes/smartadmin18/img/avatars/sunny.png" alt="me" class="online" />
+				<span>
+					john.doe
+				</span>
+				<i class="fa fa-angle-down"></i>
+			</a>
+
+		</span>
+	</div>
+	<!-- end user info -->
+
+	<!-- NAVIGATION : This navigation is also responsive-->
+	<nav>
+		<!--
+		NOTE: Notice the gaps after each icon usage <i></i>..
+		Please note that these links work a bit different than
+		traditional href="" links. See documentation for details.
+		-->
+        	</nav>
+
+<!--
+	<span class="minifyme" data-action="minifyMenu">
+		<i class="fa fa-arrow-circle-left hit"></i>
+	</span>
+-->
+
+
+
+</aside>
+    <!-- END NAVIGATION -->
+    
+    <!-- MAIN PANEL -->
+    <div id="main" role="main" class="">
+
+	<!-- RIBBON -->
+	<div id="ribbon">
+
+		<!--<span class="ribbon-button-alignment"> 
+			<span id="refresh" class="btn btn-ribbon" data-action="resetWidgets" data-title="refresh"  rel="tooltip" data-placement="bottom" data-original-title="<i class='text-warning fa fa-warning'></i> Warning! This will reset all your widget settings." data-html="true">
+				<i class="fa fa-refresh"></i>
+			</span> 
+		</span>-->
+
+		<!-- breadcrumb -->
+        		<!-- 
+		<ol class="breadcrumb">
+			<li>Home</li><li>Dashboard</li>
+		</ol>
+		end breadcrumb -->
+
+		<!-- You can also add more buttons to the
+		ribbon for further usability
+
+		Example below:
+
+		<span class="ribbon-button-alignment pull-right">
+		<span id="search" class="btn btn-ribbon hidden-xs" data-title="search"><i class="fa-grid"></i> Change Grid</span>
+		<span id="add" class="btn btn-ribbon hidden-xs" data-title="add"><i class="fa-plus"></i> Add</span>
+		<span id="search" class="btn btn-ribbon" data-title="search"><i class="fa-search"></i> <span class="hidden-mobile">Search</span></span>
+		</span> -->
+<div id="header-right" class="pull-right">
+		
+		<!-- collapse menu button -->
+		<div id="hide-menu" class="btn-header pull-right">
+			<span> <a href="javascript:void(0);" data-action="toggleMenu" title="Menü"><i class="fa fa-reorder"></i></a> </span>
+		</div>
+		<!-- end collapse menu -->
+		
+		<!-- #MOBILE -->
+		<!-- Top menu profile link : this shows only when top menu is active -->
+		<ul id="mobile-profile-img" class="header-dropdown-list hidden-xs padding-5">
+			<li class="">
+				<a href="#" class="dropdown-toggle no-margin userdropdown" data-toggle="dropdown"> 
+					<img src="/themes/smartadmin18/img/avatars/sunny.png" alt="John Doe" class="online" />  
+				</a>
+				<ul class="dropdown-menu pull-right">
+					<li>
+						<a href="javascript:void(0);" class="padding-10 padding-top-0 padding-bottom-0"><i class="fa fa-cog"></i> Setting</a>
+					</li>
+					<li class="divider"></li>
+					<li>
+						<a href="profile.html" class="padding-10 padding-top-0 padding-bottom-0"> <i class="fa fa-user"></i> <u>P</u>rofile</a>
+					</li>
+					<li class="divider"></li>
+					<li>
+						<a href="javascript:void(0);" class="padding-10 padding-top-0 padding-bottom-0" data-action="toggleShortcut"><i class="fa fa-arrow-down"></i> <u>S</u>hortcut</a>
+					</li>
+					<li class="divider"></li>
+					<li>
+						<a href="javascript:void(0);" class="padding-10 padding-top-0 padding-bottom-0" data-action="launchFullscreen"><i class="fa fa-arrows-alt"></i> Teljes képernyő</a>
+					</li>
+					<li class="divider"></li>
+					<li>
+						<a href="login.html" class="padding-10 padding-top-5 padding-bottom-5" data-action="userLogout"><i class="fa fa-sign-out fa-lg"></i> <strong><u>L</u>ogout</strong></a>
+					</li>
+				</ul>
+			</li>
+		</ul>
+
+                <div class="group-btn pull-right user-menu">
+						<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
+							
+                                                Üdv ! <span class="caret"></span>
+						</button>
+						<ul class="dropdown-menu">
+							<li>
+								<a href="/user-management/auth/change-own-password">Jelszómódosítás</a>
+							</li>
+						
+						</ul>
+					</div>
+		<div id="logout" class="btn-header transparent pull-right">
+			<span> <a href="/user-management/auth/logout" title="Kilépés" data-action="userLogout" data-logout-msg=" "><i class="fa fa-sign-out"></i> </a> </span>
+		</div>
+		<!-- end logout button -->
+
+		<!-- search mobile button (this is hidden till mobile view port) -->
+		<div id="search-mobile" class="btn-header transparent pull-right">
+			<span> <a href="javascript:void(0)" title="Search"><i class="fa fa-search"></i></a> </span>
+		</div>
+		<!-- end search mobile button -->
+
+		<!-- input: search field 
+		<form action="search.html" class="header-search pull-right">
+			<input id="search-fld"  type="text" name="param" placeholder="Find reports and more" data-autocomplete='[
+			"ActionScript",
+			"AppleScript",
+			"Asp",
+			"Python",
+			"Ruby",
+			"Scala",
+			"Scheme"]'>
+			<button type="submit">
+				<i class="fa fa-search"></i>
+			</button>
+			<a href="javascript:void(0);" id="cancel-search-js" title="Cancel Search"><i class="fa fa-times"></i></a>
+		</form>-->
+		<!-- end input: search field -->
+        <div class="pull-right search">
+                    <div class="header-search pull-right"><input type="text" id="w0" class="form-control" name="partner-nev-filter" placeholder="" data-krajee-typeahead="typeahead_7864e59a"></div>                <i class="fa fa-search search-icon"></i>
+               
+            </div>
+		
+		<!-- fullscreen button -->
+		<div id="fullscreen" class="btn-header transparent pull-right">
+			<span> <a href="javascript:void(0);" data-action="launchFullscreen" title="Teljes képernyő"><i class="fa fa-arrows-alt"></i></a> </span>
+		</div>
+		<!-- end fullscreen button -->
+                <div class="clearfix"></div>
+		
+	</div>
+                <div class="clearfix"></div>
+	</div>
+	<!-- END RIBBON -->
+
+	<!-- MAIN CONTENT -->
+	<div id="content" class="">
+	   <div class="site-error">
+
+    <h1>Not Found (#404)</h1>
+
+    <div class="alert alert-danger">
+        Az oldal nem található.    </div>
+
+    <p>
+        The above error occurred while the Web server was processing your request.
+    </p>
+    <p>
+        Please contact us if you think this is a server error. Thank you.
+    </p>
+
+</div>
+	</div>
+	<!-- END MAIN CONTENT -->
+
+</div>
+	    <!-- END MAIN PANEL -->
+    
+    <!-- PAGE FOOTER -->
+        <!-- END PAGE FOOTER -->
+    
+	<!-- PACE LOADER - turn this on if you want ajax loading to show (caution: uses lots of memory on iDevices)-->
+	<!--<script data-pace-options='{ "restartOnRequestAfter": true }' src="/themes/smartadmin18/js/plugin/pace/pace.min.js"></script>-->
+	
+        
+            
+                    
+            
+    <script src="/assets/e1163e38/jquery.js"></script>
+<script src="/assets/8431e7fa/jquery-ui.js"></script>
+<script src="/assets/4f1e981b/yii.js"></script>
+<script src="/assets/2de62b59/js/bootstrap.js"></script>
+<script src="/themes/smartadmin18/js/app.config.js"></script>
+<script src="/themes/smartadmin18/js/notification/SmartNotification.min.js"></script>
+<script src="/themes/smartadmin18/js/smartwidgets/jarvis.widget.min.js"></script>
+<script src="/themes/smartadmin18/js/plugin/msie-fix/jquery.mb.browser.min.js"></script>
+<script src="/themes/smartadmin18/js/plugin/fastclick/fastclick.min.js"></script>
+<script src="/themes/smartadmin18/js/app.min.js"></script>
+<script src="/themes/smartadmin18/js/evista.js"></script>
+<script src="/assets/3a8f4d9d/js/typeahead.bundle.js"></script>
+<script src="/assets/3a8f4d9d/js/typeahead-kv.js"></script>
+<script src="/assets/3a8f4d9d/js/handlebars.js"></script>
+<script type="text/javascript">jQuery(document).ready(function () {
+var w0_data_1 = new Bloodhound({"datumTokenizer":Bloodhound.tokenizers.whitespace,"queryTokenizer":Bloodhound.tokenizers.whitespace,"remote":{"url":"/partner/partner-list?q=%QUERY","wildcard":"%QUERY"}});
+kvInitTA('w0', typeahead_7864e59a, [{"display":"value","limit":10,"name":"w0_data_1","source":w0_data_1.ttAdapter()}]);
+jQuery("#w0").on('typeahead:select', function() { window.location = "/partner/index?" + "PartnerSearch[nev]=" + this.value });
+
+        var currentSiteVar = window.location.pathname;
+
+        $('aside a[href="' + currentSiteVar + '"]').closest("li").addClass("active");
+        var currentSiteVarSplitted =  currentSiteVar.split("/");
+
+        $('aside a[href="' + currentSiteVar + '"]')
+            .closest("ul").css("display", "block")
+            .closest("li").addClass("open")
+            .find(".collapse-sign").find("em").attr("class", "fa fa-minus-square-o");
+
+        $("aside nav ul li.active").parents("li").addClass("active");
+           var cv = currentSiteVarSplitted[1] + '/';
+
+        $('aside ul > li > a').each(function() {
+		if($(this).attr("href").indexOf(cv) > -1 && cv!="/") {
+			$(this).parents("li").addClass("active");
+			$(this).closest("ul").css("display", "block")
+            .closest("li").addClass("open")
+            .find(".collapse-sign").find("em").attr("class", "fa fa-minus-square-o");
+		}
+		});
+
+lenyilo()
+abs_rel_cell()
+tableShow()
+$(document).ajaxComplete(function() {lenyilo();});
+});</script>
+<script type="text/javascript">jQuery(window).load(function () {
+    $.root_.on("click", '[data-action="minifyMenu"]', function(b) {
+        $.ajax({
+           url: "/ajax/toggle-menu",
+           data: {minified: $.root_.hasClass("minified")},
+           type: "post",
+           dataType: "json",
+           success: function() {
+           },
+           error: function(xhr) {
+           }
+        });
+
+    });
+});</script></body>
+</html>

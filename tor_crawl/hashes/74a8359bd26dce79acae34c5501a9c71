@@ -1,0 +1,25 @@
+<html>
+<head>
+
+	<script>
+	if(location.host=="192.168.1.1"){
+	    location.href="http://"+location.host+"/"
+	}else{
+	    
+	}
+	</script>
+</head>
+<body>
+	<h1 style="text-align: center; height: 150px">
+		<span>
+			Error 404, Page not found
+		</span>
+	</h1>
+	<div style="text-align: center;">
+		<a href="/">Home</a>
+	</div>
+</body>
+</html>
+<HR>
+</BODY>
+</HTML>

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no, maximum-scale=1.0, user-scalable=no" />
+
+        <title>[controllr.infornet.com.br] - Controllr</title>
+
+        <link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/x-icon"/>
+
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="/common/assets/lib/boot/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/common/assets/lib/fa/css/font-awesome.min.css">
+        <link type="text/css" media="screen" rel="stylesheet" href="/common/assets/css/color_green.css?build=108" />
+        <link rel="stylesheet" href="/assets/css/login.css">
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script type="text/javascript" src="/common/assets/lib/jquery-2.0.3.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script type="text/javascript" src="/common/assets/lib/boot/js/bootstrap.min.js"></script>
+
+        <script type="text/javascript" src="/common/assets/js/brb.js?build=108"></script>
+
+        <script type="text/javascript">
+
+            BrByte.init({
+              time_init: '2018-09-22 23:18:37',
+              version: '1.0',
+              build: '126',
+              license: '2b72-ee9a-dffa-0775-dc70'
+            });
+
+            jQuery(document).ready(function () {
+
+              if (BrByte.urlParts[1] === 's') {
+                jQuery("input:radio[name=interface][value=1]").prop("checked", true).trigger("click");
+              }
+
+              jQuery("#login-form").submit(function (e) {
+                var postData = jQuery(this).serializeArray();
+                var formURL = jQuery(this).attr("action");
+                var formParams = [];
+                jQuery.each(postData, function (i, input) {
+                  formParams[input.name] = input.value;
+                });
+
+                jQuery.ajax({
+                  url: formURL,
+                  type: "POST",
+                  data: postData,
+                  success: function (json, textStatus, jqXHR) {
+                    if (json.success) {
+                      var url_redir = ((BrByte.urlParts[1] === 's') ? window.location.href : '/s');
+
+
+                      if (formParams.interface === '1')
+                        window.location.href = url_redir;
+                      else if (formParams.interface === '2')
+                        window.location.href = '/r';
+                      else
+                        window.location = '/';
+                      //     window.location = (formParams.interface === '1' ? window.location.href : '/');
+
+                    } else {
+                      jQuery('.login-info').html('<p class="red">' + json.message + '</p>');
+                    }
+                  },
+                  error: function (jqXHR, textStatus, errorThrown) {
+                    jQuery('.login-info').html('<p class="red">' + BrByte.lang.str_failure + '</p>');
+                  }
+                });
+
+                e.preventDefault(); //STOP default action
+
+                return false;
+              });
+
+              function isDeviceMobile() {
+                var isMobile = {
+                  Android: function () {
+                    return navigator.userAgent.match(/Android/i) && navigator.userAgent.match(/mobile|Mobile/i);
+                  },
+                  BlackBerry: function () {
+                    return navigator.userAgent.match(/BlackBerry/i) || navigator.userAgent.match(/BB10; Touch/);
+                  },
+                  iOS: function () {
+                    return navigator.userAgent.match(/iPhone|iPod/i);
+                  },
+                  Opera: function () {
+                    return navigator.userAgent.match(/Opera Mini/i);
+                  },
+                  Windows: function () {
+                    return navigator.userAgent.match(/IEMobile/i) || navigator.userAgent.match(/webOS/i);
+                  },
+                  any: function () {
+                    return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
+                  }
+                };
+                return isMobile.any()
+              }
+              if (isDeviceMobile()) {
+                $('input:radio[name="interface"]').filter('[value="2"]').attr('checked', true);
+                $('#label-interface-2').addClass('active');
+              } else {
+                $('input:radio[name="interface"]').filter('[value="0"]').attr('checked', true);
+                $('#label-interface-0').addClass('active');
+              }
+            });
+
+        </script>
+
+    </head>
+
+    <body>
+
+        <div class="login-container">
+
+            <div class="login-header">
+                <img class="img-responsive" src="/assets/img/logo-250.png" alt="Speedr 1.1" />
+            </div> <!-- /login-header -->
+
+            <!-- Notification -->
+            <div class="login-wrap">
+
+                <div class="login-info"></div>
+
+                <form id="login-form" name="form_login" class="form-vertical" method="post" enctype="x-www-form-urlencoded" action="/login">
+
+                    <div class="form-group login-input">
+                        <i class="fa fa-user overlay"></i>
+                        <input class="form-control text-input" type="text" name="username" id="username" placeholder="Username">
+                    </div>
+
+                    <input id="lang_1" type="hidden" name="lang" value="1"/>  
+
+                    <div class="form-group login-input">
+                        <i class="fa fa-key overlay"></i>
+                        <input class="form-control text-input" type="password" name="password" id="password" placeholder="Password">
+                    </div>
+
+                    <div class="form-group">
+
+                        <div class="btn-group" data-toggle="buttons">
+
+                            <label id="label-interface-0" class="btn btn-default">
+                                <input type="radio" name="interface" value="0"> Desktop
+                            </label>
+
+                            <label id="label-interface-1" class="btn btn-default">
+                                <input type="radio" name="interface" value="1"> Simple
+                            </label>
+
+                            <label id="label-interface-2" class="btn btn-default">
+                                <input type="radio" name="interface" value="2"> Responsive
+                            </label>
+
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn btn-login">Login</button>
+
+                </form>
+            </div>
+
+        </div>
+        <!-- /login-content -->
+
+        <div class="login-extra">
+            <span>Controllr 1.0 - Build 126 - BrByte &copy; - Todos os Direitos Reservados</span><br />
+        </div> <!-- /login-extra -->
+
+
+    </body>
+</html>
