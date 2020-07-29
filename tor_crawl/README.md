@@ -1,6 +1,6 @@
 # Contents
 
-This directory contains results and code for scanning Tor exit nodes for injection. Author: Nathan S. Evans <nathan.s.evans at du.edu>.
+This directory contains results for scanning Tor exit nodes for injection. Author: Nathan S. Evans <nathan.s.evans at du.edu>.
  
 The methodology for this scan is incredibly simple (naive?).
 
